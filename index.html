@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#185fa5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="每日新闻">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="./icon.svg">
+<link rel="apple-touch-icon" href="./icon.svg">
+<title>每日新闻 · 学习强国 / 人民日报 / Bloomberg</title>
+<style>
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --border:#e4e7ec;
+  --text:#1b1f26; --muted:#6b7280; --faint:#9aa1ad;
+  --accent:#185fa5; --active:#185fa5;
+  --warn-bg:#fff8e8; --warn-border:#f0d9a5; --warn-text:#85500b;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#14161a; --surface:#1c1f25; --border:#2e333d;
+    --text:#e8eaee; --muted:#a0a7b3; --faint:#737b88;
+    --accent:#7ab4ea; --active:#2b6cb0;
+    --warn-bg:#2a2418; --warn-border:#4a3d22; --warn-text:#e3c07d;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header.top{background:var(--surface);border-bottom:1px solid var(--border)}
+.top-inner{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--active);color:#fff;display:grid;place-items:center;font-size:17px;font-weight:500;flex:0 0 auto}
+.brand h1{font-size:16px;font-weight:500;margin:0;line-height:1.3}
+.brand p{font-size:11.5px;color:var(--faint);margin:2px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+#updated{font-size:11.5px;color:var(--faint);white-space:nowrap}
+button{font-family:inherit}
+#refresh{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:6px 12px;font-size:12px;cursor:pointer}
+#refresh:hover{border-color:var(--accent);color:var(--accent)}
+#refresh:disabled{opacity:.55;cursor:default}
+.notice{background:var(--warn-bg);border:1px solid var(--warn-border);color:var(--warn-text);border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.7;margin-top:16px}
+.notice[hidden]{display:none}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:18px 0 12px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid var(--border);background:var(--surface);color:var(--muted);padding:7px 14px;border-radius:999px;font-size:12.5px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--active);border-color:var(--active);color:#fff}
+.tools{display:flex;align-items:center;gap:12px;margin-bottom:2px}
+#search{flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;font-size:13.5px;color:var(--text);outline:none}
+#search:focus{border-color:var(--accent)}
+#search::placeholder{color:var(--faint)}
+#count{font-size:11.5px;color:var(--faint);white-space:nowrap}
+.day-group{margin-top:24px}
+.day-title{font-size:11.5px;color:var(--faint);display:flex;align-items:center;gap:10px;padding:0 2px 10px}
+.day-title::after{content:"";flex:1;height:1px;background:var(--border)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:15px 18px;margin-bottom:10px}
+.card:hover{border-color:var(--accent)}
+.card-top{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+.tag{font-size:11px;padding:3px 8px;border-radius:6px;font-weight:500}
+.tag[data-source="xuexi"]{background:#fdecec;color:#a32d2d}
+.tag[data-source="people"]{background:#e6f1fb;color:#185fa5}
+.tag[data-source="bloomberg"]{background:#faf0dd;color:#85500b}
+@media (prefers-color-scheme: dark){
+  .tag[data-source="xuexi"]{background:#3a1f1f;color:#f0a9a9}
+  .tag[data-source="people"]{background:#1b2b3c;color:#8dbcec}
+  .tag[data-source="bloomberg"]{background:#332a18;color:#e3c07d}
+}
+.channel{font-size:11.5px;color:var(--faint)}
+.card h2{font-size:16px;line-height:1.5;font-weight:500;margin:0 0 8px;color:var(--text)}
+.card h2 a{color:inherit;text-decoration:none}
+.card h2 a:hover{color:var(--accent)}
+.card p{font-size:13px;line-height:1.7;color:var(--muted);margin:0 0 11px}
+.card-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:11.5px;color:var(--faint)}
+.read-more{color:var(--accent);text-decoration:none;white-space:nowrap}
+.read-more:hover{text-decoration:underline}
+.empty{padding:48px 16px;text-align:center;color:var(--faint);font-size:13px;line-height:1.8}
+footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);font-size:11.5px;line-height:1.9;color:var(--faint)}
+@media (max-width:600px){
+  .wrap{padding:0 14px}
+  .top-inner{padding:12px 0}
+  .brand p{display:none}
+  #updated{display:none}
+  .card{padding:14px 15px}
+  .card h2{font-size:15.5px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="logo">闻</div>
+      <div>
+        <h1>每日新闻</h1>
+        <p>学习强国同源内容 · 人民日报 · Bloomberg</p>
+      </div>
+    </div>
+    <div class="meta">
+      <span id="updated">加载中…</span>
+      <button id="refresh" type="button">刷新</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="notice" class="notice" hidden></section>
+  <nav class="tabs" id="tabs" aria-label="新闻来源筛选"></nav>
+  <div class="tools">
+    <input id="search" type="search" placeholder="搜索标题、摘要或频道…" autocomplete="off" aria-label="搜索新闻">
+    <span id="count"></span>
+  </div>
+  <div id="list"></div>
+  <footer>
+    <div>本站仅聚合公开的标题、摘要与原文链接，不存储或转载正文；内容版权归原作者及原媒体所有，阅读请跳转原文。</div>
+    <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新。</div>
+  </footer>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (s) { return document.querySelector(s); };
+  var SOURCE_LABEL = { xuexi: '学习强国', people: '人民日报', bloomberg: 'Bloomberg' };
+  var state = { data: null, filter: 'all', q: '' };
+
+  function safeUrl(u) {
+    try {
+      var x = new URL(u, location.href);
+      return (x.protocol === 'http:' || x.protocol === 'https:') ? x.href : '';
+    } catch (e) { return ''; }
+  }
+
+  function fmtUpdated(iso) {
+    if (!iso) return '—';
+    try {
+      return new Date(iso).toLocaleString('zh-CN', {
+        timeZone: 'Asia/Shanghai', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', hour12: false
+      });
+    } catch (e) { return iso; }
+  }
+
+  function dayLabel(date, today) {
+    if (!date || date === '未知') return '日期未知';
+    var md = date.slice(5).replace('-', '月') + '日';
+    if (date === today) return '今天 · ' + md;
+    try {
+      var diff = Math.round((Date.parse(today + 'T00:00:00Z') - Date.parse(date + 'T00:00:00Z')) / 86400000);
+      if (diff === 1) return '昨天 · ' + md;
+      if (diff > 1) return date.slice(0, 4) + '年' + md + '（较早内容）';
+    } catch (e) { /* 保持原日期 */ }
+    return md;
+  }
+
+  function buildCard(it) {
+    var card = document.createElement('article');
+    card.className = 'card';
+
+    var top = document.createElement('div');
+    top.className = 'card-top';
+    var tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.dataset.source = it.source;
+    tag.textContent = SOURCE_LABEL[it.source] || it.source || '其他';
+    top.appendChild(tag);
+    if (it.channel) {
+      var ch = document.createElement('span');
+      ch.className = 'channel';
+      ch.textContent = it.channel;
+      top.appendChild(ch);
+    }
+    card.appendChild(top);
+
+    var href = safeUrl(it.url);
+    var h = document.createElement('h2');
+    if (href) {
+      var a = document.createElement('a');
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = it.title || '（无标题）';
+      h.appendChild(a);
+    } else {
+      h.textContent = it.title || '（无标题）';
+    }
+    card.appendChild(h);
+
+    if (it.summary) {
+      var p = document.createElement('p');
+      p.textContent = it.summary;
+      card.appendChild(p);
+    }
+
+    var foot = document.createElement('div');
+    foot.className = 'card-foot';
+    var date = document.createElement('span');
+    date.textContent = it.date || '';
+    foot.appendChild(date);
+    if (href) {
+      var more = document.createElement('a');
+      more.className = 'read-more';
+      more.href = href;
+      more.target = '_blank';
+      more.rel = 'noopener noreferrer';
+      more.textContent = '阅读原文 ↗';
+      foot.appendChild(more);
+    }
+    card.appendChild(foot);
+    return card;
+  }
+
+  function renderNotice() {
+    var box = $('#notice');
+    box.replaceChildren();
+    var bad = state.data.sources.filter(function (s) { return s.status && s.status !== 'ok'; });
+    if (!bad.length) { box.hidden = true; return; }
+    box.hidden = false;
+    bad.forEach(function (s) {
+      var label = s.status === 'stale' ? '沿用上次抓取数据' : (s.status === 'error' ? '本次暂无数据' : '数据源降级');
+      var row = document.createElement('div');
+      row.textContent = s.name + ' · ' + label + '：' + (s.error || '本次未获得新内容');
+      box.appendChild(row);
+    });
+  }
+
+  function renderTabs() {
+    var box = $('#tabs');
+    box.replaceChildren();
+    var defs = [{ id: 'all', name: '全部', count: state.data.items.length }];
+    state.data.sources.forEach(function (s) {
+      defs.push({ id: s.id, name: s.name, count: s.count });
+    });
+    defs.forEach(function (t) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'tab';
+      b.dataset.id = t.id;
+      b.textContent = t.name + ' ' + t.count;
+      b.setAttribute('aria-selected', String(t.id === state.filter));
+      b.addEventListener('click', function () {
+        state.filter = t.id;
+        Array.prototype.forEach.call(box.children, function (el) {
+          el.setAttribute('aria-selected', String(el.dataset.id === t.id));
+        });
+        renderList();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function renderList() {
+    var q = state.q.trim().toLowerCase();
+    var rows = state.data.items.filter(function (it) {
+      if (state.filter !== 'all' && it.source !== state.filter) return false;
+      if (!q) return true;
+      return ((it.title || '') + ' ' + (it.summary || '') + ' ' + (it.channel || '')).toLowerCase().indexOf(q) >= 0;
+    });
+    $('#count').textContent = '共 ' + rows.length + ' 条';
+
+    var box = $('#list');
+    box.replaceChildren();
+    if (!rows.length) {
+      var empty = document.createElement('div');
+      empty.className = 'empty';
+      empty.textContent = '没有匹配的新闻，换个关键词或来源试试。';
+      box.appendChild(empty);
+      return;
+    }
+
+    var groups = new Map();
+    rows.forEach(function (it) {
+      var k = it.date || '未知';
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(it);
+    });
+    groups.forEach(function (items, date) {
+      var sec = document.createElement('section');
+      sec.className = 'day-group';
+      var title = document.createElement('div');
+      title.className = 'day-title';
+      title.textContent = dayLabel(date, state.data.date);
+      sec.appendChild(title);
+      items.forEach(function (it) { sec.appendChild(buildCard(it)); });
+      box.appendChild(sec);
+    });
+  }
+
+  async function load() {
+    var btn = $('#refresh');
+    btn.disabled = true;
+    btn.textContent = '刷新中…';
+    var box = $('#list');
+    box.replaceChildren();
+    var loading = document.createElement('div');
+    loading.className = 'empty';
+    loading.textContent = '正在加载新闻…';
+    box.appendChild(loading);
+    try {
+      var res = await fetch('./data/news.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+      if (!data || !Array.isArray(data.items) || !Array.isArray(data.sources)) throw new Error('数据格式不正确');
+      state.data = data;
+      $('#updated').textContent = '更新于 ' + fmtUpdated(data.generatedAt);
+      renderNotice();
+      renderTabs();
+      renderList();
+    } catch (e) {
+      box.replaceChildren();
+      var err = document.createElement('div');
+      err.className = 'empty';
+      err.textContent = '数据加载失败：' + e.message + '。请确认 data/news.json 已生成，或稍后点击刷新重试。';
+      box.appendChild(err);
+      $('#updated').textContent = '加载失败';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = '刷新';
+    }
+  }
+
+  $('#search').addEventListener('input', function (e) {
+    state.q = e.target.value;
+    if (state.data) renderList();
+  });
+  $('#refresh').addEventListener('click', load);
+  load();
+})();
+</script>
+</body>
+</html>
