@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#185fa5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="每日新闻">
+<title>每日新闻 · 学习强国 / 人民日报 / Bloomberg · 离线快照</title>
+<style>
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --border:#e4e7ec;
+  --text:#1b1f26; --muted:#6b7280; --faint:#9aa1ad;
+  --accent:#185fa5; --active:#185fa5;
+  --warn-bg:#fff8e8; --warn-border:#f0d9a5; --warn-text:#85500b;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#14161a; --surface:#1c1f25; --border:#2e333d;
+    --text:#e8eaee; --muted:#a0a7b3; --faint:#737b88;
+    --accent:#7ab4ea; --active:#2b6cb0;
+    --warn-bg:#2a2418; --warn-border:#4a3d22; --warn-text:#e3c07d;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header.top{background:var(--surface);border-bottom:1px solid var(--border)}
+.top-inner{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 0}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--active);color:#fff;display:grid;place-items:center;font-size:17px;font-weight:500;flex:0 0 auto}
+.brand h1{font-size:16px;font-weight:500;margin:0;line-height:1.3}
+.brand p{font-size:11.5px;color:var(--faint);margin:2px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+#updated{font-size:11.5px;color:var(--faint);white-space:nowrap}
+button{font-family:inherit}
+#refresh{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:6px 12px;font-size:12px;cursor:pointer}
+#refresh:hover{border-color:var(--accent);color:var(--accent)}
+#refresh:disabled{opacity:.55;cursor:default}
+.notice{background:var(--warn-bg);border:1px solid var(--warn-border);color:var(--warn-text);border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.7;margin-top:16px}
+.notice[hidden]{display:none}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:18px 0 12px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid var(--border);background:var(--surface);color:var(--muted);padding:7px 14px;border-radius:999px;font-size:12.5px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--active);border-color:var(--active);color:#fff}
+.tools{display:flex;align-items:center;gap:12px;margin-bottom:2px}
+#search{flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;font-size:13.5px;color:var(--text);outline:none}
+#search:focus{border-color:var(--accent)}
+#search::placeholder{color:var(--faint)}
+#count{font-size:11.5px;color:var(--faint);white-space:nowrap}
+.day-group{margin-top:24px}
+.day-title{font-size:11.5px;color:var(--faint);display:flex;align-items:center;gap:10px;padding:0 2px 10px}
+.day-title::after{content:"";flex:1;height:1px;background:var(--border)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:15px 18px;margin-bottom:10px}
+.card:hover{border-color:var(--accent)}
+.card-top{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+.tag{font-size:11px;padding:3px 8px;border-radius:6px;font-weight:500}
+.tag[data-source="xuexi"]{background:#fdecec;color:#a32d2d}
+.tag[data-source="people"]{background:#e6f1fb;color:#185fa5}
+.tag[data-source="bloomberg"]{background:#faf0dd;color:#85500b}
+@media (prefers-color-scheme: dark){
+  .tag[data-source="xuexi"]{background:#3a1f1f;color:#f0a9a9}
+  .tag[data-source="people"]{background:#1b2b3c;color:#8dbcec}
+  .tag[data-source="bloomberg"]{background:#332a18;color:#e3c07d}
+}
+.channel{font-size:11.5px;color:var(--faint)}
+.card h2{font-size:16px;line-height:1.5;font-weight:500;margin:0 0 8px;color:var(--text)}
+.card h2 a{color:inherit;text-decoration:none}
+.card h2 a:hover{color:var(--accent)}
+.card p{font-size:13px;line-height:1.7;color:var(--muted);margin:0 0 11px}
+.card-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:11.5px;color:var(--faint)}
+.read-more{color:var(--accent);text-decoration:none;white-space:nowrap}
+.read-more:hover{text-decoration:underline}
+.empty{padding:48px 16px;text-align:center;color:var(--faint);font-size:13px;line-height:1.8}
+footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);font-size:11.5px;line-height:1.9;color:var(--faint)}
+@media (max-width:600px){
+  .wrap{padding:0 14px}
+  .top-inner{padding:12px 0}
+  .brand p{display:none}
+  #updated{display:none}
+  .card{padding:14px 15px}
+  .card h2{font-size:15.5px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="logo">闻</div>
+      <div>
+        <h1>每日新闻</h1>
+        <p>学习强国同源内容 · 人民日报 · Bloomberg</p>
+      </div>
+    </div>
+    <div class="meta">
+      <span id="updated">加载中…</span>
+      <button id="refresh" type="button">刷新</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="notice" class="notice" hidden></section>
+  <nav class="tabs" id="tabs" aria-label="新闻来源筛选"></nav>
+  <div class="tools">
+    <input id="search" type="search" placeholder="搜索标题、摘要或频道…" autocomplete="off" aria-label="搜索新闻">
+    <span id="count"></span>
+  </div>
+  <div id="list"></div>
+  <footer>
+    <div>本站仅聚合公开的标题、摘要与原文链接，不存储或转载正文；内容版权归原作者及原媒体所有，阅读请跳转原文。</div>
+    <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新。</div>
+  </footer>
+</main>
+
+<script>
+  const EMBEDDED_NEWS = {"generatedAt":"2026-11-11T14:03:00.594Z","date":"2026-11-11","sources":[{"id":"xuexi","name":"学习强国","note":"学习强国未提供公开数据接口，本栏展示人民网时政、理论、党建、评论等官方同源内容","status":"ok","count":12,"error":null},{"id":"people","name":"人民日报","note":"人民日报当日电子版版面 + 人民网当日要闻","status":"ok","count":40,"error":null},{"id":"bloomberg","name":"Bloomberg","note":"仅收录公开 RSS 的标题与摘要，正文请跳转原文阅读","status":"ok","count":40,"error":null}],"items":[{"title":"李强将访问泰国并赴菲律宾出席中国—东盟领导人会议","url":"http://politics.people.com.cn/n1/2026/1111/c1024-40832232.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"9f45e7d1ee009481"},{"title":"王沪宁会见古巴党和政府特使罗德里格斯","url":"http://politics.people.com.cn/n1/2026/1111/c1024-40832258.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"f5e15b163cf74c35"},{"title":"韩正会见联合国秘书长古特雷斯","url":"http://politics.people.com.cn/n1/2026/1111/c1001-40831607.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"a64279b26d7c56de"},{"title":"更加坚决有力地贯彻落实党中央重大决策部署","url":"http://opinion.people.com.cn/n1/2026/1111/c461530-40831578.html","summary":"","date":"2026-11-11","channel":"评论","source":"xuexi","id":"dd83e5b4e03a16e6"},{"title":"追光,驭光,成为光","url":"http://opinion.people.com.cn/n1/2026/1111/c461529-40831561.html","summary":"","date":"2026-11-11","channel":"评论","source":"xuexi","id":"4a1d7aa4fe7f5f30"},{"title":"中央宣讲团在中宣部、","url":"http://politics.people.com.cn/n1/2026/1111/c461001-40832292.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"881ff3647587e84c"},{"title":"滤芯寿命虚标,不能只靠消费者\"擦亮眼\"","url":"http://opinion.people.com.cn/n1/2026/1111/c436867-40832254.html","summary":"","date":"2026-11-11","channel":"评论","source":"xuexi","id":"97ec907d5d13477b"},{"title":"为推动新质生产力发展贡献高校力量","url":"http://theory.people.com.cn/n1/2026/1111/c40531-40831706.html","summary":"","date":"2026-11-11","channel":"理论","source":"xuexi","id":"f11eb9bc2e90a646"},{"title":"持之以恒加强党性修养","url":"http://dangjian.people.com.cn/n1/2026/1111/c117092-40831807.html","summary":"","date":"2026-11-11","channel":"党建","source":"xuexi","id":"eb8e35e1e166221e"},{"title":"王毅同古巴外交部长罗德里格斯会谈","url":"http://politics.people.com.cn/n1/2026/1111/c1001-40832120.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"ab77d70525ce9e94"},{"title":"陈文清：纵深推进依法从严查处危害食品安全违法犯罪专项工作","url":"http://politics.people.com.cn/n1/2026/1111/c1001-40832291.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"1f603ed31c1381d7"},{"title":"第24届中国国际人才交流大会在上海举行 谌贻琴出席开幕式并讲话","url":"http://politics.people.com.cn/n1/2026/1111/c1001-40832256.html","summary":"","date":"2026-11-11","channel":"时政","source":"xuexi","id":"e6755e4a530fe75a"},{"title":"河南邓州：数百亩林地遭开挖 生态修复待追问","url":"http://society.people.com.cn/n1/2026/1111/c428181-40831670.html","summary":"","date":"2026-11-11","channel":"社会","source":"people","id":"08e868993a27f8f1"},{"title":"废弃厂房飘咖香","url":"http://yn.people.com.cn/n2/2026/1111/c378439-41747246.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"09b3c3356a600e75"},{"title":"我国成功发射探源计划探路者卫星","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40832273.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"c38f43efac3e4166"},{"title":"世界最长海底高铁隧道舟山侧完成盾构掘进","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40832121.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"6bdd390356bd4ab0"},{"title":"中小型纯太阳能无人机首飞 填补商用产品空白","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40832183.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"928b0f799071e4f4"},{"title":"叶色留斑斓 暖阳照雄安","url":"http://www.rmxiongan.com/n2/2026/1111/c383557-41747839.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"c948f4dca31767e2"},{"title":"厦金大桥（厦门段）海上主线桥贯通","url":"http://pic.people.com.cn/n1/2026/1111/c1016-40831906.html","summary":"","date":"2026-11-11","channel":"图片","source":"people","id":"54989a1ce9fbaa62"},{"title":"广西：千年瑶锦织新韵","url":"http://gx.people.com.cn/n2/2026/1111/c179464-41747748.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"d17adbe8b5dddd35"},{"title":"山东港口烟台港件杂货班轮发运量突破2000万吨","url":"http://pic.people.com.cn/n1/2026/1111/c1016-40831918.html","summary":"","date":"2026-11-11","channel":"图片","source":"people","id":"bc708a3a884b3d07"},{"title":"浙江宁波：新米入坊 年糕飘香","url":"http://zj.people.com.cn/n2/2026/1111/c186327-41747615.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"b234f5c741eed896"},{"title":"四川发布干部任前公示","url":"http://renshi.people.com.cn/n1/2026/1111/c139617-40831824.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"7168c0510846b24a"},{"title":"湖北谷城靶向监督护“三资”","url":"http://fanfu.people.com.cn/n1/2026/1111/c64371-40831697.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"d008cc763ae7f24a"},{"title":"一份反形式主义的报告","url":"http://cpc.people.com.cn/n1/2026/1111/c443712-40831750.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"71a3c8b7d0246a96"},{"title":"我国已与150多个国家30多个国际组织签署共建\"一带一路\"合作文件","url":"https://world.people.com.cn/n1/2026/1111/c1002-40831985.html","summary":"","date":"2026-11-11","channel":"国际","source":"people","id":"a5488ab8a3e795f7"},{"title":"最高检、公安部发布典型案例 涉打击地下钱庄等","url":"http://society.people.com.cn/n1/2026/1111/c1008-40832241.html","summary":"","date":"2026-11-11","channel":"社会","source":"people","id":"0ddf33672fc803bf"},{"title":"截至“十四五”末全国执业注册会计师超10万人","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40832255.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"93cb1e5ac11dd797"},{"title":"2026年APEC领导人会议周新闻中心启用","url":"http://world.people.com.cn/n1/2026/1111/c1002-40832242.html","summary":"","date":"2026-11-11","channel":"国际","source":"people","id":"fd8bf4e62e8328f8"},{"title":"新修订《人类遗传资源管理条例实施细则》公布","url":"http://health.people.com.cn/n1/2026/1111/c14739-40832038.html","summary":"","date":"2026-11-11","channel":"健康","source":"people","id":"c346b66d5e08a0ac"},{"title":"广东故事汇 | “一把锁”里的开放生态","url":"http://gd.people.com.cn/n2/2026/1111/c123932-41747597.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"86b052143365fd18"},{"title":"在福州生活，咋越来越有“福”了？","url":"http://fj.people.com.cn/n2/2026/1111/c181466-41747522.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"fb61cd5b13f68c40"},{"title":"西藏自治区政府即日起征集2027年工作意见建议","url":"http://xz.people.com.cn/n2/2026/1111/c138901-41748110.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"389a084ff4c93827"},{"title":"贵州2025年企业研发投入总量突破200亿元 创新成效显著增强","url":"http://gz.people.com.cn/n2/2026/1111/c222152-41748031.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"098dc358a487c3bd"},{"title":"安徽向上丨无为：一条会“飞舞”的产业链","url":"http://ah.people.com.cn/n2/2026/1111/c227131-41747644.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"6b2dbf0a987de291"},{"title":"湖北潜江：以赛为桥 向新而兴","url":"http://hb.people.com.cn/n2/2026/1111/c194063-41747767.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"fe568d63d5016014"},{"title":"湖南宁乡青年以直播助农激活乡村振兴新动能","url":"http://hn.people.com.cn/n2/2026/1111/c336521-41747722.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"3d7d88596a5cffbc"},{"title":"白尾海雕飞抵黑河流域开启越冬之旅","url":"http://qh.people.com.cn/n2/2026/1111/c378418-41747902.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"a5d1438a4824af9a"},{"title":"面向大湾区，共赴山水之约","url":"http://gx.people.com.cn/n2/2026/1111/c179464-41747739.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"7b8667ce040720b7"},{"title":"办得好丨民心公交开到校门口 河南平顶山为学生开通接送专车","url":"http://henan.people.com.cn/n2/2026/1111/c351638-41747495.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"d45a938c87f450ad"},{"title":"“大白兔”糖纸上有几只大白兔？","url":"http://v.people.cn/n1/2026/1111/c431305-40831948.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"3dc1d093eaf40e15"},{"title":"云南异龙湖：漫天橘红洒满湖面","url":"http://v.people.cn/n1/2026/1111/c431305-40831950.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"9404c350cdfd12c0"},{"title":"人间引力｜“爱理发”的银行行长","url":"http://v.people.cn/n1/2026/1111/c431305-40831951.html","summary":"","date":"2026-11-11","channel":"要闻","source":"people","id":"97f5d93e6f3e028b"},{"title":"我国将加快推进服务业统计改革创新","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831608.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"299a6150dc5053d4"},{"title":"更好满足群众多样化住房需求","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831619.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"7256897ff03e8bb6"},{"title":"前10月我国货物进出口同比增长20%","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831617.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"f61c8725fccd0965"},{"title":"钢铁行业提质升级步伐加快","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831612.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"d3c88b3ad427f909"},{"title":"首发新品“白名单”助力国际消费品牌集聚上海","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831609.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"4be40b71d4de49da"},{"title":"公布修订后的《基金会管理条例》","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831615.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"d3cc79f3560156f3"},{"title":"全球载人登月进入多路线并行时代","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831626.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"c4b531e8dca1ffb6"},{"title":"量子阱LED光学开关性能纪录刷新","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831623.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"7a2183a4e6651e7c"},{"title":"千公里空芯光纤单程信号传输仅需3.43毫秒","url":"http://finance.people.com.cn/n1/2026/1111/c1004-40831627.html","summary":"","date":"2026-11-11","channel":"财经","source":"people","id":"40fae866d96e2fb0"},{"source":"bloomberg","channel":"市场","title":"Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over Yet","url":"https://www.bloomberg.com/news/articles/2026-11-11/funds-warn-brazil-126-billion-stock-market-rout-isn-t-over-yet","summary":"The rout in Brazilian assets sparked by Luiz Inácio Lula da Silva’s re-election shows little sign of abating, with some of the nation’s biggest money managers saying a downturn that has already wiped out months of gains ","date":"2026-11-11","id":"f95103d37da1ca3e"},{"source":"bloomberg","channel":"市场","title":"US Equity Futures Rise as AI Enthusiasm Counters Hot Inflation","url":"https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation","summary":"US stock futures are rising Wednesday as better-than-expected results from Coreweave Inc., anticipation of Anthropic PBC’s initial public offering and a blockbuster quarter for OpenAI are reviving the AI trade.","date":"2026-11-11","id":"9e3f9c9c5a6b45a0"},{"source":"bloomberg","channel":"市场","title":"European Stocks Set for Record as Energy, Tech and Miners Gain","url":"https://www.bloomberg.com/news/articles/2026-11-11/european-stocks-set-for-record-as-miners-and-tech-rally","summary":"European stocks climbed toward a fresh record, as energy shares rallied alongside gains in tech and miners, boosting sentiment.","date":"2026-11-11","id":"614d491cb598330e"},{"source":"bloomberg","channel":"市场","title":"Anthropic’s IPO Is Said to Be Multiple Times Oversubscribed","url":"https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mega-ipo-is-said-to-be-multiple-times-oversubscribed","summary":"Anthropic PBC’s initial public offering has drawn multiple times the orders for the shares available, according to people familiar with the matter, as demand accelerates for potentially the biggest first-time share sale ","date":"2026-11-11","id":"10faea7ecd22ccec"},{"source":"bloomberg","channel":"市场","title":"AI Whiplash Poses Major Test for Wall Street’s Dip-Buying Habit","url":"https://www.bloomberg.com/news/articles/2026-11-11/ai-whiplash-poses-major-test-for-wall-street-s-dip-buying-habit","summary":"Growing unease over the artificial intelligence trade is testing a monthslong habit of bottom-fishers to jump in every time the stock market dips.","date":"2026-11-11","id":"c1c059f812b62526"},{"source":"bloomberg","channel":"市场","title":"Saudis Tell OPEC Output Surged 26% to Highest Since War Began","url":"https://www.bloomberg.com/news/articles/2026-11-11/saudis-tell-opec-output-they-surged-26-to-new-war-time-high","summary":"Saudi Arabia told OPEC that its crude oil production climbed by 26% last month to the highest since before the outbreak of the war, leading a regional output recovery that’s helping to push down prices.","date":"2026-11-11","id":"0dbf7f7fd5994f77"},{"source":"bloomberg","channel":"市场","title":"Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans","url":"https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans","summary":"The Gulf state’s ambition to almost double its liquefied natural gas export capacity has suffered a major setback.","date":"2026-11-11","id":"9ba5949c697a27e5"},{"source":"bloomberg","channel":"市场","title":"VW Scraps Advanced Factory Plan in Blow to Made in Germany","url":"https://www.bloomberg.com/news/articles/2026-11-11/vw-scraps-advanced-factory-plan-in-blow-to-made-in-germany","summary":"Volkswagen AG is scrapping a major advanced-manufacturing project at its sprawling headquarter as falling profits force Europe’s biggest carmaker to rethink investment across its German factories.","date":"2026-11-11","id":"da8722c45a7ed4da"},{"source":"bloomberg","channel":"市场","title":"AI Stocks Rally After Coreweave's Results; Treasury Market Closed","url":"https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-brief-11-11-2026-video","summary":"US equity futures rise after Coreweave's strong results and robust demand for Anthropic's IPO. US Treasury futures fall after a hot inflation print fueled Fed rate-hike bets and fueled a spike in yields. Cash Treasury ma","date":"2026-11-11","id":"4dd7a790ec45dae9"},{"source":"bloomberg","channel":"市场","title":"Euro-Pound Options Turn Bullish as Traders Bet on Bigger Rebound","url":"https://www.bloomberg.com/news/articles/2026-11-11/euro-pound-options-turn-bullish-as-traders-bet-on-bigger-rebound","summary":"Options traders are positioning for a further rebound in the euro against sterling after a historically sharp selloff, betting the single currency has priced in too much risk around France.","date":"2026-11-11","id":"98f94c3983c92d8e"},{"source":"bloomberg","channel":"市场","title":"US Mortgage Rates Fall for Fourth Week, Lifting Home Purchases","url":"https://www.bloomberg.com/news/articles/2026-11-11/us-mortgage-rates-fall-for-fourth-week-lifting-home-purchases","summary":"US mortgage rates declined for a fourth straight week, boosting home-purchase applications by the most since mid-April and giving a tiny spark to the deflated housing market.","date":"2026-11-11","id":"fc4dbf54ca320f21"},{"source":"bloomberg","channel":"市场","title":"Dubai’s DIP Climbs on Debut, Ending UAE’s Listings Drought","url":"https://www.bloomberg.com/news/articles/2026-11-11/dubai-s-dip-rises-as-much-as-6-after-uae-s-first-post-war-ipo","summary":"Dubai’s DIP Holding Plc shares jumped as much as 7% on debut, after a $529 million initial public offering that marked the United Arab Emirates’ first listing of the year.","date":"2026-11-11","id":"56443bd48f958b09"},{"source":"bloomberg","channel":"市场","title":"CoreWeave Quiets Doubts, US CPI Fuels Fed-Hike Bets","url":"https://www.bloomberg.com/news/videos/2026-11-11/the-opening-trade-11-11-2026-video","summary":"Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave and robust demand for Anthropic’s initial public offering. The US bond","date":"2026-11-11","id":"7e174d4100f7ec0a"},{"source":"bloomberg","channel":"市场","title":"CSG Falls to Lowest Since IPO as Arms Firm Cuts Margin Guidance","url":"https://www.bloomberg.com/news/articles/2026-11-11/csg-cuts-full-year-margin-outlook-as-revenue-misses-estimates","summary":"CSG NV shares plunged after the European arms maker cut its full-year profitability outlook, dealing a fresh blow to investors who bought into the stock when it listed at the start of the year on optimism about growth in","date":"2026-11-11","id":"ea646570f5937b3b"},{"source":"bloomberg","channel":"市场","title":"US Treasury Futures Retreat as Markets See More Fed Hikes","url":"https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow","summary":"Derivatives trading suggests a retreat in US Treasuries is set to continue as faster-than-expected inflation data cement expectations for more aggressive interest-rate hikes from the Federal Reserve.","date":"2026-11-11","id":"1be44aa2774542a6"},{"source":"bloomberg","channel":"市场","title":"AI Doubts Collide With Anthropic’s Mega IPO","url":"https://www.bloomberg.com/news/newsletters/2026-11-11/ai-doubts-collide-with-anthropic-s-mega-ipo","summary":"Anthropic is going public as investors worry about the outlook for artificial intelligence.","date":"2026-11-11","id":"10846eabf04777a9"},{"source":"bloomberg","channel":"市场","title":"Chery Recalls Thousands of Vehicles in South Africa","url":"https://www.bloomberg.com/news/articles/2026-11-11/chery-recalls-thousands-of-vehicles-in-south-africa-over-safety-mwbuqw8g","summary":"Chinese auto manufacturer Chery South Africa recalled thousands of vehicles to check for potential faults, and the nation’s consumer watchdog said it’s launched an investigation into the company.","date":"2026-11-11","id":"56e5dab4ffe402cd"},{"source":"bloomberg","channel":"市场","title":"Zimbabwe Seeks Entry Into MSCI Frontier Markets Index for Dollar Stocks","url":"https://www.bloomberg.com/news/articles/2026-11-11/zimbabwe-seeks-entry-into-msci-frontier-markets-index-for-dollar-stocks","summary":"Zimbabwe wants securities listed on its dollar-only stock exchange to be added to the MSCI Frontier Markets Index as it seeks to draw international investors and boost liquidity.","date":"2026-11-11","id":"1ce0e30e2abeac8b"},{"source":"bloomberg","channel":"科技","title":"Elon Musk’s AI Chatbot Grok Sexualized These Teens’ Childhood Photos","url":"https://www.bloomberg.com/features/2026-grok-sexualized-childhood-photos/","summary":"The images are nearly impossible to erase. Now, a growing number of victims are pushing to hold Elon Musk’s xAI accountable.","date":"2026-11-11","id":"a7fb00e069e1bdf4"},{"source":"bloomberg","channel":"科技","title":"Nvidia Gets Rare Downgrade as Baird Raises CEO Uncertainities","url":"https://www.bloomberg.com/news/articles/2026-11-11/nvidia-gets-rare-downgrade-as-baird-raises-ceo-uncertainities","summary":"Wall Street sentiment toward Nvidia Corp. is starting to crack, as an investigation into Chief Executive Officer Jensen Huang’s affair with an alleged Chinese spy is sowing doubt over the the artificial intelligence chip","date":"2026-11-11","id":"8561c03da465c57c"},{"source":"bloomberg","channel":"科技","title":"Take-Two CEO Zelnick: AI Wont Kill Gaming Jobs","url":"https://www.bloomberg.com/news/videos/2026-11-11/take-two-ceo-zelnick-ai-wont-kill-gaming-jobs-video","summary":"Take-Two Interactive Chairman & CEO Strauss Zelnick says artificial intelligence will transform the video game industry, but he doesn't believe It will lead to fewer jobs. He says technology ultimately needs to serve one","date":"2026-11-11","id":"417468c381dbef07"},{"source":"bloomberg","channel":"科技","title":"Take-Two’s Zelnick Traded Movies for ‘Grand Theft Auto’ Games","url":"https://www.bloomberg.com/news/videos/2026-11-11/take-two-s-zelnick-traded-movies-for-grand-theft-auto-games","summary":"Take-Two Interactive Chairman & CEO Strauss Zelnick reflects on his career in entertainment, from becoming president of 20th Century Fox to leaving the movie and television business for the emerging video game industry. ","date":"2026-11-11","id":"06582604128e7f57"},{"source":"bloomberg","channel":"科技","title":"‘Grand Theft Auto VI’ Is Latest Big Swing for Take-Two CEO’s Video Game Empire","url":"https://www.bloomberg.com/news/articles/2026-11-11/-grand-theft-auto-vi-is-latest-big-swing-for-take-two-ceo-s-video-game-empire","summary":"Take-Two Interactive Software Inc. Chief Executive Officer Strauss Zelnick wanted to run a Hollywood studio when he was a kid.","date":"2026-11-11","id":"bb203946650a59de"},{"source":"bloomberg","channel":"科技","title":"Nvidia Is Core Part AI-Basket of Stocks, Emanuel Says","url":"https://www.bloomberg.com/news/videos/2026-11-11/nvidia-is-core-part-ai-basket-of-stocks-emanuel-says-video","summary":"Julian Emanuel, Evercore ISI chief equity strategist and quantitative strategist, says Nvidia is a core part of their basket of AI stocks. He also expects the Anthropic IPO to go smoothly. He speaks on \"Bloomberg Surveil","date":"2026-11-11","id":"64d47fa32b26c832"},{"source":"bloomberg","channel":"科技","title":"SAP Touts AI Tools, But Fails to Disclose Numbers to Measure Results","url":"https://www.bloomberg.com/news/newsletters/2026-11-11/sap-touts-ai-tools-but-fails-to-disclose-numbers-to-measure-results","summary":"The software company hasn’t disclosed many metrics to show whether its AI effort is paying off","date":"2026-11-11","id":"72102ede583efa10"},{"source":"bloomberg","channel":"科技","title":"Utah-Based Startup Raises $500 Million for Modular AI Data Center","url":"https://www.bloomberg.com/news/articles/2026-11-11/utah-based-startup-raises-500-million-for-modular-ai-data-center","summary":"Torus, an energy-storage startup, said it raised $500 million in funding to help launch a new shipping container-sized product that combines batteries with artificial-intelligence computing.","date":"2026-11-11","id":"c94598201d1e90ec"},{"source":"bloomberg","channel":"科技","title":"Anthropic’s Mythos AI Looking for Cyber Flaws in Energy Systems","url":"https://www.bloomberg.com/news/articles/2026-11-11/anthropic-s-mythos-ai-looking-for-cyber-flaws-in-energy-systems","summary":"Some power companies are using cybersecurity technology from Anthropic PBC after spending months urging US government officials and the artificial intelligence company to help them access the company’s powerful AI models","date":"2026-11-11","id":"66caca90823102c2"},{"source":"bloomberg","channel":"科技","title":"Citi’s Aganga on AI, Markets and Inflation","url":"https://www.bloomberg.com/news/videos/2026-11-11/citi-s-aganga-on-ai-markets-and-inflation-video","summary":"Olaolu Aganga of Citi says strong earnings and attractive valuations continue to support US stocks despite recent volatility. She discusses the long-term AI investment cycle, opportunities in cybersecurity and critical m","date":"2026-11-11","id":"35d2183e552cddbc"},{"source":"bloomberg","channel":"科技","title":"AI Stocks Face Tug-of-War as Anthropic, CoreWeave Lift Hopes","url":"https://www.bloomberg.com/news/newsletters/2026-11-11/ai-stocks-face-tug-of-war-as-anthropic-coreweave-lift-hopes","summary":"The AI trade is so massive that its friends and foes increasingly find support on the same day.","date":"2026-11-11","id":"a6711178feeb1fc8"},{"source":"bloomberg","channel":"科技","title":"Airbnb Is Building Its Own AI Travel Agent, Co-Founder Says","url":"https://www.bloomberg.com/news/videos/2026-11-11/airbnb-is-building-its-own-ai-travel-agent-co-founder-video","summary":"Airbnb Co-founder and Chief Strategy Officer Nathan Blecharczyk says the company is developing its own specialized AI travel agent that will eventually be able to book both on and off Airbnb’s platform. In an interview w","date":"2026-11-11","id":"b8b6cac983f797f2"},{"source":"bloomberg","channel":"科技","title":"Kai-Fu Lee Questions Soaring AI Valuations","url":"https://www.bloomberg.com/news/videos/2026-11-11/kai-fu-lee-questions-soaring-ai-valuations-video","summary":"AI pioneer Kai-Fu Lee discusses whether trillion-dollar AI valuations can be justified, the risks of circular funding, and the impact of cheaper Chinese and open-source models. The Sinovation Ventures Chairman and CEO an","date":"2026-11-11","id":"0df8c78989e0f3b8"},{"source":"bloomberg","channel":"科技","title":"Anthropic IPO Demand Surges as AI Trade Roars Back","url":"https://www.bloomberg.com/news/videos/2026-11-11/the-pulse-with-francine-lacqua-11-11-2026-video","summary":"Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave and robust demand for Anthropic’s initial public offering. Ukraine and","date":"2026-11-11","id":"ca094f2011c8e5f2"},{"source":"bloomberg","channel":"科技","title":"EU Targets Social Media Addiction and Online ‘Dark Patterns’","url":"https://www.bloomberg.com/news/articles/2026-11-11/eu-targets-social-media-addiction-and-online-dark-patterns","summary":"The European Union is debuting a new plan designed to curb practices that manipulate people into spending more time and money online.","date":"2026-11-11","id":"9f1316a39a892fd5"},{"source":"bloomberg","channel":"科技","title":"AI Has Driven a Quarter of UK Growth This Year, Analysis Shows","url":"https://www.bloomberg.com/news/articles/2026-11-11/ai-has-driven-a-quarter-of-uk-growth-this-year-analysis-shows","summary":"Artificial intelligence has powered around a quarter of UK growth this year, according to Bloomberg economists, putting the country at risk of a global downturn in valuations around the technology.","date":"2026-11-11","id":"e62d6b249a22f364"},{"source":"bloomberg","channel":"科技","title":"UBS’ Laud Sees Underpriced Risk in AI's ‘Web of Debt’","url":"https://www.bloomberg.com/news/videos/2026-11-11/ubs-laud-sees-underpriced-risk-in-ai-s-web-of-debt-video","summary":"Sonja Laud, co-head of investments and real assets at UBS Asset Management, says the AI investment boom has shifted from an equity story to a balance-sheet story driven by debt, creating an interconnected web of risk tha","date":"2026-11-11","id":"e989d28178892013"},{"source":"bloomberg","channel":"科技","title":"ByteDance Prepares Muse-Like Agent in Push to Close AI Gap","url":"https://www.bloomberg.com/news/articles/2026-11-11/bytedance-prepares-muse-like-agent-in-push-to-close-ai-gap","summary":"ByteDance Ltd. plans the release of a Muse-like AI assistant in the coming weeks to augment its lead in AI video, a milestone event the company hopes will help close the gap with top US labs in as soon as three years.","date":"2026-11-11","id":"3576fd1c511fd4ab"},{"source":"bloomberg","channel":"科技","title":"Thai Officials Meet Apple Over Spyware Alerts to Politicians","url":"https://www.bloomberg.com/news/articles/2026-11-11/thai-officials-meet-apple-over-spyware-alerts-to-politicians","summary":"Thailand held meetings with Apple Inc. officials over notifications received by politicians and others warning that they may have been targeted by mercenary spyware, part of a global alert sent to people in 99 countries.","date":"2026-11-11","id":"e3aa82bdde6932f6"},{"source":"bloomberg","channel":"市场","title":"Latest Oil Market News and Analysis for Nov. 11","url":"https://www.bloomberg.com/news/articles/2026-11-10/latest-oil-market-news-and-analysis-for-nov-11","summary":"Oil climbed after a two-day decline, as traders weighed mixed signals on the prospects for a conclusion to the Iran war.","date":"2026-11-10","id":"ea51cd932c25755c"},{"source":"bloomberg","channel":"市场","title":"Stocks Rally as CoreWeave Fuels AI Trade Revival: Markets Wrap","url":"https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates","summary":"Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave Inc. and robust demand for Anthropic PBC’s initial public offering.","date":"2026-11-10","id":"f87fd6b3faf785be"},{"source":"bloomberg","channel":"科技","title":"CoreWeave Quiets Doubts Over AI Business With Upbeat Outlook","url":"https://www.bloomberg.com/news/articles/2026-11-10/coreweave-boosts-annual-forecast-easing-concerns-about-slowdown","summary":"CoreWeave Inc. eased fears about its debt-laden business during a high-stakes quarterly report, indicating that sales growth remains strong despite challenges facing the data center industry.","date":"2026-11-10","id":"a1f59b12d83b62f0"}]};
+(function () {
+  'use strict';
+  var $ = function (s) { return document.querySelector(s); };
+  var SOURCE_LABEL = { xuexi: '学习强国', people: '人民日报', bloomberg: 'Bloomberg' };
+  var state = { data: null, filter: 'all', q: '' };
+
+  function safeUrl(u) {
+    try {
+      var x = new URL(u, location.href);
+      return (x.protocol === 'http:' || x.protocol === 'https:') ? x.href : '';
+    } catch (e) { return ''; }
+  }
+
+  function fmtUpdated(iso) {
+    if (!iso) return '—';
+    try {
+      return new Date(iso).toLocaleString('zh-CN', {
+        timeZone: 'Asia/Shanghai', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', hour12: false
+      });
+    } catch (e) { return iso; }
+  }
+
+  function dayLabel(date, today) {
+    if (!date || date === '未知') return '日期未知';
+    var md = date.slice(5).replace('-', '月') + '日';
+    if (date === today) return '今天 · ' + md;
+    try {
+      var diff = Math.round((Date.parse(today + 'T00:00:00Z') - Date.parse(date + 'T00:00:00Z')) / 86400000);
+      if (diff === 1) return '昨天 · ' + md;
+      if (diff > 1) return date.slice(0, 4) + '年' + md + '（较早内容）';
+    } catch (e) { /* 保持原日期 */ }
+    return md;
+  }
+
+  function buildCard(it) {
+    var card = document.createElement('article');
+    card.className = 'card';
+
+    var top = document.createElement('div');
+    top.className = 'card-top';
+    var tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.dataset.source = it.source;
+    tag.textContent = SOURCE_LABEL[it.source] || it.source || '其他';
+    top.appendChild(tag);
+    if (it.channel) {
+      var ch = document.createElement('span');
+      ch.className = 'channel';
+      ch.textContent = it.channel;
+      top.appendChild(ch);
+    }
+    card.appendChild(top);
+
+    var href = safeUrl(it.url);
+    var h = document.createElement('h2');
+    if (href) {
+      var a = document.createElement('a');
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = it.title || '（无标题）';
+      h.appendChild(a);
+    } else {
+      h.textContent = it.title || '（无标题）';
+    }
+    card.appendChild(h);
+
+    if (it.summary) {
+      var p = document.createElement('p');
+      p.textContent = it.summary;
+      card.appendChild(p);
+    }
+
+    var foot = document.createElement('div');
+    foot.className = 'card-foot';
+    var date = document.createElement('span');
+    date.textContent = it.date || '';
+    foot.appendChild(date);
+    if (href) {
+      var more = document.createElement('a');
+      more.className = 'read-more';
+      more.href = href;
+      more.target = '_blank';
+      more.rel = 'noopener noreferrer';
+      more.textContent = '阅读原文 ↗';
+      foot.appendChild(more);
+    }
+    card.appendChild(foot);
+    return card;
+  }
+
+  function renderNotice() {
+    var box = $('#notice');
+    box.replaceChildren();
+    var bad = state.data.sources.filter(function (s) { return s.status && s.status !== 'ok'; });
+    if (!bad.length) { box.hidden = true; return; }
+    box.hidden = false;
+    bad.forEach(function (s) {
+      var label = s.status === 'stale' ? '沿用上次抓取数据' : (s.status === 'error' ? '本次暂无数据' : '数据源降级');
+      var row = document.createElement('div');
+      row.textContent = s.name + ' · ' + label + '：' + (s.error || '本次未获得新内容');
+      box.appendChild(row);
+    });
+  }
+
+  function renderTabs() {
+    var box = $('#tabs');
+    box.replaceChildren();
+    var defs = [{ id: 'all', name: '全部', count: state.data.items.length }];
+    state.data.sources.forEach(function (s) {
+      defs.push({ id: s.id, name: s.name, count: s.count });
+    });
+    defs.forEach(function (t) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'tab';
+      b.dataset.id = t.id;
+      b.textContent = t.name + ' ' + t.count;
+      b.setAttribute('aria-selected', String(t.id === state.filter));
+      b.addEventListener('click', function () {
+        state.filter = t.id;
+        Array.prototype.forEach.call(box.children, function (el) {
+          el.setAttribute('aria-selected', String(el.dataset.id === t.id));
+        });
+        renderList();
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function renderList() {
+    var q = state.q.trim().toLowerCase();
+    var rows = state.data.items.filter(function (it) {
+      if (state.filter !== 'all' && it.source !== state.filter) return false;
+      if (!q) return true;
+      return ((it.title || '') + ' ' + (it.summary || '') + ' ' + (it.channel || '')).toLowerCase().indexOf(q) >= 0;
+    });
+    $('#count').textContent = '共 ' + rows.length + ' 条';
+
+    var box = $('#list');
+    box.replaceChildren();
+    if (!rows.length) {
+      var empty = document.createElement('div');
+      empty.className = 'empty';
+      empty.textContent = '没有匹配的新闻，换个关键词或来源试试。';
+      box.appendChild(empty);
+      return;
+    }
+
+    var groups = new Map();
+    rows.forEach(function (it) {
+      var k = it.date || '未知';
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(it);
+    });
+    groups.forEach(function (items, date) {
+      var sec = document.createElement('section');
+      sec.className = 'day-group';
+      var title = document.createElement('div');
+      title.className = 'day-title';
+      title.textContent = dayLabel(date, state.data.date);
+      sec.appendChild(title);
+      items.forEach(function (it) { sec.appendChild(buildCard(it)); });
+      box.appendChild(sec);
+    });
+  }
+
+  async function load() {
+    var btn = $('#refresh');
+    btn.disabled = true;
+    btn.textContent = '刷新中…';
+    var box = $('#list');
+    box.replaceChildren();
+    var loading = document.createElement('div');
+    loading.className = 'empty';
+    loading.textContent = '正在加载新闻…';
+    box.appendChild(loading);
+    try {
+      var data = EMBEDDED_NEWS;
+      if (!data || !Array.isArray(data.items) || !Array.isArray(data.sources)) throw new Error('数据格式不正确');
+      state.data = data;
+      $('#updated').textContent = '更新于 ' + fmtUpdated(data.generatedAt);
+      renderNotice();
+      renderTabs();
+      renderList();
+    } catch (e) {
+      box.replaceChildren();
+      var err = document.createElement('div');
+      err.className = 'empty';
+      err.textContent = '数据加载失败：' + e.message + '。请确认 data/news.json 已生成，或稍后点击刷新重试。';
+      box.appendChild(err);
+      $('#updated').textContent = '加载失败';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = '刷新';
+    }
+  }
+
+  $('#search').addEventListener('input', function (e) {
+    state.q = e.target.value;
+    if (state.data) renderList();
+  });
+  $('#refresh').addEventListener('click', load);
+  load();
+})();
+</script>
+</body>
+</html>
