@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:03:00.594Z",
+  "generatedAt": "2026-11-11T14:40:51.688Z",
   "date": "2026-11-11",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "name": "学习强国",
       "note": "学习强国未提供公开数据接口，本栏展示人民网时政、理论、党建、评论等官方同源内容",
       "status": "ok",
-      "count": 12,
+      "count": 13,
       "error": null
     },
     {
@@ -28,6 +28,15 @@
     }
   ],
   "items": [
+    {
+      "title": "亚太潮涌 同舟扬帆",
+      "url": "http://politics.people.com.cn/n1/2026/1111/c461001-40832280.html",
+      "summary": "",
+      "date": "2026-11-11",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "f4cd38142068f97a"
+    },
     {
       "title": "李强将访问泰国并赴菲律宾出席中国—东盟领导人会议",
       "url": "http://politics.people.com.cn/n1/2026/1111/c1024-40832232.html",
@@ -499,6 +508,60 @@
     {
       "source": "bloomberg",
       "channel": "市场",
+      "title": "Bajaj Finance Launches Up to $1.25 Billion Share Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/bajaj-finance-said-set-to-launch-up-to-1-2-billion-share-sale",
+      "summary": "Bajaj Finance Ltd. launched a share sale to raise as much as 117 billion rupees ($1.25 billion) from institutional investors in Mumbai, according to terms seen by Bloomberg, in what would be the first major Indian equity",
+      "date": "2026-11-11",
+      "id": "fd7c36dbec93bc79"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Goldman, Fortress and HBSC Back Rare Private Credit Deal in Saudi Arabia",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/goldman-fortress-and-hbsc-back-rare-private-credit-deal-in-saudi-arabia",
+      "summary": "Goldman Sachs Group Inc., HSBC Holdings Plc and Fortress Investment Group are among financial heavyweights teaming up on one of Saudi Arabia’s first major private credit deals since the regional war began.",
+      "date": "2026-11-11",
+      "id": "473790290b0913eb"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Bloomberg Invest Dallas 2026 Highlights",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-invest-dallas-2026-highlights-video",
+      "summary": "As Dallas emerges as a formidable capital markets hub, Bloomberg Invest gathered CEOs, exchange operators, prominent investors and wealth management leaders to examine the shifting financial landscape. Discussions focuse",
+      "date": "2026-11-11",
+      "id": "8787e0ea74d006ec"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Chile Trucker Protest Over Fuel Prices Imperils Farm Exports",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/chile-trucker-protest-over-fuel-prices-imperils-farm-exports",
+      "summary": "A protest by truckers and regional buses over fuel prices and roadway tolls was snarling traffic across Chile on Wednesday, threatening exports of fresh produce at the start of the country’s agricultural season.",
+      "date": "2026-11-11",
+      "id": "106f34a086655745"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Virgin Atlantic Cuts Winter Capacity on Fuel Costs, Soft Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/virgin-atlantic-cuts-winter-capacity-on-fuel-costs-soft-demand",
+      "summary": "Virgin Atlantic Airways Ltd. is cutting capacity as the UK carrier grapples with higher oil prices and softened demand.",
+      "date": "2026-11-11",
+      "id": "6d200257a5f4fefd"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Colossal Biosciences Backer 81 Collection Raises Second Fund",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/colossal-biosciences-backer-81-collection-raises-second-fund",
+      "summary": "The 81 Collection, a Chicago-based venture capital firm that’s a backer of Colossal Biosciences Inc., has raised $82 million for its second fund.",
+      "date": "2026-11-11",
+      "id": "3e8330d5a8b98f90"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
       "title": "Funds Warn Brazil $126 Billion Stock Market Rout Isn’t Over Yet",
       "url": "https://www.bloomberg.com/news/articles/2026-11-11/funds-warn-brazil-126-billion-stock-market-rout-isn-t-over-yet",
       "summary": "The rout in Brazilian assets sparked by Luiz Inácio Lula da Silva’s re-election shows little sign of abating, with some of the nation’s biggest money managers saying a downturn that has already wiped out months of gains ",
@@ -597,69 +660,6 @@
     },
     {
       "source": "bloomberg",
-      "channel": "市场",
-      "title": "Dubai’s DIP Climbs on Debut, Ending UAE’s Listings Drought",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/dubai-s-dip-rises-as-much-as-6-after-uae-s-first-post-war-ipo",
-      "summary": "Dubai’s DIP Holding Plc shares jumped as much as 7% on debut, after a $529 million initial public offering that marked the United Arab Emirates’ first listing of the year.",
-      "date": "2026-11-11",
-      "id": "56443bd48f958b09"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "CoreWeave Quiets Doubts, US CPI Fuels Fed-Hike Bets",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-11/the-opening-trade-11-11-2026-video",
-      "summary": "Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave and robust demand for Anthropic’s initial public offering. The US bond",
-      "date": "2026-11-11",
-      "id": "7e174d4100f7ec0a"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "CSG Falls to Lowest Since IPO as Arms Firm Cuts Margin Guidance",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/csg-cuts-full-year-margin-outlook-as-revenue-misses-estimates",
-      "summary": "CSG NV shares plunged after the European arms maker cut its full-year profitability outlook, dealing a fresh blow to investors who bought into the stock when it listed at the start of the year on optimism about growth in",
-      "date": "2026-11-11",
-      "id": "ea646570f5937b3b"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "US Treasury Futures Retreat as Markets See More Fed Hikes",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/falling-us-bond-futures-offer-no-relief-as-fed-hike-bets-grow",
-      "summary": "Derivatives trading suggests a retreat in US Treasuries is set to continue as faster-than-expected inflation data cement expectations for more aggressive interest-rate hikes from the Federal Reserve.",
-      "date": "2026-11-11",
-      "id": "1be44aa2774542a6"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "AI Doubts Collide With Anthropic’s Mega IPO",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/ai-doubts-collide-with-anthropic-s-mega-ipo",
-      "summary": "Anthropic is going public as investors worry about the outlook for artificial intelligence.",
-      "date": "2026-11-11",
-      "id": "10846eabf04777a9"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Chery Recalls Thousands of Vehicles in South Africa",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/chery-recalls-thousands-of-vehicles-in-south-africa-over-safety-mwbuqw8g",
-      "summary": "Chinese auto manufacturer Chery South Africa recalled thousands of vehicles to check for potential faults, and the nation’s consumer watchdog said it’s launched an investigation into the company.",
-      "date": "2026-11-11",
-      "id": "56e5dab4ffe402cd"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Zimbabwe Seeks Entry Into MSCI Frontier Markets Index for Dollar Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/zimbabwe-seeks-entry-into-msci-frontier-markets-index-for-dollar-stocks",
-      "summary": "Zimbabwe wants securities listed on its dollar-only stock exchange to be added to the MSCI Frontier Markets Index as it seeks to draw international investors and boost liquidity.",
-      "date": "2026-11-11",
-      "id": "1ce0e30e2abeac8b"
-    },
-    {
-      "source": "bloomberg",
       "channel": "科技",
       "title": "Elon Musk’s AI Chatbot Grok Sexualized These Teens’ Childhood Photos",
       "url": "https://www.bloomberg.com/features/2026-grok-sexualized-childhood-photos/",
@@ -672,7 +672,7 @@
       "channel": "科技",
       "title": "Nvidia Gets Rare Downgrade as Baird Raises CEO Uncertainities",
       "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-gets-rare-downgrade-as-baird-raises-ceo-uncertainities",
-      "summary": "Wall Street sentiment toward Nvidia Corp. is starting to crack, as an investigation into Chief Executive Officer Jensen Huang’s affair with an alleged Chinese spy is sowing doubt over the the artificial intelligence chip",
+      "summary": "Wall Street sentiment toward Nvidia Corp. is starting to crack, as an investigation into Chief Executive Officer Jensen Huang’s affair with an alleged Chinese spy is sowing doubt over the artificial intelligence chipmake",
       "date": "2026-11-11",
       "id": "8561c03da465c57c"
     },
@@ -832,20 +832,29 @@
     {
       "source": "bloomberg",
       "channel": "市场",
+      "title": "US Stocks Climb as Wall Street Gets Fresh AI Fuel: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
+      "summary": "A rally in technology giants drove stocks higher on bets the artificial-intelligence trade that has powered the bull market has more room to run.",
+      "date": "2026-11-10",
+      "id": "f87fd6b3faf785be"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Nvidia’s Bull Case Hinges on CEO Huang Surviving China Spy Probe",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/nvidia-s-bull-case-hinges-on-ceo-huang-surviving-china-spy-probe",
+      "summary": "Nvidia Corp.’s investigation of Chief Executive Officer Jensen Huang’s affair with an alleged Chinese spy is raising questions about the company’s future and sending its stock into a tailspin.",
+      "date": "2026-11-10",
+      "id": "a97058fc49e97fb9"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
       "title": "Latest Oil Market News and Analysis for Nov. 11",
       "url": "https://www.bloomberg.com/news/articles/2026-11-10/latest-oil-market-news-and-analysis-for-nov-11",
       "summary": "Oil climbed after a two-day decline, as traders weighed mixed signals on the prospects for a conclusion to the Iran war.",
       "date": "2026-11-10",
       "id": "ea51cd932c25755c"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Stocks Rally as CoreWeave Fuels AI Trade Revival: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
-      "summary": "Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave Inc. and robust demand for Anthropic PBC’s initial public offering.",
-      "date": "2026-11-10",
-      "id": "f87fd6b3faf785be"
     },
     {
       "source": "bloomberg",
