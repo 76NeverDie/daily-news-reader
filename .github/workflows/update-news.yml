@@ -2,10 +2,20 @@ name: 每日更新新闻数据
 
 on:
   schedule:
-    # GitHub Actions 使用 UTC；以下对应北京时间 07:00 / 12:00 / 19:00
-    - cron: '0 23 * * *'
-    - cron: '0 4 * * *'
-    - cron: '0 11 * * *'
+    # cron 一律按 UTC 解释（北京 = UTC+8）。右侧为对应北京时间。
+    # 必须避开 :00 整点：GitHub 官方明确说明「每小时开始」是 Actions 高负载时段，
+    # 排队任务可能延迟数小时甚至被直接丢弃，并建议改到「一小时里的其他分钟」。
+    # 原配置 0 23 / 0 4 / 0 11 三次全是整点，实测 2026-11-12 只自动跑了 1 次（且迟到）。
+    # 每个目标时段改为「提前 13 分钟的主调度 + 之后 36 分钟的兜底」，任一被丢弃还有另一次。
+    # ── 早间（目标 07:00）──
+    - cron: '47 22 * * *'   # 北京 次日 06:47（主）
+    - cron: '23 23 * * *'   # 北京 当日 07:23（兜底）
+    # ── 午间（目标 12:00）──
+    - cron: '47 3 * * *'    # 北京 11:47（主）
+    - cron: '23 4 * * *'    # 北京 12:23（兜底）
+    # ── 晚间（目标 19:00）──
+    - cron: '47 10 * * *'   # 北京 18:47（主）
+    - cron: '23 11 * * *'   # 北京 19:23（兜底）
   workflow_dispatch:
 
 permissions:
@@ -19,6 +29,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: 打印调度时间（便于核对时区与延迟）
+        run: |
+          echo "UTC:       $(date -u '+%Y-%m-%d %H:%M:%S')"
+          echo "北京时间:  $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')"
+          echo "触发方式:  ${{ github.event_name }} / ${{ github.event.schedule }}"
+
       - name: 检出仓库
         uses: actions/checkout@v4
 
@@ -43,6 +59,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "数据无变化，跳过提交"
           else
-            git commit -m "chore: 更新新闻数据 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore: 更新新闻数据 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M 北京时间')"
             git push
           fi
