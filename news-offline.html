@@ -136,14 +136,14 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   <section id="notice" class="notice" hidden></section>
   <nav class="tabs" id="tabs" aria-label="新闻来源筛选"></nav>
   <div class="tools">
-    <input id="search" type="search" placeholder="搜索新闻、热搜词条或频道…" autocomplete="off" aria-label="搜索新闻">
+    <input id="search" type="search" placeholder="搜索标题、摘要或频道…" autocomplete="off" aria-label="搜索新闻">
     <span id="count"></span>
   </div>
   <div id="list"></div>
   <footer>
     <div>本站仅聚合公开的标题、摘要与原文链接，不存储或转载正文；内容版权归原作者及原媒体所有，阅读请跳转原文。</div>
     <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新。</div>
-    <div>百度热搜、微博热搜为公开榜单快照，仅收录词条与热度值，点击跳转对应平台的搜索页；榜单变化很快，展示的是抓取时刻的排名。</div>
+    <div>百度热搜、微博热搜为公开榜单快照，仅收录词条与热度值，点击跳转对应平台的搜索页；榜单变化很快，展示的是抓取时刻的排名。热搜仅在「百度热搜」「微博热搜」标签中展示，不计入「全部」。</div>
   </footer>
 </main>
 
@@ -270,7 +270,8 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   function renderTabs() {
     var box = $('#tabs');
     box.replaceChildren();
-    var defs = [{ id: 'all', name: '全部', count: state.data.items.length }];
+    var newsTotal = state.data.items.filter(function (it) { return it.kind !== 'hot'; }).length;
+    var defs = [{ id: 'all', name: '全部', count: newsTotal }];
     state.data.sources.forEach(function (s) {
       defs.push({ id: s.id, name: s.name, count: s.count });
     });
@@ -345,7 +346,13 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   function renderList() {
     var q = state.q.trim().toLowerCase();
     var rows = state.data.items.filter(function (it) {
-      if (state.filter !== 'all' && it.source !== state.filter) return false;
+      var isHot = it.kind === 'hot';
+      // 「全部」只展示新闻；热搜仅在各自的专属标签中展示
+      if (state.filter === 'all') {
+        if (isHot) return false;
+      } else if (it.source !== state.filter) {
+        return false;
+      }
       if (!q) return true;
       return ((it.title || '') + ' ' + (it.summary || '') + ' ' + (it.channel || '')).toLowerCase().indexOf(q) >= 0;
     });
