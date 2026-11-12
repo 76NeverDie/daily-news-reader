@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:16:14.606Z",
+  "generatedAt": "2026-11-12T10:51:52.698Z",
   "date": "2026-11-12",
   "sources": [
     {
@@ -65,7 +65,7 @@
       "id": "4ce921185d40fbeb"
     },
     {
-      "title": "中央宣讲团在内蒙古自治区宣讲",
+      "title": "中央宣讲团在内蒙古、",
       "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832852.html",
       "summary": "",
       "date": "2026-11-12",
@@ -245,22 +245,22 @@
       "id": "621ff22351578458"
     },
     {
-      "title": "陕西西安：千年古银杏树满目鎏金",
-      "url": "http://pic.people.com.cn/n1/2026/1112/c1016-40832645.html",
+      "title": "错峰秋假激活三晋研学热",
+      "url": "http://sx.people.com.cn/n2/2026/1112/c189132-41748779.html",
       "summary": "",
       "date": "2026-11-12",
-      "channel": "图片",
+      "channel": "要闻",
       "source": "people",
-      "id": "fb1cf17e10f8dc4e"
+      "id": "10f91f2a82419b26"
     },
     {
-      "title": "湖南道县：小藠头 大甜头",
-      "url": "http://pic.people.com.cn/n1/2026/1112/c1016-40832659.html",
+      "title": "广西桂林：山水入镜 田园藏爱",
+      "url": "http://gx.people.com.cn/n2/2026/1112/c179464-41748906.html",
       "summary": "",
       "date": "2026-11-12",
-      "channel": "图片",
+      "channel": "要闻",
       "source": "people",
-      "id": "3ff42db065fd8b09"
+      "id": "a9ed8f0397747ebc"
     },
     {
       "title": "广西发布一批干部任前公示",
@@ -535,6 +535,105 @@
     {
       "source": "bloomberg",
       "channel": "市场",
+      "title": "Ali Koç on the Business of Climate Change",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/ali-koc-on-the-business-of-climate-change",
+      "summary": "Ali Y. Koç, Vice Chair, Board of Directors, Koç Holding discusses climate pressures and business competitiveness with Bloomberg's Jennifer Zabasajja at Bloomberg Green at COP31 in Antalya, Türkiye. (Source: Bloomberg)",
+      "date": "2026-11-12",
+      "id": "5d9c793ac45138ca"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "What We're Watching at COP31",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/what-we-re-watching-at-cop31-video",
+      "summary": "Bloomberg's John Ainger, Selcan Hacaoğlu, Lili Pike and Rebecca Penty discuss the key climate issues they're following at Bloomberg Green at COP31 in Antalya, Türkiye. (Source: Bloomberg)",
+      "date": "2026-11-12",
+      "id": "c8af698996c47c56"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "BoA, Temasek, Citi Leaders on Where Capital is Moving",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/boa-temasek-citi-leaders-on-where-capital-is-moving-video",
+      "summary": "​​Alexandra Liftman, Global Environmental Executive, Bank of America; Kyung-Ah Park, Chief Sustainability Officer, Temasek; and Valerie Smith, Chief Sustainability Officer, Citi discuss how investors and banks are making",
+      "date": "2026-11-12",
+      "id": "c7461a39831173d3"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Barclays’ Lafargue Says Nvidia Turmoil Doesn’t Derail AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/barclays-lafargue-says-nvidia-turmoil-doesn-t-derail-ai-trade",
+      "summary": "Investors should stay exposed to the AI boom, even as financing risks and Nvidia Corp.’s leadership turmoil test the trade’s resilience, said Julien Lafargue, chief market strategist at Barclays Private Bank.",
+      "date": "2026-11-12",
+      "id": "cca5ef19ecbdf10c"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "What Will It Take For a Clean, Resilient Energy Economy?",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/what-will-it-take-for-a-clean-resilient-energy-economy-video",
+      "summary": "Albert Cheung, CEO, BloombergNEF discusses what it will take to build a cleaner, more resilient energy economy at Bloomberg Green at COP31 in Antalya, Türkiye. (Source: Bloomberg)",
+      "date": "2026-11-12",
+      "id": "baea7549f5dd7294"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Long-Dated US Treasuries Rise as Nvidia Woes Revive Haven Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/long-us-bonds-reopen-with-gains-as-risk-sentiment-sours-again",
+      "summary": "Long-dated Treasuries rose as trading resumed on Thursday, with turmoil around Nvidia Corp. weighing on technology shares and encouraging demand for safer assets.",
+      "date": "2026-11-12",
+      "id": "bdc44de1cfe5c8f7"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Damac Group on Dubai, Real Estate, Global Growth in 2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/damac-group-on-dubai-real-estate-global-growth-in-2026-video",
+      "summary": "Hussain Sajwani, Founder & Chariman, DAMAC Group, discusses Dubai, real estate investment and global growth with Bloomberg’s Guy Johnson at Bloomberg Invest Dubai 2026. (Source: Bloomberg)",
+      "date": "2026-11-12",
+      "id": "f6748de6daed602e"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Family Businesses on Resilience, Succession in 2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/family-businesses-on-resilience-succession-in-2026-video",
+      "summary": "Mishal Kanoo, Chairman, The Kanoo Group and Shravin Bharti Mittal, Founder & CEO, Unbound; Director, Bharti Global Limited, discuss resilience, long-term investment and preparing the next generation of family leadership ",
+      "date": "2026-11-12",
+      "id": "3eafbb72ff3071ed"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "AMD, Broadcom Poised to Gain From Scandal Roiling Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-turmoil-lifts-amd-broadcom-on-bets-for-business-gains",
+      "summary": "Nvidia Corp.’s leadership turmoil is boosting potential beneficiaries, with Advanced Micro Devices Inc. and Broadcom Inc. gaining on bets they may win business from the chip giant.",
+      "date": "2026-11-12",
+      "id": "f40cea92f2e0bd53"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "UAE Minister of Investment's Investment Outlook",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/uae-minister-of-investment-s-investment-outlook-video",
+      "summary": "H.E. Mohamed Hassan Alsuwaidi, UAE Minister of Investment, joins Bloomberg’s Guy Johnson to discuss the country’s investment outlook, the resilience of its financial markets and the future of global capital amid shifting",
+      "date": "2026-11-12",
+      "id": "270ae4c24f7f7efd"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Emaar on Dubai, Growth, Global Investment in 2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/emaar-on-dubai-growth-global-investment-in-2026-video",
+      "summary": "Mohamed Alabbar, Founder & Managing Director, Emaar Properties, discusses Dubai’s growth, global investment and the outlook for business with Bloomberg’s Guy Johnson at Bloomberg Invest Dubai 2026. (Source: Bloomberg)",
+      "date": "2026-11-12",
+      "id": "ec6207d2f0ca4d40"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
       "title": "Bundesbank Warns Commercial Property Prices May Decline Again",
       "url": "https://www.bloomberg.com/news/articles/2026-11-12/bundesbank-warns-commercial-property-prices-may-decline-again",
       "summary": "Germany’s central bank warned that commercial real estate prices may decline again if interest rates rise or troubled property funds are forced to sell assets.",
@@ -588,102 +687,12 @@
     },
     {
       "source": "bloomberg",
-      "channel": "市场",
-      "title": "Alexis Ohanian Bet on Women’s Sports First",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/alexis-ohanian-bet-on-women-s-sports-first-video",
-      "summary": "In this episode of The Deal, Alex Rodriguez and Jason Kelly talk with entrepreneur and investor Alexis Ohanian at Bloomberg’s Power Players conference about investing in women’s sports. (Source: Bloomberg)",
+      "channel": "科技",
+      "title": "Nvidia's Board Weighs Huang's Future After Affairs",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-s-board-weighs-huang-s-future-after-affairs-video",
+      "summary": "Nvidia's board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs, according to a person familiar with the matte",
       "date": "2026-11-12",
-      "id": "9924317fbb709fc8"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Jensen Huang Scandal: Investigating Nvidia's Relationship to Megaspeed",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/jensen-huang-scandal-investigating-nvidia-s-relationship-to-megaspeed",
-      "summary": "The geopolitics of chip smuggling.",
-      "date": "2026-11-12",
-      "id": "600abd083058a1dd"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Odd Lots: What Nvidia’s Megaspeed Scandal Is All About (Podcast)",
-      "url": "https://www.bloomberg.com/news/audio/2026-11-12/odd-lots-what-nvidia-s-megaspeed-scandal-is-all-about-podcast",
-      "summary": "Nvidia CEO Jensen Huang’s extramarital relationship with a woman named Alice Huang, whom US intelligence reportedly identified as a Chinese intelligence asset, is one of the biggest stories in the world right now. Bloomb",
-      "date": "2026-11-12",
-      "id": "7c68e56612128859"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Blackstone, Pimco Target Gulf’s Multibillion-Dollar Buildout",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/blackstone-pimco-target-gulf-s-multibillion-dollar-buildout",
-      "summary": "Some of the world’s biggest investment firms are looking to deploy more capital across the Middle East just as governments open more infrastructure projects to outside investors.",
-      "date": "2026-11-12",
-      "id": "6de8d9d72ecf38d6"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "BofA Says India’s Foreign Inflow Revival Has Further Room to Run",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/bofa-says-india-s-foreign-inflow-revival-has-further-room-to-run",
-      "summary": "The strong momentum in foreign inflows into Indian stocks may continue given a combination of improving earnings, cheaper valuations and light positioning, according to BofA Global Research.",
-      "date": "2026-11-12",
-      "id": "3045d6f47ea6b7e1"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Persimmon Defies UK Housing Gloom with Rising Sales, Values",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/persimmon-defies-uk-housing-gloom-with-rising-sales-values",
-      "summary": "Persimmon Plc maintained its guidance for the year, increasing sales even as the UK housing market endures a protracted slump.",
-      "date": "2026-11-12",
-      "id": "043c64746c51d31f"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "China and Korea Will Outperform Taiwan: Market Analysis",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/china-and-korea-will-outperform-taiwan-3-minutes-mliv-video",
-      "summary": "Anna Edwards, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
-      "date": "2026-11-12",
-      "id": "d1407e0f462ad7df"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Santander Sweetens Offer for Brazil Unit Stake With 5% Increase",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/santander-sweetens-offer-for-brazil-unit-stake-with-5-increase",
-      "summary": "Banco Santander SA raised an offer to buy out minority shareholders of its Brazilian unit by 5%, while saying it still provides an attractive return on invested capital for the Spanish lender.",
-      "date": "2026-11-12",
-      "id": "d9f1da7429c814bc"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "BHP Plans Overhaul of Australia Iron Ore Business to Cut Costs",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs",
-      "summary": "BHP Group plans to restructure its Australian iron ore business as part of a wider cost-cutting effort aimed at helping the world’s largest miner cope with rising expenses and softer prices for the vital steelmaking ingr",
-      "date": "2026-11-12",
-      "id": "64508eeeb3e1b30b"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "London Infrastructure Investment Firm Arcus Said to Weigh Sale",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/london-infrastructure-investment-firm-arcus-said-to-weigh-sale",
-      "summary": "Arcus Infrastructure Partners is weighing strategic options including a potential sale, people familiar with the matter said, in what could be the latest sign of consolidation among private capital managers.",
-      "date": "2026-11-12",
-      "id": "147bbf0dcd98b077"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Mittal: Clear Govt Policy Made UAE an Expansion Hub",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/mittal-clear-govt-policy-made-uae-an-expansion-hub-video",
-      "summary": "Shravin Mittal, Founder & CEO of Unbound, joined Horizons Middle East and Africa from the inaugural Bloomberg Invest Dubai where some of the world’s leading investors, family offices and business leaders gathered to disc",
-      "date": "2026-11-12",
-      "id": "c54d47c5864f2128"
+      "id": "8820cb5e524cac58"
     },
     {
       "source": "bloomberg",
@@ -840,12 +849,21 @@
     },
     {
       "source": "bloomberg",
-      "channel": "科技",
-      "title": "Elon Musk Says It Would Be an Honor to Hire Nvidia’s Huang",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/elon-musk-says-it-would-be-an-honor-to-hire-nvidia-jensen-huang",
-      "summary": "Elon Musk said it would be an honor to hire Nvidia Corp. Chief Executive Officer Jensen Huang, who is at risk of being ousted following reports of multiple extramarital affairs, including with a woman reportedly suspecte",
-      "date": "2026-11-12",
-      "id": "aa86db41aa60722b"
+      "channel": "市场",
+      "title": "LME Aluminum Market Faces Biggest Supply Squeeze in Decades",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/london-aluminum-market-faces-biggest-supply-squeeze-in-decades",
+      "summary": "Aluminum buyers on the London Metal Exchange are facing the most severe squeeze in decades as inventories backing contracts plunge and much of the remaining stock comes under the control of just two traders.",
+      "date": "2026-11-11",
+      "id": "af1c3732fece958d"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Stocks Slip as Nvidia Crisis Halts Tech Comeback: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+      "summary": "A rebound in technology stocks came to a halt as traders confronted a leadership crisis at Nvidia Corp. that threatens a wider fallout across the global artificial intelligence supply chain.",
+      "date": "2026-11-11",
+      "id": "3a1c3ec8245f0cbc"
     },
     {
       "source": "bloomberg",
@@ -855,24 +873,6 @@
       "summary": "Oil fluctuated amid higher production from the Middle East, even as tensions between Iran and the US remain a threat to shipments through the Strait of Hormuz.",
       "date": "2026-11-11",
       "id": "612e586855ab7fc8"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang",
-      "summary": "Nvidia Corp. shares fall as much as 8.1% in premarket trading following reports the AI chipmaker’s board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang. The mo",
-      "date": "2026-11-11",
-      "id": "9d1c4b0470b74fa2"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Stocks Fall as Nvidia Leadership Crisis Hits Tech: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
-      "summary": "A technology-stock-driven rally came to a sudden halt as traders confronted a leadership crisis at Nvidia Corp. that risks reverberating across the global artificial intelligence supply chain.",
-      "date": "2026-11-11",
-      "id": "3a1c3ec8245f0cbc"
     },
     {
       "source": "bloomberg",
