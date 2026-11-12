@@ -68,12 +68,30 @@ button{font-family:inherit}
 .tag[data-source="xuexi"]{background:#fdecec;color:#a32d2d}
 .tag[data-source="people"]{background:#e6f1fb;color:#185fa5}
 .tag[data-source="bloomberg"]{background:#faf0dd;color:#85500b}
+.tag[data-source="baidu"]{background:#e9f0fd;color:#1a56b8}
+.tag[data-source="weibo"]{background:#ffede7;color:#c2410c}
 @media (prefers-color-scheme: dark){
   .tag[data-source="xuexi"]{background:#3a1f1f;color:#f0a9a9}
   .tag[data-source="people"]{background:#1b2b3c;color:#8dbcec}
   .tag[data-source="bloomberg"]{background:#332a18;color:#e3c07d}
+  .tag[data-source="baidu"]{background:#1c2b45;color:#9cbeff}
+  .tag[data-source="weibo"]{background:#3b241c;color:#f5ad8c}
 }
 .channel{font-size:11.5px;color:var(--faint)}
+.hot-group{margin-top:24px}
+.hot-head{font-size:11.5px;color:var(--faint);display:flex;align-items:center;gap:10px;padding:0 2px 10px}
+.hot-head::after{content:"";flex:1;height:1px;background:var(--border)}
+.hot-panel{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:4px 0 10px;margin-bottom:14px}
+.hot-source{font-size:11.5px;color:var(--faint);padding:10px 16px 4px}
+.hot-item{display:flex;align-items:center;gap:10px;padding:6px 16px}
+.hot-item:hover{background:var(--bg)}
+.hot-rank{flex:0 0 20px;text-align:center;font-size:12px;font-weight:600;color:var(--faint);font-variant-numeric:tabular-nums}
+.hot-item[data-top="1"] .hot-rank{color:#d64b4b}
+.hot-item[data-top="2"] .hot-rank{color:#dd8033}
+.hot-item[data-top="3"] .hot-rank{color:#c99a2e}
+.hot-title{flex:1;min-width:0;font-size:13.5px;color:var(--text);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hot-title:hover{color:var(--accent)}
+.hot-value{flex:0 0 auto;font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
 .card h2{font-size:16px;line-height:1.5;font-weight:500;margin:0 0 8px;color:var(--text)}
 .card h2 a{color:inherit;text-decoration:none}
 .card h2 a:hover{color:var(--accent)}
@@ -90,6 +108,10 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   #updated{display:none}
   .card{padding:14px 15px}
   .card h2{font-size:15.5px}
+  .hot-item{padding:6px 12px;gap:8px}
+  .hot-source{padding:10px 12px 4px}
+  .hot-title{font-size:13px}
+  .hot-value{font-size:10.5px}
 }
 </style>
 </head>
@@ -100,7 +122,7 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
       <div class="logo">闻</div>
       <div>
         <h1>每日新闻</h1>
-        <p>学习强国同源内容 · 人民日报 · Bloomberg</p>
+        <p>学习强国同源 · 人民日报 · Bloomberg · 百度/微博热搜</p>
       </div>
     </div>
     <div class="meta">
@@ -117,13 +139,14 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   <section id="notice" class="notice" hidden></section>
   <nav class="tabs" id="tabs" aria-label="新闻来源筛选"></nav>
   <div class="tools">
-    <input id="search" type="search" placeholder="搜索标题、摘要或频道…" autocomplete="off" aria-label="搜索新闻">
+    <input id="search" type="search" placeholder="搜索新闻、热搜词条或频道…" autocomplete="off" aria-label="搜索新闻">
     <span id="count"></span>
   </div>
   <div id="list"></div>
   <footer>
     <div>本站仅聚合公开的标题、摘要与原文链接，不存储或转载正文；内容版权归原作者及原媒体所有，阅读请跳转原文。</div>
     <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新。</div>
+    <div>百度热搜、微博热搜为公开榜单快照，仅收录词条与热度值，点击跳转对应平台的搜索页；榜单变化很快，展示的是抓取时刻的排名。</div>
   </footer>
 </main>
 
@@ -131,7 +154,10 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
 (function () {
   'use strict';
   var $ = function (s) { return document.querySelector(s); };
-  var SOURCE_LABEL = { xuexi: '学习强国', people: '人民日报', bloomberg: 'Bloomberg' };
+  var SOURCE_LABEL = {
+    xuexi: '学习强国', people: '人民日报', bloomberg: 'Bloomberg',
+    baidu: '百度热搜', weibo: '微博热搜'
+  };
   var state = { data: null, filter: 'all', q: '' };
 
   function safeUrl(u) {
@@ -149,6 +175,15 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
         hour: '2-digit', minute: '2-digit', hour12: false
       });
     } catch (e) { return iso; }
+  }
+
+  function fmtHot(n) {
+    if (!Number.isFinite(n) || n <= 0) return '';
+    if (n >= 10000) {
+      var v = n / 10000;
+      return (v >= 100 ? Math.round(v) : Math.round(v * 10) / 10) + '万';
+    }
+    return String(n);
   }
 
   function dayLabel(date, today) {
@@ -259,6 +294,56 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
     });
   }
 
+  function renderHotBlock(rows) {
+    var wrap = document.createElement('section');
+    wrap.className = 'hot-group';
+    var head = document.createElement('div');
+    head.className = 'hot-head';
+    head.textContent = '实时热搜榜 · 快照 ' + fmtUpdated(state.data.generatedAt);
+    wrap.appendChild(head);
+
+    state.data.sources.forEach(function (s) {
+      var list = rows.filter(function (it) { return it.source === s.id; })
+        .sort(function (a, b) { return (a.rank || 0) - (b.rank || 0); });
+      if (!list.length) return;
+      var panel = document.createElement('div');
+      panel.className = 'hot-panel';
+      var cap = document.createElement('div');
+      cap.className = 'hot-source';
+      cap.textContent = (SOURCE_LABEL[s.id] || s.name) + ' · ' + list.length + ' 条';
+      panel.appendChild(cap);
+      list.forEach(function (it) {
+        var row = document.createElement('div');
+        row.className = 'hot-item';
+        row.dataset.top = String(it.rank <= 3 ? it.rank : 0);
+        var rank = document.createElement('span');
+        rank.className = 'hot-rank';
+        rank.textContent = it.rank || '·';
+        row.appendChild(rank);
+        var a = document.createElement('a');
+        a.className = 'hot-title';
+        var href = safeUrl(it.url);
+        if (href) {
+          a.href = href;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+        }
+        a.textContent = it.title || '（无标题）';
+        row.appendChild(a);
+        var hot = fmtHot(it.hot);
+        if (hot) {
+          var v = document.createElement('span');
+          v.className = 'hot-value';
+          v.textContent = hot;
+          row.appendChild(v);
+        }
+        panel.appendChild(row);
+      });
+      wrap.appendChild(panel);
+    });
+    return wrap;
+  }
+
   function renderList() {
     var q = state.q.trim().toLowerCase();
     var rows = state.data.items.filter(function (it) {
@@ -273,13 +358,17 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
     if (!rows.length) {
       var empty = document.createElement('div');
       empty.className = 'empty';
-      empty.textContent = '没有匹配的新闻，换个关键词或来源试试。';
+      empty.textContent = '没有匹配的条目，换个关键词或来源试试。';
       box.appendChild(empty);
       return;
     }
 
+    var hots = rows.filter(function (it) { return it.kind === 'hot'; });
+    var news = rows.filter(function (it) { return it.kind !== 'hot'; });
+    if (hots.length) box.appendChild(renderHotBlock(hots));
+
     var groups = new Map();
-    rows.forEach(function (it) {
+    news.forEach(function (it) {
       var k = it.date || '未知';
       if (!groups.has(k)) groups.set(k, []);
       groups.get(k).push(it);

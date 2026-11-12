@@ -48,6 +48,7 @@ if (/fetch\(['"]\.\/data\/news\.json/.test(result)) {
 }
 
 fs.writeFileSync(out, result, 'utf8');
+const hotCount = data.items.filter((x) => x.kind === 'hot').length;
 console.log(`已生成 ${out}`);
-console.log(`  ${data.items.length} 条新闻 | 快照时间 ${data.generatedAt} | ${(Buffer.byteLength(result) / 1024).toFixed(1)} KB`);
+console.log(`  ${data.items.length} 条条目（新闻 ${data.items.length - hotCount} / 热搜 ${hotCount}）| 快照时间 ${data.generatedAt} | ${(Buffer.byteLength(result) / 1024).toFixed(1)} KB`);
 console.log('  零外部请求，可直接双击打开或发送到手机');
