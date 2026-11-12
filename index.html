@@ -47,32 +47,6 @@ button{font-family:inherit}
 #refresh{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:6px 12px;font-size:12px;cursor:pointer}
 #refresh:hover{border-color:var(--accent);color:var(--accent)}
 #refresh:disabled{opacity:.55;cursor:default}
-#setup{border:1px solid var(--border);background:var(--surface);color:var(--faint);border-radius:8px;padding:6px 9px;font-size:12px;line-height:1;cursor:pointer}
-#setup:hover{border-color:var(--accent);color:var(--accent)}
-#setup[hidden]{display:none}
-.status{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:10px;padding:9px 14px;font-size:12.5px;line-height:1.7;margin-top:16px}
-.status[hidden]{display:none}
-.status.hint{color:var(--faint)}
-.status.busy{border-color:var(--accent);color:var(--accent)}
-.status.ok{background:#ecf7ee;border-color:#bfe3c8;color:#1f7a3d}
-.status.warn{background:var(--warn-bg);border-color:var(--warn-border);color:var(--warn-text)}
-@media (prefers-color-scheme: dark){ .status.ok{background:#18291d;border-color:#2f5638;color:#8fd3a0} }
-.mask{position:fixed;inset:0;z-index:50;background:rgba(10,14,20,.5);display:grid;place-items:center;padding:18px}
-.mask[hidden]{display:none}
-.panel{width:100%;max-width:440px;max-height:88vh;overflow:auto;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 22px;box-shadow:0 12px 40px rgba(0,0,0,.18)}
-.panel h3{margin:0 0 10px;font-size:16px;font-weight:600;color:var(--text)}
-.panel p{margin:0 0 10px;font-size:12.5px;line-height:1.8;color:var(--muted)}
-.panel a{color:var(--accent)}
-.panel code{background:var(--bg);border-radius:4px;padding:1px 5px;font-size:12px}
-.panel .tip{color:var(--faint);font-size:11.5px}
-#token{width:100%;margin:4px 0 0;background:var(--bg);border:1px solid var(--border);border-radius:9px;padding:10px 12px;font-size:13px;color:var(--text);outline:none;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-#token:focus{border-color:var(--accent)}
-.panel-msg{min-height:18px;margin:8px 0 4px;font-size:11.5px;color:var(--warn-text)}
-.panel-btns{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px;margin-top:6px}
-.panel-btns button{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:7px 13px;font-size:12.5px;cursor:pointer}
-.panel-btns button:hover{border-color:var(--accent);color:var(--accent)}
-.panel-btns .primary{background:var(--active);border-color:var(--active);color:#fff}
-.panel-btns .primary:hover{color:#fff;opacity:.9}
 .notice{background:var(--warn-bg);border:1px solid var(--warn-border);color:var(--warn-text);border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.7;margin-top:16px}
 .notice[hidden]{display:none}
 .tabs{display:flex;gap:8px;overflow-x:auto;padding:18px 0 12px;scrollbar-width:none}
@@ -133,7 +107,6 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
       <div class="meta-row">
         <span id="updated">加载中…</span>
         <button id="refresh" type="button">刷新</button>
-        <button id="setup" type="button" title="开启「点击即抓取」" aria-label="开启点击即抓取">⚙</button>
       </div>
       <div class="powered">Powered by 贾雨桐<span class="heart">❤</span></div>
     </div>
@@ -141,7 +114,6 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
 </header>
 
 <main class="wrap">
-  <div id="status" class="status" hidden></div>
   <section id="notice" class="notice" hidden></section>
   <nav class="tabs" id="tabs" aria-label="新闻来源筛选"></nav>
   <div class="tools">
@@ -151,25 +123,9 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   <div id="list"></div>
   <footer>
     <div>本站仅聚合公开的标题、摘要与原文链接，不存储或转载正文；内容版权归原作者及原媒体所有，阅读请跳转原文。</div>
-    <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新；点右上角「抓取」可随时触发一次即时更新。</div>
+    <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新。</div>
   </footer>
 </main>
-
-<div id="mask" class="mask" hidden>
-  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title">
-    <h3 id="panel-title">开启「点击即抓取」</h3>
-    <p>本页是纯静态网页，新闻抓取由 GitHub Actions 在云端完成。点一下「抓取」，页面会触发一次真实抓取任务，数据写回仓库后自动刷新，手机和电脑都能看到。</p>
-    <p>需要你自己的 GitHub 令牌来发起这一次触发。推荐 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">创建细粒度令牌 ↗</a>：仓库只选 <code>daily-news-reader</code>，权限只勾 <b>Actions: Read and Write</b>；也可用 classic 令牌（勾 <code>repo</code>）。</p>
-    <p class="tip">令牌只保存在本机浏览器的 localStorage，不会上传、不会写入网站代码，可随时清除。公开页面请勿把令牌写进仓库。手机与电脑需各自配置一次。</p>
-    <input id="token" type="password" placeholder="粘贴 ghp_ 或 github_pat_ 开头的令牌" autocomplete="off" spellcheck="false" aria-label="GitHub 令牌">
-    <div id="panel-msg" class="panel-msg"></div>
-    <div class="panel-btns">
-      <button type="button" id="clear-token">清除</button>
-      <button type="button" id="cancel-token">取消</button>
-      <button type="button" id="save-token" class="primary">保存并抓取</button>
-    </div>
-  </div>
-</div>
 
 <script>
 (function () {
@@ -177,14 +133,6 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   var $ = function (s) { return document.querySelector(s); };
   var SOURCE_LABEL = { xuexi: '学习强国', people: '人民日报', bloomberg: 'Bloomberg' };
   var state = { data: null, filter: 'all', q: '' };
-  // 离线构建脚本会把 OFFLINE 置为 true；在线版恒为 false
-  var OFFLINE = false;
-  var GH = {
-    owner: '76NeverDie',
-    repo: 'daily-news-reader',
-    workflow: 'update-news.yml',
-    tokenKey: 'xiaojia-gh-token'
-  };
 
   function safeUrl(u) {
     try {
@@ -348,140 +296,36 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
     });
   }
 
-  function getToken() {
-    try { return (localStorage.getItem(GH.tokenKey) || '').trim(); } catch (e) { return ''; }
-  }
-  function saveToken(v) {
-    try { localStorage.setItem(GH.tokenKey, v.trim()); return true; } catch (e) { return false; }
-  }
-  function dropToken() {
-    try { localStorage.removeItem(GH.tokenKey); } catch (e) { /* 忽略 */ }
-  }
-  function syncButtonLabel() {
-    var armed = !OFFLINE && !!getToken();
-    $('#refresh').textContent = armed ? '抓取' : '刷新';
-    $('#refresh').title = armed
-      ? '点击触发一次真实抓取（云端运行，约 1～3 分钟）'
-      : '点击重新载入最新快照；点 ⚙ 可开启主动抓取';
-    var s = $('#setup');
-    if (s) s.hidden = !!OFFLINE;
-  }
-  function setStatus(msg, kind) {
-    var el = $('#status');
-    if (!msg) { el.hidden = true; el.textContent = ''; el.className = 'status'; return; }
-    el.hidden = false;
-    el.textContent = msg;
-    el.className = 'status' + (kind ? ' ' + kind : '');
-  }
-  function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
-
-  // 读取站点自身域名下的数据快照（离线版由构建脚本替换为内嵌数据）
-  async function readData() {
-    var res = await fetch('./data/news.json?t=' + Date.now(), { cache: 'no-store' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    var data = await res.json();
-    if (!data || !Array.isArray(data.items) || !Array.isArray(data.sources)) throw new Error('数据格式不正确');
-    return data;
-  }
-
-  function applyData(data) {
-    state.data = data;
-    $('#updated').textContent = '更新于 ' + fmtUpdated(data.generatedAt);
-    renderNotice();
-    renderTabs();
-    renderList();
-  }
-
-  // 触发一次 GitHub Actions 的真实抓取任务
-  async function triggerFetch(token) {
-    var url = 'https://api.github.com/repos/' + GH.owner + '/' + GH.repo +
-              '/actions/workflows/' + GH.workflow + '/dispatches';
-    var res = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/vnd.github+json',
-        'Authorization': 'Bearer ' + token,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ ref: 'main' })
-    });
-    if (res.ok) return;
-    var detail = '';
-    try { var j = await res.json(); detail = j.message || ''; } catch (e) { /* 忽略 */ }
-    var msg = 'HTTP ' + res.status + (detail ? '：' + detail : '');
-    if (res.status === 401) msg = '令牌无效或已撤销，请点 ⚙ 重新设置';
-    else if (res.status === 403) msg = '令牌权限不足，需要该仓库的 Actions 写权限（也可能触发了 GitHub 限流）';
-    else if (res.status === 404) msg = '未找到工作流，请确认仓库仍为 76NeverDie/daily-news-reader 且默认分支为 main';
-    throw new Error(msg);
-  }
-
-  // 等待 CI 抓取完成并发布：检测到 generatedAt 变化即返回新数据
-  async function waitForFresh(prev, maxMs, onTick) {
-    var start = Date.now();
-    while (Date.now() - start < maxMs) {
-      await sleep(9000);
-      if (onTick) onTick(Math.round((Date.now() - start) / 1000));
-      try {
-        var d = await readData();
-        if (d.generatedAt && d.generatedAt !== prev) return d;
-      } catch (e) { /* 发布中，继续等待 */ }
-    }
-    return null;
-  }
-
-  async function load(isManual) {
+  async function load() {
     var btn = $('#refresh');
-    if (btn.disabled) return;
     btn.disabled = true;
-    btn.textContent = '处理中…';
+    btn.textContent = '刷新中…';
     var box = $('#list');
-    if (!state.data) {
-      box.replaceChildren();
-      var loading = document.createElement('div');
-      loading.className = 'empty';
-      loading.textContent = '正在加载新闻…';
-      box.appendChild(loading);
-    }
-    var token = (!OFFLINE && isManual) ? getToken() : '';
+    box.replaceChildren();
+    var loading = document.createElement('div');
+    loading.className = 'empty';
+    loading.textContent = '正在加载新闻…';
+    box.appendChild(loading);
     try {
-      var current = await readData();
-      var prev = current.generatedAt;
-      applyData(current);
-
-      if (!token) {
-        if (isManual) {
-          setStatus(OFFLINE
-            ? '这是离线快照，刷新只会重新载入内嵌数据。要主动抓取，请打开在线版并点右上角 ⚙ 配置一次。'
-            : '已载入最新快照（' + fmtUpdated(current.generatedAt) + '）。想让这颗按钮「点一次就重新抓取」，点右上角 ⚙ 配置一次即可。', 'hint');
-        }
-        return;
-      }
-
-      setStatus('已发起抓取，云端正在抓取三个新闻源…', 'busy');
-      await triggerFetch(token);
-      setStatus('抓取任务已启动，正在等待数据写回仓库并发布（通常 1～3 分钟）…', 'busy');
-      var fresh = await waitForFresh(prev, 240000, function (sec) {
-        setStatus('抓取任务运行中 · 已等待 ' + sec + ' 秒，数据发布后会自动刷新…', 'busy');
-      });
-      if (fresh) {
-        applyData(fresh);
-        setStatus('抓取完成 · 已更新 ' + fresh.items.length + ' 条新闻（' + fmtUpdated(fresh.generatedAt) + '）', 'ok');
-      } else {
-        setStatus('抓取已触发，但 4 分钟内未检测到新数据。任务可能仍在排队或发布较慢，稍后再点一次「抓取」即可；也可到 GitHub Actions 查看运行记录。', 'warn');
-      }
+      var res = await fetch('./data/news.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+      if (!data || !Array.isArray(data.items) || !Array.isArray(data.sources)) throw new Error('数据格式不正确');
+      state.data = data;
+      $('#updated').textContent = '更新于 ' + fmtUpdated(data.generatedAt);
+      renderNotice();
+      renderTabs();
+      renderList();
     } catch (e) {
-      if (!state.data) {
-        box.replaceChildren();
-        var err = document.createElement('div');
-        err.className = 'empty';
-        err.textContent = '数据加载失败：' + e.message + '。请稍后点击刷新重试。';
-        box.appendChild(err);
-        $('#updated').textContent = '加载失败';
-      }
-      setStatus('主动抓取失败：' + e.message, 'warn');
+      box.replaceChildren();
+      var err = document.createElement('div');
+      err.className = 'empty';
+      err.textContent = '数据加载失败：' + e.message + '。请确认 data/news.json 已生成，或稍后点击刷新重试。';
+      box.appendChild(err);
+      $('#updated').textContent = '加载失败';
     } finally {
       btn.disabled = false;
-      syncButtonLabel();
+      btn.textContent = '刷新';
     }
   }
 
@@ -489,48 +333,7 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
     state.q = e.target.value;
     if (state.data) renderList();
   });
-  $('#refresh').addEventListener('click', function () { return load(true); });
-
-  var mask = $('#mask');
-  var tokenInput = $('#token');
-  var panelMsg = $('#panel-msg');
-  function openPanel() {
-    tokenInput.value = getToken();
-    panelMsg.textContent = getToken() ? '当前已配置令牌（仅保存在本机浏览器）。' : '';
-    mask.hidden = false;
-    try { tokenInput.focus(); } catch (e) { /* 忽略 */ }
-  }
-  function closePanel() { mask.hidden = true; panelMsg.textContent = ''; }
-  var setupBtn = $('#setup');
-  if (setupBtn) setupBtn.addEventListener('click', openPanel);
-  var cancelBtn = $('#cancel-token');
-  if (cancelBtn) cancelBtn.addEventListener('click', closePanel);
-  if (mask) mask.addEventListener('click', function (e) { if (e.target === mask) closePanel(); });
-  var clearBtn = $('#clear-token');
-  if (clearBtn) clearBtn.addEventListener('click', function () {
-    dropToken();
-    tokenInput.value = '';
-    panelMsg.textContent = '已清除本机令牌，按钮恢复为「刷新」。';
-    syncButtonLabel();
-  });
-  var saveBtn = $('#save-token');
-  if (saveBtn) saveBtn.addEventListener('click', function () {
-    var v = (tokenInput.value || '').trim();
-    if (!/^(ghp_|github_pat_|gho_|ghu_|ghs_|ghr_)/.test(v)) {
-      panelMsg.textContent = '请粘贴有效的 GitHub 令牌（ghp_ 或 github_pat_ 开头）。';
-      return;
-    }
-    if (!saveToken(v)) {
-      panelMsg.textContent = '浏览器拒绝写入本地存储（可能开启了隐私模式），请换普通窗口重试。';
-      return;
-    }
-    closePanel();
-    syncButtonLabel();
-    setStatus('设置已保存，正在发起第一次抓取…', 'busy');
-    return load(true);
-  });
-
-  syncButtonLabel();
+  $('#refresh').addEventListener('click', load);
   load();
 })();
 </script>
