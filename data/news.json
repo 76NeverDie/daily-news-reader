@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:30:36.279Z",
+  "generatedAt": "2026-11-12T10:16:14.606Z",
   "date": "2026-11-12",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "name": "学习强国",
       "note": "学习强国未提供公开数据接口，本栏展示人民网时政、理论、党建、评论等官方同源内容",
       "status": "ok",
-      "count": 21,
+      "count": 16,
       "error": null
     },
     {
@@ -29,49 +29,22 @@
   ],
   "items": [
     {
-      "title": "纪念孙中山先生诞辰160周年大会12日上午在京隆重举行",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1024-40832742.html",
+      "title": "纪念孙中山先生诞辰160周年大会在京举行 习近平发表重要讲话",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c1024-40832776.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "时政",
       "source": "xuexi",
-      "id": "10d60869f2fc8eff"
-    },
-    {
-      "title": "“振兴中华”的百年回响",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832621.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "249386ca16607d4b"
-    },
-    {
-      "title": "李强将访问泰国并赴菲律宾出席中国—东盟领导人会议",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1024-40832307.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "10569b0e5620d8af"
-    },
-    {
-      "title": "王沪宁会见古巴党和政府特使罗德里格斯",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1024-40832308.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "08e9a208c87777f8"
+      "id": "3d18ea0c1b26fb6c"
     },
     {
       "title": "韩正出席COP31安塔利亚领导人峰会并作国别发言",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832374.html",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832781.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "时政",
       "source": "xuexi",
-      "id": "8ae9aa91220445ab"
+      "id": "125190996b6cf10b"
     },
     {
       "title": "更加科学有效地把权力关进制度笼子",
@@ -83,6 +56,24 @@
       "id": "c54c1b7d10c92025"
     },
     {
+      "title": "坚持用党的创新理论凝心铸魂",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832334.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "4ce921185d40fbeb"
+    },
+    {
+      "title": "中央宣讲团在内蒙古自治区宣讲",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832852.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "3b2773690753a98e"
+    },
+    {
       "title": "脱贫后,看一个西部县\"造血式\"振兴",
       "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832304.html",
       "summary": "",
@@ -92,22 +83,22 @@
       "id": "d360801ad4ffbea3"
     },
     {
-      "title": "中央宣讲团在北京、中央统战部、中宣部等宣讲",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832309.html",
+      "title": "读懂\"听劝式文旅\"的出圈秘诀",
+      "url": "http://opinion.people.com.cn/n1/2026/1112/c436867-40832696.html",
       "summary": "",
       "date": "2026-11-12",
-      "channel": "时政",
+      "channel": "评论",
       "source": "xuexi",
-      "id": "3e371fe0dbd5431a"
+      "id": "d739d4360932608a"
     },
     {
-      "title": "坚持用党的创新理论凝心铸魂",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832334.html",
+      "title": "壹时评:弹窗广告治理须打破\"罚酒三杯\"困局",
+      "url": "http://opinion.people.com.cn/n1/2026/1112/c223228-40832521.html",
       "summary": "",
       "date": "2026-11-12",
-      "channel": "时政",
+      "channel": "评论",
       "source": "xuexi",
-      "id": "4ce921185d40fbeb"
+      "id": "a004e6bd4ee4769a"
     },
     {
       "title": "持之以恒全面从严治党的科学方法",
@@ -128,49 +119,31 @@
       "id": "6707bb01875bfde1"
     },
     {
-      "title": "王毅同古巴外长罗德里格斯会谈",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832311.html",
+      "title": "国务院任免国家工作人员",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832892.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "时政",
       "source": "xuexi",
-      "id": "2ae3b7746e9a5386"
+      "id": "6e7eb9a08b65d3f3"
     },
     {
-      "title": "王毅同美国国务卿鲁比奥通电话",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832312.html",
+      "title": "中国邮政发行《纪念孙中山先生诞辰160周年》纪念邮票小型张",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832783.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "时政",
       "source": "xuexi",
-      "id": "1f730dba53ec35be"
+      "id": "6024697d027d5323"
     },
     {
-      "title": "陈文清：纵深推进依法从严查处危害食品安全违法犯罪专项工作",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832321.html",
+      "title": "事关技能人才评价 这部条例公开征求意见",
+      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832863.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "时政",
       "source": "xuexi",
-      "id": "d1131bfb5a019415"
-    },
-    {
-      "title": "权威访谈丨以更高标准、更实举措持之以恒推进全面从严治党",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832310.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "57bc5080c5185eea"
-    },
-    {
-      "title": "第24届中国国际人才交流大会在上海举行 谌贻琴出席开幕式并讲话",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c1001-40832322.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "9542b05186a9e079"
+      "id": "5e05867678898a20"
     },
     {
       "title": "加强财会监督，看好“钱袋子”“账本子”",
@@ -180,15 +153,6 @@
       "channel": "时政",
       "source": "xuexi",
       "id": "4d0d9a16bdd2b169"
-    },
-    {
-      "title": "“田间吹哨人”：不只盯着干,还要商量着办",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832305.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "ccd4bca7fa0b2634"
     },
     {
       "title": "评论丨坚持全面从严，激发干事创业精气神",
@@ -209,15 +173,6 @@
       "id": "3980cc2ec391fbbe"
     },
     {
-      "title": "同住一个院，亲如一家人",
-      "url": "http://politics.people.com.cn/n1/2026/1112/c461001-40832335.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "160fb6df6e66fdd0"
-    },
-    {
       "title": "让贸易成为促进全球发展繁荣的普惠引擎",
       "url": "http://world.people.com.cn/n1/2026/1112/c1002-40832314.html",
       "summary": "",
@@ -225,6 +180,24 @@
       "channel": "国际",
       "source": "people",
       "id": "03a15bbd9d817eee"
+    },
+    {
+      "title": "小剧场进古城 戏留下人也留下",
+      "url": "http://hb.people.com.cn/n2/2026/1112/c192237-41748772.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "要闻",
+      "source": "people",
+      "id": "41c1befb3fb0d026"
+    },
+    {
+      "title": "汽油、柴油价格下调",
+      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832867.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "财经",
+      "source": "people",
+      "id": "b515d0d26ed9dccc"
     },
     {
       "title": "一批侵华日军细菌战化学战新罪证集中发布",
@@ -245,22 +218,13 @@
       "id": "bb0ed5e40c117204"
     },
     {
-      "title": "纪念孙中山先生诞辰160周年大会在京举行 习近平出席大会并发表重要讲话",
-      "url": "http://pic.people.com.cn/n1/2026/1112/c426981-40832751.html",
+      "title": "纪念孙中山先生诞辰160周年大会在京举行",
+      "url": "http://pic.people.com.cn/n1/2026/1112/c426981-40832910.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "图片",
       "source": "people",
-      "id": "1b14059a7ab9c5d9"
-    },
-    {
-      "title": "2026年APEC领导人会议周新闻中心启用",
-      "url": "http://pic.people.com.cn/n1/2026/1112/c1016-40832614.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "图片",
-      "source": "people",
-      "id": "170fb010581f7507"
+      "id": "08154f9404050778"
     },
     {
       "title": "行进中国丨河南周口港：内联外通智筑枢纽",
@@ -270,6 +234,15 @@
       "channel": "要闻",
       "source": "people",
       "id": "c3061e4a6bee6994"
+    },
+    {
+      "title": "我国渤海中部海域超深层油气勘探取得重大突破",
+      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832770.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "财经",
+      "source": "people",
+      "id": "621ff22351578458"
     },
     {
       "title": "陕西西安：千年古银杏树满目鎏金",
@@ -288,15 +261,6 @@
       "channel": "图片",
       "source": "people",
       "id": "3ff42db065fd8b09"
-    },
-    {
-      "title": "第八届上海国际艺术品交易周举行",
-      "url": "http://pic.people.com.cn/n1/2026/1112/c1016-40832648.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "图片",
-      "source": "people",
-      "id": "b11c84a5fd01fb1e"
     },
     {
       "title": "广西发布一批干部任前公示",
@@ -326,13 +290,31 @@
       "id": "7068e3f9a7c79ccc"
     },
     {
-      "title": "《中华人民共和国水法》自2027年3月22日起施行",
-      "url": "http://society.people.com.cn/n1/2026/1112/c1008-40832356.html",
+      "title": "外交部谈东京审判宣判78周年： 历史不容忘记",
+      "url": "http://world.people.com.cn/n1/2026/1112/c1002-40832856.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "国际",
+      "source": "people",
+      "id": "bb50d73ded42dc6e"
+    },
+    {
+      "title": "商务部：中美正就降税、贸易、投资等问题保持密切沟通",
+      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832840.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "财经",
+      "source": "people",
+      "id": "1c28c068255338ab"
+    },
+    {
+      "title": "18起涉食品安全重大犯罪案件被挂牌督办",
+      "url": "http://society.people.com.cn/n1/2026/1112/c1008-40832872.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "社会",
       "source": "people",
-      "id": "9844fbfca54d30f4"
+      "id": "a5d5c260658c4ed7"
     },
     {
       "title": "讲好丝路故事",
@@ -353,49 +335,58 @@
       "id": "67d70c4cc696b4ce"
     },
     {
-      "title": "“熊猫专列”助老年人乐享“诗和远方”",
-      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832379.html",
+      "title": "湖北：一馆藏乡愁，映照峡江新图景",
+      "url": "http://hb.people.com.cn/n2/2026/1112/c192237-41748854.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "要闻",
+      "source": "people",
+      "id": "8014ccfe446c0447"
+    },
+    {
+      "title": "浙江海宁：一张协商桌 两个大市场",
+      "url": "http://zj.people.com.cn/n2/2026/1112/c186327-41748592.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "要闻",
+      "source": "people",
+      "id": "db5e7c84bddb4ebd"
+    },
+    {
+      "title": "安徽向上丨滁州全椒：装备制造向“新”换挡",
+      "url": "http://ah.people.com.cn/n2/2026/1112/c227131-41748705.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "要闻",
+      "source": "people",
+      "id": "ef20151394cd507a"
+    },
+    {
+      "title": "四川荥经：山民转身，端稳“生态饭碗”",
+      "url": "http://sc.people.com.cn/n2/2026/1112/c345167-41748614.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "要闻",
+      "source": "people",
+      "id": "8247394e572f07ff"
+    },
+    {
+      "title": "“人和地都莫得事，还盼到下一季的丰收噻”",
+      "url": "http://society.people.com.cn/n1/2026/1112/c1008-40832735.html",
+      "summary": "",
+      "date": "2026-11-12",
+      "channel": "社会",
+      "source": "people",
+      "id": "c85c3c4cf75d51c8"
+    },
+    {
+      "title": "AI观察｜手机里预装的智能体，要“持证上岗”了",
+      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832771.html",
       "summary": "",
       "date": "2026-11-12",
       "channel": "财经",
       "source": "people",
-      "id": "45c28103b4d98105"
-    },
-    {
-      "title": "农田里“长”出新质生产力",
-      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832355.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "财经",
-      "source": "people",
-      "id": "646c049f4719060e"
-    },
-    {
-      "title": "大道理落地，孩子的好习惯生根",
-      "url": "http://edu.people.com.cn/n1/2026/1112/c1006-40832351.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "教育",
-      "source": "people",
-      "id": "efbed9abb3cd5df5"
-    },
-    {
-      "title": "“双11”新趋势：买实物，更买服务",
-      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832336.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "财经",
-      "source": "people",
-      "id": "137a11ab51da0f74"
-    },
-    {
-      "title": "国风原创，年轻人的审美“心头好”",
-      "url": "http://finance.people.com.cn/n1/2026/1112/c1004-40832339.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "财经",
-      "source": "people",
-      "id": "2507806ca6d668f9"
+      "id": "3497a7ca527eabaa"
     },
     {
       "title": "检察机关依法对韩嵩涉嫌受贿案提起公诉",
@@ -542,301 +533,346 @@
       "id": "f38d0598b0a0c311"
     },
     {
-      "title": "地球“地质档案”为什么缺了10亿年",
-      "url": "http://kpzg.people.com.cn/n1/2026/1112/c404214-40832432.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Bundesbank Warns Commercial Property Prices May Decline Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/bundesbank-warns-commercial-property-prices-may-decline-again",
+      "summary": "Germany’s central bank warned that commercial real estate prices may decline again if interest rates rise or troubled property funds are forced to sell assets.",
       "date": "2026-11-12",
-      "channel": "要闻",
-      "source": "people",
-      "id": "31ed76c3d266cc53"
+      "id": "7365f414a2de7858"
     },
     {
-      "title": "航空科创丰富校园生活",
-      "url": "http://kpzg.people.com.cn/n1/2026/1112/c404214-40832418.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Dubai DET on the Emirate’s Growth Outlook in 2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/dubai-det-on-the-emirate-s-growth-outlook-in-2026-video",
+      "summary": "H.E. Hadi Badri, CEO, Dubai Economic Development Corporation, Dubai Department of Economy & Tourism, discusses Dubai’s economic growth, investment priorities and outlook with Bloomberg's Jacob Greaves at Bloomberg Invest",
       "date": "2026-11-12",
-      "channel": "要闻",
-      "source": "people",
-      "id": "c94ece9ff11824dd"
+      "id": "3a36af822f4ad905"
     },
     {
-      "title": "从“试验田”迈向“高产田”",
-      "url": "http://society.people.com.cn/n1/2026/1112/c1008-40832596.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Nvidia Weighs on US Index Futures as CEO Uncertainty Hits Shares",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-weighs-on-us-index-futures-as-ceo-uncertainty-hits-shares",
+      "summary": "US stock index futures slid as Nvidia Corp. considers replacing Chief Executive Officer Jensen Huang, with the AI chipmaker’s drop making up over half of the Nasdaq 100 contracts’ declines.",
       "date": "2026-11-12",
-      "channel": "社会",
-      "source": "people",
-      "id": "18c20910ed25fefe"
-    },
-    {
-      "title": "藏在绘本里的法治课",
-      "url": "http://society.people.com.cn/n1/2026/1112/c1008-40832617.html",
-      "summary": "",
-      "date": "2026-11-12",
-      "channel": "社会",
-      "source": "people",
-      "id": "0b9492556d921398"
+      "id": "9d726aca4e4ba2e8"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
       "title": "IDR/USD: Indonesian Rupiah Drops to Record Amid MSCI Concerns, Oil Risks",
       "url": "https://www.bloomberg.com/news/articles/2026-11-12/idr-usd-indonesian-rupiah-drops-to-record-amid-msci-concerns-oil-risks",
-      "summary": "The Indonesian rupiah fell to an all-time low as a stronger dollar and the risk of MSCI Inc. removing the nation’s stocks from its emerging-market indexes cast a pall over Asia’s worst-performing currency.",
+      "summary": "The Indonesian rupiah fell to an all-time low, prompting authorities to once again step in to contain a recent selloff that also hit the nation’s stocks and bonds.",
       "date": "2026-11-12",
       "id": "68c7d6782906d682"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Nvidia Turmoil Lifts AMD, Broadcom on Bets for Business Gains",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-turmoil-lifts-amd-broadcom-on-bets-for-business-gains",
-      "summary": "Nvidia Corp.’s leadership turmoil is boosting potential beneficiaries, with Advanced Micro Devices Inc., Broadcom Inc. and Alphabet Inc. gaining after hours on bets they may win business from the chip giant.",
+      "title": "Russia Steps Up Attacks on Ukraine’s Vital Food Factories",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/russia-steps-up-attacks-on-ukraine-s-vital-food-factories",
+      "summary": "Russia is stepping up attacks on Ukraine’s crop-processing facilities, further straining an industry vital to the war-battered economy and global food supplies.",
       "date": "2026-11-12",
-      "id": "f40cea92f2e0bd53"
+      "id": "5397329bb7798dce"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Taiwan Drafts Plans for Wealth Fund, Aims for Bill by Year-End",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/taiwan-drafts-plans-for-wealth-fund-aims-for-bill-by-year-end",
-      "summary": "Taiwan is drafting legislation to establish a new sovereign wealth fund with initial capital of about NT$30 billion ($912 million), pushing ahead with the government’s plan to make strategic investments overseas.",
+      "title": "Poland Loses Luster as Debt Woes Mount on Political Turmoil",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/poland-bonds-lose-luster-as-debt-woes-mount-with-political-pain",
+      "summary": "Bondholders are increasingly questioning Poland’s long-held status as an emerging-market favorite as political turmoil undermines the government’s ability to rein in its fast-growing $600 billion debt load.",
       "date": "2026-11-12",
-      "id": "64535ef5e0e4e3ff"
+      "id": "acb1bb3d535889a1"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Chief Future Officer: Eimear Bonner, Chevron | Patience Sustains Progress",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/chief-future-officer-eimear-bonner-chevron-video",
-      "summary": "Chief Financial Officers now play a critical role in shaping corporate strategy and positioning organizations to meet future challenges. This episode profiles Chevron CFO Eimear Bonner, who has helped lead the US energy ",
+      "title": "Alexis Ohanian Bet on Women’s Sports First",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/alexis-ohanian-bet-on-women-s-sports-first-video",
+      "summary": "In this episode of The Deal, Alex Rodriguez and Jason Kelly talk with entrepreneur and investor Alexis Ohanian at Bloomberg’s Power Players conference about investing in women’s sports. (Source: Bloomberg)",
       "date": "2026-11-12",
-      "id": "4f197ad8b0a26296"
+      "id": "9924317fbb709fc8"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "India Reclaims Spot Among World’s Five Biggest Stock Markets as Rally Extends",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-12/india-reclaims-spot-among-world-s-five-biggest-stock-markets-as-rally-extends",
-      "summary": "Market value climbs to $5.4 trillion, overtaking Taiwan.",
+      "title": "Jensen Huang Scandal: Investigating Nvidia's Relationship to Megaspeed",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/jensen-huang-scandal-investigating-nvidia-s-relationship-to-megaspeed",
+      "summary": "The geopolitics of chip smuggling.",
       "date": "2026-11-12",
-      "id": "8b30fb5c3cdb7bec"
+      "id": "600abd083058a1dd"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "How Chevron Is Maintaining Prominence in the Permian Basin",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/how-chevron-is-maintaining-prominence-in-the-permian-video",
-      "summary": "With nearly 2 million acres and an interest in one out of every five wells in the Permian Basin, Chevron has recently reached a production plateau and turned its focus to increasing reliability and efficiency in its West",
+      "title": "Odd Lots: What Nvidia’s Megaspeed Scandal Is All About (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-11-12/odd-lots-what-nvidia-s-megaspeed-scandal-is-all-about-podcast",
+      "summary": "Nvidia CEO Jensen Huang’s extramarital relationship with a woman named Alice Huang, whom US intelligence reportedly identified as a Chinese intelligence asset, is one of the biggest stories in the world right now. Bloomb",
       "date": "2026-11-12",
-      "id": "da28cb1a7b11b91f"
+      "id": "7c68e56612128859"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Mexican Steel Imports from Asia Fall as More US Supplies Sought",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/mexican-steel-imports-from-asia-fall-as-more-us-supplies-sought",
-      "summary": "Mexico’s crackdown on Asian imports is creating an opening to buy more US-made steel, a top economic official said, a shift that could help advance trade negotiations with the Trump administration.",
+      "title": "Blackstone, Pimco Target Gulf’s Multibillion-Dollar Buildout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/blackstone-pimco-target-gulf-s-multibillion-dollar-buildout",
+      "summary": "Some of the world’s biggest investment firms are looking to deploy more capital across the Middle East just as governments open more infrastructure projects to outside investors.",
       "date": "2026-11-12",
-      "id": "07a38a30bad6c78b"
+      "id": "6de8d9d72ecf38d6"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Sri Lanka Budget Targets Growth With IMF Bailout Nearing End",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/sri-lanka-budget-targets-growth-with-imf-bailout-nearing-end",
-      "summary": "Sri Lanka will unveil a budget aimed at keeping its economic recovery on track amid global headwinds and as its $3 billion International Monetary Fund bailout draws to a close.",
+      "title": "BofA Says India’s Foreign Inflow Revival Has Further Room to Run",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/bofa-says-india-s-foreign-inflow-revival-has-further-room-to-run",
+      "summary": "The strong momentum in foreign inflows into Indian stocks may continue given a combination of improving earnings, cheaper valuations and light positioning, according to BofA Global Research.",
       "date": "2026-11-12",
-      "id": "8c5ce128460b743b"
+      "id": "3045d6f47ea6b7e1"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Gold Holds Below $4,000 as Market Looks Ahead to Fed Rate Hike",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-below-4-000-as-market-looks-ahead-to-fed-rate-hike",
-      "summary": "Gold held a drop below $4,000 an ounce, as persistent inflation and hawkish remarks from Federal Reserve officials fueled expectations for an interest-rate hike next month.",
+      "title": "Persimmon Defies UK Housing Gloom with Rising Sales, Values",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/persimmon-defies-uk-housing-gloom-with-rising-sales-values",
+      "summary": "Persimmon Plc maintained its guidance for the year, increasing sales even as the UK housing market endures a protracted slump.",
       "date": "2026-11-12",
-      "id": "3b96fbb9afa3cb8c"
+      "id": "043c64746c51d31f"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Long US Bonds Reopen With Gains as Risk Sentiment Sours Again",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/long-us-bonds-reopen-with-gains-as-risk-sentiment-sours-again",
-      "summary": "Long-end Treasuries drifted higher as trading resumed after a holiday as turmoil at Nvidia Corp. fueled doubts about the artificial intelligence trade and fueled demand for haven assets.",
+      "title": "China and Korea Will Outperform Taiwan: Market Analysis",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/china-and-korea-will-outperform-taiwan-3-minutes-mliv-video",
+      "summary": "Anna Edwards, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
       "date": "2026-11-12",
-      "id": "bdc44de1cfe5c8f7"
+      "id": "d1407e0f462ad7df"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "India’s BEML to Build Tunneling Machines to Cut China Reliance",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/india-s-beml-to-build-tunneling-machines-to-cut-china-reliance",
-      "summary": "BEML Ltd., India’s state-owned defense and engineering company, aims to develop tunnel-boring machines in a bet that the country’s infrastructure boom can support a homegrown effort to replace foreign suppliers.",
+      "title": "Santander Sweetens Offer for Brazil Unit Stake With 5% Increase",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/santander-sweetens-offer-for-brazil-unit-stake-with-5-increase",
+      "summary": "Banco Santander SA raised an offer to buy out minority shareholders of its Brazilian unit by 5%, while saying it still provides an attractive return on invested capital for the Spanish lender.",
       "date": "2026-11-12",
-      "id": "a7c8ad8d70403a67"
+      "id": "d9f1da7429c814bc"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "AI Trade Roars Back, Anthropic IPO Outlook, Nordstrom Co-CEO on Going Private",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/the-close-11-11-2026-video",
-      "summary": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today’s guests are Morgan Stanley Investment Management Deputy CIO, Solution",
+      "title": "BHP Plans Overhaul of Australia Iron Ore Business to Cut Costs",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs",
+      "summary": "BHP Group plans to restructure its Australian iron ore business as part of a wider cost-cutting effort aimed at helping the world’s largest miner cope with rising expenses and softer prices for the vital steelmaking ingr",
       "date": "2026-11-12",
-      "id": "50c378f086215ad6"
+      "id": "64508eeeb3e1b30b"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "New Zealand Draws Record US Tourists With Wellness and Weak Kiwi Dollar",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/new-zealand-draws-record-us-tourists-with-wellness-and-weak-kiwi-dollar",
-      "summary": "New Zealand welcomed a record number of visitors from the US in the 12 months through September as favorable exchange rates and increased air connections make the South Pacific nation more accessible.",
+      "title": "London Infrastructure Investment Firm Arcus Said to Weigh Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/london-infrastructure-investment-firm-arcus-said-to-weigh-sale",
+      "summary": "Arcus Infrastructure Partners is weighing strategic options including a potential sale, people familiar with the matter said, in what could be the latest sign of consolidation among private capital managers.",
       "date": "2026-11-12",
-      "id": "b5dc0be694c4e4f2"
+      "id": "147bbf0dcd98b077"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Indonesia Bonds Lure Global Funds as Yields Hit Six-Year High",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/indonesia-bonds-lure-global-funds-as-yields-hit-six-year-high",
-      "summary": "Indonesian government bonds are drawing bargain-hunters after the benchmark yields’ surge last week to the highest since 2020.",
+      "title": "Mittal: Clear Govt Policy Made UAE an Expansion Hub",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/mittal-clear-govt-policy-made-uae-an-expansion-hub-video",
+      "summary": "Shravin Mittal, Founder & CEO of Unbound, joined Horizons Middle East and Africa from the inaugural Bloomberg Invest Dubai where some of the world’s leading investors, family offices and business leaders gathered to disc",
       "date": "2026-11-12",
-      "id": "88366751575352b9"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "UK Surveyors Face Weakest Housing Market Since 2023, RICS Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/uk-surveyors-face-weakest-housing-market-since-2023-rics-says",
-      "summary": "British property agents are more downbeat about home sales than at any point in over three years, according to a survey showing that soaring mortgage costs are sapping demand.",
-      "date": "2026-11-12",
-      "id": "dcea183be9cacc8b"
+      "id": "c54d47c5864f2128"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "Will Nvidia Replace Jensen Huang as CEO? What’s Next for AI, Markets?: Live Q&A",
-      "url": "https://www.bloomberg.com/sessions/2026-11-11/live-q-amp-a-will-jensen-huang-be-replaced-as-ceo-what-s-next-for-nvidia",
-      "summary": "Bloomberg reporters answer your questions on Nov. 12 at 12 p.m. HKT / Nov. 11 at 11 p.m. ET.",
+      "title": "Norwest’s New $4 Billion Fund Will Avoid ‘Shiny Objects’",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/norwest-s-new-4-billion-fund-will-avoid-shiny-objects",
+      "summary": "Wells Fargo & Co.-backed Norwest has raised $4 billion for its latest fund aimed at investing in early-stage AI startups alongside deals in sectors the rest of the market has overlooked, the firm plans to announce Thursd",
       "date": "2026-11-12",
-      "id": "109b262d4519c51a"
+      "id": "7cae29bf2361e7f8"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "Nvidia to Decide on Jensen Huang’s Fate",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-to-decide-on-jensen-huang-s-fate-video",
-      "summary": "Nvidia’s board has been working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs, including one with a woman who is repor",
+      "title": "UK Gilts Look 'Attractive,' Allspring Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/uk-gilts-look-attractive-allspring-says-video",
+      "summary": "Lauren van Biljon, Allspring Global Investments senior rates and FX portfolio manager, says UK gilts are \"attractive.\" She also adds the Bank of England will likely hike interest rates again but \"probably not until next ",
       "date": "2026-11-12",
-      "id": "7c13935c738872c6"
+      "id": "afd920f37c937807"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "Alleged Chinese Spy at Center of Nvidia Firestorm Is in Beijing",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/alleged-chinese-spy-at-center-of-nvidia-firestorm-is-in-beijing",
-      "summary": "The suspected Chinese spy at the heart of a scandal that threatens to take down Nvidia Corp. Chief Executive Officer Jensen Huang has returned to her home country, people familiar with the matter said.",
+      "title": "China’s Zhuanzhuan Is Said to Have Filed for $500 Million HK IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/china-s-zhuanzhuan-is-said-to-have-filed-for-500-million-hk-ipo",
+      "summary": "Online marketplace Beijing Zhuanzhuan Spirit Technology Co. has filed confidentially for an initial public offering in Hong Kong that may take place as soon as next year, according to people familiar with the matter.",
       "date": "2026-11-12",
-      "id": "05655c6da77878b2"
+      "id": "15a8494e987a40a6"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Italy’s Poste Targets €600 Million Fund Amid AI Data Center Boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/italy-s-poste-targets-600-million-fund-amid-ai-data-center-boom",
+      "summary": "Poste Italiane SpA launched a co-investment fund targeting €600 million ($665 million) for projects including data centers, expanding its digital infrastructure ambitions following the takeover of Telecom Italia SpA.",
+      "date": "2026-11-12",
+      "id": "a9c41e65d60cd754"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Nvidia Supplier Hon Hai Predicts Robust Growth After Profit Beat",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-partner-hon-hai-beats-profit-estimates-on-ai-iphone-duo",
+      "summary": "Hon Hai Precision Industry Co. predicted strong sales growth for next year due to soaring worldwide AI spending after earning a quarterly profit that beat estimates.",
+      "date": "2026-11-12",
+      "id": "33e33e208601d327"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
       "title": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny",
       "url": "https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny",
-      "summary": "Alphabet Inc. began marketing its inaugural Hong Kong and Singapore dollar bond sale, testing investor interest at a time of increasing volatility for companies focused on artificial intelligence.",
+      "summary": "Alphabet Inc. is marketing its inaugural Hong Kong and Singapore dollar bond sale, testing investor interest at a time of increasing volatility for companies focused on artificial intelligence.",
       "date": "2026-11-12",
       "id": "d2efa7776a547166"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "ANZ CEO Matos Warns of Global Jobs Crisis Without AI Rules",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/anz-ceo-matos-warns-of-global-jobs-crisis-without-ai-rules",
-      "summary": "ANZ Group Holdings Ltd. Chief Executive Officer Nuno Matos has called for global regulation to manage the impact of artificial intelligence on the labor market, which he warned could trigger an international crisis.",
+      "title": "Alice Huang Resurfaces in Beijing Amid Nvidia Scandal",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/alice-huang-resurfaces-in-beijing-amid-nvidia-scandal-video",
+      "summary": "Alice Huang, the woman at the center of the scandal engulfing Nvidia CEO Jensen Huang, has returned to China and is in Beijing, according to Bloomberg’s exclusive reporting. The chipmaker is investigating spying allegati",
       "date": "2026-11-12",
-      "id": "37624703dc200271"
+      "id": "7a1c16147cc94e44"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "Nvidia’s CEO Change Won’t Derail AI Trade: Pepperstone",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-s-ceo-change-won-t-derail-ai-trade-pepperstone-video",
-      "summary": "Chris Weston, head of research at Pepperstone Group, said he doesn’t expect changes to Nvidia’s leadership to impact the outlook for the company. A new CEO will probably come with a deep knowledge of its business and wil",
+      "title": "Dubai Tycoon Expects Billions From Anthropic, AI Investments",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/dubai-tycoon-expects-billions-from-anthropic-ai-investments",
+      "summary": "Dubai tycoon Hussain Sajwani expects his investments in artificial intelligence firms including Anthropic PBC to draw billions in returns, highlighting the wins some investors are racking up from putting in money into th",
       "date": "2026-11-12",
-      "id": "6a59eee0fb9133cd"
+      "id": "d21478a1aa879494"
     },
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "Nvidia Working With Outside Firm to Identify CEO Options",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/nvidia-working-with-outside-firm-to-identify-ceo-options-video",
-      "summary": "Nvidia's board has been working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs, including one with a woman who is repor",
+      "title": "Drone Startup Uforce Valued at $6 Billion With UK Wealth Fund Backing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/drone-startup-uforce-valued-at-6-billion-with-uk-wealth-fund-backing",
+      "summary": "The UK National Wealth Fund made its largest defense investment as part of a $700 million financing round for Uforce, a drone startup initially formed in Ukraine.",
       "date": "2026-11-12",
-      "id": "7ff8a12353f3d33b"
+      "id": "5063431adf413ed6"
     },
     {
       "source": "bloomberg",
-      "channel": "市场",
-      "title": "Asian Stocks Edge Up, US Futures Drop on Nvidia: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
-      "summary": "Asian stocks edged higher while US equity-index futures slipped as investors weighed a leadership crisis at Nvidia Corp., the chipmaker at the heart of this year’s artificial-intelligence boom.",
-      "date": "2026-11-11",
-      "id": "3a1c3ec8245f0cbc"
+      "channel": "科技",
+      "title": "The Case For India in a World Obsessed With the AI Trade",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/the-case-for-india-in-a-world-obsessed-with-the-ai-trade",
+      "summary": "As the AI trade wobbles, could India prove a safe haven of choice? Top investor Srini Sriniwasan, managing director at at Kotak Alternate Asset Managers, makes the pitch to Bloomberg’s Menaka Doshi. She also speaks with ",
+      "date": "2026-11-12",
+      "id": "56e436f4972bff39"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Nvidia Board Weighs Huang’s Future as Congress Prepares Subpoena",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/horizons-middle-east-africa-11-12-2026-video",
+      "summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus",
+      "date": "2026-11-12",
+      "id": "741b4a04f1afb22f"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Can India Attract Investors in an AI-Obsessed World? | Emerging",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/the-case-for-investing-in-india-in-an-ai-fixated-world-video",
+      "summary": "The AI boom has been sucking up global capital, leaving markets like India on the sidelines. In this episode of the Emerging podcast, Menaka Doshi sits down with Intrepid Growth Partners’ Mark Machin and Kotak Alternate ",
+      "date": "2026-11-12",
+      "id": "82887be4bf1958d9"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Mastercard Sees Agentic AI Transforming e-Commerce",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/mastercard-sees-agentic-ai-transforming-e-commerce-video",
+      "summary": "Mastercard Asia Pacific President Richard Wormald says agentic AI may create a new machine-to-machine commerce channel, with its growth depending heavily on consumer trust. He spoke on Insight with Haslinda Amin. (Source",
+      "date": "2026-11-12",
+      "id": "5d1995894410e981"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "The Nvidia Board Members Who Will Decide Jensen Huang’s Fate",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/the-nvidia-board-members-who-will-decide-jensen-huang-s-fate",
+      "summary": "Nvidia Corp.’s board of directors is meeting to discuss the fate of Chief Executive Officer Jensen Huang following reports he had multiple extramarital affairs, including one with a woman suspected of spying for China.",
+      "date": "2026-11-12",
+      "id": "abe9441e780a6e12"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Alleged Chinese Spy at Heart of Nvidia Scandal Is in Beijing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/alleged-chinese-spy-at-center-of-nvidia-firestorm-is-in-beijing",
+      "summary": "The suspected Chinese spy at the center of a scandal that threatens to take down Nvidia Corp. Chief Executive Officer Jensen Huang has returned to her home country, people familiar with the matter said.",
+      "date": "2026-11-12",
+      "id": "05655c6da77878b2"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Siemens CEO on Earnings, Portfolio, AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-12/siemens-ceo-on-earnings-portfolio-ai-video",
+      "summary": "Siemens CEO Roland Busch speaks on Bloomberg Television as the company raised its medium-term growth targets after posting record orders in its 2026 fiscal year. (Source: Bloomberg)",
+      "date": "2026-11-12",
+      "id": "200d0a6edc773935"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "SoftBank Backs Agile Robots in $500 Million Humanoid Push",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/softbank-backs-agile-robots-in-500-million-humanoid-push",
+      "summary": "Agile Robots SE raised funds valuing the German robotics maker at $8.5 billion in a round led by SoftBank Group Corp., giving the startup fresh capital to expand production of its artificial intelligence-powered machines",
+      "date": "2026-11-12",
+      "id": "9e4718402cb14c2b"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Elon Musk Says It Would Be an Honor to Hire Nvidia’s Huang",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/elon-musk-says-it-would-be-an-honor-to-hire-nvidia-jensen-huang",
+      "summary": "Elon Musk said it would be an honor to hire Nvidia Corp. Chief Executive Officer Jensen Huang, who is at risk of being ousted following reports of multiple extramarital affairs, including with a woman reportedly suspecte",
+      "date": "2026-11-12",
+      "id": "aa86db41aa60722b"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
       "title": "Latest Oil Market News and Analysis for Nov. 12",
       "url": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12",
-      "summary": "Oil fell toward a two-month low as Middle East production rose and hostilities between Iran and the US remained muted.",
+      "summary": "Oil fluctuated amid higher production from the Middle East, even as tensions between Iran and the US remain a threat to shipments through the Strait of Hormuz.",
       "date": "2026-11-11",
       "id": "612e586855ab7fc8"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Nvidia Shares Slide as Investors Consider Future Without Huang",
+      "title": "Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang",
-      "summary": "Nvidia Corp. shares sank in extended trading Wednesday as investors grappled with the possibility of the company without Chief Executive Officer Jensen Huang at the helm.",
+      "summary": "Nvidia Corp. shares fall as much as 8.1% in premarket trading following reports the AI chipmaker’s board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang. The mo",
       "date": "2026-11-11",
       "id": "9d1c4b0470b74fa2"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Anthropic IPO Is ‘Jenga Block’ Holding Up Next Leg of AI Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-ipo-is-jenga-block-holding-up-next-leg-of-ai-trade",
-      "summary": "Anthropic PBC’s long-awaited initial public offering will give investors a crucial look at the health of the artificial intelligence trade, and Wall Street hopes it will spur the next leg of the AI-fueled stock market ra",
+      "title": "Stocks Fall as Nvidia Leadership Crisis Hits Tech: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+      "summary": "A technology-stock-driven rally came to a sudden halt as traders confronted a leadership crisis at Nvidia Corp. that risks reverberating across the global artificial intelligence supply chain.",
       "date": "2026-11-11",
-      "id": "ac5baa8a53ae625e"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "BHP Names New CFO as Second Top Executive Exits in a Year",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/bhp-names-adrian-wood-as-cfo-to-succeed-vandita-pant-mwcnk5t7",
-      "summary": "BHP Group has named former analyst Adrian Wood to succeed Chief Financial Officer Vandita Pant when she steps down in February, the second top executive to leave in a year.",
-      "date": "2026-11-11",
-      "id": "326f953c4a8c2f1d"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Chinese Robotics Platform Amicro Surges 83% in Hong Kong Debut",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/hosin-amicro-set-to-trade-in-hong-kong-as-ipos-gather-pace",
-      "summary": "Chinese robotics platform Amicro Technology Co.’s shares surged in their Hong Kong debut after the company raised HK$709.7 million ($90 million) in an initial public offering, in a test of investor appetite for the techn",
-      "date": "2026-11-11",
-      "id": "1da9dcfabf528cb6"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Anthropic IPO Risks Causing AI Correction, Selby Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/anthropic-ipo-lockup-risks-triggering-ai-correction-selby-says",
-      "summary": "Anthropic PBC’s blockbuster initial public offering may become the catalyst for major reversal in the artificial intelligence trade, according to Jack Selby, who runs the venture capital firm Copper Sky.",
-      "date": "2026-11-11",
-      "id": "ee75d806842ae276"
+      "id": "3a1c3ec8245f0cbc"
     },
     {
       "source": "bloomberg",
@@ -850,92 +886,11 @@
     {
       "source": "bloomberg",
       "channel": "科技",
-      "title": "Nvidia Board Meets on Huang’s Fate After Affair With Alleged Spy",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-board-meets-on-huang-s-fate-after-affair-with-alleged-spy",
-      "summary": "Nvidia Corp.’s board is meeting to discuss the fate of Chief Executive Officer Jensen Huang, who admitted to having an affair with a woman that US officials reportedly believe to be a Chinese spy, according to a person w",
+      "title": "Chinese Robotics Platform Amicro Surges 38% in Hong Kong Debut",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/hosin-amicro-set-to-trade-in-hong-kong-as-ipos-gather-pace",
+      "summary": "Chinese robotics platform Amicro Technology Co.’s shares surged in their Hong Kong debut after the company raised HK$709.7 million ($90 million) in an initial public offering, in a test of investor appetite for the techn",
       "date": "2026-11-11",
-      "id": "56ee9d67367258f5"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Nvidia CFO Favored to Replace Jensen Huang as Board Meets",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-11-11/nvidia-turmoil-board-to-weigh-ceo-jensen-huang-future-over-alleged-affairs",
-      "summary": "",
-      "date": "2026-11-11",
-      "id": "bc33b15dd3df7456"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "We Are Probably Overbuilding Data Centers: Gary Marcus",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-11/we-are-probably-overbuilding-data-centers-gary-marcus-video",
-      "summary": "Gary Marcus argues that investors should avoid Anthropic’s IPO because its financial outlook depends on rapid, sustained growth. He speaks with Romaine Bostick and Vonnie Quinn on The Close. (Source: Bloomberg)",
-      "date": "2026-11-11",
-      "id": "bf81c1699bf6ba7a"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Zocdoc Brings AI to Healthcare",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-11/zocdoc-brings-ai-to-healthcare-video",
-      "summary": "AI agents are moving into health care, taking on tasks from finding an in-network doctor to booking appointments around a patient's schedule. Zocdoc CEO Oliver Kharraz says traffic to the platform from AI agents has grow",
-      "date": "2026-11-11",
-      "id": "cfd8a83830cdc5b8"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Nvidia Preparing to Oust Jensen Huang After Affairs, WSJ Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-ceo-had-an-affair-with-health-executive-at-firm-nyt-says",
-      "summary": "Nvidia Corp.’s board is preparing to oust Chief Executive Officer Jensen Huang after multiple extramarital affairs, including one with a woman who is reportedly suspected of being a Chinese spy, the Wall Street Journal s",
-      "date": "2026-11-11",
-      "id": "45821416fb680add"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "CoreWeave Plans to Raise at Least $4 Billion in High-Grade Loan",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/coreweave-plans-to-raise-at-least-4-billion-in-high-grade-loan",
-      "summary": "CoreWeave Inc. plans to raise at least $4 billion through an investment-grade loan offering after the AI computing supplier boosted its annual sales forecast, easing investor concerns about its debt-laden business.",
-      "date": "2026-11-11",
-      "id": "8f1b6230b92668ba"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Huang Said to Have Had Affair With Nvidia Executive: NYT",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-11/huang-said-to-have-had-affair-with-nvidia-executive-nyt-video",
-      "summary": "Nvidia CEO Jensen Huang had a relationship with Kimberly Powell, Nvidia’s vice president of health care, according to the New York Times. Michael Shepard has more on \"Balance of Power: Evening Edition.\" (Source: Bloomber",
-      "date": "2026-11-11",
-      "id": "85cf7c68f1576028"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Microsoft Vows to Pay Its Own Way to Power Data Centers",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/microsoft-vows-to-pay-its-own-way-to-power-data-centers",
-      "summary": "Microsoft Corp. aims to find ways to power its data centers without relying on government subsidies or driving up costs for other electricity consumers.",
-      "date": "2026-11-11",
-      "id": "dc89f6f2acd8cd5c"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Stocks Slide as AI Trade Roars Back | Closing Bell",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-11/stocks-slide-as-ai-trade-roars-back-closing-bell-video",
-      "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Vonnie Quinn, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
-      "date": "2026-11-11",
-      "id": "5efb9f0b0a8e93ab"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "OpenAI, Anthropic Valuations Fuel VC Fears of Startup Correction",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/openai-anthropic-valuations-fuel-vc-fears-of-startup-correction",
-      "summary": "In late September, OpenAI entered discussions for its latest funding round with confidence. After having early discussions with prospective backers who had expressed interest, the company presented its terms: at least $3",
-      "date": "2026-11-11",
-      "id": "1c57bfda6de9d98b"
+      "id": "1da9dcfabf528cb6"
     }
   ]
 }
