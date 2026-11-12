@@ -7,13 +7,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="每日新闻">
-<title>每日新闻 · 学习强国 / 人民日报 / Bloomberg · 离线快照</title>
+<title>小贾观天下 · 离线快照</title>
 <style>
 :root{
   --bg:#f6f7f9; --surface:#ffffff; --border:#e4e7ec;
   --text:#1b1f26; --muted:#6b7280; --faint:#9aa1ad;
   --accent:#185fa5; --active:#185fa5;
   --warn-bg:#fff8e8; --warn-border:#f0d9a5; --warn-text:#85500b;
+  --heart:#e2555a;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -21,6 +22,7 @@
     --text:#e8eaee; --muted:#a0a7b3; --faint:#737b88;
     --accent:#7ab4ea; --active:#2b6cb0;
     --warn-bg:#2a2418; --warn-border:#4a3d22; --warn-text:#e3c07d;
+    --heart:#f0858a;
   }
 }
 *{box-sizing:border-box}
@@ -33,7 +35,10 @@ header.top{background:var(--surface);border-bottom:1px solid var(--border)}
 .logo{width:36px;height:36px;border-radius:10px;background:var(--active);color:#fff;display:grid;place-items:center;font-size:17px;font-weight:500;flex:0 0 auto}
 .brand h1{font-size:16px;font-weight:500;margin:0;line-height:1.3}
 .brand p{font-size:11.5px;color:var(--faint);margin:2px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.meta{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.meta{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex:0 0 auto}
+.meta-row{display:flex;align-items:center;gap:10px}
+.powered{font-size:11.5px;color:var(--faint);white-space:nowrap;line-height:1.3}
+.powered .heart{color:var(--heart)}
 #updated{font-size:11.5px;color:var(--faint);white-space:nowrap}
 button{font-family:inherit}
 #refresh{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:6px 12px;font-size:12px;cursor:pointer}
@@ -96,8 +101,11 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
       </div>
     </div>
     <div class="meta">
-      <span id="updated">加载中…</span>
-      <button id="refresh" type="button">刷新</button>
+      <div class="meta-row">
+        <span id="updated">加载中…</span>
+        <button id="refresh" type="button">刷新</button>
+      </div>
+      <div class="powered">Powered by 贾雨桐<span class="heart">❤</span></div>
     </div>
   </div>
 </header>
