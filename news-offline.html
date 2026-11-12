@@ -44,6 +44,32 @@ button{font-family:inherit}
 #refresh{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:6px 12px;font-size:12px;cursor:pointer}
 #refresh:hover{border-color:var(--accent);color:var(--accent)}
 #refresh:disabled{opacity:.55;cursor:default}
+#setup{border:1px solid var(--border);background:var(--surface);color:var(--faint);border-radius:8px;padding:6px 9px;font-size:12px;line-height:1;cursor:pointer}
+#setup:hover{border-color:var(--accent);color:var(--accent)}
+#setup[hidden]{display:none}
+.status{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:10px;padding:9px 14px;font-size:12.5px;line-height:1.7;margin-top:16px}
+.status[hidden]{display:none}
+.status.hint{color:var(--faint)}
+.status.busy{border-color:var(--accent);color:var(--accent)}
+.status.ok{background:#ecf7ee;border-color:#bfe3c8;color:#1f7a3d}
+.status.warn{background:var(--warn-bg);border-color:var(--warn-border);color:var(--warn-text)}
+@media (prefers-color-scheme: dark){ .status.ok{background:#18291d;border-color:#2f5638;color:#8fd3a0} }
+.mask{position:fixed;inset:0;z-index:50;background:rgba(10,14,20,.5);display:grid;place-items:center;padding:18px}
+.mask[hidden]{display:none}
+.panel{width:100%;max-width:440px;max-height:88vh;overflow:auto;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 22px;box-shadow:0 12px 40px rgba(0,0,0,.18)}
+.panel h3{margin:0 0 10px;font-size:16px;font-weight:600;color:var(--text)}
+.panel p{margin:0 0 10px;font-size:12.5px;line-height:1.8;color:var(--muted)}
+.panel a{color:var(--accent)}
+.panel code{background:var(--bg);border-radius:4px;padding:1px 5px;font-size:12px}
+.panel .tip{color:var(--faint);font-size:11.5px}
+#token{width:100%;margin:4px 0 0;background:var(--bg);border:1px solid var(--border);border-radius:9px;padding:10px 12px;font-size:13px;color:var(--text);outline:none;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+#token:focus{border-color:var(--accent)}
+.panel-msg{min-height:18px;margin:8px 0 4px;font-size:11.5px;color:var(--warn-text)}
+.panel-btns{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px;margin-top:6px}
+.panel-btns button{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:8px;padding:7px 13px;font-size:12.5px;cursor:pointer}
+.panel-btns button:hover{border-color:var(--accent);color:var(--accent)}
+.panel-btns .primary{background:var(--active);border-color:var(--active);color:#fff}
+.panel-btns .primary:hover{color:#fff;opacity:.9}
 .notice{background:var(--warn-bg);border:1px solid var(--warn-border);color:var(--warn-text);border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.7;margin-top:16px}
 .notice[hidden]{display:none}
 .tabs{display:flex;gap:8px;overflow-x:auto;padding:18px 0 12px;scrollbar-width:none}
@@ -104,6 +130,7 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
       <div class="meta-row">
         <span id="updated">加载中…</span>
         <button id="refresh" type="button">刷新</button>
+        <button id="setup" type="button" title="开启「点击即抓取」" aria-label="开启点击即抓取">⚙</button>
       </div>
       <div class="powered">Powered by 贾雨桐<span class="heart">❤</span></div>
     </div>
@@ -111,6 +138,7 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
 </header>
 
 <main class="wrap">
+  <div id="status" class="status" hidden></div>
   <section id="notice" class="notice" hidden></section>
   <nav class="tabs" id="tabs" aria-label="新闻来源筛选"></nav>
   <div class="tools">
@@ -120,9 +148,25 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   <div id="list"></div>
   <footer>
     <div>本站仅聚合公开的标题、摘要与原文链接，不存储或转载正文；内容版权归原作者及原媒体所有，阅读请跳转原文。</div>
-    <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新。</div>
+    <div>「学习强国」栏目为其内容的人民网官方同源转载（该平台未提供公开数据接口）。数据为每日定时抓取的快照，非实时刷新；点右上角「抓取」可随时触发一次即时更新。</div>
   </footer>
 </main>
+
+<div id="mask" class="mask" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="panel-title">
+    <h3 id="panel-title">开启「点击即抓取」</h3>
+    <p>本页是纯静态网页，新闻抓取由 GitHub Actions 在云端完成。点一下「抓取」，页面会触发一次真实抓取任务，数据写回仓库后自动刷新，手机和电脑都能看到。</p>
+    <p>需要你自己的 GitHub 令牌来发起这一次触发。推荐 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">创建细粒度令牌 ↗</a>：仓库只选 <code>daily-news-reader</code>，权限只勾 <b>Actions: Read and Write</b>；也可用 classic 令牌（勾 <code>repo</code>）。</p>
+    <p class="tip">令牌只保存在本机浏览器的 localStorage，不会上传、不会写入网站代码，可随时清除。公开页面请勿把令牌写进仓库。手机与电脑需各自配置一次。</p>
+    <input id="token" type="password" placeholder="粘贴 ghp_ 或 github_pat_ 开头的令牌" autocomplete="off" spellcheck="false" aria-label="GitHub 令牌">
+    <div id="panel-msg" class="panel-msg"></div>
+    <div class="panel-btns">
+      <button type="button" id="clear-token">清除</button>
+      <button type="button" id="cancel-token">取消</button>
+      <button type="button" id="save-token" class="primary">保存并抓取</button>
+    </div>
+  </div>
+</div>
 
 <script>
   const EMBEDDED_NEWS = {"generatedAt":"2026-11-12T10:16:14.606Z","date":"2026-11-12","sources":[{"id":"xuexi","name":"学习强国","note":"学习强国未提供公开数据接口，本栏展示人民网时政、理论、党建、评论等官方同源内容","status":"ok","count":16,"error":null},{"id":"people","name":"人民日报","note":"人民日报当日电子版版面 + 人民网当日要闻","status":"ok","count":40,"error":null},{"id":"bloomberg","name":"Bloomberg","note":"仅收录公开 RSS 的标题与摘要，正文请跳转原文阅读","status":"ok","count":40,"error":null}],"items":[{"title":"纪念孙中山先生诞辰160周年大会在京举行 习近平发表重要讲话","url":"http://politics.people.com.cn/n1/2026/1112/c1024-40832776.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"3d18ea0c1b26fb6c"},{"title":"韩正出席COP31安塔利亚领导人峰会并作国别发言","url":"http://politics.people.com.cn/n1/2026/1112/c1001-40832781.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"125190996b6cf10b"},{"title":"更加科学有效地把权力关进制度笼子","url":"http://opinion.people.com.cn/n1/2026/1112/c461530-40832331.html","summary":"","date":"2026-11-12","channel":"评论","source":"xuexi","id":"c54c1b7d10c92025"},{"title":"坚持用党的创新理论凝心铸魂","url":"http://politics.people.com.cn/n1/2026/1112/c1001-40832334.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"4ce921185d40fbeb"},{"title":"中央宣讲团在内蒙古自治区宣讲","url":"http://politics.people.com.cn/n1/2026/1112/c461001-40832852.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"3b2773690753a98e"},{"title":"脱贫后,看一个西部县\"造血式\"振兴","url":"http://politics.people.com.cn/n1/2026/1112/c461001-40832304.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"d360801ad4ffbea3"},{"title":"读懂\"听劝式文旅\"的出圈秘诀","url":"http://opinion.people.com.cn/n1/2026/1112/c436867-40832696.html","summary":"","date":"2026-11-12","channel":"评论","source":"xuexi","id":"d739d4360932608a"},{"title":"壹时评:弹窗广告治理须打破\"罚酒三杯\"困局","url":"http://opinion.people.com.cn/n1/2026/1112/c223228-40832521.html","summary":"","date":"2026-11-12","channel":"评论","source":"xuexi","id":"a004e6bd4ee4769a"},{"title":"持之以恒全面从严治党的科学方法","url":"http://theory.people.com.cn/n1/2026/1112/c40531-40832525.html","summary":"","date":"2026-11-12","channel":"理论","source":"xuexi","id":"e30eb419c014e07e"},{"title":"强化党组织政治功能和组织功能","url":"http://dangjian.people.com.cn/n1/2026/1112/c117092-40832472.html","summary":"","date":"2026-11-12","channel":"党建","source":"xuexi","id":"6707bb01875bfde1"},{"title":"国务院任免国家工作人员","url":"http://politics.people.com.cn/n1/2026/1112/c461001-40832892.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"6e7eb9a08b65d3f3"},{"title":"中国邮政发行《纪念孙中山先生诞辰160周年》纪念邮票小型张","url":"http://politics.people.com.cn/n1/2026/1112/c461001-40832783.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"6024697d027d5323"},{"title":"事关技能人才评价 这部条例公开征求意见","url":"http://politics.people.com.cn/n1/2026/1112/c461001-40832863.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"5e05867678898a20"},{"title":"加强财会监督，看好“钱袋子”“账本子”","url":"http://politics.people.com.cn/n1/2026/1112/c461001-40832306.html","summary":"","date":"2026-11-12","channel":"时政","source":"xuexi","id":"4d0d9a16bdd2b169"},{"title":"评论丨坚持全面从严，激发干事创业精气神","url":"http://opinion.people.com.cn/n1/2026/1112/c461529-40832326.html","summary":"","date":"2026-11-12","channel":"评论","source":"xuexi","id":"1a68deee8869c9ac"},{"title":"理论丨深刻把握高品质生活的科学内涵和实践路径","url":"http://opinion.people.com.cn/n1/2026/1112/c461530-40832332.html","summary":"","date":"2026-11-12","channel":"评论","source":"xuexi","id":"3980cc2ec391fbbe"},{"title":"让贸易成为促进全球发展繁荣的普惠引擎","url":"http://world.people.com.cn/n1/2026/1112/c1002-40832314.html","summary":"","date":"2026-11-12","channel":"国际","source":"people","id":"03a15bbd9d817eee"},{"title":"小剧场进古城 戏留下人也留下","url":"http://hb.people.com.cn/n2/2026/1112/c192237-41748772.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"41c1befb3fb0d026"},{"title":"汽油、柴油价格下调","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832867.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"b515d0d26ed9dccc"},{"title":"一批侵华日军细菌战化学战新罪证集中发布","url":"http://military.people.com.cn/n1/2026/1112/c1011-40832301.html","summary":"","date":"2026-11-12","channel":"军事","source":"people","id":"f213561d25585455"},{"title":"俄美乌会谈达成换俘协议 仍存重大分歧","url":"http://world.people.com.cn/n1/2026/1112/c1002-40832302.html","summary":"","date":"2026-11-12","channel":"国际","source":"people","id":"bb0ed5e40c117204"},{"title":"纪念孙中山先生诞辰160周年大会在京举行","url":"http://pic.people.com.cn/n1/2026/1112/c426981-40832910.html","summary":"","date":"2026-11-12","channel":"图片","source":"people","id":"08154f9404050778"},{"title":"行进中国丨河南周口港：内联外通智筑枢纽","url":"http://henan.people.com.cn/n2/2026/1112/c351638-41748597.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"c3061e4a6bee6994"},{"title":"我国渤海中部海域超深层油气勘探取得重大突破","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832770.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"621ff22351578458"},{"title":"陕西西安：千年古银杏树满目鎏金","url":"http://pic.people.com.cn/n1/2026/1112/c1016-40832645.html","summary":"","date":"2026-11-12","channel":"图片","source":"people","id":"fb1cf17e10f8dc4e"},{"title":"湖南道县：小藠头 大甜头","url":"http://pic.people.com.cn/n1/2026/1112/c1016-40832659.html","summary":"","date":"2026-11-12","channel":"图片","source":"people","id":"3ff42db065fd8b09"},{"title":"广西发布一批干部任前公示","url":"http://renshi.people.com.cn/n1/2026/1112/c139617-40832673.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"a7193f15579b1dd7"},{"title":"压实责任守护民生资金","url":"http://fanfu.people.com.cn/n1/2026/1112/c64371-40832451.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"4d2fd72a8caf3445"},{"title":"万里征途入诗行","url":"http://cpc.people.com.cn/n1/2026/1112/c443712-40832512.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"7068e3f9a7c79ccc"},{"title":"外交部谈东京审判宣判78周年： 历史不容忘记","url":"http://world.people.com.cn/n1/2026/1112/c1002-40832856.html","summary":"","date":"2026-11-12","channel":"国际","source":"people","id":"bb50d73ded42dc6e"},{"title":"商务部：中美正就降税、贸易、投资等问题保持密切沟通","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832840.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"1c28c068255338ab"},{"title":"18起涉食品安全重大犯罪案件被挂牌督办","url":"http://society.people.com.cn/n1/2026/1112/c1008-40832872.html","summary":"","date":"2026-11-12","channel":"社会","source":"people","id":"a5d5c260658c4ed7"},{"title":"讲好丝路故事","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832349.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"87b1b9e7591af283"},{"title":"推进高质量共建“一带一路”行稳致远","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832350.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"67d70c4cc696b4ce"},{"title":"湖北：一馆藏乡愁，映照峡江新图景","url":"http://hb.people.com.cn/n2/2026/1112/c192237-41748854.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"8014ccfe446c0447"},{"title":"浙江海宁：一张协商桌 两个大市场","url":"http://zj.people.com.cn/n2/2026/1112/c186327-41748592.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"db5e7c84bddb4ebd"},{"title":"安徽向上丨滁州全椒：装备制造向“新”换挡","url":"http://ah.people.com.cn/n2/2026/1112/c227131-41748705.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"ef20151394cd507a"},{"title":"四川荥经：山民转身，端稳“生态饭碗”","url":"http://sc.people.com.cn/n2/2026/1112/c345167-41748614.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"8247394e572f07ff"},{"title":"“人和地都莫得事，还盼到下一季的丰收噻”","url":"http://society.people.com.cn/n1/2026/1112/c1008-40832735.html","summary":"","date":"2026-11-12","channel":"社会","source":"people","id":"c85c3c4cf75d51c8"},{"title":"AI观察｜手机里预装的智能体，要“持证上岗”了","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832771.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"3497a7ca527eabaa"},{"title":"检察机关依法对韩嵩涉嫌受贿案提起公诉","url":"http://society.people.com.cn/n1/2026/1112/c1008-40832738.html","summary":"","date":"2026-11-12","channel":"社会","source":"people","id":"f33ced9a5fbe43ee"},{"title":"控血糖，生活方式是关键","url":"http://society.people.com.cn/n1/2026/1112/c1008-40832353.html","summary":"","date":"2026-11-12","channel":"社会","source":"people","id":"9d5ce49b3ed9a78c"},{"title":"埃及导游，来雄安当游客了","url":"http://v.people.cn/n1/2026/1112/c431305-40832714.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"66c7775b0151c825"},{"title":"河南老君山现“一山两季”","url":"http://v.people.cn/n1/2026/1112/c431305-40832713.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"83c9ac1db1b5ab98"},{"title":"手搓7米枯枝大圣爆火,80后手艺人回应","url":"http://v.people.cn/n1/2026/1112/c431305-40832715.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"49bdbe6e29416e3b"},{"title":"从“双11”购物车看消费新意","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832382.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"1a1cb51c5c3f92ac"},{"title":"投资结构持续向新向优","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832396.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"819e629e2fa0aa8d"},{"title":"“十五五”时期，会计改革发展这样推进","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832380.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"68498275fbe7d2ac"},{"title":"“造车式”建房升温，智能建造大显身手","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832381.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"a9fc95ef033daf02"},{"title":"粮食安全底座稳则全局稳","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832395.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"7354e33e58664900"},{"title":"多措并举增强银行理财吸引力","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832393.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"a4a463597c2a37d3"},{"title":"中国期刊生态繁荣对全球科研意义重大","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832401.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"d6f2c98e3072e530"},{"title":"智能体安全互联有了自律公约","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832398.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"c97cc487383e8784"},{"title":"火星火山可能依然“活”着","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832403.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"9595f114a6d35dc2"},{"title":"大脑研究首次捕捉到亚秒级多巴胺响应信号","url":"http://finance.people.com.cn/n1/2026/1112/c1004-40832404.html","summary":"","date":"2026-11-12","channel":"财经","source":"people","id":"819800f5ae4e81e3"},{"title":"我国科研人员破解玉米镍元素“运输密码”","url":"http://kpzg.people.com.cn/n1/2026/1112/c404214-40832422.html","summary":"","date":"2026-11-12","channel":"要闻","source":"people","id":"f38d0598b0a0c311"},{"source":"bloomberg","channel":"市场","title":"Bundesbank Warns Commercial Property Prices May Decline Again","url":"https://www.bloomberg.com/news/articles/2026-11-12/bundesbank-warns-commercial-property-prices-may-decline-again","summary":"Germany’s central bank warned that commercial real estate prices may decline again if interest rates rise or troubled property funds are forced to sell assets.","date":"2026-11-12","id":"7365f414a2de7858"},{"source":"bloomberg","channel":"市场","title":"Dubai DET on the Emirate’s Growth Outlook in 2026","url":"https://www.bloomberg.com/news/videos/2026-11-12/dubai-det-on-the-emirate-s-growth-outlook-in-2026-video","summary":"H.E. Hadi Badri, CEO, Dubai Economic Development Corporation, Dubai Department of Economy & Tourism, discusses Dubai’s economic growth, investment priorities and outlook with Bloomberg's Jacob Greaves at Bloomberg Invest","date":"2026-11-12","id":"3a36af822f4ad905"},{"source":"bloomberg","channel":"市场","title":"Nvidia Weighs on US Index Futures as CEO Uncertainty Hits Shares","url":"https://www.bloomberg.com/news/articles/2026-11-12/nvidia-weighs-on-us-index-futures-as-ceo-uncertainty-hits-shares","summary":"US stock index futures slid as Nvidia Corp. considers replacing Chief Executive Officer Jensen Huang, with the AI chipmaker’s drop making up over half of the Nasdaq 100 contracts’ declines.","date":"2026-11-12","id":"9d726aca4e4ba2e8"},{"source":"bloomberg","channel":"市场","title":"IDR/USD: Indonesian Rupiah Drops to Record Amid MSCI Concerns, Oil Risks","url":"https://www.bloomberg.com/news/articles/2026-11-12/idr-usd-indonesian-rupiah-drops-to-record-amid-msci-concerns-oil-risks","summary":"The Indonesian rupiah fell to an all-time low, prompting authorities to once again step in to contain a recent selloff that also hit the nation’s stocks and bonds.","date":"2026-11-12","id":"68c7d6782906d682"},{"source":"bloomberg","channel":"市场","title":"Russia Steps Up Attacks on Ukraine’s Vital Food Factories","url":"https://www.bloomberg.com/news/articles/2026-11-12/russia-steps-up-attacks-on-ukraine-s-vital-food-factories","summary":"Russia is stepping up attacks on Ukraine’s crop-processing facilities, further straining an industry vital to the war-battered economy and global food supplies.","date":"2026-11-12","id":"5397329bb7798dce"},{"source":"bloomberg","channel":"市场","title":"Poland Loses Luster as Debt Woes Mount on Political Turmoil","url":"https://www.bloomberg.com/news/articles/2026-11-12/poland-bonds-lose-luster-as-debt-woes-mount-with-political-pain","summary":"Bondholders are increasingly questioning Poland’s long-held status as an emerging-market favorite as political turmoil undermines the government’s ability to rein in its fast-growing $600 billion debt load.","date":"2026-11-12","id":"acb1bb3d535889a1"},{"source":"bloomberg","channel":"市场","title":"Alexis Ohanian Bet on Women’s Sports First","url":"https://www.bloomberg.com/news/videos/2026-11-12/alexis-ohanian-bet-on-women-s-sports-first-video","summary":"In this episode of The Deal, Alex Rodriguez and Jason Kelly talk with entrepreneur and investor Alexis Ohanian at Bloomberg’s Power Players conference about investing in women’s sports. (Source: Bloomberg)","date":"2026-11-12","id":"9924317fbb709fc8"},{"source":"bloomberg","channel":"市场","title":"Jensen Huang Scandal: Investigating Nvidia's Relationship to Megaspeed","url":"https://www.bloomberg.com/news/articles/2026-11-12/jensen-huang-scandal-investigating-nvidia-s-relationship-to-megaspeed","summary":"The geopolitics of chip smuggling.","date":"2026-11-12","id":"600abd083058a1dd"},{"source":"bloomberg","channel":"市场","title":"Odd Lots: What Nvidia’s Megaspeed Scandal Is All About (Podcast)","url":"https://www.bloomberg.com/news/audio/2026-11-12/odd-lots-what-nvidia-s-megaspeed-scandal-is-all-about-podcast","summary":"Nvidia CEO Jensen Huang’s extramarital relationship with a woman named Alice Huang, whom US intelligence reportedly identified as a Chinese intelligence asset, is one of the biggest stories in the world right now. Bloomb","date":"2026-11-12","id":"7c68e56612128859"},{"source":"bloomberg","channel":"市场","title":"Blackstone, Pimco Target Gulf’s Multibillion-Dollar Buildout","url":"https://www.bloomberg.com/news/articles/2026-11-12/blackstone-pimco-target-gulf-s-multibillion-dollar-buildout","summary":"Some of the world’s biggest investment firms are looking to deploy more capital across the Middle East just as governments open more infrastructure projects to outside investors.","date":"2026-11-12","id":"6de8d9d72ecf38d6"},{"source":"bloomberg","channel":"市场","title":"BofA Says India’s Foreign Inflow Revival Has Further Room to Run","url":"https://www.bloomberg.com/news/articles/2026-11-12/bofa-says-india-s-foreign-inflow-revival-has-further-room-to-run","summary":"The strong momentum in foreign inflows into Indian stocks may continue given a combination of improving earnings, cheaper valuations and light positioning, according to BofA Global Research.","date":"2026-11-12","id":"3045d6f47ea6b7e1"},{"source":"bloomberg","channel":"市场","title":"Persimmon Defies UK Housing Gloom with Rising Sales, Values","url":"https://www.bloomberg.com/news/articles/2026-11-12/persimmon-defies-uk-housing-gloom-with-rising-sales-values","summary":"Persimmon Plc maintained its guidance for the year, increasing sales even as the UK housing market endures a protracted slump.","date":"2026-11-12","id":"043c64746c51d31f"},{"source":"bloomberg","channel":"市场","title":"China and Korea Will Outperform Taiwan: Market Analysis","url":"https://www.bloomberg.com/news/videos/2026-11-12/china-and-korea-will-outperform-taiwan-3-minutes-mliv-video","summary":"Anna Edwards, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)","date":"2026-11-12","id":"d1407e0f462ad7df"},{"source":"bloomberg","channel":"市场","title":"Santander Sweetens Offer for Brazil Unit Stake With 5% Increase","url":"https://www.bloomberg.com/news/articles/2026-11-12/santander-sweetens-offer-for-brazil-unit-stake-with-5-increase","summary":"Banco Santander SA raised an offer to buy out minority shareholders of its Brazilian unit by 5%, while saying it still provides an attractive return on invested capital for the Spanish lender.","date":"2026-11-12","id":"d9f1da7429c814bc"},{"source":"bloomberg","channel":"市场","title":"BHP Plans Overhaul of Australia Iron Ore Business to Cut Costs","url":"https://www.bloomberg.com/news/articles/2026-11-12/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs","summary":"BHP Group plans to restructure its Australian iron ore business as part of a wider cost-cutting effort aimed at helping the world’s largest miner cope with rising expenses and softer prices for the vital steelmaking ingr","date":"2026-11-12","id":"64508eeeb3e1b30b"},{"source":"bloomberg","channel":"市场","title":"London Infrastructure Investment Firm Arcus Said to Weigh Sale","url":"https://www.bloomberg.com/news/articles/2026-11-12/london-infrastructure-investment-firm-arcus-said-to-weigh-sale","summary":"Arcus Infrastructure Partners is weighing strategic options including a potential sale, people familiar with the matter said, in what could be the latest sign of consolidation among private capital managers.","date":"2026-11-12","id":"147bbf0dcd98b077"},{"source":"bloomberg","channel":"市场","title":"Mittal: Clear Govt Policy Made UAE an Expansion Hub","url":"https://www.bloomberg.com/news/videos/2026-11-12/mittal-clear-govt-policy-made-uae-an-expansion-hub-video","summary":"Shravin Mittal, Founder & CEO of Unbound, joined Horizons Middle East and Africa from the inaugural Bloomberg Invest Dubai where some of the world’s leading investors, family offices and business leaders gathered to disc","date":"2026-11-12","id":"c54d47c5864f2128"},{"source":"bloomberg","channel":"科技","title":"Norwest’s New $4 Billion Fund Will Avoid ‘Shiny Objects’","url":"https://www.bloomberg.com/news/articles/2026-11-12/norwest-s-new-4-billion-fund-will-avoid-shiny-objects","summary":"Wells Fargo & Co.-backed Norwest has raised $4 billion for its latest fund aimed at investing in early-stage AI startups alongside deals in sectors the rest of the market has overlooked, the firm plans to announce Thursd","date":"2026-11-12","id":"7cae29bf2361e7f8"},{"source":"bloomberg","channel":"科技","title":"UK Gilts Look 'Attractive,' Allspring Says","url":"https://www.bloomberg.com/news/videos/2026-11-12/uk-gilts-look-attractive-allspring-says-video","summary":"Lauren van Biljon, Allspring Global Investments senior rates and FX portfolio manager, says UK gilts are \"attractive.\" She also adds the Bank of England will likely hike interest rates again but \"probably not until next ","date":"2026-11-12","id":"afd920f37c937807"},{"source":"bloomberg","channel":"科技","title":"China’s Zhuanzhuan Is Said to Have Filed for $500 Million HK IPO","url":"https://www.bloomberg.com/news/articles/2026-11-12/china-s-zhuanzhuan-is-said-to-have-filed-for-500-million-hk-ipo","summary":"Online marketplace Beijing Zhuanzhuan Spirit Technology Co. has filed confidentially for an initial public offering in Hong Kong that may take place as soon as next year, according to people familiar with the matter.","date":"2026-11-12","id":"15a8494e987a40a6"},{"source":"bloomberg","channel":"科技","title":"Italy’s Poste Targets €600 Million Fund Amid AI Data Center Boom","url":"https://www.bloomberg.com/news/articles/2026-11-12/italy-s-poste-targets-600-million-fund-amid-ai-data-center-boom","summary":"Poste Italiane SpA launched a co-investment fund targeting €600 million ($665 million) for projects including data centers, expanding its digital infrastructure ambitions following the takeover of Telecom Italia SpA.","date":"2026-11-12","id":"a9c41e65d60cd754"},{"source":"bloomberg","channel":"科技","title":"Nvidia Supplier Hon Hai Predicts Robust Growth After Profit Beat","url":"https://www.bloomberg.com/news/articles/2026-11-12/nvidia-partner-hon-hai-beats-profit-estimates-on-ai-iphone-duo","summary":"Hon Hai Precision Industry Co. predicted strong sales growth for next year due to soaring worldwide AI spending after earning a quarterly profit that beat estimates.","date":"2026-11-12","id":"33e33e208601d327"},{"source":"bloomberg","channel":"科技","title":"Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny","url":"https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny","summary":"Alphabet Inc. is marketing its inaugural Hong Kong and Singapore dollar bond sale, testing investor interest at a time of increasing volatility for companies focused on artificial intelligence.","date":"2026-11-12","id":"d2efa7776a547166"},{"source":"bloomberg","channel":"科技","title":"Alice Huang Resurfaces in Beijing Amid Nvidia Scandal","url":"https://www.bloomberg.com/news/videos/2026-11-12/alice-huang-resurfaces-in-beijing-amid-nvidia-scandal-video","summary":"Alice Huang, the woman at the center of the scandal engulfing Nvidia CEO Jensen Huang, has returned to China and is in Beijing, according to Bloomberg’s exclusive reporting. The chipmaker is investigating spying allegati","date":"2026-11-12","id":"7a1c16147cc94e44"},{"source":"bloomberg","channel":"科技","title":"Dubai Tycoon Expects Billions From Anthropic, AI Investments","url":"https://www.bloomberg.com/news/articles/2026-11-12/dubai-tycoon-expects-billions-from-anthropic-ai-investments","summary":"Dubai tycoon Hussain Sajwani expects his investments in artificial intelligence firms including Anthropic PBC to draw billions in returns, highlighting the wins some investors are racking up from putting in money into th","date":"2026-11-12","id":"d21478a1aa879494"},{"source":"bloomberg","channel":"科技","title":"Drone Startup Uforce Valued at $6 Billion With UK Wealth Fund Backing","url":"https://www.bloomberg.com/news/articles/2026-11-12/drone-startup-uforce-valued-at-6-billion-with-uk-wealth-fund-backing","summary":"The UK National Wealth Fund made its largest defense investment as part of a $700 million financing round for Uforce, a drone startup initially formed in Ukraine.","date":"2026-11-12","id":"5063431adf413ed6"},{"source":"bloomberg","channel":"科技","title":"The Case For India in a World Obsessed With the AI Trade","url":"https://www.bloomberg.com/news/videos/2026-11-12/the-case-for-india-in-a-world-obsessed-with-the-ai-trade","summary":"As the AI trade wobbles, could India prove a safe haven of choice? Top investor Srini Sriniwasan, managing director at at Kotak Alternate Asset Managers, makes the pitch to Bloomberg’s Menaka Doshi. She also speaks with ","date":"2026-11-12","id":"56e436f4972bff39"},{"source":"bloomberg","channel":"科技","title":"Nvidia Board Weighs Huang’s Future as Congress Prepares Subpoena","url":"https://www.bloomberg.com/news/videos/2026-11-12/horizons-middle-east-africa-11-12-2026-video","summary":"Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus","date":"2026-11-12","id":"741b4a04f1afb22f"},{"source":"bloomberg","channel":"科技","title":"Can India Attract Investors in an AI-Obsessed World? | Emerging","url":"https://www.bloomberg.com/news/videos/2026-11-12/the-case-for-investing-in-india-in-an-ai-fixated-world-video","summary":"The AI boom has been sucking up global capital, leaving markets like India on the sidelines. In this episode of the Emerging podcast, Menaka Doshi sits down with Intrepid Growth Partners’ Mark Machin and Kotak Alternate ","date":"2026-11-12","id":"82887be4bf1958d9"},{"source":"bloomberg","channel":"科技","title":"Mastercard Sees Agentic AI Transforming e-Commerce","url":"https://www.bloomberg.com/news/videos/2026-11-12/mastercard-sees-agentic-ai-transforming-e-commerce-video","summary":"Mastercard Asia Pacific President Richard Wormald says agentic AI may create a new machine-to-machine commerce channel, with its growth depending heavily on consumer trust. He spoke on Insight with Haslinda Amin. (Source","date":"2026-11-12","id":"5d1995894410e981"},{"source":"bloomberg","channel":"科技","title":"The Nvidia Board Members Who Will Decide Jensen Huang’s Fate","url":"https://www.bloomberg.com/news/articles/2026-11-12/the-nvidia-board-members-who-will-decide-jensen-huang-s-fate","summary":"Nvidia Corp.’s board of directors is meeting to discuss the fate of Chief Executive Officer Jensen Huang following reports he had multiple extramarital affairs, including one with a woman suspected of spying for China.","date":"2026-11-12","id":"abe9441e780a6e12"},{"source":"bloomberg","channel":"科技","title":"Alleged Chinese Spy at Heart of Nvidia Scandal Is in Beijing","url":"https://www.bloomberg.com/news/articles/2026-11-12/alleged-chinese-spy-at-center-of-nvidia-firestorm-is-in-beijing","summary":"The suspected Chinese spy at the center of a scandal that threatens to take down Nvidia Corp. Chief Executive Officer Jensen Huang has returned to her home country, people familiar with the matter said.","date":"2026-11-12","id":"05655c6da77878b2"},{"source":"bloomberg","channel":"科技","title":"Siemens CEO on Earnings, Portfolio, AI","url":"https://www.bloomberg.com/news/videos/2026-11-12/siemens-ceo-on-earnings-portfolio-ai-video","summary":"Siemens CEO Roland Busch speaks on Bloomberg Television as the company raised its medium-term growth targets after posting record orders in its 2026 fiscal year. (Source: Bloomberg)","date":"2026-11-12","id":"200d0a6edc773935"},{"source":"bloomberg","channel":"科技","title":"SoftBank Backs Agile Robots in $500 Million Humanoid Push","url":"https://www.bloomberg.com/news/articles/2026-11-12/softbank-backs-agile-robots-in-500-million-humanoid-push","summary":"Agile Robots SE raised funds valuing the German robotics maker at $8.5 billion in a round led by SoftBank Group Corp., giving the startup fresh capital to expand production of its artificial intelligence-powered machines","date":"2026-11-12","id":"9e4718402cb14c2b"},{"source":"bloomberg","channel":"科技","title":"Elon Musk Says It Would Be an Honor to Hire Nvidia’s Huang","url":"https://www.bloomberg.com/news/articles/2026-11-12/elon-musk-says-it-would-be-an-honor-to-hire-nvidia-jensen-huang","summary":"Elon Musk said it would be an honor to hire Nvidia Corp. Chief Executive Officer Jensen Huang, who is at risk of being ousted following reports of multiple extramarital affairs, including with a woman reportedly suspecte","date":"2026-11-12","id":"aa86db41aa60722b"},{"source":"bloomberg","channel":"市场","title":"Latest Oil Market News and Analysis for Nov. 12","url":"https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12","summary":"Oil fluctuated amid higher production from the Middle East, even as tensions between Iran and the US remain a threat to shipments through the Strait of Hormuz.","date":"2026-11-11","id":"612e586855ab7fc8"},{"source":"bloomberg","channel":"市场","title":"Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap","url":"https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang","summary":"Nvidia Corp. shares fall as much as 8.1% in premarket trading following reports the AI chipmaker’s board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang. The mo","date":"2026-11-11","id":"9d1c4b0470b74fa2"},{"source":"bloomberg","channel":"市场","title":"Stocks Fall as Nvidia Leadership Crisis Hits Tech: Markets Wrap","url":"https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates","summary":"A technology-stock-driven rally came to a sudden halt as traders confronted a leadership crisis at Nvidia Corp. that risks reverberating across the global artificial intelligence supply chain.","date":"2026-11-11","id":"3a1c3ec8245f0cbc"},{"source":"bloomberg","channel":"科技","title":"Nvidia Working With Outside Firm to Identify CEO Candidates","url":"https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-candidates","summary":"Nvidia Corp.’s board has been working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang following reports of multiple extramarital affairs, including one with a woman who is","date":"2026-11-11","id":"94278c06ee209f21"},{"source":"bloomberg","channel":"科技","title":"Chinese Robotics Platform Amicro Surges 38% in Hong Kong Debut","url":"https://www.bloomberg.com/news/articles/2026-11-11/hosin-amicro-set-to-trade-in-hong-kong-as-ipos-gather-pace","summary":"Chinese robotics platform Amicro Technology Co.’s shares surged in their Hong Kong debut after the company raised HK$709.7 million ($90 million) in an initial public offering, in a test of investor appetite for the techn","date":"2026-11-11","id":"1da9dcfabf528cb6"}]};
@@ -131,6 +175,14 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
   var $ = function (s) { return document.querySelector(s); };
   var SOURCE_LABEL = { xuexi: '学习强国', people: '人民日报', bloomberg: 'Bloomberg' };
   var state = { data: null, filter: 'all', q: '' };
+  // 离线构建脚本会把 OFFLINE 置为 true；在线版恒为 false
+  var OFFLINE = true;
+  var GH = {
+    owner: '76NeverDie',
+    repo: 'daily-news-reader',
+    workflow: 'update-news.yml',
+    tokenKey: 'xiaojia-gh-token'
+  };
 
   function safeUrl(u) {
     try {
@@ -294,34 +346,138 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
     });
   }
 
-  async function load() {
+  function getToken() {
+    try { return (localStorage.getItem(GH.tokenKey) || '').trim(); } catch (e) { return ''; }
+  }
+  function saveToken(v) {
+    try { localStorage.setItem(GH.tokenKey, v.trim()); return true; } catch (e) { return false; }
+  }
+  function dropToken() {
+    try { localStorage.removeItem(GH.tokenKey); } catch (e) { /* 忽略 */ }
+  }
+  function syncButtonLabel() {
+    var armed = !OFFLINE && !!getToken();
+    $('#refresh').textContent = armed ? '抓取' : '刷新';
+    $('#refresh').title = armed
+      ? '点击触发一次真实抓取（云端运行，约 1～3 分钟）'
+      : '点击重新载入最新快照；点 ⚙ 可开启主动抓取';
+    var s = $('#setup');
+    if (s) s.hidden = !!OFFLINE;
+  }
+  function setStatus(msg, kind) {
+    var el = $('#status');
+    if (!msg) { el.hidden = true; el.textContent = ''; el.className = 'status'; return; }
+    el.hidden = false;
+    el.textContent = msg;
+    el.className = 'status' + (kind ? ' ' + kind : '');
+  }
+  function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  // 读取站点自身域名下的数据快照（离线版由构建脚本替换为内嵌数据）
+  async function readData() {
+    var data = EMBEDDED_NEWS;
+    if (!data || !Array.isArray(data.items) || !Array.isArray(data.sources)) throw new Error('数据格式不正确');
+    return data;
+  }
+
+  function applyData(data) {
+    state.data = data;
+    $('#updated').textContent = '更新于 ' + fmtUpdated(data.generatedAt);
+    renderNotice();
+    renderTabs();
+    renderList();
+  }
+
+  // 触发一次 GitHub Actions 的真实抓取任务
+  async function triggerFetch(token) {
+    var url = 'https://api.github.com/repos/' + GH.owner + '/' + GH.repo +
+              '/actions/workflows/' + GH.workflow + '/dispatches';
+    var res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/vnd.github+json',
+        'Authorization': 'Bearer ' + token,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ ref: 'main' })
+    });
+    if (res.ok) return;
+    var detail = '';
+    try { var j = await res.json(); detail = j.message || ''; } catch (e) { /* 忽略 */ }
+    var msg = 'HTTP ' + res.status + (detail ? '：' + detail : '');
+    if (res.status === 401) msg = '令牌无效或已撤销，请点 ⚙ 重新设置';
+    else if (res.status === 403) msg = '令牌权限不足，需要该仓库的 Actions 写权限（也可能触发了 GitHub 限流）';
+    else if (res.status === 404) msg = '未找到工作流，请确认仓库仍为 76NeverDie/daily-news-reader 且默认分支为 main';
+    throw new Error(msg);
+  }
+
+  // 等待 CI 抓取完成并发布：检测到 generatedAt 变化即返回新数据
+  async function waitForFresh(prev, maxMs, onTick) {
+    var start = Date.now();
+    while (Date.now() - start < maxMs) {
+      await sleep(9000);
+      if (onTick) onTick(Math.round((Date.now() - start) / 1000));
+      try {
+        var d = await readData();
+        if (d.generatedAt && d.generatedAt !== prev) return d;
+      } catch (e) { /* 发布中，继续等待 */ }
+    }
+    return null;
+  }
+
+  async function load(isManual) {
     var btn = $('#refresh');
+    if (btn.disabled) return;
     btn.disabled = true;
-    btn.textContent = '刷新中…';
+    btn.textContent = '处理中…';
     var box = $('#list');
-    box.replaceChildren();
-    var loading = document.createElement('div');
-    loading.className = 'empty';
-    loading.textContent = '正在加载新闻…';
-    box.appendChild(loading);
-    try {
-      var data = EMBEDDED_NEWS;
-      if (!data || !Array.isArray(data.items) || !Array.isArray(data.sources)) throw new Error('数据格式不正确');
-      state.data = data;
-      $('#updated').textContent = '更新于 ' + fmtUpdated(data.generatedAt);
-      renderNotice();
-      renderTabs();
-      renderList();
-    } catch (e) {
+    if (!state.data) {
       box.replaceChildren();
-      var err = document.createElement('div');
-      err.className = 'empty';
-      err.textContent = '数据加载失败：' + e.message + '。请确认 data/news.json 已生成，或稍后点击刷新重试。';
-      box.appendChild(err);
-      $('#updated').textContent = '加载失败';
+      var loading = document.createElement('div');
+      loading.className = 'empty';
+      loading.textContent = '正在加载新闻…';
+      box.appendChild(loading);
+    }
+    var token = (!OFFLINE && isManual) ? getToken() : '';
+    try {
+      var current = await readData();
+      var prev = current.generatedAt;
+      applyData(current);
+
+      if (!token) {
+        if (isManual) {
+          setStatus(OFFLINE
+            ? '这是离线快照，刷新只会重新载入内嵌数据。要主动抓取，请打开在线版并点右上角 ⚙ 配置一次。'
+            : '已载入最新快照（' + fmtUpdated(current.generatedAt) + '）。想让这颗按钮「点一次就重新抓取」，点右上角 ⚙ 配置一次即可。', 'hint');
+        }
+        return;
+      }
+
+      setStatus('已发起抓取，云端正在抓取三个新闻源…', 'busy');
+      await triggerFetch(token);
+      setStatus('抓取任务已启动，正在等待数据写回仓库并发布（通常 1～3 分钟）…', 'busy');
+      var fresh = await waitForFresh(prev, 240000, function (sec) {
+        setStatus('抓取任务运行中 · 已等待 ' + sec + ' 秒，数据发布后会自动刷新…', 'busy');
+      });
+      if (fresh) {
+        applyData(fresh);
+        setStatus('抓取完成 · 已更新 ' + fresh.items.length + ' 条新闻（' + fmtUpdated(fresh.generatedAt) + '）', 'ok');
+      } else {
+        setStatus('抓取已触发，但 4 分钟内未检测到新数据。任务可能仍在排队或发布较慢，稍后再点一次「抓取」即可；也可到 GitHub Actions 查看运行记录。', 'warn');
+      }
+    } catch (e) {
+      if (!state.data) {
+        box.replaceChildren();
+        var err = document.createElement('div');
+        err.className = 'empty';
+        err.textContent = '数据加载失败：' + e.message + '。请稍后点击刷新重试。';
+        box.appendChild(err);
+        $('#updated').textContent = '加载失败';
+      }
+      setStatus('主动抓取失败：' + e.message, 'warn');
     } finally {
       btn.disabled = false;
-      btn.textContent = '刷新';
+      syncButtonLabel();
     }
   }
 
@@ -329,7 +485,48 @@ footer{margin:36px 0 40px;padding-top:18px;border-top:1px solid var(--border);fo
     state.q = e.target.value;
     if (state.data) renderList();
   });
-  $('#refresh').addEventListener('click', load);
+  $('#refresh').addEventListener('click', function () { load(true); });
+
+  var mask = $('#mask');
+  var tokenInput = $('#token');
+  var panelMsg = $('#panel-msg');
+  function openPanel() {
+    tokenInput.value = getToken();
+    panelMsg.textContent = getToken() ? '当前已配置令牌（仅保存在本机浏览器）。' : '';
+    mask.hidden = false;
+    try { tokenInput.focus(); } catch (e) { /* 忽略 */ }
+  }
+  function closePanel() { mask.hidden = true; panelMsg.textContent = ''; }
+  var setupBtn = $('#setup');
+  if (setupBtn) setupBtn.addEventListener('click', openPanel);
+  var cancelBtn = $('#cancel-token');
+  if (cancelBtn) cancelBtn.addEventListener('click', closePanel);
+  if (mask) mask.addEventListener('click', function (e) { if (e.target === mask) closePanel(); });
+  var clearBtn = $('#clear-token');
+  if (clearBtn) clearBtn.addEventListener('click', function () {
+    dropToken();
+    tokenInput.value = '';
+    panelMsg.textContent = '已清除本机令牌，按钮恢复为「刷新」。';
+    syncButtonLabel();
+  });
+  var saveBtn = $('#save-token');
+  if (saveBtn) saveBtn.addEventListener('click', function () {
+    var v = (tokenInput.value || '').trim();
+    if (!/^(ghp_|github_pat_|gho_|ghu_|ghs_|ghr_)/.test(v)) {
+      panelMsg.textContent = '请粘贴有效的 GitHub 令牌（ghp_ 或 github_pat_ 开头）。';
+      return;
+    }
+    if (!saveToken(v)) {
+      panelMsg.textContent = '浏览器拒绝写入本地存储（可能开启了隐私模式），请换普通窗口重试。';
+      return;
+    }
+    closePanel();
+    syncButtonLabel();
+    setStatus('设置已保存，正在发起第一次抓取…', 'busy');
+    load(true);
+  });
+
+  syncButtonLabel();
   load();
 })();
 </script>

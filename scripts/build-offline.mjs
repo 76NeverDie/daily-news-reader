@@ -20,11 +20,10 @@ const payload = JSON.stringify(data)
   .replace(/\u2028/g, '\\u2028')
   .replace(/\u2029/g, '\\u2029');
 
-const FETCH_BLOCK = `      var res = await fetch('./data/news.json?t=' + Date.now(), { cache: 'no-store' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      var data = await res.json();`;
+// 匹配 readData() 中的三行数据加载代码；不限定缩进，避免页面结构调整后构建失效
+const FETCH_RE = /^[ \t]*var res = await fetch\('\.\/data\/news\.json\?t=' \+ Date\.now\(\), \{ cache: 'no-store' \}\);\r?\n[ \t]*if \(!res\.ok\) throw new Error\('HTTP ' \+ res\.status\);\r?\n[ \t]*var data = await res\.json\(\);/m;
 
-if (!html.includes(FETCH_BLOCK)) {
+if (!FETCH_RE.test(html)) {
   throw new Error('未找到数据加载代码块，index.html 结构可能已变更，请检查后再构建');
 }
 if (!/<script>/.test(html)) {
@@ -38,13 +37,18 @@ let result = html
   // 注入内嵌数据
   .replace('<script>', `<script>\n  const EMBEDDED_NEWS = ${payload};`)
   // 把 fetch 换成读内嵌数据
-  .replace(FETCH_BLOCK, '      var data = EMBEDDED_NEWS;')
+  .replace(FETCH_RE, '    var data = EMBEDDED_NEWS;')
+  // 离线版关闭主动抓取：不读令牌、不调用 GitHub API、隐藏设置入口
+  .replace('var OFFLINE = false;', 'var OFFLINE = true;')
   // 标注为离线快照
   .replace(/<title>([\s\S]*?)<\/title>/i, (m, t) => `<title>${t} · 离线快照</title>`);
 
-// 断言：产物里不能再出现外部数据请求
+// 断言：产物里不能再出现外部数据请求，且必须处于离线模式
 if (/fetch\(['"]\.\/data\/news\.json/.test(result)) {
   throw new Error('构建失败：仍存在对 data/news.json 的外部请求');
+}
+if (!/var OFFLINE = true;/.test(result)) {
+  throw new Error('构建失败：离线版未标记为 OFFLINE，可能仍会发起网络请求');
 }
 
 fs.writeFileSync(out, result, 'utf8');
