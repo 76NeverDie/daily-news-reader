@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T04:02:30.128Z",
+  "generatedAt": "2026-11-21T11:49:46.646Z",
   "date": "2026-11-21",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "name": "学习强国",
       "note": "学习强国未提供公开数据接口，本栏展示人民网时政、理论、党建、评论等官方同源内容",
       "status": "ok",
-      "count": 23,
+      "count": 12,
       "error": null
     },
     {
@@ -45,31 +45,13 @@
   ],
   "items": [
     {
-      "title": "习近平主席的深圳APEC时间",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40837956.html",
+      "title": "“深圳故事”里的大国外交新篇",
+      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40838147.html",
       "summary": "",
       "date": "2026-11-21",
       "channel": "时政",
       "source": "xuexi",
-      "id": "fcd1fd51cf62205c"
-    },
-    {
-      "title": "习主席出席亚太经合组织深圳会议及相关活动纪实",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40838110.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "a0cfb4174f91e902"
-    },
-    {
-      "title": "一见·两张历史性同框照，为何在中国定格？",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40838108.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "a69c3c30e08ea80f"
+      "id": "5caa44187ef7cfca"
     },
     {
       "title": "推动亚太合作迈出新步伐 开创新局面",
@@ -81,94 +63,22 @@
       "id": "6b02ca14992f0996"
     },
     {
-      "title": "国际人士：中俄美元首会晤为世界和平与稳定注入信心和动力",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40838107.html",
+      "title": "习近平主席的深圳APEC时间",
+      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40837956.html",
       "summary": "",
       "date": "2026-11-21",
       "channel": "时政",
       "source": "xuexi",
-      "id": "39241da51c71e163"
+      "id": "fcd1fd51cf62205c"
     },
     {
-      "title": "习近平会见印度尼西亚总统普拉博沃",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837948.html",
+      "title": "李强同新加坡总理黄循财会谈",
+      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40838150.html",
       "summary": "",
       "date": "2026-11-21",
       "channel": "时政",
       "source": "xuexi",
-      "id": "1fa35d467bdc78d6"
-    },
-    {
-      "title": "习近平分别会见澳大利亚总理、",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837949.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "da5f89b04be3c4a2"
-    },
-    {
-      "title": "新加坡总理",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837950.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "2f845fed3218ec3c"
-    },
-    {
-      "title": "习近平分别会见泰国总理、",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837951.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "74abed2899ffb289"
-    },
-    {
-      "title": "马来西亚总理",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837952.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "87eef75e9944996a"
-    },
-    {
-      "title": "习近平总书记重要指示指引新征程老龄事业高质量发展",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40837957.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "a044fc461c917197"
-    },
-    {
-      "title": "李强同澳大利亚总理举行第十一轮中澳总理年度会晤",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837953.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "b8d2de2b381b8b56"
-    },
-    {
-      "title": "赵乐际会见澳大利亚总理阿尔巴尼斯",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837954.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "a89e1957be146e72"
-    },
-    {
-      "title": "丁薛祥将访问新加坡并主持中新双边合作机制会议",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1024-40837955.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "162d5d82f9fd9fa1"
+      "id": "0c7365785ddfec64"
     },
     {
       "title": "钟声|扛起大国责任,共同为世界和平托底",
@@ -178,6 +88,15 @@
       "channel": "评论",
       "source": "xuexi",
       "id": "0ccfb6939aec744f"
+    },
+    {
+      "title": "壹时评:从\"采购热\"\"搜索热\"看国货硬实力",
+      "url": "http://opinion.people.com.cn/n1/2026/1121/c223228-40838102.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "评论",
+      "source": "xuexi",
+      "id": "81385d256db7b8ce"
     },
     {
       "title": "多维发力打通生态修复堵点",
@@ -196,33 +115,6 @@
       "channel": "党建",
       "source": "xuexi",
       "id": "9f221fc7323d62b1"
-    },
-    {
-      "title": "刘国中会见国际合作社联盟主席加尔科",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1001-40837962.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "87ab203def82a776"
-    },
-    {
-      "title": "第三届兰花奖颁奖典礼在京举行",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1001-40837965.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "fce1357db8447fed"
-    },
-    {
-      "title": "张国清出席国际丝绸组织成立大会并致辞",
-      "url": "http://politics.people.com.cn/n1/2026/1121/c1001-40837966.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "6c39a5a9d6861008"
     },
     {
       "title": "全国人大常委会办公厅对新任县级人大常委会主任开展履职培训",
@@ -252,31 +144,94 @@
       "id": "04deb65055b1689a"
     },
     {
-      "title": "秘鲁发生地震 首都利马震感强烈",
-      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40838096.html",
+      "title": "在智能时代，做好“看不见的 传播”",
+      "url": "http://politics.people.com.cn/n1/2026/1121/c461001-40838140.html",
       "summary": "",
       "date": "2026-11-21",
-      "channel": "国际",
-      "source": "people",
-      "id": "af670e87f96943bf"
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "bc01dd5d4f8566cb"
     },
     {
-      "title": "安理会举行联合国秘书长遴选第九轮意向性投票",
-      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40837947.html",
+      "title": "和合共生丨亚太同行 “深”入人心",
+      "url": "http://cpc.people.com.cn/n1/2026/1121/c164113-40838145.html",
       "summary": "",
       "date": "2026-11-21",
-      "channel": "国际",
+      "channel": "要闻",
       "source": "people",
-      "id": "d9470fd61271f29a"
+      "id": "0797c86a239fc13b"
     },
     {
-      "title": "日媒:日本研究引进核潜艇及为\"无核三原则\"设例外",
-      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40837946.html",
+      "title": "唱空中国经济者终会落空",
+      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40838133.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "财经",
+      "source": "people",
+      "id": "28733c124b122ec1"
+    },
+    {
+      "title": "治理沉下去 日子暖起来",
+      "url": "http://henan.people.com.cn/n2/2026/1121/c351638-41756911.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "54d472ad55b035ae"
+    },
+    {
+      "title": "不产咖啡豆,昆明何以咖香满城?",
+      "url": "http://yn.people.com.cn/n2/2026/1121/c378439-41756861.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "a1773e377413aae4"
+    },
+    {
+      "title": "\"六张网\"投资发力:创新有支撑,民生有温度",
+      "url": "https://finance.people.com.cn/n1/2026/1121/c1004-40837992.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "财经",
+      "source": "people",
+      "id": "ab693cca6b6fcee6"
+    },
+    {
+      "title": "青海海西州德令哈市发生5.6级地震",
+      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838155.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "社会",
+      "source": "people",
+      "id": "27774afa7613c88b"
+    },
+    {
+      "title": "神舟二十四号任务完成最后一次全区合练",
+      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40838153.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "财经",
+      "source": "people",
+      "id": "be740019b5fc51ca"
+    },
+    {
+      "title": "美国今年麻疹确诊病例已超5800例",
+      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40838135.html",
       "summary": "",
       "date": "2026-11-21",
       "channel": "国际",
       "source": "people",
-      "id": "dd2d49ab1e1178d7"
+      "id": "266bbce6a8ad80d8"
+    },
+    {
+      "title": "江西安远：“四好农村路”带动产业兴​",
+      "url": "http://jx.people.com.cn/n2/2026/1121/c186330-41756896.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "22a622cfd6803102"
     },
     {
       "title": "黑龙江漠河：列车穿越林海雪原",
@@ -297,6 +252,15 @@
       "id": "ee30c86cc0cb0b72"
     },
     {
+      "title": "安徽歙县：姬川的柿子红了",
+      "url": "http://ah.people.com.cn/n2/2026/1121/c227131-41756863.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "5d8ef62e7591a552"
+    },
+    {
       "title": "新疆阿勒泰：牛羊转场 奔赴萨吾尔山冬牧场",
       "url": "http://pic.people.com.cn/n1/2026/1121/c1016-40838129.html",
       "summary": "",
@@ -304,24 +268,6 @@
       "channel": "图片",
       "source": "people",
       "id": "558d5f10ece02269"
-    },
-    {
-      "title": "西藏米林：南迦巴瓦峰现“日照金山”景观",
-      "url": "http://pic.people.com.cn/n1/2026/1121/c1016-40838130.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "图片",
-      "source": "people",
-      "id": "3774a4ef919ae325"
-    },
-    {
-      "title": "安徽宣城：落羽杉色彩旖旎醉游人",
-      "url": "http://pic.people.com.cn/n1/2026/1121/c1016-40838128.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "图片",
-      "source": "people",
-      "id": "50f959b7f6d01114"
     },
     {
       "title": "织密医保基金防护网",
@@ -369,6 +315,15 @@
       "id": "bb5bb44582541d2c"
     },
     {
+      "title": "黄河内蒙古段进入2026至2027年度凌汛期",
+      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838134.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "社会",
+      "source": "people",
+      "id": "a35f51e20b4a7ffb"
+    },
+    {
       "title": "累计下载量突破100亿次 国产大模型引领全球开源生态",
       "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40837972.html",
       "summary": "",
@@ -376,6 +331,15 @@
       "channel": "财经",
       "source": "people",
       "id": "11e3e3da315998d8"
+    },
+    {
+      "title": "探访高铁维修车间：感受速度与坚守",
+      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40838109.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "财经",
+      "source": "people",
+      "id": "745b0f3bacb55b43"
     },
     {
       "title": "“港澳艇北上”“粤艇南下” 大湾区海上互联互通启新篇",
@@ -405,40 +369,49 @@
       "id": "133111e251fe0580"
     },
     {
-      "title": "特朗普：中俄美元首会晤“史无前例”“意义重大”",
-      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40837945.html",
+      "title": "从“立名”到“香飘全国”：一粒江汉米的进阶之旅",
+      "url": "http://hb.people.com.cn/n2/2026/1121/c192237-41757051.html",
       "summary": "",
       "date": "2026-11-21",
-      "channel": "国际",
+      "channel": "要闻",
       "source": "people",
-      "id": "e94186568ad12c0d"
+      "id": "22c4983a33264809"
     },
     {
-      "title": "APEC中国年丨“我们把彼此视为重要合作伙伴”",
-      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40837961.html",
+      "title": "河北南宫：一块毛毡的18000个可能",
+      "url": "http://he.people.com.cn/n2/2026/1121/c192235-41756809.html",
       "summary": "",
       "date": "2026-11-21",
-      "channel": "国际",
+      "channel": "要闻",
       "source": "people",
-      "id": "afaa6406011ed712"
+      "id": "1453e68151a6d008"
     },
     {
-      "title": "青年对话丨“我们在亚太合作大潮中踏浪而行”",
-      "url": "http://world.people.com.cn/n1/2026/1121/c1002-40837989.html",
+      "title": "江西：实干奋进 硕果累累",
+      "url": "http://jx.people.com.cn/n2/2026/1121/c190260-41757143.html",
       "summary": "",
       "date": "2026-11-21",
-      "channel": "国际",
+      "channel": "要闻",
       "source": "people",
-      "id": "2d64889329f92d37"
+      "id": "c86a15ecb01fd50a"
     },
     {
-      "title": "在太空“囚禁”“松绑”原子，中国的目的是什么？",
-      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40837975.html",
+      "title": "改造“太粗放”，居民“心不畅” 黑龙江相关部门积极回应整改",
+      "url": "http://hlj.people.com.cn/n2/2026/1121/c220005-41756847.html",
       "summary": "",
       "date": "2026-11-21",
-      "channel": "财经",
+      "channel": "要闻",
       "source": "people",
-      "id": "3582c4d0e5cbac00"
+      "id": "6c7be082c089e60d"
+    },
+    {
+      "title": "中国短道速滑队夺得世巡赛首尔站女子3000米接力金牌",
+      "url": "http://ent.people.com.cn/n1/2026/1121/c1012-40838149.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "1d072dddb0f4b230"
     },
     {
       "title": "小雪节气：微雪初飘 蓄暖前行",
@@ -457,6 +430,33 @@
       "channel": "要闻",
       "source": "people",
       "id": "7e86b33015fe51f5"
+    },
+    {
+      "title": "大理洱源：白杨镀金辉，水杉染丹红",
+      "url": "http://v.people.cn/n1/2026/1121/c431305-40838138.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "071f5a27c9b83c94"
+    },
+    {
+      "title": "壮观！鸟浪与日月同辉",
+      "url": "http://v.people.cn/n1/2026/1121/c431305-40838137.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "51eb1d169cee3f1b"
+    },
+    {
+      "title": "“功夫熊猫”萌兰展现超绝“一字马”",
+      "url": "http://v.people.cn/n1/2026/1121/c431305-40838136.html",
+      "summary": "",
+      "date": "2026-11-21",
+      "channel": "要闻",
+      "source": "people",
+      "id": "8ee60612907fc063"
     },
     {
       "title": "国际金价创一年多新低，未来走势如何？",
@@ -513,112 +513,85 @@
       "id": "dafd92111b73a636"
     },
     {
-      "title": "给地球降温，“太空遮阳伞”可行吗",
-      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40838007.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "China Military Bars SF Express Over Procurement Misconduct",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-military-bans-sf-express-from-procurement-over-misconduct",
+      "summary": "SF Express Co., a Chinese delivery and logistics company, has been suspended from participating in military-wide procurement of goods, engineering and services over alleged violations.",
       "date": "2026-11-21",
-      "channel": "财经",
-      "source": "people",
-      "id": "1c646327e7403858"
-    },
-    {
-      "title": "全国科技名词委集中发布28部规范名词",
-      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40837994.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "财经",
-      "source": "people",
-      "id": "119da47d5c496699"
-    },
-    {
-      "title": "AI生成的脸为何比真人更“顺眼”？",
-      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40837996.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "财经",
-      "source": "people",
-      "id": "2f26b27c3b5e2dd1"
-    },
-    {
-      "title": "扭转超薄晶体角度可形成微小电学图案",
-      "url": "http://finance.people.com.cn/n1/2026/1121/c1004-40837997.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "财经",
-      "source": "people",
-      "id": "06104143a57f149b"
-    },
-    {
-      "title": "以高质量司法书写为民答卷",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838090.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "6b9021d4256058b8"
-    },
-    {
-      "title": "最高检发布服务新质生产力发展典型案例",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838033.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "f64a37b6acd64eb9"
-    },
-    {
-      "title": "让首违不罚制度的善意真正转化为治理效能",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838010.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "d2c4655a9ad26d16"
-    },
-    {
-      "title": "护“硬核”技术须有“破局”之力",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838029.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "2dcc284fdeda014f"
-    },
-    {
-      "title": "护农，从一串葡萄破题",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838031.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "6f7def2ccdf09ab8"
-    },
-    {
-      "title": "用户去世后，其网络游戏账号能继承吗",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838012.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "7ab713fea7814d8f"
-    },
-    {
-      "title": "杭州：初冬西湖景致秀美",
-      "url": "http://society.people.com.cn/n1/2026/1121/c1008-40838037.html",
-      "summary": "",
-      "date": "2026-11-21",
-      "channel": "社会",
-      "source": "people",
-      "id": "bb5bd8d5d0cba597"
+      "id": "b72078bf8d2128d7"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Peru Rattled by 6.7-Magnitude Quake, With No Casualties Reported",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-21/peru-rattled-by-6-7-magnitude-quake-with-no-casualties-reported",
-      "summary": "Peru was shaken by a powerful earthquake late Friday that damaged some houses and disrupted power in a central district.",
+      "title": "How AI Is Forcing China to Reshape Industrial Policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/how-ai-is-forcing-china-to-reshape-industrial-policy",
+      "summary": "Kyle Chan on Beijing's plan to become technologically self-reliant.",
       "date": "2026-11-21",
-      "id": "7da2ad14a6250cc7"
+      "id": "2732bde9b22cdaff"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Europe’s Power Market Is Flashing a Warning to Its Economy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flashing-a-warning-to-its-economy",
+      "summary": "At a factory in Germany, there are increasingly hours when it is simply too expensive to produce steel.",
+      "date": "2026-11-21",
+      "id": "37c88fed08856d8c"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Odd Lots: How AI Reshaped Chinese Industrial Policy (Podcast)",
+      "url": "https://www.bloomberg.com/news/audio/2026-11-21/odd-lots-how-ai-reshaped-chinese-industrial-policy-podcast",
+      "summary": "Can Chinese tech companies help the country achieve technological self-reliance while keeping up in the AI arms race? On this episode, we speak with Kyle Chan, a fellow at the Brookings Institution’s John L. Thornton Chi",
+      "date": "2026-11-21",
+      "id": "aff8990576d19b06"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Italy’s Webuild Completes Takeover of Construction Group Trevi",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/italy-s-webuild-completes-takeover-of-construction-group-trevi",
+      "summary": "Webuild SpA, Italy’s biggest construction company, completed its tender offer for smaller competitor Trevi, adding to a string of acquisitions.",
+      "date": "2026-11-21",
+      "id": "c7d47ad74fd7fb7c"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "China’s Top Planner Seeks Faster Construction of State Projects",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-s-top-planner-seeks-faster-construction-of-state-projects",
+      "summary": "China’s top planning agency urged local authorities to speed up the construction of government investment projects and disbursement of funds in a bid to spur growth in the world’s second-largest economy.",
+      "date": "2026-11-21",
+      "id": "cb95f4d527b0d6c8"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "China Plans to Strengthen AI Token Standards in Computing Push",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-plans-to-strengthen-ai-token-standards-in-computing-push",
+      "summary": "China’s National Data Administration will improve standards on the measurement and billing of artificial intelligence tokens and quality assessment, as Beijing guides the development of the growing industry.",
+      "date": "2026-11-21",
+      "id": "26a43fbad1883e95"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "How AI Is Reshaping China's Industrial Policy",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/how-ai-is-reshaping-china-s-industrial-policy-video",
+      "summary": "Can Chinese tech companies help the country achieve technological self-reliance while keeping up in the AI arms race? On this episode, we speak with Kyle Chan, a fellow at the Brookings Institution’s John L. Thornton Chi",
+      "date": "2026-11-21",
+      "id": "6410d53b9cd1cfe5"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
+      "title": "Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets",
+      "summary": "Taiwan widened curbs on short sales of local stocks and said it has been buying shares, stepping up efforts to revive confidence after the island’s benchmark index had its worst weekly fall in 35 years.",
+      "date": "2026-11-21",
+      "id": "fda17b4e713f8652"
     },
     {
       "source": "bloomberg",
@@ -651,814 +624,1078 @@
       "source": "baidu",
       "kind": "hot",
       "rank": 1,
-      "title": "特朗普：看看人家深圳再看看我们",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E7%9C%8B%E7%9C%8B%E4%BA%BA%E5%AE%B6%E6%B7%B1%E5%9C%B3%E5%86%8D%E7%9C%8B%E7%9C%8B%E6%88%91%E4%BB%AC",
-      "summary": "当地时间11月20日，特朗普在白宫召开记者发布会，他在会上点赞深圳城市建设，称深圳仅用40年从小渔村建成，路面完美无瑕。他乘车观察后将其与美国对比，批评大多由民主党主政的美国城市脏乱不堪，路面坑洼且护栏锈迹斑斑。",
-      "hot": 7809621,
+      "title": "特朗普：中国的活力令人惊叹",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E4%B8%AD%E5%9B%BD%E7%9A%84%E6%B4%BB%E5%8A%9B%E4%BB%A4%E4%BA%BA%E6%83%8A%E5%8F%B9",
+      "summary": "近日，特朗普对中国作出高度评价。他表示，习主席是一个伟大的人，工作太出色。特朗普赞叹中国城市干净整洁、一尘不染且没有犯罪，拥有很多优势，其活力令人惊叹，并指出中国过去20年间发生了巨变。",
+      "hot": 7808297,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "95ff97dbcbcfeb7c"
+      "id": "6c47f0a1ec6d8301"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 2,
-      "title": "星二代扎堆出道 观众在担心什么",
-      "url": "https://www.baidu.com/s?wd=%E6%98%9F%E4%BA%8C%E4%BB%A3%E6%89%8E%E5%A0%86%E5%87%BA%E9%81%93+%E8%A7%82%E4%BC%97%E5%9C%A8%E6%8B%85%E5%BF%83%E4%BB%80%E4%B9%88",
-      "summary": "近来，一批星二代扎堆出道并频登热搜，引发网友对娱乐圈圈层化、资源内部流转的担忧。作者指出，演艺行业最终靠作品说话，父辈光环和人脉无法替代实力。观众接纳的是打动人心的创作而非身份，期待新人沉下心用扎实作品为自己正名。",
-      "hot": 7713660,
+      "title": "墨西哥总统的中方女保镖在外网火了",
+      "url": "https://www.baidu.com/s?wd=%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%80%BB%E7%BB%9F%E7%9A%84%E4%B8%AD%E6%96%B9%E5%A5%B3%E4%BF%9D%E9%95%96%E5%9C%A8%E5%A4%96%E7%BD%91%E7%81%AB%E4%BA%86",
+      "summary": "20日，墨西哥总统辛鲍姆在社交媒体发文感谢中方安保人员徐瑾，该帖文点赞量当晚已突破5.2万。此前，辛鲍姆赴深圳出席APEC会议期间，徐瑾全程随行护卫。多家墨西哥媒体对此进行报道，大量网友留言点赞其“美貌与实力并存”，并邀约她前往墨西哥。",
+      "hot": 7712931,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "743657f06be252fa"
+      "id": "f809d5702ae35c75"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 3,
-      "title": "世界首个、蝉联榜首！多领域捷报频传",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E9%A6%96%E4%B8%AA%E3%80%81%E8%9D%89%E8%81%94%E6%A6%9C%E9%A6%96%EF%BC%81%E5%A4%9A%E9%A2%86%E5%9F%9F%E6%8D%B7%E6%8A%A5%E9%A2%91%E4%BC%A0",
-      "summary": "本周我国多领域创新成果密集涌现，捷报频传：11月17日“灵晟”超算蝉联全球榜首；11月16日世界首个“源储一号”在甘肃成功并网；近日“梦想”号大洋钻探船完成海试，刷新该类系统国际作业水深纪录。",
-      "hot": 7616031,
+      "title": "321场活动75项成果 回顾APEC成绩单",
+      "url": "https://www.baidu.com/s?wd=321%E5%9C%BA%E6%B4%BB%E5%8A%A875%E9%A1%B9%E6%88%90%E6%9E%9C+%E5%9B%9E%E9%A1%BEAPEC%E6%88%90%E7%BB%A9%E5%8D%95",
+      "summary": "11月18日至19日，亚太经合组织第三十三次领导人非正式会议在广东深圳举行。321场活动、75项成果，一起回顾APEC的成绩单！",
+      "hot": 7618701,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "41a6e3d5ebda5d9b"
+      "id": "fadc82fce23f4b31"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 4,
-      "title": "工商银行、建设银行等示警金市风险",
-      "url": "https://www.baidu.com/s?wd=%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C%E3%80%81%E5%BB%BA%E8%AE%BE%E9%93%B6%E8%A1%8C%E7%AD%89%E7%A4%BA%E8%AD%A6%E9%87%91%E5%B8%82%E9%A3%8E%E9%99%A9",
-      "summary": "11月20日，工商银行、建设银行、招商银行、宁波银行相继发布贵金属业务市场风险提示。四家银行均要求客户增强风险防范意识，基于自身财务状况和风险承受能力理性投资，合理控制仓位，避免盲目跟风。",
-      "hot": 7520321,
+      "title": "青海德令哈地震",
+      "url": "https://www.baidu.com/s?wd=%E9%9D%92%E6%B5%B7%E5%BE%B7%E4%BB%A4%E5%93%88%E5%9C%B0%E9%9C%87",
+      "summary": "据中国地震台网正式测定，11月21日18时45分在青海海西州德令哈市发生5.6级地震，震源深度10公里，震中位于北纬37.14度，东经96.62度。",
+      "hot": 7524267,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "78e76f441ef80cbf"
+      "id": "ccbb2a090fc7d958"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 5,
-      "title": "麻阳县委书记：我很少加班和晚上开会",
-      "url": "https://www.baidu.com/s?wd=%E9%BA%BB%E9%98%B3%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%EF%BC%9A%E6%88%91%E5%BE%88%E5%B0%91%E5%8A%A0%E7%8F%AD%E5%92%8C%E6%99%9A%E4%B8%8A%E5%BC%80%E4%BC%9A",
-      "summary": "近日，麻阳县委书记在采访中表示，从政更需要去接地气，否则无法了解老百姓的想法并为其服务。其称自己很少加班，开会也未超30分钟，认为不应天天泡在会场上，而应多到现场看着或盯着，以落实最后一公里。",
-      "hot": 7423891,
+      "title": "中方女保镖徐瑾曾1人战胜5名日本冠军",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%A5%B3%E4%BF%9D%E9%95%96%E5%BE%90%E7%91%BE%E6%9B%BE1%E4%BA%BA%E6%88%98%E8%83%9C5%E5%90%8D%E6%97%A5%E6%9C%AC%E5%86%A0%E5%86%9B",
+      "summary": "11月20日，墨西哥总统辛鲍姆发视频致谢中方女保镖徐瑾。此前自16日辛鲍姆抵深圳参加APEC活动起，徐瑾全程贴身护卫。徐瑾曾负责多国领导人安保，被称“中国最美女保镖”，网传她曾一人战胜5名日本空手道冠军，专业素养获外宾认可。",
+      "hot": 7423776,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "da6b159e993fdca8"
+      "id": "eaa7a3042f6ab003"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 6,
-      "title": "特朗普称不支持“台独”引岛内震动",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8D%E6%94%AF%E6%8C%81%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E5%BC%95%E5%B2%9B%E5%86%85%E9%9C%87%E5%8A%A8",
-      "summary": "美国总统特朗普在深圳明确表态不支持“台独”，在台湾引发持续震动。有岛内舆论认为，这对民进党当局长期奉行的“倚美谋独”路线是一大警讯。一些台湾网民更是直接在网上留言，呼吁“两岸统一！”",
-      "hot": 7329339,
+      "title": "老人学会网购后 下单3万斤薯条喂猪",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E5%AD%A6%E4%BC%9A%E7%BD%91%E8%B4%AD%E5%90%8E+%E4%B8%8B%E5%8D%953%E4%B8%87%E6%96%A4%E8%96%AF%E6%9D%A1%E5%96%82%E7%8C%AA",
+      "summary": "近日，内蒙古一女子分享姥爷学会网购后，一口气下单3万斤薯条喂猪。当事人称：薯条五毛一斤比玉米还划算，是食品工厂淘汰的半成品尾料。",
+      "hot": 7330390,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "c8fb1605e9261e46"
+      "id": "a0a12eb6293a3103"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 7,
-      "title": "AI短剧《丑狐》爆火",
-      "url": "https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E3%80%8A%E4%B8%91%E7%8B%90%E3%80%8B%E7%88%86%E7%81%AB",
-      "summary": "近日，AI短剧《丑狐》爆火，创作者分享人物形象创作，丑狐造型怪异是因为特意拉长了面部，以呈现“相由心生”的聊斋质感，有观众留言“第一次出来吓到我了”。",
-      "hot": 7236268,
+      "title": "沈腾在表演奖项上一夜翻红",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%88%E8%85%BE%E5%9C%A8%E8%A1%A8%E6%BC%94%E5%A5%96%E9%A1%B9%E4%B8%8A%E4%B8%80%E5%A4%9C%E7%BF%BB%E7%BA%A2",
+      "summary": "11月20日，电影《欢迎来龙餐馆》官博发文称，沈腾获第12届亚洲国际电影节最佳男主角。此前，他曾在2022年百花奖遭遇“0得票”争议。从0得票到首获影帝，沈腾可谓“一夜翻身”，未来或将开启“扫奖”模式。",
+      "hot": 7234235,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "84f95c363f326ea9"
+      "id": "158f4c532abac163"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 8,
-      "title": "深圳人又开始原装出街了",
-      "url": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%9C%B3%E4%BA%BA%E5%8F%88%E5%BC%80%E5%A7%8B%E5%8E%9F%E8%A3%85%E5%87%BA%E8%A1%97%E4%BA%86",
-      "summary": "近日，随着APEC会议周渐入尾声，深圳人脱下正装皮鞋等“限定皮肤”，从“全妆模式”切回原装模式：又换回了拖鞋出街。",
-      "hot": 7142787,
+      "title": "武大靖执教短道队首金",
+      "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E5%A4%A7%E9%9D%96%E6%89%A7%E6%95%99%E7%9F%AD%E9%81%93%E9%98%9F%E9%A6%96%E9%87%91",
+      "summary": "短道速滑世界巡回赛首尔站女子3000米接力决赛中，由张楚桐、公俐、张延、张珈宁组成的中国队率先冲过终点夺得冠军。这是中国队本赛季首次在一组决赛中首个冲线，也是武大靖执教短道队获得的首金。",
+      "hot": 7135685,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "1d83a7e3742326dc"
+      "id": "109e8fa558d14c7f"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 9,
-      "title": "一家人遛弯误入剧组还上了央视",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%AE%B6%E4%BA%BA%E9%81%9B%E5%BC%AF%E8%AF%AF%E5%85%A5%E5%89%A7%E7%BB%84%E8%BF%98%E4%B8%8A%E4%BA%86%E5%A4%AE%E8%A7%86",
-      "summary": "近日，央视热播剧《多喜一家人》中，青岛一名女子在第一集看到自己的群演镜头。去年11月，她和家人遛弯偶遇剧组，原本只是围观，丈夫骑上道具自行车意外入镜，一家人就此客串参演。",
-      "hot": 7043204,
+      "title": "郎平谈执教美国女排",
+      "url": "https://www.baidu.com/s?wd=%E9%83%8E%E5%B9%B3%E8%B0%88%E6%89%A7%E6%95%99%E7%BE%8E%E5%9B%BD%E5%A5%B3%E6%8E%92",
+      "summary": "近日，郎平在采访中回顾执教美国女排的经历，表示赴美主要是为陪伴处于叛逆期的女儿。她曾询问中国队意见，担心成为对手，却意外获得大家支持！",
+      "hot": 7047553,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "9ab725b81626c82c"
+      "id": "c0a204ad5c899fbd"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 10,
-      "title": "高市搭讪特朗普被无视 日本网民：丢人",
-      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E5%B8%82%E6%90%AD%E8%AE%AA%E7%89%B9%E6%9C%97%E6%99%AE%E8%A2%AB%E6%97%A0%E8%A7%86+%E6%97%A5%E6%9C%AC%E7%BD%91%E6%B0%91%EF%BC%9A%E4%B8%A2%E4%BA%BA",
-      "summary": "11月18日晚，在APEC会议领导人合影后，高市早苗快步走向美国总统特朗普，拍其背部试图搭讪。然而特朗普仅瞥了她一眼便直接转身离开，高市早苗当场被晾在一边，这一极为尴尬的瞬间让日本网民直言丢人。",
-      "hot": 6953735,
+      "title": "久坐一整天 你的腰椎经历了什么",
+      "url": "https://www.baidu.com/s?wd=%E4%B9%85%E5%9D%90%E4%B8%80%E6%95%B4%E5%A4%A9+%E4%BD%A0%E7%9A%84%E8%85%B0%E6%A4%8E%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88",
+      "summary": "近日，一位从医三十余年的脊柱外科医生解读称，久坐尤其是坐姿不良会使腰椎间盘承受比站立时更大的压力。长期久坐易导致腰椎间盘水分流失、腰背肌肉退化及姿势代偿，打破脊柱生理曲度形成恶性循环。",
+      "hot": 6950620,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "0d7cb5dfb0596c46"
+      "id": "8d044c645fa69cc7"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 11,
-      "title": "《辟谣箴言》系列漫画",
-      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E8%BE%9F%E8%B0%A3%E7%AE%B4%E8%A8%80%E3%80%8B%E7%B3%BB%E5%88%97%E6%BC%AB%E7%94%BB",
-      "summary": "2026年度北京市网络辟谣优秀作品征集活动评选结果出炉，38部作品获评优秀并分批集中展示。其中，中国银河证券创作的《辟谣箴言》系列漫画聚焦虚假截图、营销画饼等资本市场四大高频谣言形态，将投教内容融入辟谣场景，以实现科普与提升投资者素养的双重目标。",
-      "hot": 6850291,
+      "title": "“北京22名老师赴贵阳沉默”不实",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8C%97%E4%BA%AC22%E5%90%8D%E8%80%81%E5%B8%88%E8%B5%B4%E8%B4%B5%E9%98%B3%E6%B2%89%E9%BB%98%E2%80%9D%E4%B8%8D%E5%AE%9E",
+      "summary": "近日，贵阳市教育局核实确认网传“北京22名教师飞往贵阳陷入沉默”为虚假信息。此前，网络平台流传上述图文及短视频，编造悲情离奇情节引流。官方指出，此类内容系借助AI工具流水线生产、模板换址洗稿，虽标注“AI生成”但绑定真实地点主体，存在较强误导性，绝非造谣免责借口。",
+      "hot": 6849590,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "b3cfa5ef5af9edab"
+      "id": "0b609389c63643fc"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 12,
-      "title": "金价银价大跳水",
-      "url": "https://www.baidu.com/s?wd=%E9%87%91%E4%BB%B7%E9%93%B6%E4%BB%B7%E5%A4%A7%E8%B7%B3%E6%B0%B4",
-      "summary": "11月20日，受美联储加息预期等多重因素影响，国际金价和银价延续跌势大跳水。截至收盘，纽商所12月黄金期货跌幅4.62%，白银期价跌幅7.41%。受中东紧张局势推升供应风险影响，国际油价20日小幅上涨。",
-      "hot": 6760368,
+      "title": "杨超越董思成喉结吻",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%A8%E8%B6%85%E8%B6%8A%E8%91%A3%E6%80%9D%E6%88%90%E5%96%89%E7%BB%93%E5%90%BB",
+      "summary": "近日，由杨超越、董思成主演的《今天是太阳雨》收官，导演发布的收官视频中，两人的喉结吻火了！女方亲的自然、男方一脸享受。网友调侃：“真谈了就官宣！”",
+      "hot": 6757129,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "6657698a35e15db7"
+      "id": "ebe6575de26daf91"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 13,
-      "title": "华尔街上演“黑色星期五”",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E5%B0%94%E8%A1%97%E4%B8%8A%E6%BC%94%E2%80%9C%E9%BB%91%E8%89%B2%E6%98%9F%E6%9C%9F%E4%BA%94%E2%80%9D",
-      "summary": "当地时间11月20日，华尔街上演“黑色星期五”，美股遭猛烈抛售，标普500与道指进入技术性回调，纳指年内涨幅全部回吐，AI热门新股Anthropic上市后领跌。随着AI板块持续承压，多位华尔街投资大佬接连发声。",
-      "hot": 6666776,
+      "title": "马斯克回应上海工厂跳舞片段：不是AI",
+      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E5%9B%9E%E5%BA%94%E4%B8%8A%E6%B5%B7%E5%B7%A5%E5%8E%82%E8%B7%B3%E8%88%9E%E7%89%87%E6%AE%B5%EF%BC%9A%E4%B8%8D%E6%98%AFAI",
+      "summary": "近日，马斯克确认其在特斯拉上海超级工厂即兴跳舞的视频并非AI生成。此前，该魔性舞蹈视频在网络上再次流传，引发网友对其真实性的关注。视频重新走红之际，马斯克刚刚结束2026年中国之行，期间还专程前往了上海超级工厂。",
+      "hot": 6664055,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "668086ce8bb0cba0"
+      "id": "42b112ce439b93f3"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 14,
-      "title": "孙芮自曝已结婚怀孕",
-      "url": "https://www.baidu.com/s?wd=%E5%AD%99%E8%8A%AE%E8%87%AA%E6%9B%9D%E5%B7%B2%E7%BB%93%E5%A9%9A%E6%80%80%E5%AD%95",
-      "summary": "11月21日，31岁女星孙芮发长文官宣结婚怀孕，自曝老公是军人，身处纪律岗位。",
-      "hot": 6565918,
+      "title": "05后小伙休学打游戏一年赚超200万",
+      "url": "https://www.baidu.com/s?wd=05%E5%90%8E%E5%B0%8F%E4%BC%99%E4%BC%91%E5%AD%A6%E6%89%93%E6%B8%B8%E6%88%8F%E4%B8%80%E5%B9%B4%E8%B5%9A%E8%B6%85200%E4%B8%87",
+      "summary": "11月13日至15日，21岁“05后”小伙何炅昊在西安举行的云顶之弈S18全球总决赛中获亚军。此前，他于2023年考入大学，大一后选择休学全职打电竞。凭借后续赛事的亮眼表现及加入俱乐部，他近一年税前收入近200万元。",
+      "hot": 6573359,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "3b6a57ad79464024"
+      "id": "09e5db6071232bc2"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 15,
-      "title": "腾讯姚顺雨团队回答关于混元任何问题",
-      "url": "https://www.baidu.com/s?wd=%E8%85%BE%E8%AE%AF%E5%A7%9A%E9%A1%BA%E9%9B%A8%E5%9B%A2%E9%98%9F%E5%9B%9E%E7%AD%94%E5%85%B3%E4%BA%8E%E6%B7%B7%E5%85%83%E4%BB%BB%E4%BD%95%E9%97%AE%E9%A2%98",
-      "summary": "11月21日，腾讯姚顺雨混元团队在Reddit进行120分钟AMA，回答近100个问题。团队明确下一代Hy模型将继续扩大规模，但大模型未必比小模型更聪明，未来将推Hy4-mini等小模型并坚持开源。",
-      "hot": 6469773,
+      "title": "黄景瑜腿绞泰国拳王",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E6%99%AF%E7%91%9C%E8%85%BF%E7%BB%9E%E6%B3%B0%E5%9B%BD%E6%8B%B3%E7%8E%8B",
+      "summary": "黄景瑜在清迈与泰国国宝级拳王播求切磋时，发挥巴西柔术优势成功施展腿绞。其攻防节奏在线，过硬的身体素质与功底获得拳王的实力认可。",
+      "hot": 6477270,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "9201ed8b3f528a9e"
+      "id": "a14d108248eb020b"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 16,
-      "title": "主人去世20天 小猫每天守墓旁",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%BB%E4%BA%BA%E5%8E%BB%E4%B8%9620%E5%A4%A9+%E5%B0%8F%E7%8C%AB%E6%AF%8F%E5%A4%A9%E5%AE%88%E5%A2%93%E6%97%81",
-      "summary": "近日，四川巴中余先生称，叔叔离世后家里养的小猫连续20天跑到墓前呆着。余先生介绍，叔叔和这只小猫相伴5年多，后续会由自己好好照顾它。",
-      "hot": 6375258,
+      "title": "刘嘉玲晒生日蛋糕舍不得吃",
+      "url": "https://www.baidu.com/s?wd=%E5%88%98%E5%98%89%E7%8E%B2%E6%99%92%E7%94%9F%E6%97%A5%E8%9B%8B%E7%B3%95%E8%88%8D%E4%B8%8D%E5%BE%97%E5%90%83",
+      "summary": "11月20日晚，女星刘嘉玲在社交平台晒出“今年第一个生日蛋糕”。该蛋糕造型别致，中央立有巧克力雕刻的豹子，刘嘉玲配文感叹其“美得让人舍不得吃”。",
+      "hot": 6371239,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "ffb278e56b1bc0ed"
+      "id": "4222b61ab33923b2"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 17,
-      "title": "AI疑证明黎曼猜想 数学家高兴不起来",
-      "url": "https://www.baidu.com/s?wd=AI%E7%96%91%E8%AF%81%E6%98%8E%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3+%E6%95%B0%E5%AD%A6%E5%AE%B6%E9%AB%98%E5%85%B4%E4%B8%8D%E8%B5%B7%E6%9D%A5",
-      "summary": "11月20日，Anthropic数学家称借助Claude完成黎曼猜想证明，相关代码共1700万行，该猜想已困扰数学界167年，目前证明尚未经过独立同行核验。此事引发学界担忧，学者质疑AI证明的可靠性、署名权问题，呼吁建立AI参与数学研究的新规范。",
-      "hot": 6286211,
+      "title": "脑瘫男孩靠打游戏成80万粉主播",
+      "url": "https://www.baidu.com/s?wd=%E8%84%91%E7%98%AB%E7%94%B7%E5%AD%A9%E9%9D%A0%E6%89%93%E6%B8%B8%E6%88%8F%E6%88%9080%E4%B8%87%E7%B2%89%E4%B8%BB%E6%92%AD",
+      "summary": "吉林‌脑瘫‌小伙‌郑先生‌用‌吹气控制器‌靠嘴操控电脑‌游戏直播‌。他每日坚持直播，如今积累‌80万粉丝‌，通过自媒体传递乐观态度并帮助残障朋友‌‌。",
+      "hot": 6287766,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "f89ab872da71508f"
+      "id": "c07e7934e5bced25"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 18,
-      "title": "明天订婚请188人喝奶茶？多人上当",
-      "url": "https://www.baidu.com/s?wd=%E6%98%8E%E5%A4%A9%E8%AE%A2%E5%A9%9A%E8%AF%B7188%E4%BA%BA%E5%96%9D%E5%A5%B6%E8%8C%B6%EF%BC%9F%E5%A4%9A%E4%BA%BA%E4%B8%8A%E5%BD%93",
-      "summary": "“明天订婚，我请188人喝奶茶，看到的一人两杯！”近日，在某社交平台上，接连出现这类喜庆引流帖，其背后的套路引发关注，已有多人上当。",
-      "hot": 6184403,
+      "title": "张雪骑摩托车刚出门就摔倒",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E9%AA%91%E6%91%A9%E6%89%98%E8%BD%A6%E5%88%9A%E5%87%BA%E9%97%A8%E5%B0%B1%E6%91%94%E5%80%92",
+      "summary": "张总最想删除的视频来了！近日，张雪骑摩托车刚出门就摔倒，突如其来的一幕，让人既心疼又好笑。",
+      "hot": 6191070,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "aef9dfc79e6b29d1"
+      "id": "88163822b36bae94"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 19,
-      "title": "美股崩跌 纳指今年涨幅全部蒸发",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%B4%A9%E8%B7%8C+%E7%BA%B3%E6%8C%87%E4%BB%8A%E5%B9%B4%E6%B6%A8%E5%B9%85%E5%85%A8%E9%83%A8%E8%92%B8%E5%8F%91",
-      "summary": "当地时间11月20日，美股集体崩跌，纳指抹去今年全部涨幅，AI芯片股遭重挫。黄金、比特币、原油等多类资产同步抛售，市场担忧美联储加息，华尔街交易员警示或存在通缩风险。",
-      "hot": 6081207,
+      "title": "菲总统夸赞中方选曲温暖贴心",
+      "url": "https://www.baidu.com/s?wd=%E8%8F%B2%E6%80%BB%E7%BB%9F%E5%A4%B8%E8%B5%9E%E4%B8%AD%E6%96%B9%E9%80%89%E6%9B%B2%E6%B8%A9%E6%9A%96%E8%B4%B4%E5%BF%83",
+      "summary": "11月20日，菲律宾总统小马科斯回应APEC欢迎宴会上播放菲律宾名曲《孩子》引发的热议。他表示想得太多，这只是热门歌曲。据其透露，晚宴期间还播放了菲律宾民歌《Leron Leron Sinta》，他夸赞中方选曲让人感到温暖贴心，是一种非常温暖的举动。",
+      "hot": 6086652,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "7240c53a695f08f7"
+      "id": "39e3089051bbf886"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 20,
-      "title": "黎曼猜想真被AI证明了吗",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3%E7%9C%9F%E8%A2%ABAI%E8%AF%81%E6%98%8E%E4%BA%86%E5%90%97",
-      "summary": "北京时间11月21日，Anthropic数学家称借助Claude证明黎曼猜想，公开25万页代码，成果暂未通过独立验证；该突破实际发生在11月15日，选在公司上市股价波动时公布，引发资本叙事方面的质疑，业内强调科学结论需要验证，不能由资本评判。",
-      "hot": 5992392,
+      "title": "亲妈不让女儿上学 自称示范在家教育",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%B2%E5%A6%88%E4%B8%8D%E8%AE%A9%E5%A5%B3%E5%84%BF%E4%B8%8A%E5%AD%A6+%E8%87%AA%E7%A7%B0%E7%A4%BA%E8%8C%83%E5%9C%A8%E5%AE%B6%E6%95%99%E8%82%B2",
+      "summary": "上海一8岁女孩小美大部分时间随母亲生活，却连幼儿园、小学都几乎没上过。其母亲赵某坚称学校氛围和老师态度对女儿不利，拒绝配合，甚至说：“我在替人类示范什么叫在家教育，你们犯的错误我在改进。”小美外公外婆无奈提起了变更监护权诉讼。法庭判决小美随父亲生活，但赵某拒不履行生效判决。",
+      "hot": 5986480,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "520b0f773b9a1a5b"
+      "id": "6254d558d50968c5"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 21,
-      "title": "英伟达市值掉了一个亚马逊",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E6%8E%89%E4%BA%86%E4%B8%80%E4%B8%AA%E4%BA%9A%E9%A9%AC%E9%80%8A",
-      "summary": "北京时间11月21日，据报道，英伟达股价连续第七周下跌，创2008年金融危机以来最长的连续周跌势，期间累计下跌46%，市值缩水约2.6万亿美元，相当于一个亚马逊公司。",
-      "hot": 5895583,
+      "title": "多家品牌宣布下调金饰克价",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%AE%B6%E5%93%81%E7%89%8C%E5%AE%A3%E5%B8%83%E4%B8%8B%E8%B0%83%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7",
+      "summary": "在11月20日的交易中，国际黄金期货和现货价格盘中均跌破每盎司3550美元，其中黄金期货价格一度下跌近5%。11月21日，国内多家黄金珠宝品牌下调足金饰品报价，部分品牌报价降至每克1056元至1068元，较前一日每克下调20元至34元。",
+      "hot": 5899041,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "fa4727ce826f1960"
+      "id": "daa10ded5fa0d95e"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 22,
-      "title": "睡觉穿袜子有助入睡 但5类人不建议",
-      "url": "https://www.baidu.com/s?wd=%E7%9D%A1%E8%A7%89%E7%A9%BF%E8%A2%9C%E5%AD%90%E6%9C%89%E5%8A%A9%E5%85%A5%E7%9D%A1+%E4%BD%865%E7%B1%BB%E4%BA%BA%E4%B8%8D%E5%BB%BA%E8%AE%AE",
-      "summary": "中医认为脚为精气之根，冬季睡觉穿袜子可促进血液循环、减轻代谢负担，帮助快速入睡。手脚冰凉、睡眠浅等人群适宜尝试，但脚汗多、实热体质、下肢水肿、糖尿病及足部皮肤感染者不建议穿袜子睡觉。",
-      "hot": 5796814,
+      "title": "谁还能分清大王菲中王菲小王菲",
+      "url": "https://www.baidu.com/s?wd=%E8%B0%81%E8%BF%98%E8%83%BD%E5%88%86%E6%B8%85%E5%A4%A7%E7%8E%8B%E8%8F%B2%E4%B8%AD%E7%8E%8B%E8%8F%B2%E5%B0%8F%E7%8E%8B%E8%8F%B2",
+      "summary": "近日，由王菲、窦靖童、李嫣母女三人合唱的《爱笑的天使》上线。由于三人声音相似，网友调侃：“谁还能分清大王菲、中王菲、小王菲。”",
+      "hot": 5811583,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "970c3dee2de023e7"
+      "id": "3309cacc0eef8d49"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 23,
-      "title": "多地医院实现“一号管到底”",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%8C%BB%E9%99%A2%E5%AE%9E%E7%8E%B0%E2%80%9C%E4%B8%80%E5%8F%B7%E7%AE%A1%E5%88%B0%E5%BA%95%E2%80%9D",
-      "summary": "近日，南京市第二医院推出就医便民新举措“一号通”，面向多病共存患者。患者完成首次挂号后，接诊医生可根据病情发起院内免费跨科室转诊，实现“一号管到底”，免去患者来回奔波之苦。目前，全国多地已推行类似改革优化就诊流程。",
-      "hot": 5714213,
+      "title": "花2万存脐带血12年后发现公司已注销",
+      "url": "https://www.baidu.com/s?wd=%E8%8A%B12%E4%B8%87%E5%AD%98%E8%84%90%E5%B8%A6%E8%A1%8012%E5%B9%B4%E5%90%8E%E5%8F%91%E7%8E%B0%E5%85%AC%E5%8F%B8%E5%B7%B2%E6%B3%A8%E9%94%80",
+      "summary": "今年，吉林曹女士偶然发现，2014年花19600余元存脐带血的收款公司已于2021年11月注销。此前，曹女士与公司约定存储18年，如今公司成失信被执行人，老板被限高，业务员失联。当事人担心钱打水漂，怀疑救命血是否还在。记者联系母公司负责人，对方称暂不清楚其归属。",
+      "hot": 5703233,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "5993ba1c7aea78c2"
+      "id": "3343bf4f27c61ee7"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 24,
-      "title": "男子收到自己“不雅照”并被威胁",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E6%94%B6%E5%88%B0%E8%87%AA%E5%B7%B1%E2%80%9C%E4%B8%8D%E9%9B%85%E7%85%A7%E2%80%9D%E5%B9%B6%E8%A2%AB%E5%A8%81%E8%83%81",
-      "summary": "近日，李先生收到陌生短信，附带利用AI换脸制作的“不雅照”截图，威胁其回电处理。李先生识破后分享至社交媒体，多名网友表示收到过同一段换脸视频。11月20日，记者拨打涉事诈骗电话始终未接通。",
-      "hot": 5615034,
+      "title": "“雪窝子”的雪又下“冒烟”了",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%9B%AA%E7%AA%9D%E5%AD%90%E2%80%9D%E7%9A%84%E9%9B%AA%E5%8F%88%E4%B8%8B%E2%80%9C%E5%86%92%E7%83%9F%E2%80%9D%E4%BA%86",
+      "summary": "11月21日，山东威海市民表示，当地今冬初雪已基本停歇，因气温未降至零下，路面暂无积雪。此前20日晚，威海多地市民上传下雪视频，称“雪窝子”发力，雪花在路灯下仿佛“冒烟”。",
+      "hot": 5604936,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "ca52ca3cc116fe1c"
+      "id": "554f08054552ebdf"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 25,
-      "title": "“大空头”减持英伟达看跌期权",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A7%E7%A9%BA%E5%A4%B4%E2%80%9D%E5%87%8F%E6%8C%81%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%9C%8B%E8%B7%8C%E6%9C%9F%E6%9D%83",
-      "summary": "当地时间11月20日，“大空头”原型迈克尔·伯里表示，已出售所持英伟达及VanEck半导体ETF看跌期权的50%，锁定可观收益并保留剩余头寸。此举正值AI股票遭抛售、英伟达连跌七日之际。",
-      "hot": 5506234,
+      "title": "央视曝光爽文人设主播诈骗",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%88%BD%E6%96%87%E4%BA%BA%E8%AE%BE%E4%B8%BB%E6%92%AD%E8%AF%88%E9%AA%97",
+      "summary": "日前，宁夏中宁警方打掉一个针对老年人的诈骗团伙，涉案人员已被批捕。主播在直播间演“豪门人设”，专挑婚姻家庭、豪门争斗等老人爱看的故事洗脑。获取信任后，两人将廉价工艺品包装成高价值收藏品售卖，谎称上门高价回收，致上千名老人被骗，涉案金额高达1700余万元。",
+      "hot": 5506326,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "0e6bb0eb17d3f82b"
+      "id": "3480635d9aa8c93d"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 26,
-      "title": "王菲窦靖童李嫣合唱《爱笑的天使》",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E8%8F%B2%E7%AA%A6%E9%9D%96%E7%AB%A5%E6%9D%8E%E5%AB%A3%E5%90%88%E5%94%B1%E3%80%8A%E7%88%B1%E7%AC%91%E7%9A%84%E5%A4%A9%E4%BD%BF%E3%80%8B",
-      "summary": "11月21日0点，嫣然天使基金发文，王菲、窦靖童、李嫣母女三人20周年合唱版《爱笑的天使》正式上线。不少网友表示：终于听到了母女三人首次合作了。李亚鹏表示，分不清哪一句是谁唱的。",
-      "hot": 5421443,
+      "title": "爸爸拔管抱走生病孩子失联 已被找回",
+      "url": "https://www.baidu.com/s?wd=%E7%88%B8%E7%88%B8%E6%8B%94%E7%AE%A1%E6%8A%B1%E8%B5%B0%E7%94%9F%E7%97%85%E5%AD%A9%E5%AD%90%E5%A4%B1%E8%81%94+%E5%B7%B2%E8%A2%AB%E6%89%BE%E5%9B%9E",
+      "summary": "网传4岁男童肠坏死切大部分小肠，每天治疗费1000多元、每月3万多，父亲趁母亲不在拔掉营养管抱走孩子，母亲求助寻人：：孩子不回医院命就没了。",
+      "hot": 5411044,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "e1839ecedffeed69"
+      "id": "b82ddcf6262d0090"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 27,
-      "title": "APEC欢迎晚宴大厨透露蒸鱼秘诀",
-      "url": "https://www.baidu.com/s?wd=APEC%E6%AC%A2%E8%BF%8E%E6%99%9A%E5%AE%B4%E5%A4%A7%E5%8E%A8%E9%80%8F%E9%9C%B2%E8%92%B8%E9%B1%BC%E7%A7%98%E8%AF%80",
-      "summary": "亮相APEC欢迎晚宴的顺德大厨们返回家乡，并透露国宴同款蒸鱼秘诀。此前，厨师团队提前一个月赴当地筹备，每日每夜演练，严格把控食材克数与蒸制时间。大厨分享称，100克鱼肉经腌制辟腥后用油封住，蒸5分钟即熟。",
-      "hot": 5333910,
+      "title": "老人手机落田间 小奶狗叼回家",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E6%89%8B%E6%9C%BA%E8%90%BD%E7%94%B0%E9%97%B4+%E5%B0%8F%E5%A5%B6%E7%8B%97%E5%8F%BC%E5%9B%9E%E5%AE%B6",
+      "summary": "近日，安徽阜阳一老人‌遗失手机‌，家中‌三个月大小奶狗‌跑一里地‌叼回‌，全程‌未损坏‌并静候主人，主人已‌奖励鸡腿‌。‌‌",
+      "hot": 5335049,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "3ab39a9b39ed60e7"
+      "id": "749942b90f91e412"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 28,
-      "title": "长江里的罕见“吃播”被拍到",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E6%B1%9F%E9%87%8C%E7%9A%84%E7%BD%95%E8%A7%81%E2%80%9C%E5%90%83%E6%92%AD%E2%80%9D%E8%A2%AB%E6%8B%8D%E5%88%B0",
-      "summary": "‌近日，长江江豚追捕长江刀鱼的罕见画面被多次拍到‌，不少网友戏称其为“国宝级吃播”。‌‌",
-      "hot": 5223108,
+      "title": "虫量是去年26倍 湖南如何虫口夺粮",
+      "url": "https://www.baidu.com/s?wd=%E8%99%AB%E9%87%8F%E6%98%AF%E5%8E%BB%E5%B9%B426%E5%80%8D+%E6%B9%96%E5%8D%97%E5%A6%82%E4%BD%95%E8%99%AB%E5%8F%A3%E5%A4%BA%E7%B2%AE",
+      "summary": "今年秋收期间，湖南秋粮收成稳中有升，打赢虫口夺粮战。此前8月，湖南面临稻飞虱等严峻虫害考验，峰值虫量一度达去年26倍。农技人员与种粮人通过四级联动、统防统治等方式全力防控，最终保住秋粮收成。",
+      "hot": 5233140,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "c091b8c1b5d1f1b6"
+      "id": "5f4b8708a653c064"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 29,
-      "title": "降雨、暴雪、大风 新一轮冷空气来了",
-      "url": "https://www.baidu.com/s?wd=%E9%99%8D%E9%9B%A8%E3%80%81%E6%9A%B4%E9%9B%AA%E3%80%81%E5%A4%A7%E9%A3%8E+%E6%96%B0%E4%B8%80%E8%BD%AE%E5%86%B7%E7%A9%BA%E6%B0%94%E6%9D%A5%E4%BA%86",
-      "summary": "11月22日起，新一轮冷空气将自北向南影响中东部，气温普降4~8℃、局地10℃，伴4~6级大风；内蒙古东部、东北有小到中雪，吉林东部局地暴雪；江南、华南及西南东部有小到中雨，部分大雨。",
-      "hot": 5124574,
+      "title": "小伙用竹子手搓自行车 售价8000元起",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E4%BC%99%E7%94%A8%E7%AB%B9%E5%AD%90%E6%89%8B%E6%90%93%E8%87%AA%E8%A1%8C%E8%BD%A6+%E5%94%AE%E4%BB%B78000%E5%85%83%E8%B5%B7",
+      "summary": "近日，四川小伙用竹子“手搓”自行车，卖到19个国家和地区，每年出货几百台，售价八千元起步，连NBA球星都来定制。",
+      "hot": 5136281,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "522acda0b5281d65"
+      "id": "3a2c4b38e9a529a5"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 30,
-      "title": "特朗普称赞深圳城市建设：完美无瑕",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E8%B5%9E%E6%B7%B1%E5%9C%B3%E5%9F%8E%E5%B8%82%E5%BB%BA%E8%AE%BE%EF%BC%9A%E5%AE%8C%E7%BE%8E%E6%97%A0%E7%91%95",
-      "summary": "当地时间11月20日，特朗普在白宫召开记者会，他在会上称赞深圳城市建设：曾经是个渔村，如今简直完美无瑕。",
-      "hot": 5030402,
+      "title": "男子抄底黄金3天亏14万",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E6%8A%84%E5%BA%95%E9%BB%84%E9%87%913%E5%A4%A9%E4%BA%8F14%E4%B8%87",
+      "summary": "",
+      "hot": 5029417,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "9889d5011bdb07aa"
+      "id": "61be11a7372aa195"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 31,
-      "title": "多国领导人感谢中国",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9B%BD%E9%A2%86%E5%AF%BC%E4%BA%BA%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD",
-      "summary": "11月19日，APEC第三十三次领导人非正式会议在深圳落幕。多位领导人在返程前以不同方式感谢中国领导人，感谢中国，点赞深圳，相关内容在社交媒体上持续刷屏，热度不减。",
-      "hot": 4930304,
+      "title": "何沁同志逝世享年99岁",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%95%E6%B2%81%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%E4%BA%AB%E5%B9%B499%E5%B2%81",
+      "summary": "",
+      "hot": 4939790,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "47aa1c28d7b9a3a3"
+      "id": "20a9fd00c4647218"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 32,
-      "title": "贾国龙开始卖火锅了",
-      "url": "https://www.baidu.com/s?wd=%E8%B4%BE%E5%9B%BD%E9%BE%99%E5%BC%80%E5%A7%8B%E5%8D%96%E7%81%AB%E9%94%85%E4%BA%86",
-      "summary": "11月19日，西贝创始人贾国龙新品牌“天边冰煮鲜羊”呼和浩特首店开业，由“天边砂锅焖面”门店改造而来，人均102元，正式踏入火锅赛道。",
-      "hot": 4840421,
+      "title": "大量跟AI聊天患抑郁可能性高出30%",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%87%8F%E8%B7%9FAI%E8%81%8A%E5%A4%A9%E6%82%A3%E6%8A%91%E9%83%81%E5%8F%AF%E8%83%BD%E6%80%A7%E9%AB%98%E5%87%BA30%25",
+      "summary": "2025年最新研究指出，过度依赖AI获取情绪陪伴会加重情绪问题。一项覆盖超2万人的调查显示，相较于不用AI的人，每天频繁用AI聊天者，中度及以上抑郁症状比例高出约30%。此外，AI的“谄媚性”会降低用户道歉反省意愿。专家建议将AI当“社交零食”而非情感寄托，警惕依赖。",
+      "hot": 4839471,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "4c80bd844c3b1394"
+      "id": "e7ec9365f6b26c21"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 33,
-      "title": "李嫣声音比窦靖童还孝顺",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E5%AB%A3%E5%A3%B0%E9%9F%B3%E6%AF%94%E7%AA%A6%E9%9D%96%E7%AB%A5%E8%BF%98%E5%AD%9D%E9%A1%BA",
-      "summary": "11月21日凌晨，王菲携女儿窦靖童、李嫣合唱的《爱笑的天使》正式上线。不少网友表示被净化，称三人的声音太像，根本分不清谁是谁。此前，李亚鹏也曾透露，他第一次听到三人版本时都分不清哪一句是谁唱的。",
-      "hot": 4752520,
+      "title": "20秒20发200环 新“枪王”破纪录",
+      "url": "https://www.baidu.com/s?wd=20%E7%A7%9220%E5%8F%91200%E7%8E%AF+%E6%96%B0%E2%80%9C%E6%9E%AA%E7%8E%8B%E2%80%9D%E7%A0%B4%E7%BA%AA%E5%BD%95",
+      "summary": "目前，陆军第71集团军某旅罗伟健已打破连队40多年纪录，在自动步枪速射课目中20秒打出20发子弹获200环满分，成为第55代“枪王”。此前，曾是散打冠军的罗伟健入伍后第一次打靶直接脱靶。随后他苦练心态与技巧成功逆袭，并在更高级别任务中再次满环荣立三等功。",
+      "hot": 4760485,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "faf98aba1a59e0f1"
+      "id": "ce44508465cea8d9"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 34,
-      "title": "年轻人为什么不爱买皮鞋了",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E7%88%B1%E4%B9%B0%E7%9A%AE%E9%9E%8B%E4%BA%86",
-      "summary": "皮鞋在成品鞋市场份额已从2015年41.7%降至2025年15.3%。年轻人不爱买皮鞋，源于“体面”符号消解、追求穿着舒适与行业重工工艺转型滞后。",
-      "hot": 4664255,
+      "title": "C罗巨型雕像在上海揭幕",
+      "url": "https://www.baidu.com/s?wd=C%E7%BD%97%E5%B7%A8%E5%9E%8B%E9%9B%95%E5%83%8F%E5%9C%A8%E4%B8%8A%E6%B5%B7%E6%8F%AD%E5%B9%95",
+      "summary": "11月21日，位于上海的C罗博物馆揭幕，一座约7米高的C罗巨型雕像也同时亮相。C罗哥哥雨果、好友米格尔亲临现场参与揭幕，和在场球迷一同做出C罗标志性庆祝动作“Siu”。",
+      "hot": 4652783,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "8e064280ff485b68"
+      "id": "6e47763b3eea1e34"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 35,
-      "title": "U17世界杯：国足0比5惨败西班牙",
-      "url": "https://www.baidu.com/s?wd=U17%E4%B8%96%E7%95%8C%E6%9D%AF%EF%BC%9A%E5%9B%BD%E8%B6%B30%E6%AF%945%E6%83%A8%E8%B4%A5%E8%A5%BF%E7%8F%AD%E7%89%99",
-      "summary": "北京时间11月20日晚，U17世界杯小组赛H组第1轮，U17国足vs西班牙U17。经过激战，中国队0:5惨败对手遭遇开门黑。",
-      "hot": 4572506,
+      "title": "患全球罕见变异白血病小伙去世",
+      "url": "https://www.baidu.com/s?wd=%E6%82%A3%E5%85%A8%E7%90%83%E7%BD%95%E8%A7%81%E5%8F%98%E5%BC%82%E7%99%BD%E8%A1%80%E7%97%85%E5%B0%8F%E4%BC%99%E5%8E%BB%E4%B8%96",
+      "summary": "11月21日，患全球罕见变异白血病的25岁四川小伙郭杰家属发布讣告致谢。10月28日，郭杰在从河北回四川岳池县老家途中因病去世。此前今年2月，大学毕业的郭杰确诊该罕见病，其生前最大愿望是活着陪妈妈回老家。",
+      "hot": 4570305,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "aaf38054bf41ae65"
+      "id": "ca408538c1e9baca"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 36,
-      "title": "一款1979年的耳机为何被抢空",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E6%AC%BE1979%E5%B9%B4%E7%9A%84%E8%80%B3%E6%9C%BA%E4%B8%BA%E4%BD%95%E8%A2%AB%E6%8A%A2%E7%A9%BA",
-      "summary": "11月20日，索尼客服表示MDR-3R耳机因预定过多已无法预定。11月17日，该耳机国行预售开启即售空。这款1979年产品的复刻款虽不降噪不智能，但凭借复古审美与情怀共鸣出圈。",
-      "hot": 4480698,
+      "title": "特朗普称赞深圳干净整洁",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E8%B5%9E%E6%B7%B1%E5%9C%B3%E5%B9%B2%E5%87%80%E6%95%B4%E6%B4%81",
+      "summary": "当地时间20日，美国总统特朗普在白宫新闻发布会上高度评价亚太经合组织（APEC）第三十三次领导人非正式会议的主办城市——深圳。他称赞深圳干净整洁，在短短40多年间从一座渔村发展成为国际大都市，其发展活力令人赞叹。",
+      "hot": 4453314,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "1d862d84594d5776"
+      "id": "29e70a39f3f9a9f2"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 37,
-      "title": "黎曼猜想被AI证明？多位数学家回应",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3%E8%A2%ABAI%E8%AF%81%E6%98%8E%EF%BC%9F%E5%A4%9A%E4%BD%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%9B%9E%E5%BA%94",
-      "summary": "北京时间11月21日，Anthropic数学家阿尔珀格宣称与Claude合作找到黎曼猜想证明方法，并公开约1700万行Lean代码。陶哲轩等数学家正尝试验证其正确性。此前，他于当地时间11月15日完成关键工作。目前该成果仍有待检验。",
-      "hot": 4370901,
+      "title": "李子柒停更这两年在忙什么",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E5%AD%90%E6%9F%92%E5%81%9C%E6%9B%B4%E8%BF%99%E4%B8%A4%E5%B9%B4%E5%9C%A8%E5%BF%99%E4%BB%80%E4%B9%88",
+      "summary": "11月20日，四川省文联第九次代表大会在成都闭幕，李子柒当选副主席，透露目前在拍纪录片和陪奶奶。此前她回归后成立非遗工作站，重心转向非遗保护。",
+      "hot": 4368453,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "b7ad5f8f1b2c976e"
+      "id": "2810668a86603e4c"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 38,
-      "title": "人民日报评“老人拆墙让路遭质疑”",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E2%80%9C%E8%80%81%E4%BA%BA%E6%8B%86%E5%A2%99%E8%AE%A9%E8%B7%AF%E9%81%AD%E8%B4%A8%E7%96%91%E2%80%9D",
-      "summary": "最近，安徽霍邱一老人主动拆墙让路被赞现代版“六尺巷”。没想到的是，一家人随后遭占道纠正、为买车让路等流言攻击。经相关部门核查，网传说法均不实，老人确已退让一米。文章呼吁，不应让行善者疲于自辩，需完善防网暴机制，别让善意被流言拆掉。",
-      "hot": 4269248,
+      "title": "11岁小孩姐跳绳练出无影脚",
+      "url": "https://www.baidu.com/s?wd=11%E5%B2%81%E5%B0%8F%E5%AD%A9%E5%A7%90%E8%B7%B3%E7%BB%B3%E7%BB%83%E5%87%BA%E6%97%A0%E5%BD%B1%E8%84%9A",
+      "summary": "",
+      "hot": 4276572,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "ece353635cca7b20"
+      "id": "d83dd2bd31838d45"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 39,
-      "title": "日本大扩军计划遭遇当头一棒",
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%A4%A7%E6%89%A9%E5%86%9B%E8%AE%A1%E5%88%92%E9%81%AD%E9%81%87%E5%BD%93%E5%A4%B4%E4%B8%80%E6%A3%92",
-      "summary": "11月20日，日本维新会就财务省将防卫省80万亿日元扩军预算削减至50多万亿日元一事发出警告。此前，防卫省基于高市早苗政府强化防卫立场提出该计划。受采购规模或将缩减的预期影响，主要军工企业股价已于13日集体大跌。",
-      "hot": 4179518,
+      "title": "“顶流”凤冠下孝端皇后的双面人生",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%A1%B6%E6%B5%81%E2%80%9D%E5%87%A4%E5%86%A0%E4%B8%8B%E5%AD%9D%E7%AB%AF%E7%9A%87%E5%90%8E%E7%9A%84%E5%8F%8C%E9%9D%A2%E4%BA%BA%E7%94%9F",
+      "summary": "近日，中国国家博物馆孝端皇后九龙九凤冠住进“单间”供参观。此前，该凤冠主人明万历孝端皇后王喜姐在位42年，成大一统王朝在位最久的皇后。其评价呈双面性：首辅称其“女中尧舜”，明末宦官记录传闻称她“下手狠辣”致上百宫人惨死。",
+      "hot": 4165694,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "f7ef5c82a6fdb19c"
+      "id": "98e909c800f7d1e3"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 40,
-      "title": "Anthropic IPO融资额增至1195亿美元",
-      "url": "https://www.baidu.com/s?wd=Anthropic+IPO%E8%9E%8D%E8%B5%84%E9%A2%9D%E5%A2%9E%E8%87%B31195%E4%BA%BF%E7%BE%8E%E5%85%83",
-      "summary": "",
-      "hot": 4096082,
+      "title": "外卖小哥带火披萨店炸鸡 3分钟卖空",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E5%8D%96%E5%B0%8F%E5%93%A5%E5%B8%A6%E7%81%AB%E6%8A%AB%E8%90%A8%E5%BA%97%E7%82%B8%E9%B8%A1+3%E5%88%86%E9%92%9F%E5%8D%96%E7%A9%BA",
+      "summary": "近日，河南许昌一名外卖小哥自费为顾客买了一份自己认可的脆脆炸鸡，引来大量网友慕名打卡。近日，店主杨先生介绍，自己开的是披萨店，没想到炸鸡爆火，为了尽量满足大家，店里暂时只卖炸鸡，上架3分钟就卖空一天的量。",
+      "hot": 4098980,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "bbbe20ab80b25988"
+      "id": "24f7099632739de1"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 41,
-      "title": "药片也能“打印”了",
-      "url": "https://www.baidu.com/s?wd=%E8%8D%AF%E7%89%87%E4%B9%9F%E8%83%BD%E2%80%9C%E6%89%93%E5%8D%B0%E2%80%9D%E4%BA%86",
-      "summary": "南京一家医药科技企业获得了全国首张3D打印药品生产许可证，中国成为全球第二个实现3D打印药物产业化的国家。该技术可将口服多肽药生物利用度提至10%至20%，目前企业车间最高年产可达3亿片。",
-      "hot": 3988678,
+      "title": "国乒女单无人进八强",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E4%B9%92%E5%A5%B3%E5%8D%95%E6%97%A0%E4%BA%BA%E8%BF%9B%E5%85%AB%E5%BC%BA",
+      "summary": "",
+      "hot": 3967748,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "ae94a3f7297b71f9"
+      "id": "929b6f8f49c2338e"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 42,
-      "title": "C罗第986球",
-      "url": "https://www.baidu.com/s?wd=C%E7%BD%97%E7%AC%AC986%E7%90%83",
-      "summary": "北京时间11月21日，沙特联第9轮，利雅得胜利主场1比3遭吉达国民逆转，6连胜终结。比赛中，41岁C罗开场破门打入生涯第986球，距千球里程碑仅剩14球。按当前效率，C罗有望本赛季达成千球壮举。",
-      "hot": 3896629,
+      "title": "英歌舞女孩2分钟节目排练上百次",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E6%AD%8C%E8%88%9E%E5%A5%B3%E5%AD%A92%E5%88%86%E9%92%9F%E8%8A%82%E7%9B%AE%E6%8E%92%E7%BB%83%E4%B8%8A%E7%99%BE%E6%AC%A1",
+      "summary": "",
+      "hot": 3884386,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "a416ea26fdf33648"
+      "id": "a9b314caa8f7256a"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 43,
-      "title": "麻阳县委书记：被张雪扔河里不生气",
-      "url": "https://www.baidu.com/s?wd=%E9%BA%BB%E9%98%B3%E5%8E%BF%E5%A7%94%E4%B9%A6%E8%AE%B0%EF%BC%9A%E8%A2%AB%E5%BC%A0%E9%9B%AA%E6%89%94%E6%B2%B3%E9%87%8C%E4%B8%8D%E7%94%9F%E6%B0%94",
-      "summary": "11月20日，湖南麻阳县委书记廖园熙接受采访，回应机车博主张雪挑战吉尼斯纪录时将自己扔进河里一事，称事先沟通过，并不生气。他还担心衣服上的签名，衣服晾干后一直不敢清洗。",
-      "hot": 3806778,
+      "title": "GTA6被赞史上最成功娱乐产品",
+      "url": "https://www.baidu.com/s?wd=GTA6%E8%A2%AB%E8%B5%9E%E5%8F%B2%E4%B8%8A%E6%9C%80%E6%88%90%E5%8A%9F%E5%A8%B1%E4%B9%90%E4%BA%A7%E5%93%81",
+      "summary": "游戏开发公司Rockstar Games（R星）的母公司Take-Two Interactive宣布，《GTA 6》在发售首日便创下了37.9亿美元的销售额，使其成为娱乐产业史上最成功的产品。",
+      "hot": 3800553,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "14c70322eb595d84"
+      "id": "1cb690d9a6b3efe8"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 44,
-      "title": "安徽4岁男童失踪 当地出动上百人搜寻",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD4%E5%B2%81%E7%94%B7%E7%AB%A5%E5%A4%B1%E8%B8%AA+%E5%BD%93%E5%9C%B0%E5%87%BA%E5%8A%A8%E4%B8%8A%E7%99%BE%E4%BA%BA%E6%90%9C%E5%AF%BB",
-      "summary": "安徽东至县青山乡双河村4岁男童小瑞于19日下午走失，失联已超24小时。事发时孩子独自在客厅睡觉，家门未关，目前仍未找到，家属已报警，当地组织上百人开展搜寻；男童走失时身穿白衣、黑裤、白鞋。",
-      "hot": 3695799,
+      "title": "急弯前拉开超长车距 下秒懂司机用意",
+      "url": "https://www.baidu.com/s?wd=%E6%80%A5%E5%BC%AF%E5%89%8D%E6%8B%89%E5%BC%80%E8%B6%85%E9%95%BF%E8%BD%A6%E8%B7%9D+%E4%B8%8B%E7%A7%92%E6%87%82%E5%8F%B8%E6%9C%BA%E7%94%A8%E6%84%8F",
+      "summary": "近日，西藏昌都国道318怒江七十二拐，一司机发视频称，其在一类似直角弯处预留出超长车距，下一秒对向一货车驶来，立即用上了预留位置。网友惊叹：“急弯前拉开超长车距，下秒才明白司机用意。”",
+      "hot": 3687033,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "3f510e1468cc73b6"
+      "id": "dd68fbbe869e60dc"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 45,
-      "title": "终于理解李白为啥走到哪都写诗了",
-      "url": "https://www.baidu.com/s?wd=%E7%BB%88%E4%BA%8E%E7%90%86%E8%A7%A3%E6%9D%8E%E7%99%BD%E4%B8%BA%E5%95%A5%E8%B5%B0%E5%88%B0%E5%93%AA%E9%83%BD%E5%86%99%E8%AF%97%E4%BA%86",
-      "summary": "近日，一女生在泸沽湖坐船看日出时感慨，终于理解李白走到哪都要写诗了，并用“落雁平沙，依依孤鹜朝霞”等诗句描绘了眼前美景。",
-      "hot": 3600375,
+      "title": "浙江绍兴重型半挂车连撞多车",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E7%BB%8D%E5%85%B4%E9%87%8D%E5%9E%8B%E5%8D%8A%E6%8C%82%E8%BD%A6%E8%BF%9E%E6%92%9E%E5%A4%9A%E8%BD%A6",
+      "summary": "",
+      "hot": 3619434,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "e21377f126622b1f"
+      "id": "fc67f08bfc0ae75f"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 46,
-      "title": "中国最大饺子店要上市了",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%A4%A7%E9%A5%BA%E5%AD%90%E5%BA%97%E8%A6%81%E4%B8%8A%E5%B8%82%E4%BA%86",
-      "summary": "11月20日，记者从港交所官网获悉，“袁记云饺”母公司袁记食品11月19日披露聆讯后资料集，这意味着公司通过了港交所聆讯，即将在港股鸣锣上市，这距离公司递交招股书不到4个月。",
-      "hot": 3529362,
+      "title": "走失4岁男童仍在搜救",
+      "url": "https://www.baidu.com/s?wd=%E8%B5%B0%E5%A4%B14%E5%B2%81%E7%94%B7%E7%AB%A5%E4%BB%8D%E5%9C%A8%E6%90%9C%E6%95%91",
+      "summary": "",
+      "hot": 3499771,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "d5ea472f0cae9a52"
+      "id": "b80aedeb01330351"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 47,
-      "title": "FILA开酒店了 住一晚要1300多元",
-      "url": "https://www.baidu.com/s?wd=FILA%E5%BC%80%E9%85%92%E5%BA%97%E4%BA%86+%E4%BD%8F%E4%B8%80%E6%99%9A%E8%A6%811300%E5%A4%9A%E5%85%83",
-      "summary": "11月13日，上海斐乐酒店正式开业。酒店规模不大，普通客房和主题套房加在一起108间，属于中小型酒店体量，但定价不算低。OTA平台上，一间42平方米的普通客房，工作日一晚1341元，不含早餐；55平方米的主题套房价格更高，2298元/晚起。",
-      "hot": 3416623,
+      "title": "魏建军在胖东来试骑张雪机车820RR",
+      "url": "https://www.baidu.com/s?wd=%E9%AD%8F%E5%BB%BA%E5%86%9B%E5%9C%A8%E8%83%96%E4%B8%9C%E6%9D%A5%E8%AF%95%E9%AA%91%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6820RR",
+      "summary": "11月21日，长城汽车董事长魏建军前往河南许昌考察学习胖东来，于东来亲自迎接。参观期间，魏建军试骑张雪机车820RR，于东来配合坐在后座。魏建军调侃“一下年轻四十岁，这都是带小姑娘的”，于东来幽默回应“带上我就行”。",
+      "hot": 3412677,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "5ce431340e08189b"
+      "id": "168bb1eeb1d49d9d"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 48,
-      "title": "特朗普：伊朗不想达成我能接受的协议",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E4%BC%8A%E6%9C%97%E4%B8%8D%E6%83%B3%E8%BE%BE%E6%88%90%E6%88%91%E8%83%BD%E6%8E%A5%E5%8F%97%E7%9A%84%E5%8D%8F%E8%AE%AE",
-      "summary": "",
-      "hot": 3298882,
+      "title": "八马茶业被暂停全军采购资格",
+      "url": "https://www.baidu.com/s?wd=%E5%85%AB%E9%A9%AC%E8%8C%B6%E4%B8%9A%E8%A2%AB%E6%9A%82%E5%81%9C%E5%85%A8%E5%86%9B%E9%87%87%E8%B4%AD%E8%B5%84%E6%A0%BC",
+      "summary": "11月20日，八马茶业港股大跌6.96%，虽斥资31万港元回购仍未能扭转颓势。此前于11月19日，因存在违规问题，军委后勤保障部采购服务中心决定暂停八马茶业及其控股股东吴小宁相关企业参加全军物资工程服务采购活动资格。",
+      "hot": 3332446,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "0ee8de355ef783e2"
+      "id": "933813df740c35ae"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 49,
-      "title": "北京菜百金条卖断货 有人1次入手85万",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E8%8F%9C%E7%99%BE%E9%87%91%E6%9D%A1%E5%8D%96%E6%96%AD%E8%B4%A7+%E6%9C%89%E4%BA%BA1%E6%AC%A1%E5%85%A5%E6%89%8B85%E4%B8%87",
-      "summary": "11月20日，北京菜百首饰总店投资金条在金价跌破760元/克后售罄，现场投资者排队抢购，有人一次入手超85万元。此",
-      "hot": 3209464,
+      "title": "“钛杯”“钛锅”火了 真能抑菌吗",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%92%9B%E6%9D%AF%E2%80%9D%E2%80%9C%E9%92%9B%E9%94%85%E2%80%9D%E7%81%AB%E4%BA%86+%E7%9C%9F%E8%83%BD%E6%8A%91%E8%8F%8C%E5%90%97",
+      "summary": "直播间把钛杯钛锅吹成抑菌神器，先别急着下单。钛本身稳定、不容易析出金属离子，当餐具是安全的，但“抑菌”这个卖点证据并不足。为材质换杯子可以，为抑菌花大钱就亏了。",
+      "hot": 3224944,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "2ddf8a6751ca1d85"
+      "id": "d5d57e107f7b3f03"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 50,
-      "title": "Anthropic工牌成硅谷相亲局硬通货",
-      "url": "https://www.baidu.com/s?wd=Anthropic%E5%B7%A5%E7%89%8C%E6%88%90%E7%A1%85%E8%B0%B7%E7%9B%B8%E4%BA%B2%E5%B1%80%E7%A1%AC%E9%80%9A%E8%B4%A7",
-      "summary": "当地时间11月19日，Anthropic登陆纳斯达克，募资813亿美元创史上最大IPO纪录，首日市值约1.77万亿美元。Anthropic的员工，收入涨得太吓人，他们已经成了硅谷相亲市场的香饽饽。",
-      "hot": 3145232,
+      "title": "原来特朗普拉开窗帘 是在看深圳的路",
+      "url": "https://www.baidu.com/s?wd=%E5%8E%9F%E6%9D%A5%E7%89%B9%E6%9C%97%E6%99%AE%E6%8B%89%E5%BC%80%E7%AA%97%E5%B8%98+%E6%98%AF%E5%9C%A8%E7%9C%8B%E6%B7%B1%E5%9C%B3%E7%9A%84%E8%B7%AF",
+      "summary": "11月18日晚，美国总统特朗普乘车前往欢迎晚宴。车队经过深圳街头时，特朗普未拉窗帘，被拍到在车内认真观察道路。特朗普表示，他仔细看过深圳的路，不仅没有坑洼，修补过的地方也没有坑。",
+      "hot": 3120232,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "0e6af1442d25bfa0"
+      "id": "be82e0caba009f7e"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 1,
-      "title": "特朗普说看看深圳再看看我们",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E7%9C%8B%E7%9C%8B%E6%B7%B1%E5%9C%B3%E5%86%8D%E7%9C%8B%E7%9C%8B%E6%88%91%E4%BB%AC%23",
+      "title": "特朗普深圳不拉窗帘原因找到了",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%B7%B1%E5%9C%B3%E4%B8%8D%E6%8B%89%E7%AA%97%E5%B8%98%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86%23",
       "summary": "",
-      "hot": 1164534,
+      "hot": 1459774,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "73012711b19a9657"
+      "id": "b1ad0f3e956566e8"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 2,
-      "title": "韩国高考中国史题正确率不足一成",
-      "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E9%AB%98%E8%80%83%E4%B8%AD%E5%9B%BD%E5%8F%B2%E9%A2%98%E6%AD%A3%E7%A1%AE%E7%8E%87%E4%B8%8D%E8%B6%B3%E4%B8%80%E6%88%90",
+      "title": "青海地震",
+      "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E6%B5%B7%E5%9C%B0%E9%9C%87",
       "summary": "",
-      "hot": 845133,
+      "hot": 872686,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "e10ac075ce1754fc"
+      "id": "58e44768f50aebf9"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 3,
-      "title": "五中全会决定这些话要牢记",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%86%B3%E5%AE%9A%E8%BF%99%E4%BA%9B%E8%AF%9D%E8%A6%81%E7%89%A2%E8%AE%B0%23",
+      "title": "唱空中国经济者终会落空",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%94%B1%E7%A9%BA%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E8%80%85%E7%BB%88%E4%BC%9A%E8%90%BD%E7%A9%BA%23",
       "summary": "",
-      "hot": 665970,
+      "hot": 699528,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "06213adfa27f9318"
+      "id": "24eaa7b987b08e03"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 4,
-      "title": "享界V8开启全国交付",
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%AB%E7%95%8CV8%E5%BC%80%E5%90%AF%E5%85%A8%E5%9B%BD%E4%BA%A4%E4%BB%98",
+      "title": "白小纯 青稚",
+      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E9%9D%92%E7%A8%9A",
       "summary": "",
-      "hot": 665812,
+      "hot": 370599,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "ca8fe91c15c7be4e"
+      "id": "dc5ce519164d4c97"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 5,
-      "title": "特朗普称不允许美企海外建数据中心",
-      "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8D%E5%85%81%E8%AE%B8%E7%BE%8E%E4%BC%81%E6%B5%B7%E5%A4%96%E5%BB%BA%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83",
+      "title": "AI剧打败真人剧的真正原因",
+      "url": "https://s.weibo.com/weibo?q=%23AI%E5%89%A7%E6%89%93%E8%B4%A5%E7%9C%9F%E4%BA%BA%E5%89%A7%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%8E%9F%E5%9B%A0%23",
       "summary": "",
-      "hot": 665137,
+      "hot": 369367,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "c9540904c724fbfc"
+      "id": "912668cda7270215"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 6,
-      "title": "胖东来搬离后原址所开新商场几乎倒闭",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E6%90%AC%E7%A6%BB%E5%90%8E%E5%8E%9F%E5%9D%80%E6%89%80%E5%BC%80%E6%96%B0%E5%95%86%E5%9C%BA%E5%87%A0%E4%B9%8E%E5%80%92%E9%97%AD%23",
+      "title": "特朗普在APEC晚宴跳YMCA",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%9C%A8APEC%E6%99%9A%E5%AE%B4%E8%B7%B3YMCA%23",
       "summary": "",
-      "hot": 647690,
+      "hot": 293174,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "b114ea4b6a4e824c"
+      "id": "817adefa0acbc2a3"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 7,
-      "title": "伊能静发长文谈后会友期",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%8A%E8%83%BD%E9%9D%99%E5%8F%91%E9%95%BF%E6%96%87%E8%B0%88%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%23",
+      "title": "两京十五日真没把我们当外人",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E7%9C%9F%E6%B2%A1%E6%8A%8A%E6%88%91%E4%BB%AC%E5%BD%93%E5%A4%96%E4%BA%BA%23",
       "summary": "",
-      "hot": 643331,
+      "hot": 293105,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "6988f94f20f49f56"
+      "id": "3adaa13fbb02c883"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 8,
-      "title": "这段爆破戏疑似AI做的",
-      "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%AE%B5%E7%88%86%E7%A0%B4%E6%88%8F%E7%96%91%E4%BC%BCAI%E5%81%9A%E7%9A%84",
+      "title": "村民性侵少女被判无罪最高检抗诉",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%91%E6%B0%91%E6%80%A7%E4%BE%B5%E5%B0%91%E5%A5%B3%E8%A2%AB%E5%88%A4%E6%97%A0%E7%BD%AA%E6%9C%80%E9%AB%98%E6%A3%80%E6%8A%97%E8%AF%89%23",
       "summary": "",
-      "hot": 582949,
+      "hot": 291404,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "64a4a104f8d223a8"
+      "id": "b7063e7ba928b5dd"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 9,
-      "title": "特朗普说深圳干净整洁一尘不染",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E6%B7%B1%E5%9C%B3%E5%B9%B2%E5%87%80%E6%95%B4%E6%B4%81%E4%B8%80%E5%B0%98%E4%B8%8D%E6%9F%93%23",
+      "title": "魏建军于东来同骑一辆张雪",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AD%8F%E5%BB%BA%E5%86%9B%E4%BA%8E%E4%B8%9C%E6%9D%A5%E5%90%8C%E9%AA%91%E4%B8%80%E8%BE%86%E5%BC%A0%E9%9B%AA%23",
       "summary": "",
-      "hot": 554176,
+      "hot": 289668,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "547b24db5045d4ee"
+      "id": "f43905a0a4b26979"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 10,
-      "title": "日网民吐槽高市早苗APEC之行吐舌头",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E7%BD%91%E6%B0%91%E5%90%90%E6%A7%BD%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97APEC%E4%B9%8B%E8%A1%8C%E5%90%90%E8%88%8C%E5%A4%B4%23",
+      "title": "曝Tarzan离开AL加入JDG",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9DTarzan%E7%A6%BB%E5%BC%80AL%E5%8A%A0%E5%85%A5JDG%23",
       "summary": "",
-      "hot": 450702,
+      "hot": 288577,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "b16a8bd732c7595f"
+      "id": "9c249d92ebdca2a6"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 11,
-      "title": "炎亚纶铁了心要上后会友期",
-      "url": "https://s.weibo.com/weibo?q=%E7%82%8E%E4%BA%9A%E7%BA%B6%E9%93%81%E4%BA%86%E5%BF%83%E8%A6%81%E4%B8%8A%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
+      "title": "张凌赫说田曦薇更瘦更美了",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%AF%B4%E7%94%B0%E6%9B%A6%E8%96%87%E6%9B%B4%E7%98%A6%E6%9B%B4%E7%BE%8E%E4%BA%86%23",
       "summary": "",
-      "hot": 406825,
+      "hot": 287664,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "5086587c175adfcc"
+      "id": "d2b2154fc6afd3cb"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 12,
-      "title": "炎亚纶汪东城世纪大和解",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%82%8E%E4%BA%9A%E7%BA%B6%E6%B1%AA%E4%B8%9C%E5%9F%8E%E4%B8%96%E7%BA%AA%E5%A4%A7%E5%92%8C%E8%A7%A3%23",
+      "title": "顺丰速运被暂停参加全军采购活动",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A1%BA%E4%B8%B0%E9%80%9F%E8%BF%90%E8%A2%AB%E6%9A%82%E5%81%9C%E5%8F%82%E5%8A%A0%E5%85%A8%E5%86%9B%E9%87%87%E8%B4%AD%E6%B4%BB%E5%8A%A8%23",
       "summary": "",
-      "hot": 400605,
+      "hot": 285577,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "89b287f7d2b56d12"
+      "id": "74f9291dd7f58331"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 13,
-      "title": "孙芮属于军婚",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E8%8A%AE%E5%B1%9E%E4%BA%8E%E5%86%9B%E5%A9%9A%23",
+      "title": "逐玉",
+      "url": "https://s.weibo.com/weibo?q=%E9%80%90%E7%8E%89",
       "summary": "",
-      "hot": 399559,
+      "hot": 284161,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "43894acfefe2abc1"
+      "id": "6ee67b1b59c97cbc"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 14,
-      "title": "上海人安慰人北京人瞎过吧",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E4%BA%BA%E5%AE%89%E6%85%B0%E4%BA%BA%E5%8C%97%E4%BA%AC%E4%BA%BA%E7%9E%8E%E8%BF%87%E5%90%A7",
+      "title": "曝孙芮已经结婚两年了",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%AD%99%E8%8A%AE%E5%B7%B2%E7%BB%8F%E7%BB%93%E5%A9%9A%E4%B8%A4%E5%B9%B4%E4%BA%86%23",
       "summary": "",
-      "hot": 398079,
+      "hot": 283110,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "b4aa2fd05fbb2897"
+      "id": "c19ffe7de3ceb13d"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 15,
-      "title": "张萌的大胆穿搭直接吓到孟子义",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E8%90%8C%E7%9A%84%E5%A4%A7%E8%83%86%E7%A9%BF%E6%90%AD%E7%9B%B4%E6%8E%A5%E5%90%93%E5%88%B0%E5%AD%9F%E5%AD%90%E4%B9%89%23",
+      "title": "彭昱畅被AI融脸",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BD%AD%E6%98%B1%E7%95%85%E8%A2%ABAI%E8%9E%8D%E8%84%B8%23",
       "summary": "",
-      "hot": 390429,
+      "hot": 281100,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "ae2becd590e1110b"
+      "id": "fea4094e429cfb50"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 16,
-      "title": "丝芭下孩子了",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%9D%E8%8A%AD%E4%B8%8B%E5%AD%A9%E5%AD%90%E4%BA%86",
+      "title": "安宥真张元英MAMA舞台开场",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%89%E5%AE%A5%E7%9C%9F%E5%BC%A0%E5%85%83%E8%8B%B1MAMA%E8%88%9E%E5%8F%B0%E5%BC%80%E5%9C%BA%23",
       "summary": "",
-      "hot": 383401,
+      "hot": 279845,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "a36f9064785f34c1"
+      "id": "fc525e986f0174a1"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 17,
-      "title": "NBA回应哈登51分6板6助",
-      "url": "https://s.weibo.com/weibo?q=%23NBA%E5%9B%9E%E5%BA%94%E5%93%88%E7%99%BB51%E5%88%866%E6%9D%BF6%E5%8A%A9%23",
+      "title": "C罗7米巨型雕像上海揭幕",
+      "url": "https://s.weibo.com/weibo?q=%23C%E7%BD%977%E7%B1%B3%E5%B7%A8%E5%9E%8B%E9%9B%95%E5%83%8F%E4%B8%8A%E6%B5%B7%E6%8F%AD%E5%B9%95%23",
       "summary": "",
-      "hot": 358613,
+      "hot": 279488,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "38cb4866ad14d959"
+      "id": "387116480e949829"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 18,
+      "title": "张凌赫听到田曦薇说我杀猪养你的反应",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E5%90%AC%E5%88%B0%E7%94%B0%E6%9B%A6%E8%96%87%E8%AF%B4%E6%88%91%E6%9D%80%E7%8C%AA%E5%85%BB%E4%BD%A0%E7%9A%84%E5%8F%8D%E5%BA%94%23",
+      "summary": "",
+      "hot": 278048,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "b7f0ae42c3d451cc"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 19,
+      "title": "中国短道女接3000米夺金",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%9F%AD%E9%81%93%E5%A5%B3%E6%8E%A53000%E7%B1%B3%E5%A4%BA%E9%87%91%23",
+      "summary": "",
+      "hot": 275240,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "c9698adb9512fecf"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 20,
+      "title": "APEC带火荔枝冰酒负责人哽咽落泪",
+      "url": "https://s.weibo.com/weibo?q=%23APEC%E5%B8%A6%E7%81%AB%E8%8D%94%E6%9E%9D%E5%86%B0%E9%85%92%E8%B4%9F%E8%B4%A3%E4%BA%BA%E5%93%BD%E5%92%BD%E8%90%BD%E6%B3%AA%23",
+      "summary": "",
+      "hot": 272638,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "ae9c8764525a502c"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 21,
+      "title": "金价跌至7开头金店经理直呼天塌了",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E8%B7%8C%E8%87%B37%E5%BC%80%E5%A4%B4%E9%87%91%E5%BA%97%E7%BB%8F%E7%90%86%E7%9B%B4%E5%91%BC%E5%A4%A9%E5%A1%8C%E4%BA%86%23",
+      "summary": "",
+      "hot": 270380,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "86ce9738945a0cd7"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 22,
+      "title": "沈腾摔倒现发所有人都在扶",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B2%88%E8%85%BE%E6%91%94%E5%80%92%E7%8E%B0%E5%8F%91%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E6%89%B6%23",
+      "summary": "",
+      "hot": 267186,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "2198ddbfeaed3062"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 23,
+      "title": "易立竞回复手撕文吉儿",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%AB%8B%E7%AB%9E%E5%9B%9E%E5%A4%8D%E6%89%8B%E6%92%95%E6%96%87%E5%90%89%E5%84%BF%23",
+      "summary": "",
+      "hot": 263316,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "6b0ba689d25a7e6d"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 24,
+      "title": "肾脏这辈子打的就是高端局",
+      "url": "https://s.weibo.com/weibo?q=%E8%82%BE%E8%84%8F%E8%BF%99%E8%BE%88%E5%AD%90%E6%89%93%E7%9A%84%E5%B0%B1%E6%98%AF%E9%AB%98%E7%AB%AF%E5%B1%80",
+      "summary": "",
+      "hot": 259765,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "a761a8bbd0a900d2"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 25,
+      "title": "陈伟霆何穗儿子学会走路了",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%88%E4%BC%9F%E9%9C%86%E4%BD%95%E7%A9%97%E5%84%BF%E5%AD%90%E5%AD%A6%E4%BC%9A%E8%B5%B0%E8%B7%AF%E4%BA%86%23",
+      "summary": "",
+      "hot": 259268,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "0e6cb3fd6f4b5519"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 26,
+      "title": "家有儿女片酬放现在也超许多人",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%B6%E6%9C%89%E5%84%BF%E5%A5%B3%E7%89%87%E9%85%AC%E6%94%BE%E7%8E%B0%E5%9C%A8%E4%B9%9F%E8%B6%85%E8%AE%B8%E5%A4%9A%E4%BA%BA%23",
+      "summary": "",
+      "hot": 246793,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "26877960b17ec075"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 27,
+      "title": "两京十五日台词",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E5%8F%B0%E8%AF%8D",
+      "summary": "",
+      "hot": 228093,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "e1fc7640ae734c4b"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 28,
+      "title": "Tim说我爹太离谱了",
+      "url": "https://s.weibo.com/weibo?q=%23Tim%E8%AF%B4%E6%88%91%E7%88%B9%E5%A4%AA%E7%A6%BB%E8%B0%B1%E4%BA%86%23",
+      "summary": "",
+      "hot": 220314,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "d1ef06a1e0df92db"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 29,
+      "title": "李嫣声音比窦靖童更像王菲",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%AB%A3%E5%A3%B0%E9%9F%B3%E6%AF%94%E7%AA%A6%E9%9D%96%E7%AB%A5%E6%9B%B4%E5%83%8F%E7%8E%8B%E8%8F%B2",
+      "summary": "",
+      "hot": 215799,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "795c9f27e94498a2"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 30,
+      "title": "中国队短道速滑世巡赛夺金",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%98%9F%E7%9F%AD%E9%81%93%E9%80%9F%E6%BB%91%E4%B8%96%E5%B7%A1%E8%B5%9B%E5%A4%BA%E9%87%91%23",
+      "summary": "",
+      "hot": 207813,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "21d71bc670c2908b"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 31,
+      "title": "T1的官宣开始了",
+      "url": "https://s.weibo.com/weibo?q=%23T1%E7%9A%84%E5%AE%98%E5%AE%A3%E5%BC%80%E5%A7%8B%E4%BA%86%23",
+      "summary": "",
+      "hot": 206433,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "5c68fd05bacde9f1"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 32,
+      "title": "太阳雨国外篇是杀青两个月后拍的",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E9%98%B3%E9%9B%A8%E5%9B%BD%E5%A4%96%E7%AF%87%E6%98%AF%E6%9D%80%E9%9D%92%E4%B8%A4%E4%B8%AA%E6%9C%88%E5%90%8E%E6%8B%8D%E7%9A%84",
+      "summary": "",
+      "hot": 202349,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "0913a776054cadd8"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 33,
+      "title": "秦昊当着镜头直接数落伊能静",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%A6%E6%98%8A%E5%BD%93%E7%9D%80%E9%95%9C%E5%A4%B4%E7%9B%B4%E6%8E%A5%E6%95%B0%E8%90%BD%E4%BC%8A%E8%83%BD%E9%9D%99%23",
+      "summary": "",
+      "hot": 200678,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "67772f3d84f07d71"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 34,
+      "title": "白小纯鱼灯映夜万事可期",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%B1%BC%E7%81%AF%E6%98%A0%E5%A4%9C%E4%B8%87%E4%BA%8B%E5%8F%AF%E6%9C%9F%23",
+      "summary": "",
+      "hot": 198323,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "9173de2f1eccdb15"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 35,
+      "title": "八马茶业被暂停参加全军采购活动",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%AB%E9%A9%AC%E8%8C%B6%E4%B8%9A%E8%A2%AB%E6%9A%82%E5%81%9C%E5%8F%82%E5%8A%A0%E5%85%A8%E5%86%9B%E9%87%87%E8%B4%AD%E6%B4%BB%E5%8A%A8%23",
+      "summary": "",
+      "hot": 192274,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "d8f9d564ae953a2b"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 36,
+      "title": "国乒男单连续12站WTT赛事无冠",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8D%95%E8%BF%9E%E7%BB%AD12%E7%AB%99WTT%E8%B5%9B%E4%BA%8B%E6%97%A0%E5%86%A0%23",
+      "summary": "",
+      "hot": 180298,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "6155123d29a73d65"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 37,
+      "title": "太阳大声帮权志龙捋头发",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E9%98%B3%E5%A4%A7%E5%A3%B0%E5%B8%AE%E6%9D%83%E5%BF%97%E9%BE%99%E6%8D%8B%E5%A4%B4%E5%8F%91",
+      "summary": "",
+      "hot": 179483,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "5e4c75d92c48ec64"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 38,
+      "title": "爱笑的天使末尾是王菲抱着李嫣",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B1%E7%AC%91%E7%9A%84%E5%A4%A9%E4%BD%BF%E6%9C%AB%E5%B0%BE%E6%98%AF%E7%8E%8B%E8%8F%B2%E6%8A%B1%E7%9D%80%E6%9D%8E%E5%AB%A3%23",
+      "summary": "",
+      "hot": 178655,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "0da998963ef49dac"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 39,
+      "title": "16岁女孩遭性侵后被迫改口称自愿",
+      "url": "https://s.weibo.com/weibo?q=%2316%E5%B2%81%E5%A5%B3%E5%AD%A9%E9%81%AD%E6%80%A7%E4%BE%B5%E5%90%8E%E8%A2%AB%E8%BF%AB%E6%94%B9%E5%8F%A3%E7%A7%B0%E8%87%AA%E6%84%BF%23",
+      "summary": "",
+      "hot": 177602,
+      "channel": "热搜榜",
+      "date": "2026-11-21",
+      "id": "0501fd87431e52a4"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 40,
       "title": "孙芮结婚怀孕",
       "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E8%8A%AE%E7%BB%93%E5%A9%9A%E6%80%80%E5%AD%95",
       "summary": "",
-      "hot": 351191,
+      "hot": 176455,
       "channel": "热搜榜",
       "date": "2026-11-21",
       "id": "81c790d339ea7b2f"
@@ -1466,395 +1703,131 @@
     {
       "source": "weibo",
       "kind": "hot",
-      "rank": 19,
-      "title": "BLG的AD有可能是Diable",
-      "url": "https://s.weibo.com/weibo?q=%23BLG%E7%9A%84AD%E6%9C%89%E5%8F%AF%E8%83%BD%E6%98%AFDiable%23",
-      "summary": "",
-      "hot": 290096,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "802d5e97691e0a6c"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 20,
-      "title": "以前的朱瞻基现在的朱瞻基",
-      "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E5%89%8D%E7%9A%84%E6%9C%B1%E7%9E%BB%E5%9F%BA%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%9C%B1%E7%9E%BB%E5%9F%BA",
-      "summary": "",
-      "hot": 275528,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "9db3740dd83e60af"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 21,
-      "title": "美股 AI泡沫",
-      "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E8%82%A1%20AI%E6%B3%A1%E6%B2%AB",
-      "summary": "",
-      "hot": 256972,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "cf5d1aef500e91dc"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 22,
-      "title": "李嫣喝水都要用口罩遮着",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AB%A3%E5%96%9D%E6%B0%B4%E9%83%BD%E8%A6%81%E7%94%A8%E5%8F%A3%E7%BD%A9%E9%81%AE%E7%9D%80%23",
-      "summary": "",
-      "hot": 256878,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "0019f23c9ec97268"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 23,
-      "title": "生父也曾被监控拍下脚踹遇害女童",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%9F%E7%88%B6%E4%B9%9F%E6%9B%BE%E8%A2%AB%E7%9B%91%E6%8E%A7%E6%8B%8D%E4%B8%8B%E8%84%9A%E8%B8%B9%E9%81%87%E5%AE%B3%E5%A5%B3%E7%AB%A5%23",
-      "summary": "",
-      "hot": 255917,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "9513efe44c59cf59"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 24,
-      "title": "复仇者联盟5",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%8D%E4%BB%87%E8%80%85%E8%81%94%E7%9B%9F5",
-      "summary": "",
-      "hot": 255045,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "e6759cb9c78f69ac"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 25,
-      "title": "哈登51分",
-      "url": "https://s.weibo.com/weibo?q=%E5%93%88%E7%99%BB51%E5%88%86",
-      "summary": "",
-      "hot": 254035,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "90909c1c39efa5df"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 26,
-      "title": "高市早苗拍特朗普后背被无视",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%8B%8D%E7%89%B9%E6%9C%97%E6%99%AE%E5%90%8E%E8%83%8C%E8%A2%AB%E6%97%A0%E8%A7%86%23",
-      "summary": "",
-      "hot": 252535,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "560f4e9bfedfa1c1"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 27,
-      "title": "王子璇问马天宇你不会爱上我",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E9%97%AE%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%BD%A0%E4%B8%8D%E4%BC%9A%E7%88%B1%E4%B8%8A%E6%88%91%23",
-      "summary": "",
-      "hot": 251699,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "412e3b1ce43cfb30"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 28,
-      "title": "李嫣唱歌太孝顺了",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%AB%A3%E5%94%B1%E6%AD%8C%E5%A4%AA%E5%AD%9D%E9%A1%BA%E4%BA%86%23",
-      "summary": "",
-      "hot": 251299,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "aa599e1fa4cffa85"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 29,
-      "title": "一觉醒来黄金跌到7字头",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%E9%BB%84%E9%87%91%E8%B7%8C%E5%88%B07%E5%AD%97%E5%A4%B4%23",
-      "summary": "",
-      "hot": 250713,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "7d3aa5645749aa44"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 30,
-      "title": "高会互通",
-      "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%BC%9A%E4%BA%92%E9%80%9A",
-      "summary": "",
-      "hot": 245357,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "cc7a5394cececcee"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 31,
-      "title": "黎曼猜想",
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3",
-      "summary": "",
-      "hot": 236682,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "147325b7267df720"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 32,
-      "title": "Elk BLG",
-      "url": "https://s.weibo.com/weibo?q=Elk%20BLG",
-      "summary": "",
-      "hot": 220879,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "6ca0ff3534fe5aea"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 33,
-      "title": "问界M9车主开辅助驾驶熟睡",
-      "url": "https://s.weibo.com/weibo?q=%E9%97%AE%E7%95%8CM9%E8%BD%A6%E4%B8%BB%E5%BC%80%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E7%86%9F%E7%9D%A1",
-      "summary": "",
-      "hot": 212834,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "11c66dee6d5555fb"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 34,
-      "title": "比亚迪折叠方向盘能干嘛",
-      "url": "https://s.weibo.com/weibo?q=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%8A%98%E5%8F%A0%E6%96%B9%E5%90%91%E7%9B%98%E8%83%BD%E5%B9%B2%E5%98%9B",
-      "summary": "",
-      "hot": 190787,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "adc25920ffe33455"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 35,
-      "title": "父亲把房留给妹妹哥哥搬前打砸诅咒",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%88%B6%E4%BA%B2%E6%8A%8A%E6%88%BF%E7%95%99%E7%BB%99%E5%A6%B9%E5%A6%B9%E5%93%A5%E5%93%A5%E6%90%AC%E5%89%8D%E6%89%93%E7%A0%B8%E8%AF%85%E5%92%92%23",
-      "summary": "",
-      "hot": 172421,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "db7a997b37577417"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 36,
-      "title": "两京十五日太子赐死忠臣",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E5%A4%AA%E5%AD%90%E8%B5%90%E6%AD%BB%E5%BF%A0%E8%87%A3",
-      "summary": "",
-      "hot": 170435,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "475da86da1a89805"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 37,
-      "title": "张萌回应青稚打听式安慰",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E8%90%8C%E5%9B%9E%E5%BA%94%E9%9D%92%E7%A8%9A%E6%89%93%E5%90%AC%E5%BC%8F%E5%AE%89%E6%85%B0%23",
-      "summary": "",
-      "hot": 170421,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "2713391b60a7fb92"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 38,
-      "title": "两京十五日登顶全网实时收视榜",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E7%99%BB%E9%A1%B6%E5%85%A8%E7%BD%91%E5%AE%9E%E6%97%B6%E6%94%B6%E8%A7%86%E6%A6%9C%23",
-      "summary": "",
-      "hot": 170038,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "6923c4c4961a1803"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 39,
-      "title": "美国提议乌克兰割让领土或冻结前线",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E6%8F%90%E8%AE%AE%E4%B9%8C%E5%85%8B%E5%85%B0%E5%89%B2%E8%AE%A9%E9%A2%86%E5%9C%9F%E6%88%96%E5%86%BB%E7%BB%93%E5%89%8D%E7%BA%BF%23",
-      "summary": "",
-      "hot": 169961,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "5365f4a54c451300"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 40,
-      "title": "后会友期让我不适的part",
-      "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%AE%A9%E6%88%91%E4%B8%8D%E9%80%82%E7%9A%84part",
-      "summary": "",
-      "hot": 169959,
-      "channel": "热搜榜",
-      "date": "2026-11-21",
-      "id": "d71f3a44ce77d4af"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
       "rank": 41,
-      "title": "女童被杀生父称女儿一条命不止十几年",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E7%AB%A5%E8%A2%AB%E6%9D%80%E7%94%9F%E7%88%B6%E7%A7%B0%E5%A5%B3%E5%84%BF%E4%B8%80%E6%9D%A1%E5%91%BD%E4%B8%8D%E6%AD%A2%E5%8D%81%E5%87%A0%E5%B9%B4%23",
+      "title": "两京十五日父亲用生命为儿子开路",
+      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E7%88%B6%E4%BA%B2%E7%94%A8%E7%94%9F%E5%91%BD%E4%B8%BA%E5%84%BF%E5%AD%90%E5%BC%80%E8%B7%AF%23",
       "summary": "",
-      "hot": 169111,
+      "hot": 171413,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "6593bd1e9f90fa51"
+      "id": "c8e3aa49fe18b1f1"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 42,
-      "title": "两京十五日原来是保卫萝卜",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E5%8E%9F%E6%9D%A5%E6%98%AF%E4%BF%9D%E5%8D%AB%E8%90%9D%E5%8D%9C%23",
+      "title": "CORTIS获得MAMA年度歌曲",
+      "url": "https://s.weibo.com/weibo?q=%23CORTIS%E8%8E%B7%E5%BE%97MAMA%E5%B9%B4%E5%BA%A6%E6%AD%8C%E6%9B%B2%23",
       "summary": "",
-      "hot": 169102,
+      "hot": 170850,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "354a7943d58ca060"
+      "id": "30851fb815345d39"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 43,
-      "title": "谢砚腿好后跪吻宝珠求她别走",
-      "url": "https://s.weibo.com/weibo?q=%E8%B0%A2%E7%A0%9A%E8%85%BF%E5%A5%BD%E5%90%8E%E8%B7%AA%E5%90%BB%E5%AE%9D%E7%8F%A0%E6%B1%82%E5%A5%B9%E5%88%AB%E8%B5%B0",
+      "title": "金晨把上官婉儿跳活了",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%A8%E6%8A%8A%E4%B8%8A%E5%AE%98%E5%A9%89%E5%84%BF%E8%B7%B3%E6%B4%BB%E4%BA%86",
       "summary": "",
-      "hot": 169098,
+      "hot": 150489,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "314992b8e82d34b1"
+      "id": "0a369349592534ea"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 44,
-      "title": "伊能静介绍了和秦昊在上海的家",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%8A%E8%83%BD%E9%9D%99%E4%BB%8B%E7%BB%8D%E4%BA%86%E5%92%8C%E7%A7%A6%E6%98%8A%E5%9C%A8%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%AE%B6%23",
+      "title": "老乡杯",
+      "url": "https://s.weibo.com/weibo?q=%E8%80%81%E4%B9%A1%E6%9D%AF",
       "summary": "",
-      "hot": 169096,
+      "hot": 145481,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "b6d6e160ec72700e"
+      "id": "ac2acceb13dc2073"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 45,
-      "title": "华为Logo价格121元",
-      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BALogo%E4%BB%B7%E6%A0%BC121%E5%85%83",
+      "title": "权志龙长发",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%83%E5%BF%97%E9%BE%99%E9%95%BF%E5%8F%91",
       "summary": "",
-      "hot": 169052,
+      "hot": 144781,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "8153f7a4a5a5d895"
+      "id": "1eacbdf576659238"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 46,
-      "title": "特朗普涉中俄美最新表态",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E6%B6%89%E4%B8%AD%E4%BF%84%E7%BE%8E%E6%9C%80%E6%96%B0%E8%A1%A8%E6%80%81%23",
+      "title": "金饰克价又跌了超20元",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E5%8F%88%E8%B7%8C%E4%BA%86%E8%B6%8520%E5%85%83%23",
       "summary": "",
-      "hot": 166660,
+      "hot": 144052,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "bd8f6cb4b2c774ee"
+      "id": "ec3ad0539746f4cf"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 47,
-      "title": "女子发现名包是假货后扇自己耳光",
-      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%8F%91%E7%8E%B0%E5%90%8D%E5%8C%85%E6%98%AF%E5%81%87%E8%B4%A7%E5%90%8E%E6%89%87%E8%87%AA%E5%B7%B1%E8%80%B3%E5%85%89",
+      "title": "金裕贞差点被风吹倒了",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E8%A3%95%E8%B4%9E%E5%B7%AE%E7%82%B9%E8%A2%AB%E9%A3%8E%E5%90%B9%E5%80%92%E4%BA%86%23",
       "summary": "",
-      "hot": 152793,
+      "hot": 143880,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "1fcf7954e93dabf0"
+      "id": "74a0e76495b3512a"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 48,
-      "title": "理想宁德时代矛盾被曝",
-      "url": "https://s.weibo.com/weibo?q=%E7%90%86%E6%83%B3%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E7%9F%9B%E7%9B%BE%E8%A2%AB%E6%9B%9D",
+      "title": "GTA6完美结局",
+      "url": "https://s.weibo.com/weibo?q=GTA6%E5%AE%8C%E7%BE%8E%E7%BB%93%E5%B1%80",
       "summary": "",
-      "hot": 152405,
+      "hot": 123178,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "c96f5068d132cf03"
+      "id": "4114021e99a68270"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 49,
-      "title": "王天辰郭晓婷开机",
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%A4%A9%E8%BE%B0%E9%83%AD%E6%99%93%E5%A9%B7%E5%BC%80%E6%9C%BA",
+      "title": "后会友期云合破97%",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E4%BA%91%E5%90%88%E7%A0%B497%25",
       "summary": "",
-      "hot": 152387,
+      "hot": 116630,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "f7eff30883f5bdbb"
+      "id": "8128d4a6cca31c05"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 50,
-      "title": "马天宇当明星后把亲戚接到了北京",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%A4%A9%E5%AE%87%E5%BD%93%E6%98%8E%E6%98%9F%E5%90%8E%E6%8A%8A%E4%BA%B2%E6%88%9A%E6%8E%A5%E5%88%B0%E4%BA%86%E5%8C%97%E4%BA%AC%23",
+      "title": "比特币暴跌超29万人爆仓",
+      "url": "https://s.weibo.com/weibo?q=%E6%AF%94%E7%89%B9%E5%B8%81%E6%9A%B4%E8%B7%8C%E8%B6%8529%E4%B8%87%E4%BA%BA%E7%88%86%E4%BB%93",
       "summary": "",
-      "hot": 151650,
+      "hot": 116536,
       "channel": "热搜榜",
       "date": "2026-11-21",
-      "id": "69e0beae63b8213c"
+      "id": "3ea8a68a3e2ed946"
     },
     {
       "source": "bloomberg",
       "channel": "市场",
-      "title": "Salvadoran Troops Killed in Haiti Blast Amid Rescue Mission",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/el-salvador-troops-killed-in-haiti-blast-after-rescue-deployment",
-      "summary": "Three Salvadoran soldiers died in Haiti after an explosion struck an area where they were working, weeks after President Nayib Bukele ordered a large deployment to the Caribbean island nation to find missing troops.",
+      "title": "Billionaire Raises $720 Million Private Credit for Megha Buyout",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/billionaire-raises-720-million-private-credit-for-megha-buyout",
+      "summary": "Indian billionaire P.V. Krishna Reddy has secured about 67 billion rupees ($720 million) from global private credit investors to buy out his uncle’s stake in Megha Engineering & Infrastructures Ltd., according to people ",
       "date": "2026-11-20",
-      "id": "1dd74577db052cc6"
+      "id": "ddcfa49754a50340"
     },
     {
       "source": "bloomberg",
@@ -1957,42 +1930,6 @@
     },
     {
       "source": "bloomberg",
-      "channel": "市场",
-      "title": "Bayer’s $7.25 Billion Roundup Settlement Approved by Judge",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge",
-      "summary": "A Missouri judge approved a Bayer AG proposal to contain its mounting legal costs by paying as much as $7.25 billion to resolve tens of thousands of US lawsuits by people who blame the company’s Roundup weedkiller for th",
-      "date": "2026-11-20",
-      "id": "b8a4536cc9a7ff40"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "AI Euphoria Gives Way to Fear And ‘Face-Ripping Volatility’",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-nears-breaking-point-as-fear-grips-global-markets",
-      "summary": "All year, investors have gorged themselves on whatever the AI trade served up. Hundreds of billions of dollars of stock sold to build out infrastructure. Near-daily bond offerings to pay for chips and data centers. Histo",
-      "date": "2026-11-20",
-      "id": "8b7a3fca9bf8b074"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler",
-      "summary": "CrowdStrike Holdings Inc. is in talks to acquire Zscaler Inc., according to people familiar with the matter, in a deal that would be among the largest-ever in the cybersecurity sector.",
-      "date": "2026-11-20",
-      "id": "75b96d88e769b5dc"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "AI Selloff Spurs Haven Demand for Yen, Franc as Dollar Slips",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ai-selloff-boosts-haven-demand-for-yen-franc-as-dollar-slips",
-      "summary": "The Japanese yen and Swiss franc outperformed their major peers as growing doubts about the sustainability of the artificial intelligence boom drove demand for havens and put pressure on the US dollar.",
-      "date": "2026-11-20",
-      "id": "a69885f6a669fe82"
-    },
-    {
-      "source": "bloomberg",
       "channel": "科技",
       "title": "Tony Wang on CrowdStrike-Zscaler Deal, AI Trade",
       "url": "https://www.bloomberg.com/news/videos/2026-11-20/tony-wang-on-crowdstrike-zscaler-deal-ai-trade-video",
@@ -2048,6 +1985,15 @@
     {
       "source": "bloomberg",
       "channel": "科技",
+      "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler",
+      "summary": "CrowdStrike Holdings Inc. is in talks to acquire Zscaler Inc., according to people familiar with the matter, in a deal that would be among the largest-ever in the cybersecurity sector.",
+      "date": "2026-11-20",
+      "id": "75b96d88e769b5dc"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
       "title": "US Credit-Fear Hits 8-Month High as Tech Angst Roils Markets",
       "url": "https://www.bloomberg.com/news/articles/2026-11-20/ai-credit-risk-gauges-worsen-as-tech-selloff-roils-markets",
       "summary": "Measures of perceived US credit risk reached levels not seen in nearly eight months and the cost of protecting the debt of some of the biggest tech firms against default jumped on Friday, as the wobbling AI trade spurred",
@@ -2093,56 +2039,20 @@
     {
       "source": "bloomberg",
       "channel": "科技",
+      "title": "Anthropic CEO Vacations at Italian Resort After Public Listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-ceo-vacations-at-italian-resort-after-public-listing",
+      "summary": "Anthropic PBC Chief Executive Officer Dario Amodei is vacationing at a luxury resort in the south of Italy after completing a blockbuster initial public offering, according to people familiar with the matter.",
+      "date": "2026-11-20",
+      "id": "a84bf02b00b98da9"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "科技",
       "title": "JPMorgan Gets Lowballed Below 80 Cents for Qualtrics Hung Debt",
       "url": "https://www.bloomberg.com/news/articles/2026-11-20/jpmorgan-gets-lowballed-below-80-cents-for-qualtrics-hung-debt",
       "summary": "JPMorgan Chase & Co. is fielding rock-bottom offers from investors as it weighs a potential debt sale tied to an acquisition by Qualtrics International Inc.",
       "date": "2026-11-20",
       "id": "d0f7ca11a4d432f6"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Nvidia Employees Complained About Huang's Behavior Years Ago",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/nvidia-staff-complained-about-huang-s-behavior-years-ago-video",
-      "summary": "Ian King, Bloomberg News US semiconductor reporter, said that a lawsuit from two former Nvidia employees shows the price employees paid for the remarkable success achieved by former CEO Jensen Huang, as his behavior is s",
-      "date": "2026-11-20",
-      "id": "6caae66af11fc372"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Odd Lots: Minerva Co-Founder on the Risks of “Abliterated” Models",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/minerva-co-founder-on-the-risks-of-abliterated-models-video",
-      "summary": "On this episode of the Odd Lots podcast, Minerva Co-Founder Daniel Saedi joins Joe Weisenthal and Tracy Alloway to unpack how his company mixes and matches AI models for specific use cases and the risk of “abliterated” m",
-      "date": "2026-11-20",
-      "id": "6e2322e1553c8ec7"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Cloud Infrastructure Firm CloudFerro Is Said to Weigh Warsaw IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-20/cloud-infrastructure-firm-cloudferro-is-said-to-weigh-warsaw-ipo",
-      "summary": "Polish cloud infrastructure provider CloudFerro SA is considering an initial public offering in Warsaw as soon as next year, according to people familiar with the matter.",
-      "date": "2026-11-20",
-      "id": "6bd21b9e0aa35075"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Anthropic Falls After Blockbuster Debut as Tech Sells Off",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/anthropic-falls-after-blockbuster-debut-as-tech-sell-off-video",
-      "summary": "Anthropic shares erased much of their first-day surge as the record-breaking listing faces its first test from public investors. Bloomberg's Shirin Ghaffary discusses what's ahead for the company with Ed Ludlow on \"Bloom",
-      "date": "2026-11-20",
-      "id": "7d5a2f1d299062a7"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "Altruist’s Wenk on AI and the Next Era of Financial Advice",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-20/altruist-s-wenk-on-ai-next-era-of-financial-advice-video",
-      "summary": "Altruist CEO Jason Wenk joins Bloomberg's Katie Greifeld for a wide ranging conversation on what joining Vanguard could mean for Altruist, his push to make financial advice more accessible and how technology and AI could",
-      "date": "2026-11-20",
-      "id": "dccf5f3def53c715"
     },
     {
       "source": "bloomberg",
@@ -2161,15 +2071,6 @@
       "summary": "Gold slid for a fifth day — notching its biggest weekly decline since March — as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks spurred selling across metals markets.",
       "date": "2026-11-19",
       "id": "d56363b85ce28b57"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Carrie Underwood on Her New Wellness Brand, HiNote",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/carrie-underwood-on-her-new-wellness-brand-hinote-video",
-      "summary": "HiNote Founder Carrie Underwood and CEO Kerrigan Behrens discuss the wellness brand’s origins and plans to grow production of its flagship drink mix following a new investment. They speak with Vonnie Quinn and Bailey Lip",
-      "date": "2026-11-13",
-      "id": "678f1f488e7744c3"
     }
   ]
 }
