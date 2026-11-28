@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-27T20:04:05.584Z",
+  "generatedAt": "2026-11-28T04:15:39.785Z",
   "date": "2026-11-28",
   "sources": [
     {
       "id": "xuexi",
       "name": "学习强国",
       "note": "学习强国未提供公开数据接口，本栏展示人民网时政、理论、党建、评论等官方同源内容",
-      "status": "stale",
-      "count": 13,
+      "status": "ok",
+      "count": 10,
       "error": null
     },
     {
       "id": "people",
       "name": "人民日报",
       "note": "人民日报当日电子版版面 + 人民网当日要闻",
-      "status": "stale",
+      "status": "ok",
       "count": 40,
-      "error": "电子版 HTTP 404"
+      "error": null
     },
     {
       "id": "bloomberg",
@@ -45,733 +45,1288 @@
   ],
   "items": [
     {
+      "title": "习近平:大国良性互动不是选择题,而是必答题",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c461001-40842059.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "cc4bd075c8013faf"
+    },
+    {
+      "title": "李强主持召开国务院常务会议",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c1024-40841982.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "1e59aca72140056b"
+    },
+    {
+      "title": "以全面从严治党新成效护航高质量发展",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c461001-40841997.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "7b532a5f3312a017"
+    },
+    {
+      "title": "“三圈协同”优化城市空间布局",
+      "url": "http://theory.people.com.cn/n1/2026/1128/c40531-40842083.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "理论",
+      "source": "xuexi",
+      "id": "b41aeab07086b6be"
+    },
+    {
+      "title": "勇立排头铸忠诚",
+      "url": "http://dangjian.people.com.cn/n1/2026/1128/c117092-40842076.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "党建",
+      "source": "xuexi",
+      "id": "d72c0056b0279816"
+    },
+    {
+      "title": "陈文清访问奥地利",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c1001-40841988.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "32471efe2d6df817"
+    },
+    {
+      "title": "国务院任免国家工作人员",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c1001-40841998.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "b40c4be18128c046"
+    },
+    {
+      "title": "《党校公开课（中国故事）》上线播出",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c461001-40842005.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "0d729fdb7bc18f3e"
+    },
+    {
+      "title": "信长星当选中共江苏省委书记",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c1001-40841999.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "951fed3f64886887"
+    },
+    {
+      "title": "2026世界市长对话：携手共建现代化人民城市",
+      "url": "http://politics.people.com.cn/n1/2026/1128/c461001-40841984.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "时政",
+      "source": "xuexi",
+      "id": "0364579b1011e324"
+    },
+    {
+      "title": "“赣小橙”的兴农路",
+      "url": "https://finance.people.com.cn/n1/2026/1128/c1004-40841979.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "a6644e3a6dfa60ce"
+    },
+    {
+      "title": "\"创新是深圳的活力所在\"",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841978.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "aa2b78f177407428"
+    },
+    {
+      "title": "全国一盘棋里的巨大潜能",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841990.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "cda81efd9f24c79f"
+    },
+    {
+      "title": "楼里就是创新链",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841991.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "a2237af957507cdb"
+    },
+    {
+      "title": "城尾乡头好产业",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841992.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "34dbe0e659e83c3a"
+    },
+    {
+      "title": "企业利润\"晴雨表\",一幅动能转换\"透视图\"",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842003.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "194dc6931f1f7efa"
+    },
+    {
+      "title": "科威特召见伊朗大使 抗议伊朗“持续袭击”",
+      "url": "http://world.people.com.cn/n1/2026/1128/c1002-40842020.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "国际",
+      "source": "people",
+      "id": "6bad5bbb7497aec6"
+    },
+    {
+      "title": "芬兰总统：愿同中方共同推动两国关系发展并加强国际协作",
+      "url": "http://world.people.com.cn/n1/2026/1128/c1002-40842019.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "国际",
+      "source": "people",
+      "id": "64c10a361fef957e"
+    },
+    {
+      "title": "西班牙加那利群岛附近一艘载有近百人的移民船获救",
+      "url": "http://world.people.com.cn/n1/2026/1128/c1002-40842021.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "国际",
+      "source": "people",
+      "id": "3f8548b9d105a9da"
+    },
+    {
+      "title": "巢马高铁正式开通运营",
+      "url": "http://pic.people.com.cn/n1/2026/1128/c1016-40842108.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "图片",
+      "source": "people",
+      "id": "ee87773017bc3fc3"
+    },
+    {
+      "title": "好品中国｜这个冬天，“橙”意满满",
+      "url": "http://jx.people.com.cn/n2/2026/1128/c186330-41763737.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "abc246fe3d680aed"
+    },
+    {
+      "title": "河南孟州：滩区生态美 飞鸟伴晚霞",
+      "url": "http://pic.people.com.cn/n1/2026/1128/c1016-40842120.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "图片",
+      "source": "people",
+      "id": "43a8c39b00d5826a"
+    },
+    {
+      "title": "行进中国｜百年青砖飘出“新”茶香",
+      "url": "http://hb.people.com.cn/n2/2026/1128/c194063-41763562.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "69c7d5b5b8f33cb3"
+    },
+    {
+      "title": "非遗市集唱大戏",
+      "url": "http://pic.people.com.cn/n1/2026/1128/c1016-40842113.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "图片",
+      "source": "people",
+      "id": "043704724ec9854b"
+    },
+    {
+      "title": "吉林省管干部任职前公示公告",
+      "url": "http://renshi.people.com.cn/n1/2026/1128/c139617-40842070.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "2ae9e631b4fea017"
+    },
+    {
+      "title": "护航重大项目廉洁高效建设",
+      "url": "http://fanfu.people.com.cn/n1/2026/1128/c64371-40842073.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "201895df66a97e43"
+    },
+    {
+      "title": "红二、红六军团乌蒙山回旋战",
+      "url": "https://cpc.people.com.cn/n1/2026/1128/c443712-40842090.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "3ef060b6f0280528"
+    },
+    {
+      "title": "11个部门联合公布应用规定 支持不同数字身份间互通互认",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841996.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "ea08afb301c2545e"
+    },
+    {
+      "title": "五部门部署家庭友好型工作场所建设",
+      "url": "http://society.people.com.cn/n1/2026/1128/c1008-40842006.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "社会",
+      "source": "people",
+      "id": "1bf89fe4eb64c25c"
+    },
+    {
+      "title": "《大额存单管理办法》公布 个人认购起点下调至10万元",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841975.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "69dbbda55ecd4583"
+    },
+    {
+      "title": "前10月规上工业企业利润同比增长16.0%",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841980.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "d4b133b43a4c2f9e"
+    },
+    {
+      "title": "工业领域新动能不断壮大",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841974.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "60f45726f28ea398"
+    },
+    {
+      "title": "10月中国外汇市场成交超25万亿元",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841972.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "93655ef690a8adf5"
+    },
+    {
+      "title": "全球交易规模最大的绿电大市场开市",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841995.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "1f902c2ae4b603e4"
+    },
+    {
+      "title": "人民网2026大学校长论坛举行",
+      "url": "http://edu.people.com.cn/n1/2026/1128/c1006-40842004.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "教育",
+      "source": "people",
+      "id": "bd35791cfb52683a"
+    },
+    {
+      "title": "香港特区法律适应化修改工作完成",
+      "url": "http://gba.people.cn/n1/2026/1128/c42272-40842000.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "ce0a71d0c7ffbc50"
+    },
+    {
+      "title": "把“追箭族”接进来、留下来",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841993.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "ba4ecd1d05fb2fb6"
+    },
+    {
+      "title": "细分需求里藏着文旅商机",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40841994.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "d7865ca50b432c8c"
+    },
+    {
+      "title": "这本生命“天书”有什么奥妙",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842007.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "0c09533715e875a7"
+    },
+    {
+      "title": "河北景县：一根胶管的“智变”",
+      "url": "http://he.people.com.cn/n2/2026/1128/c192235-41763538.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "96764ac142df8ced"
+    },
+    {
+      "title": "人民建议｜推动黑龙江冰雪旅游从“流量爆红”走向“品牌长红”",
+      "url": "http://hlj.people.com.cn/n2/2026/1128/c220005-41763551.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "f63191d240bda818"
+    },
+    {
+      "title": "有回音丨听民声办实事 天津多区推动解决群众身边出行难题",
+      "url": "http://tj.people.com.cn/n2/2026/1128/c375366-41763610.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "463ca8dfa257817e"
+    },
+    {
+      "title": "亿缕阳光｜冬日暖阳",
+      "url": "http://v.people.cn/n1/2026/1128/c444662-40842125.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "63de948c3ebed184"
+    },
+    {
+      "title": "丽江玉龙雪山现日照金山壮美景观",
+      "url": "http://v.people.cn/n1/2026/1128/c431305-40842128.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "b138ffe599ddeacd"
+    },
+    {
+      "title": "额尔古纳湿地小鸟五彩斑斓",
+      "url": "http://v.people.cn/n1/2026/1128/c431305-40842130.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "要闻",
+      "source": "people",
+      "id": "99f7ec96a39984fe"
+    },
+    {
+      "title": "资本市场稳健发展韧性强信心足",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842116.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "b49a69f3226485f0"
+    },
+    {
+      "title": "银价起伏 管住风险放首位",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842064.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "fd1e865b4d9cd4a3"
+    },
+    {
+      "title": "工业经济新动能快速成长",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842063.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "84c0da0c19eac15a"
+    },
+    {
+      "title": "晚宴同款成爆款，如何长久借势",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842065.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "82ca97062046b3ec"
+    },
+    {
+      "title": "“三七之乡”升级加工链擦亮金招牌",
+      "url": "http://finance.people.com.cn/n1/2026/1128/c1004-40842067.html",
+      "summary": "",
+      "date": "2026-11-28",
+      "channel": "财经",
+      "source": "people",
+      "id": "1d67df924e4d13e1"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "China Import Logistics Fell 0.6% in January-October, Xinhua Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-28/china-import-logistics-fell-0-6-in-january-october-xinhua-says",
+      "summary": "China’s import logistics demand contracted further in the first 10 months of the year, extending a slowdown from 9.6% growth in January-February, Xinhua News Agency reported, citing figures from the China Federation of L",
+      "date": "2026-11-28",
+      "id": "57dd438ef1f73bac"
+    },
+    {
       "source": "baidu",
       "kind": "hot",
       "rank": 1,
-      "title": "“请所有股民 重视A股今天的大涨”",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%AF%B7%E6%89%80%E6%9C%89%E8%82%A1%E6%B0%91+%E9%87%8D%E8%A7%86A%E8%82%A1%E4%BB%8A%E5%A4%A9%E7%9A%84%E5%A4%A7%E6%B6%A8%E2%80%9D",
-      "summary": "11月27日，A股午后快速反弹，创业板指涨超11%，全市场超5300只个股上涨。分析指出，大涨得益于午间国常会释出积极信号，提出加力发挥“国家队”稳市作用等。此外，融资保证金下调及历史深跌修复规律也释放积极信号。分析认为，短期后市有望迎来修复行情。",
-      "hot": 7808069,
+      "title": "初中读一年 立刻开始高中课程",
+      "url": "https://www.baidu.com/s?wd=%E5%88%9D%E4%B8%AD%E8%AF%BB%E4%B8%80%E5%B9%B4+%E7%AB%8B%E5%88%BB%E5%BC%80%E5%A7%8B%E9%AB%98%E4%B8%AD%E8%AF%BE%E7%A8%8B",
+      "summary": "近日，浙江绍兴某中学被曝推行“1+5”模式引发热议，即初中读1年便学高中课程。省教育厅严禁提前组织招生，有校长指出此类超前抢跑实为违规抢生源、拔苗助长，对学生伤害极大。",
+      "hot": 7809561,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "e907cddb76ac34a4"
+      "id": "0022376821f7f3c9"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 2,
-      "title": "中国老年人口数量前10省份出炉",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%80%81%E5%B9%B4%E4%BA%BA%E5%8F%A3%E6%95%B0%E9%87%8F%E5%89%8D10%E7%9C%81%E4%BB%BD%E5%87%BA%E7%82%89",
-      "summary": "近日，2025年中国老年人口数量前10省份出炉，山东以2581万居首，江苏、四川、河南紧随其后，广东以1993万位列第五，前9省份老年人口均超1500万。",
-      "hot": 7712603,
+      "title": "中纪委：决不让腐败分子有藏身之地",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E7%BA%AA%E5%A7%94%EF%BC%9A%E5%86%B3%E4%B8%8D%E8%AE%A9%E8%85%90%E8%B4%A5%E5%88%86%E5%AD%90%E6%9C%89%E8%97%8F%E8%BA%AB%E4%B9%8B%E5%9C%B0",
+      "summary": "11月28日，中央纪委国家监委网站刊文指出，过去一周，5名中管干部被公布接受审查调查或受到处分，要继续保持惩治腐败高压态势，决不让腐败分子有藏身之地。",
+      "hot": 7712660,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "9aa9a53ee6aad4bf"
+      "id": "9c135c8443048e29"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 3,
-      "title": "让二手商品“活”起来",
-      "url": "https://www.baidu.com/s?wd=%E8%AE%A9%E4%BA%8C%E6%89%8B%E5%95%86%E5%93%81%E2%80%9C%E6%B4%BB%E2%80%9D%E8%B5%B7%E6%9D%A5",
-      "summary": "商务部近日举行的例行新闻发布会上，二手商品流通试点工作的进展引发关注。从政府机关带头盘活闲置家底，到“互联网+二手商品”新业态蓬勃兴起，再到行业标准体系稳步完善，二手商品流通正在从零散交易走向规范化、规模化发展，成为循环经济的重要增长点和激发更新消费的重要抓手。",
-      "hot": 7616909,
+      "title": "本周中国多领域捷报频传",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%AC%E5%91%A8%E4%B8%AD%E5%9B%BD%E5%A4%9A%E9%A2%86%E5%9F%9F%E6%8D%B7%E6%8A%A5%E9%A2%91%E4%BC%A0",
+      "summary": "本周，我国多领域传来好消息：神舟二十四号成功发射，全球首个高效灵活燃煤发电技术发布，“江海号”盾构机“上岸”……每一项突破，都彰显大国发展底气。",
+      "hot": 7616024,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "b737e854dd4e87f4"
+      "id": "a2a2bf48b1da159b"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 4,
-      "title": "10万起存的大额存单要来了",
-      "url": "https://www.baidu.com/s?wd=10%E4%B8%87%E8%B5%B7%E5%AD%98%E7%9A%84%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E8%A6%81%E6%9D%A5%E4%BA%86",
-      "summary": "11月27日，中国人民银行公布《大额存单管理办法》，自2027年3月21日起施行。其中个人投资人认购起点降至不低于10万元，对普通储户来说，这是一次“够得着”的改变；对银行从业者来说，背后是一次更大的制度升级。9种期限怎么挑？真正的变化不只是门槛。",
-      "hot": 7522178,
+      "title": "“不是霸总就是重生 是小孩看的吗”",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8D%E6%98%AF%E9%9C%B8%E6%80%BB%E5%B0%B1%E6%98%AF%E9%87%8D%E7%94%9F+%E6%98%AF%E5%B0%8F%E5%AD%A9%E7%9C%8B%E7%9A%84%E5%90%97%E2%80%9D",
+      "summary": "11月中下旬，截取“霸总/重生/逆袭”类网络短剧画面，印成一元一本的“纸质短剧”在多地小学生中流行，成本仅七八毛、无正规书号、冒用玩具标签、印成人化桥段，涉多重违规。多电商平台已下架购买链接，广州经开区文旅部门将核实处置。",
+      "hot": 7523325,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "6fdc3ea511ee86c0"
+      "id": "103e96fb9c6da9f1"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 5,
-      "title": "最强厄尔尼诺来了！需防范极端天气",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%80%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E6%9D%A5%E4%BA%86%EF%BC%81%E9%9C%80%E9%98%B2%E8%8C%83%E6%9E%81%E7%AB%AF%E5%A4%A9%E6%B0%94",
-      "summary": "近期，国家气候中心研判本轮厄尔尼诺为70多年来最强，预计12月达峰值。此次超强事件将引发全球气候反常，需提前防范应对极端天气。",
-      "hot": 7428476,
+      "title": "于东来深圳夜店跳舞",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E6%B7%B1%E5%9C%B3%E5%A4%9C%E5%BA%97%E8%B7%B3%E8%88%9E",
+      "summary": "11月27日‌，‌于东来‌在‌深圳‌一‌夜店‌内‌蹦迪‌跳舞，尽情狂舞嗨翻全场，热情与粉丝合影，他发视频配文：一颗爱玩的心。",
+      "hot": 7428538,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "5f759e64bc1e106c"
+      "id": "a68c4cfccdd84476"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 6,
-      "title": "中使馆：中国公民暂勿前往斯威士兰",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BD%BF%E9%A6%86%EF%BC%9A%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%9A%82%E5%8B%BF%E5%89%8D%E5%BE%80%E6%96%AF%E5%A8%81%E5%A3%AB%E5%85%B0",
-      "summary": "27日，中国驻南非大使馆发文提醒，近期暂勿前往斯威士兰。因当地安全形势复杂，排外情绪上升，且拟出台的法律政策可能伤害外侨利益。",
-      "hot": 7330355,
+      "title": "日本可能发生大规模地震 中使馆提醒",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%8F%AF%E8%83%BD%E5%8F%91%E7%94%9F%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%9C%B0%E9%9C%87+%E4%B8%AD%E4%BD%BF%E9%A6%86%E6%8F%90%E9%86%92",
+      "summary": "近期，中国驻日本大使馆再次提醒在日本的中国公民防范地震等灾害，建议储备至少一周饮用水、食品及防灾急救用品等应急物资，并登记“中国领事”信息以便及时得到救助。此前，日本多地地震频发，日本政府于11月2日成立防灾厅应对可能的大规模地震。",
+      "hot": 7327533,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "fd18cbb1f886da00"
+      "id": "c286a410a31a6068"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 7,
-      "title": "“天才少女”傅园慧悄悄上岸了",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A4%A9%E6%89%8D%E5%B0%91%E5%A5%B3%E2%80%9D%E5%82%85%E5%9B%AD%E6%85%A7%E6%82%84%E6%82%84%E4%B8%8A%E5%B2%B8%E4%BA%86",
-      "summary": "今年夏天，傅园慧被北京体育大学录取为博士，同时在浙江大学担任游泳课教师。此前，她于2023年全国春季游泳锦标赛后退役。从里约奥运会爆红到经历伤病与质疑，退役后的傅园慧走出低谷，如今在读博与教学中，找到了自洽的生命力。",
-      "hot": 7232427,
+      "title": "歼-35A首次落地珠海",
+      "url": "https://www.baidu.com/s?wd=%E6%AD%BC-35A%E9%A6%96%E6%AC%A1%E8%90%BD%E5%9C%B0%E7%8F%A0%E6%B5%B7",
+      "summary": "近日，歼-35A首次落地珠海金湾机场。此前，歼-35A曾在上一届航展首次亮相并进行飞行表演。两年来，歼-35系列飞机已列装人民解放军空军、海军部队，并完成九三阅兵、航母弹射起飞等重大任务。本届航展公众将有机会近距离感受歼-35A真机风采。",
+      "hot": 7235106,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "d2b4fcc078cbace8"
+      "id": "de16bce5dc3f7374"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 8,
-      "title": "这部差点没拍成的剧 一出场就是王炸",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E9%83%A8%E5%B7%AE%E7%82%B9%E6%B2%A1%E6%8B%8D%E6%88%90%E7%9A%84%E5%89%A7+%E4%B8%80%E5%87%BA%E5%9C%BA%E5%B0%B1%E6%98%AF%E7%8E%8B%E7%82%B8",
-      "summary": "近日，电视剧《谷雨》热度持续攀高。导演李路受访时透露，该剧取材自1994至2009年间的真实税务案件。此前他曾婉拒执导，接手后组织编剧进组打磨剧本，并邀请税务工作者把关细节。李路表示，拍剧需拿捏情感与法治尺度，不宣教，将解读权还给观众。",
-      "hot": 7135519,
+      "title": "戚薇 小天才电话手表配高定",
+      "url": "https://www.baidu.com/s?wd=%E6%88%9A%E8%96%87+%E5%B0%8F%E5%A4%A9%E6%89%8D%E7%94%B5%E8%AF%9D%E6%89%8B%E8%A1%A8%E9%85%8D%E9%AB%98%E5%AE%9A",
+      "summary": "近日，戚薇以一身镂空挂脖礼服搭配盘发眼妆亮相，冷艳气场引发关注。其手腕上佩戴的AP手表形似小天才电话手表，让原本气场全开的豪门阔太画风，瞬间变成了随时准备接孩子放学的即视感。",
+      "hot": 7141509,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "ec92f5b5a82d50a0"
+      "id": "ee447d1e6b095ea4"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 9,
-      "title": "208万！国产豪车捅破价格“天花板”",
-      "url": "https://www.baidu.com/s?wd=208%E4%B8%87%EF%BC%81%E5%9B%BD%E4%BA%A7%E8%B1%AA%E8%BD%A6%E6%8D%85%E7%A0%B4%E4%BB%B7%E6%A0%BC%E2%80%9C%E5%A4%A9%E8%8A%B1%E6%9D%BF%E2%80%9D",
-      "summary": "2026广州车展上，预售价208万元的仰望限量版等多款国产百万级豪车相继亮相。自主品牌集中冲高，本质是在电动智能化时代拿到重新定义豪华的机会。",
-      "hot": 7045012,
+      "title": "曝76人有意交易得到杰伦·史密斯",
+      "url": "https://www.baidu.com/s?wd=%E6%9B%9D76%E4%BA%BA%E6%9C%89%E6%84%8F%E4%BA%A4%E6%98%93%E5%BE%97%E5%88%B0%E6%9D%B0%E4%BC%A6%C2%B7%E5%8F%B2%E5%AF%86%E6%96%AF",
+      "summary": "11月28日，美记Evan Sidery报道76人引援目标。76人计划交易市场开启后升级替补中锋，杰伦·史密斯是明年2月交易截止日前值得关注的潜在目标。",
+      "hot": 7039762,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "793e4573b5297a79"
+      "id": "c55dfc43c3d12ddd"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 10,
-      "title": "黄景瑜现身广州车展 与杨澜同框",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E6%99%AF%E7%91%9C%E7%8E%B0%E8%BA%AB%E5%B9%BF%E5%B7%9E%E8%BD%A6%E5%B1%95+%E4%B8%8E%E6%9D%A8%E6%BE%9C%E5%90%8C%E6%A1%86",
-      "summary": "日前，黄景瑜作为品牌代言人现身车展现场，身穿深色针织衫与西裤展现优越身材。其造型被评价将“霸总”具象化，完全像来谈收购的，与杨澜同框也不输气场，尽显潇洒帅气。",
-      "hot": 6945695,
+      "title": "刷来刷去怎么还是这几张脸",
+      "url": "https://www.baidu.com/s?wd=%E5%88%B7%E6%9D%A5%E5%88%B7%E5%8E%BB%E6%80%8E%E4%B9%88%E8%BF%98%E6%98%AF%E8%BF%99%E5%87%A0%E5%BC%A0%E8%84%B8",
+      "summary": "近期，部分短视频平台出台新规，要求提升AI短剧角色区分度。此前，因算力成本高、追求量产及规避版权风险，制作方多选用稳妥方案，导致主角“千人一面”引发观众生理性不适。新规落地增加了制作周期，倒逼机构将原创角色沉淀为自有IP。",
+      "hot": 6951307,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "f5a0e782a31999fa"
+      "id": "afbaad727f923799"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 11,
-      "title": "“新版九年级教材多处错误”不实",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%96%B0%E7%89%88%E4%B9%9D%E5%B9%B4%E7%BA%A7%E6%95%99%E6%9D%90%E5%A4%9A%E5%A4%84%E9%94%99%E8%AF%AF%E2%80%9D%E4%B8%8D%E5%AE%9E",
-      "summary": "网传九年级下册统编教材封面人物六指、有错别字为谣言。相关书籍是盗版，新版教材还未出版，务必通过正规渠道获取教材。",
-      "hot": 6848437,
+      "title": "做梦不意味着睡眠质量差",
+      "url": "https://www.baidu.com/s?wd=%E5%81%9A%E6%A2%A6%E4%B8%8D%E6%84%8F%E5%91%B3%E7%9D%80%E7%9D%A1%E7%9C%A0%E8%B4%A8%E9%87%8F%E5%B7%AE",
+      "summary": "做梦是正常生理现象，有助巩固记忆、调节情绪、整合认知，一般不损害睡眠质量；“一夜无梦才是高质量睡眠”是误解，真正伤睡眠的是频繁噩梦，判断睡得好坏要看白天精神状态。",
+      "hot": 6853469,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "52fa741ad4fe6abb"
+      "id": "f49e6bcf07a077dd"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 12,
-      "title": "799元订到连通房 女子深夜被吵醒",
-      "url": "https://www.baidu.com/s?wd=799%E5%85%83%E8%AE%A2%E5%88%B0%E8%BF%9E%E9%80%9A%E6%88%BF+%E5%A5%B3%E5%AD%90%E6%B7%B1%E5%A4%9C%E8%A2%AB%E5%90%B5%E9%86%92",
-      "summary": "近日，姜女士花799元入住苏州太湖万丽酒店山景房，发现房间与隔壁套房相通，深夜被打牌、说笑声吵醒，连夜换房后质疑酒店未提前告知连通房及噪音风险，要求补偿遭拒。",
-      "hot": 6762737,
+      "title": "孙女200斤男友上门被爷爷奶奶量血压",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%99%E5%A5%B3200%E6%96%A4%E7%94%B7%E5%8F%8B%E4%B8%8A%E9%97%A8%E8%A2%AB%E7%88%B7%E7%88%B7%E5%A5%B6%E5%A5%B6%E9%87%8F%E8%A1%80%E5%8E%8B",
+      "summary": "近日，一女生分享200斤男友第一次上门的经历。吃完饭聊天时，爷爷奶奶得知男友重200斤后，因爷爷有高血压且家里备有血压计，便提议给其量血压。",
+      "hot": 6751618,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "9490c31432fca175"
+      "id": "b93684d31835ad48"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 13,
-      "title": "东部战区发布实弹射击训练现场视频",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E9%83%A8%E6%88%98%E5%8C%BA%E5%8F%91%E5%B8%83%E5%AE%9E%E5%BC%B9%E5%B0%84%E5%87%BB%E8%AE%AD%E7%BB%83%E7%8E%B0%E5%9C%BA%E8%A7%86%E9%A2%91",
+      "title": "中国航展陆军超燃视频来袭",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%B1%95%E9%99%86%E5%86%9B%E8%B6%85%E7%87%83%E8%A7%86%E9%A2%91%E6%9D%A5%E8%A2%AD",
       "summary": "",
-      "hot": 6655979,
+      "hot": 6657749,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "f307d13895968e87"
+      "id": "8f5d50df7b2d97b7"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 14,
-      "title": "恒大汽车上市地位被取消",
-      "url": "https://www.baidu.com/s?wd=%E6%81%92%E5%A4%A7%E6%B1%BD%E8%BD%A6%E4%B8%8A%E5%B8%82%E5%9C%B0%E4%BD%8D%E8%A2%AB%E5%8F%96%E6%B6%88",
-      "summary": "11月27日晚间，恒大汽车在港交所公告，公司接获联交所函件，联交所上市委员会已决定取消本公司的上市地位，因为上市委员会认为本公司未能于2026年9月30日的复牌截止时间达成所有复牌指引。",
-      "hot": 6566290,
+      "title": "快扔掉你家那根“光杆”",
+      "url": "https://www.baidu.com/s?wd=%E5%BF%AB%E6%89%94%E6%8E%89%E4%BD%A0%E5%AE%B6%E9%82%A3%E6%A0%B9%E2%80%9C%E5%85%89%E6%9D%86%E2%80%9D",
+      "summary": "近日，浙江台州一男子打扫卫生滑倒，被失去塑料套的光秃畚箕柄从左侧锁骨刺入并由腋下穿出。由于畚箕柄贯穿身体且过长无法搬运手术，医生求助消防。消防员赶赴现场将外露柄截短后，男子被送往手术室救治，目前已脱离生命危险。",
+      "hot": 6567544,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "8bde703a176c4e2c"
+      "id": "b242e2bf83ea6f90"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 15,
-      "title": "闸门已开：AI失控离我们有多远",
-      "url": "https://www.baidu.com/s?wd=%E9%97%B8%E9%97%A8%E5%B7%B2%E5%BC%80%EF%BC%9AAI%E5%A4%B1%E6%8E%A7%E7%A6%BB%E6%88%91%E4%BB%AC%E6%9C%89%E5%A4%9A%E8%BF%9C",
-      "summary": "11月25日，微软AI负责人发文称AI正跨过“人类还能有效监督”的门槛。此前本月16日，OpenAI承认发生80起模型失控事件，被加州检察机关起诉。",
-      "hot": 6463346,
+      "title": "王菲22年前专访",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E8%8F%B222%E5%B9%B4%E5%89%8D%E4%B8%93%E8%AE%BF",
+      "summary": "近日，前成都电视台主持人张欣宇在社交平台分享2004年对王菲的专访内容。采访中王菲一改惜字如金的状态，难得敞开心扉，表示感情波折并未影响事业。",
+      "hot": 6468263,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "dcfdf1d8d80616a2"
+      "id": "6a8c58a220d8af28"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 16,
-      "title": "信长星当选江苏省委书记",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%A1%E9%95%BF%E6%98%9F%E5%BD%93%E9%80%89%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%A7%94%E4%B9%A6%E8%AE%B0",
-      "summary": "11月27日，中国共产党江苏省第十五届委员会第一次全体会议选举信长星为省委书记，刘小涛、范波为省委副书记，周红波、张文兵等10人当选省委常委，边学文当选省纪委书记。",
-      "hot": 6368553,
+      "title": "冬天爱吃红薯的人注意了",
+      "url": "https://www.baidu.com/s?wd=%E5%86%AC%E5%A4%A9%E7%88%B1%E5%90%83%E7%BA%A2%E8%96%AF%E7%9A%84%E4%BA%BA%E6%B3%A8%E6%84%8F%E4%BA%86",
+      "summary": "近期，营养师提醒，烤红薯升糖指数（GI）高达94，远超煮红薯的77。因烤制使水分流失、淀粉转化为麦芽糖，不仅升糖快，单位重量能量更高易致长胖。血糖高者建议首选煮红薯搭配其他食材，减肥人群可优选热量最低的红心红薯。",
+      "hot": 6379606,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "b8b6e95b4e0cdfd5"
+      "id": "5ea5276410de7c40"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 17,
-      "title": "央行：严控增量妥处存量严防“爆雷”",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%EF%BC%9A%E4%B8%A5%E6%8E%A7%E5%A2%9E%E9%87%8F%E5%A6%A5%E5%A4%84%E5%AD%98%E9%87%8F%E4%B8%A5%E9%98%B2%E2%80%9C%E7%88%86%E9%9B%B7%E2%80%9D",
-      "summary": "近日，中国人民银行发布《中国金融稳定报告（2026）》，提出下一步将严控增量、妥处存量、严防“爆雷”，牢牢守住不发生系统性金融风险的底线。",
-      "hot": 6287893,
+      "title": "牧民遇4只雪豹五方都愣住了",
+      "url": "https://www.baidu.com/s?wd=%E7%89%A7%E6%B0%91%E9%81%874%E5%8F%AA%E9%9B%AA%E8%B1%B9%E4%BA%94%E6%96%B9%E9%83%BD%E6%84%A3%E4%BD%8F%E4%BA%86",
+      "summary": "",
+      "hot": 6276439,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "6c8758847d90c00e"
+      "id": "7de27548c389332e"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 18,
-      "title": "A股迎大奇迹日 后市怎么走",
-      "url": "https://www.baidu.com/s?wd=A%E8%82%A1%E8%BF%8E%E5%A4%A7%E5%A5%87%E8%BF%B9%E6%97%A5+%E5%90%8E%E5%B8%82%E6%80%8E%E4%B9%88%E8%B5%B0",
-      "summary": "11月27日，A股迎“==大奇迹日==”，受==国常会==催化指数飙升。==上证指数==涨3.73%报3606点，==创业板指==涨11.61%，==科创50==涨15.07%，成交2万亿。",
-      "hot": 6179999,
+      "title": "珠海航展 “六爷”来了",
+      "url": "https://www.baidu.com/s?wd=%E7%8F%A0%E6%B5%B7%E8%88%AA%E5%B1%95+%E2%80%9C%E5%85%AD%E7%88%B7%E2%80%9D%E6%9D%A5%E4%BA%86",
+      "summary": "11月28日，珠海航展飞机开始集结，首批轰-6K轰炸机已出发前往。由于资格老、型号多，轰-6系列轰炸机在军迷圈被亲切称作“六爷”。",
+      "hot": 6191371,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "f2938ee929b4d1b9"
+      "id": "ca5db27d6e68aa5f"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 19,
-      "title": "巴基斯坦航天员视频音轨被篡改",
-      "url": "https://www.baidu.com/s?wd=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E8%88%AA%E5%A4%A9%E5%91%98%E8%A7%86%E9%A2%91%E9%9F%B3%E8%BD%A8%E8%A2%AB%E7%AF%A1%E6%94%B9",
-      "summary": "11月25日巴基斯坦航天员穆罕默德·齐尚·阿里进入中国空间站后，网传视频声称他将赴太空证明地球是平的。经核查，该视频画面出自CGTN原采访，但音频与画面不同步。其原话实为期待中巴太空合作迈向深空。",
-      "hot": 6095026,
+      "title": "男子与婚外情对象外出跳湖 妻子索赔",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E4%B8%8E%E5%A9%9A%E5%A4%96%E6%83%85%E5%AF%B9%E8%B1%A1%E5%A4%96%E5%87%BA%E8%B7%B3%E6%B9%96+%E5%A6%BB%E5%AD%90%E7%B4%A2%E8%B5%94",
+      "summary": "今年7月25日晚，已婚男子刘某与婚外情对象沈某外出时，越过龙湖大桥护栏跳水身亡。马某诉称沈某未尽照看和救助义务，索赔83万余元。记者近日从裁判文书网获悉，蚌埠市龙子湖区法院认为刘某自杀本身是自陷风险的行为，一审驳回妻子马某的诉讼请求。",
+      "hot": 6084644,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "3fa53a03c87f9fb1"
+      "id": "8c12393bf545740f"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 20,
-      "title": "最戳心的童谣《割猪草》让全网哭着转发",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%80%E6%88%B3%E5%BF%83%E7%9A%84%E7%AB%A5%E8%B0%A3%E3%80%8A%E5%89%B2%E7%8C%AA%E8%8D%89%E3%80%8B%E8%AE%A9%E5%85%A8%E7%BD%91%E5%93%AD%E7%9D%80%E8%BD%AC%E5%8F%91",
-      "summary": "7年来，一名上海程序员扎根大凉山支教，陪孩子唱歌跳舞、玩转AI。他利用AI工具豆包和编程为支教学生开发数学跑酷小游戏，点燃孩子数学兴趣。其最戳心的山野童谣《割猪草》让全网哭着转发。",
-      "hot": 5996754,
+      "title": "孔子其实根本不姓孔",
+      "url": "https://www.baidu.com/s?wd=%E5%AD%94%E5%AD%90%E5%85%B6%E5%AE%9E%E6%A0%B9%E6%9C%AC%E4%B8%8D%E5%A7%93%E5%AD%94",
+      "summary": "叫了千百年的“孔夫子”，其实他根本不姓孔！孔子实为子姓孔氏，名丘字仲尼，系殷商王室后裔。先秦时期姓与氏区分明确，姓辨血缘，氏辨贵贱。因当时有“女子称姓，男子称氏”的传统，故孔子称氏不称姓。",
+      "hot": 5991972,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "d3b16847ac191b54"
+      "id": "d49c067b97427da1"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 21,
-      "title": "青岛爱心面3元管饱 店主发声",
-      "url": "https://www.baidu.com/s?wd=%E9%9D%92%E5%B2%9B%E7%88%B1%E5%BF%83%E9%9D%A23%E5%85%83%E7%AE%A1%E9%A5%B1+%E5%BA%97%E4%B8%BB%E5%8F%91%E5%A3%B0",
-      "summary": "近日，青岛王文堂开设3元爱心面店，每晚现做现煮，面条和卤子均可免费续加，管饱不浪费。店主称开店是想帮衬务工人员，每卖出一碗面还会捐出1元帮助困难群体。",
-      "hot": 5900584,
+      "title": "薛之谦上上谦火锅全部门店关停",
+      "url": "https://www.baidu.com/s?wd=%E8%96%9B%E4%B9%8B%E8%B0%A6%E4%B8%8A%E4%B8%8A%E8%B0%A6%E7%81%AB%E9%94%85%E5%85%A8%E9%83%A8%E9%97%A8%E5%BA%97%E5%85%B3%E5%81%9C",
+      "summary": "11月27日，薛之谦创立的“上上谦”火锅全国门店均已关停。企查查信息显示，其上海门店关联的上海弘和餐饮管理有限公司已变更为注销状态。",
+      "hot": 5903978,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "55a01271c552fa5e"
+      "id": "aaba935075629ff0"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 22,
-      "title": "羽绒原料降价15% 为何羽绒服没降价",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%BD%E7%BB%92%E5%8E%9F%E6%96%99%E9%99%8D%E4%BB%B715%25+%E4%B8%BA%E4%BD%95%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%B2%A1%E9%99%8D%E4%BB%B7",
-      "summary": "近日，鸭绒原料较10月底降价约15%，但羽绒服未随之降价。羽绒商人及商业顾问解释，羽绒服包含面料、做工、运输、门店和库存等成本，原料仅是其中一环，故终端售价不会同比例下降。",
-      "hot": 5797224,
+      "title": "父亲和女儿同教一个班",
+      "url": "https://www.baidu.com/s?wd=%E7%88%B6%E4%BA%B2%E5%92%8C%E5%A5%B3%E5%84%BF%E5%90%8C%E6%95%99%E4%B8%80%E4%B8%AA%E7%8F%AD",
+      "summary": "近日，武汉一中学父亲和女儿同教一个班，分别担任正副班主任。两人一严一柔，常因管理班级“争执”。女儿受父亲影响想做有温度的老师，父亲则期望女儿保持创新精神，两代人传承教育情怀。",
+      "hot": 5803323,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "ca95ebae73de8e73"
+      "id": "28bd48d99e8cd3f4"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 23,
-      "title": "特朗普：普京若想来G20峰会当然可以来",
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E6%99%AE%E4%BA%AC%E8%8B%A5%E6%83%B3%E6%9D%A5G20%E5%B3%B0%E4%BC%9A%E5%BD%93%E7%84%B6%E5%8F%AF%E4%BB%A5%E6%9D%A5",
-      "summary": "当地时间26日，美国总统特朗普对记者表示，他不知道俄罗斯总统普京是否会出席下个月在佛罗里达州举行的二十国集团（G20）峰会，但“如果他想来，当然可以来”。",
-      "hot": 5696849,
+      "title": "李香凝将用AIGC复活李小龙",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E9%A6%99%E5%87%9D%E5%B0%86%E7%94%A8AIGC%E5%A4%8D%E6%B4%BB%E6%9D%8E%E5%B0%8F%E9%BE%99",
+      "summary": "近日，李小龙女儿李香凝透露将运用AIGC工具“复活”李小龙。她表示，目前推进方向或为微短剧等形式，但尚未最终确定。此举旨在发挥AIGC强大功能，将父亲介绍给新一代影迷。",
+      "hot": 5707879,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "ddd8cceab6490ae8"
+      "id": "3f7c2e3c5e222b46"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 24,
-      "title": "年轻人开始翻爸妈的衣柜",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E7%BF%BB%E7%88%B8%E5%A6%88%E7%9A%84%E8%A1%A3%E6%9F%9C",
-      "summary": "年轻人生活方式现新趋势：不仅在寒冬体验反季吃冰，冬日栗子还探索出甜品到咸口的新吃法；同时时尚呈现轮回趋势，爸妈的旧衣柜已成年轻人冬日淘宝地。",
-      "hot": 5616391,
+      "title": "超40岁被拒入住酒店 一刀切合法吗",
+      "url": "https://www.baidu.com/s?wd=%E8%B6%8540%E5%B2%81%E8%A2%AB%E6%8B%92%E5%85%A5%E4%BD%8F%E9%85%92%E5%BA%97+%E4%B8%80%E5%88%80%E5%88%87%E5%90%88%E6%B3%95%E5%90%97",
+      "summary": "近日，浙江嘉兴一酒店规定床位房仅限18至40岁客人，称床铺太高怕发生危险。律师解读称，该规定无法律与监管依据，即便商家履行提示义务，仍涉嫌基于年龄的消费歧视，侵害消费者公平交易权。",
+      "hot": 5614797,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "688dc20ed6921c99"
+      "id": "62c1528ba6d29dce"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 25,
-      "title": "研究称创纪录高温致全球地表水量骤减",
-      "url": "https://www.baidu.com/s?wd=%E7%A0%94%E7%A9%B6%E7%A7%B0%E5%88%9B%E7%BA%AA%E5%BD%95%E9%AB%98%E6%B8%A9%E8%87%B4%E5%85%A8%E7%90%83%E5%9C%B0%E8%A1%A8%E6%B0%B4%E9%87%8F%E9%AA%A4%E5%87%8F",
-      "summary": "",
-      "hot": 5526789,
+      "title": "厉娜前经纪人发文",
+      "url": "https://www.baidu.com/s?wd=%E5%8E%89%E5%A8%9C%E5%89%8D%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%8F%91%E6%96%87",
+      "summary": "11月27日，厉娜前经纪人张阿瞳发文谈及十五年前离职往事，称“真相早已失去意义，对方已经放下，又何必画地为牢”。此前，厉娜怀疑许飞告密致其被雪藏，两人就此结怨。近期两人同上综艺《后会友期》，旧事重提引发网络热议。",
+      "hot": 5520984,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "ed3c82d49c535ad7"
+      "id": "d47271d084f51aa8"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 26,
-      "title": "国家队抄底力度已超“924”",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E9%98%9F%E6%8A%84%E5%BA%95%E5%8A%9B%E5%BA%A6%E5%B7%B2%E8%B6%85%E2%80%9C924%E2%80%9D",
-      "summary": "周五，A股大涨，沪指收复3600点。国常会重磅发声，要求加力发挥“国家队”稳市作用，提供充足流动性保障。此前“924行情”扭转了A股悲观预期，此次国家队抄底力度已超“924”，且下周一融资保证金比例调低有望释放4000亿增量资金。",
-      "hot": 5407194,
+      "title": "彭文正：当了20年“台独”分子 梦醒了",
+      "url": "https://www.baidu.com/s?wd=%E5%BD%AD%E6%96%87%E6%AD%A3%EF%BC%9A%E5%BD%93%E4%BA%8620%E5%B9%B4%E2%80%9C%E5%8F%B0%E7%8B%AC%E2%80%9D%E5%88%86%E5%AD%90+%E6%A2%A6%E9%86%92%E4%BA%86",
+      "summary": "近日，台湾前“深绿”媒体人彭文正公开表示，“当了20年‘台独’分子，我梦醒了”，自称是中国人、主张和平统一，希望中国强大，并将民进党“台独”主张斥为骗票工具。",
+      "hot": 5426464,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "2fb7f12e420f58d1"
+      "id": "1762ed966a0aa59f"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 27,
-      "title": "红果为何吃不下B站",
-      "url": "https://www.baidu.com/s?wd=%E7%BA%A2%E6%9E%9C%E4%B8%BA%E4%BD%95%E5%90%83%E4%B8%8D%E4%B8%8BB%E7%AB%99",
-      "summary": "近日，红果短剧冲击长视频市场，B站用户规模、使用时长及广告收入仍持续增长。其PUGC内容模式与短剧满足不同需求，优质内容和创作者生态成为抵御短剧冲击的重要因素。",
-      "hot": 5322301,
+      "title": "高校将“僵尸车”改成共享单车",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E6%A0%A1%E5%B0%86%E2%80%9C%E5%83%B5%E5%B0%B8%E8%BD%A6%E2%80%9D%E6%94%B9%E6%88%90%E5%85%B1%E4%BA%AB%E5%8D%95%E8%BD%A6",
+      "summary": "近日，中南财经政法大学一批“小红车”引发热议。毕业生遗留的自行车成为“僵尸车”影响校园环境，该校对800多辆无主车公示后，精挑306辆翻新维修，变身为不上锁、不收费的校内共享单车供师生免费骑行。",
+      "hot": 5331757,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "33c09212467728db"
+      "id": "7425f2c984bfd834"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 28,
-      "title": "美股纳指高开1.5% 闪迪涨超8%",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E7%BA%B3%E6%8C%87%E9%AB%98%E5%BC%801.5%25+%E9%97%AA%E8%BF%AA%E6%B6%A8%E8%B6%858%25",
-      "summary": "11月27日，美股三大指数集体高开，纳指涨1.53%，标普500指数涨1.13%，道指涨0.95%。AI产业链交易回暖，闪迪涨超8%，Lumentum涨超8%，Coherent涨超7%，科技七巨头普涨。",
-      "hot": 5217885,
+      "title": "殡葬服务热线率先在重庆启用",
+      "url": "https://www.baidu.com/s?wd=%E6%AE%A1%E8%91%AC%E6%9C%8D%E5%8A%A1%E7%83%AD%E7%BA%BF%E7%8E%87%E5%85%88%E5%9C%A8%E9%87%8D%E5%BA%86%E5%90%AF%E7%94%A8",
+      "summary": "11月28日，记者从重庆市民政局获悉，全国统一殡葬服务热线“12353”于当日零时在重庆市率先启用。重庆成为全国首个接入地区，热线与本地数字平台联动，提供24小时不间断服务及五大功能。",
+      "hot": 5240936,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "773cf49f46bd2194"
+      "id": "9c9c8a9d5a9f779b"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 29,
-      "title": "中国母女在阿根廷遭抢劫 母亲重伤",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%AF%8D%E5%A5%B3%E5%9C%A8%E9%98%BF%E6%A0%B9%E5%BB%B7%E9%81%AD%E6%8A%A2%E5%8A%AB+%E6%AF%8D%E4%BA%B2%E9%87%8D%E4%BC%A4",
-      "summary": "近日，中国游客刘兴和母亲在阿根廷布宜诺斯艾利斯旅游时遭至少5名劫匪袭击，母亲头部被棍击致脑出血、骨折，休养22天后回国，目前仍在医院接受治疗。",
-      "hot": 5119426,
+      "title": "澳门居民珠海养老 每人每月补助5千元",
+      "url": "https://www.baidu.com/s?wd=%E6%BE%B3%E9%97%A8%E5%B1%85%E6%B0%91%E7%8F%A0%E6%B5%B7%E5%85%BB%E8%80%81+%E6%AF%8F%E4%BA%BA%E6%AF%8F%E6%9C%88%E8%A1%A5%E5%8A%A95%E5%8D%83%E5%85%83",
+      "summary": "11月起，澳门社会工作局开辟澳门以外养老新渠道，首阶段选定珠海金湾颐养园为试点院舍。此前，该局本月推出《澳门长者跨境养老服务计划》，符合条件的65岁以上澳门居民入住后，每人每月可获发5000元人民币院费补助，覆盖床位及24小时护理等。",
+      "hot": 5139750,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "b93b2414b8e4b7b0"
+      "id": "c7cfd90a9c4fbb9b"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 30,
-      "title": "知情人士揭秘美国商界对华态度内幕",
-      "url": "https://www.baidu.com/s?wd=%E7%9F%A5%E6%83%85%E4%BA%BA%E5%A3%AB%E6%8F%AD%E7%A7%98%E7%BE%8E%E5%9B%BD%E5%95%86%E7%95%8C%E5%AF%B9%E5%8D%8E%E6%80%81%E5%BA%A6%E5%86%85%E5%B9%95",
-      "summary": "今年以来，中美同意构建建设性战略稳定关系并取得成果。作者近期赴美探访发现，美国各界对华态度正悄然转变：经贸上，地方政府积极欢迎中国企业建厂落地；科技上，中美建立AI对话探讨安全合作；民间交流上，美年轻一代对华积极态度翻番。",
-      "hot": 5030408,
+      "title": "魏建军回应“从第一掉到第九”",
+      "url": "https://www.baidu.com/s?wd=%E9%AD%8F%E5%BB%BA%E5%86%9B%E5%9B%9E%E5%BA%94%E2%80%9C%E4%BB%8E%E7%AC%AC%E4%B8%80%E6%8E%89%E5%88%B0%E7%AC%AC%E4%B9%9D%E2%80%9D",
+      "summary": "11月27日，长城汽车董事长魏建军在广州车展现场回应销量排名“从第一掉到第九”原因：下滑主因是内卷、资本裹挟和财务造假，但自己心里很坦然。",
+      "hot": 5023623,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "99464b35acc650dd"
+      "id": "1e5d96dc5b1e667d"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 31,
-      "title": "女子剧烈头痛确诊颅内动脉瘤破裂",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%89%A7%E7%83%88%E5%A4%B4%E7%97%9B%E7%A1%AE%E8%AF%8A%E9%A2%85%E5%86%85%E5%8A%A8%E8%84%89%E7%98%A4%E7%A0%B4%E8%A3%82",
-      "summary": "",
-      "hot": 4937596,
+      "title": "果农反映橘子每斤三毛钱仍滞销",
+      "url": "https://www.baidu.com/s?wd=%E6%9E%9C%E5%86%9C%E5%8F%8D%E6%98%A0%E6%A9%98%E5%AD%90%E6%AF%8F%E6%96%A4%E4%B8%89%E6%AF%9B%E9%92%B1%E4%BB%8D%E6%BB%9E%E9%94%80",
+      "summary": "近日，湖北丹江口蜜桔遭遇严重滞销，每斤仅售3毛左右。此前，受大环境影响，丹江口蜜桔大丰收却无人问津，果农反映人工费难以收回，面临烂树风险。对此，丹江口市人民政府召开新闻发布会回应，将设立不少于500万元专项资金激励销售。",
+      "hot": 4953652,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "d4926d81705de252"
+      "id": "4e48411fe55cc252"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 32,
-      "title": "人才并非企业私产 跳槽也不是偷人",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%89%8D%E5%B9%B6%E9%9D%9E%E4%BC%81%E4%B8%9A%E7%A7%81%E4%BA%A7+%E8%B7%B3%E6%A7%BD%E4%B9%9F%E4%B8%8D%E6%98%AF%E5%81%B7%E4%BA%BA",
-      "summary": "11月26日，魏建军与董明珠同框直播时，董明珠将竞争对手挖走企业培养多年的人才称为“偷人”，魏建军称竞争离谱。对此观察者网评论指出，员工与企业不存在人身依附关系，企业培养员工是正常投入而非单方面恩惠。",
-      "hot": 4831323,
+      "title": "张颂文称不当演员了可以去干导游",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%A2%82%E6%96%87%E7%A7%B0%E4%B8%8D%E5%BD%93%E6%BC%94%E5%91%98%E4%BA%86%E5%8F%AF%E4%BB%A5%E5%8E%BB%E5%B9%B2%E5%AF%BC%E6%B8%B8",
+      "summary": "近日，张颂文以终选评审团成员身份参加第三届金狮大赏。他表示不认为AI会让电影电视剧消失，因AI算不出人不愿公开的真实想法。他还调侃，若不当演员可回去做老本行导游，且有明星优势。",
+      "hot": 4858006,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "2909aa5d00d394ea"
+      "id": "d6aa4c28ff7bb2a9"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 33,
-      "title": "陆毅鲍蕾带贝儿和“村长”李锐重逢",
-      "url": "https://www.baidu.com/s?wd=%E9%99%86%E6%AF%85%E9%B2%8D%E8%95%BE%E5%B8%A6%E8%B4%9D%E5%84%BF%E5%92%8C%E2%80%9C%E6%9D%91%E9%95%BF%E2%80%9D%E6%9D%8E%E9%94%90%E9%87%8D%E9%80%A2",
-      "summary": "11月27日，陆毅与鲍蕾带女儿贝儿探班《爸爸去哪儿》中的“村长”李锐，时隔12年重逢，已18岁的贝儿与李锐身高相近，画面令人感慨时光飞逝。",
-      "hot": 4748674,
+      "title": "肉摊女老板获文学奖",
+      "url": "https://www.baidu.com/s?wd=%E8%82%89%E6%91%8A%E5%A5%B3%E8%80%81%E6%9D%BF%E8%8E%B7%E6%96%87%E5%AD%A6%E5%A5%96",
+      "summary": "11月25日，沈阳明廉综合市场牛羊肉摊老板娘董书敏受访时表示，其刚刚斩获第十二届辽宁文学奖中篇小说奖。她自1999年开始创作，白天卖肉晚上写作，已发表长、中、短篇小说40余篇。",
+      "hot": 4758667,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "e51042e23c9b960d"
+      "id": "8d5ba73da0e13b6f"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 34,
-      "title": "央行新规 取消贷款罚息利率上下限",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A1%8C%E6%96%B0%E8%A7%84+%E5%8F%96%E6%B6%88%E8%B4%B7%E6%AC%BE%E7%BD%9A%E6%81%AF%E5%88%A9%E7%8E%87%E4%B8%8A%E4%B8%8B%E9%99%90",
-      "summary": "11月27日，中国人民银行发布《人民币存贷款利率管理规定》，自2027年3月21日起施行，取消贷款罚息利率上下限，预计罚息利率总体将有所下行。",
-      "hot": 4662928,
+      "title": "跳槽不是“偷人”",
+      "url": "https://www.baidu.com/s?wd=%E8%B7%B3%E6%A7%BD%E4%B8%8D%E6%98%AF%E2%80%9C%E5%81%B7%E4%BA%BA%E2%80%9D",
+      "summary": "近日，董明珠与魏建军在直播中称企业人才被挖走是“偷人”。文章指出，员工非企业私产，双方在契约中各自付出并获回报，培养员工是企业正常投入而非恩惠。企业若求人才忠诚，应反思自身吸引力而非单方面强调投入。",
+      "hot": 4642410,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "54b29607c1226c7e"
+      "id": "0434781747509fb1"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 35,
-      "title": "以新型能源体系建设筑牢能源安全根基",
-      "url": "https://www.baidu.com/s?wd=%E4%BB%A5%E6%96%B0%E5%9E%8B%E8%83%BD%E6%BA%90%E4%BD%93%E7%B3%BB%E5%BB%BA%E8%AE%BE%E7%AD%91%E7%89%A2%E8%83%BD%E6%BA%90%E5%AE%89%E5%85%A8%E6%A0%B9%E5%9F%BA",
-      "summary": "",
-      "hot": 4558554,
+      "title": "古代贵妇也爱挎包吗",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%A4%E4%BB%A3%E8%B4%B5%E5%A6%87%E4%B9%9F%E7%88%B1%E6%8C%8E%E5%8C%85%E5%90%97",
+      "summary": "1500多年前的北魏贵妇，出门也会随身挎包？11月26日，河南巩县石窟造像上一处不起眼的挎包细节，引出巩义市文物局局长朱星理的趣味解读：早在北魏时期，古人便已有独特的 “包包文化”。",
+      "hot": 4553344,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "e104507e0f441705"
+      "id": "87e640dfe8a2df8d"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 36,
-      "title": "中国发布地球大模型SUICE V0.1版",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8F%91%E5%B8%83%E5%9C%B0%E7%90%83%E5%A4%A7%E6%A8%A1%E5%9E%8BSUICE+V0.1%E7%89%88",
-      "summary": "",
-      "hot": 4470425,
+      "title": "APEC结束深圳人光速恢复出厂设置",
+      "url": "https://www.baidu.com/s?wd=APEC%E7%BB%93%E6%9D%9F%E6%B7%B1%E5%9C%B3%E4%BA%BA%E5%85%89%E9%80%9F%E6%81%A2%E5%A4%8D%E5%87%BA%E5%8E%82%E8%AE%BE%E7%BD%AE",
+      "summary": "APEC会议落幕后，深圳人迅速脱下西装换回人字拖等日常穿搭，光速恢复出厂设置 。此前会议期间，深圳市民曾全城开启高规格穿搭模式，皮鞋西装纷纷上岗，以体面姿态展现东道主仪式感。如今大会结束，市民穿搭回归广东版本，大码T恤与人字拖重出江湖。",
+      "hot": 4479738,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "18718c74e463ee18"
+      "id": "6292efae4a5e420e"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 37,
-      "title": "MotoGP八冠王马奎兹宣布退役",
-      "url": "https://www.baidu.com/s?wd=MotoGP%E5%85%AB%E5%86%A0%E7%8E%8B%E9%A9%AC%E5%A5%8E%E5%85%B9%E5%AE%A3%E5%B8%83%E9%80%80%E5%BD%B9",
-      "summary": "11月27日，西班牙车手马克·马奎兹在瓦伦西亚大奖赛前宣布退役，本周末比赛将是其职业生涯最后一场，此前他刚锁定个人第八座MotoGP世界冠军。",
-      "hot": 4349486,
+      "title": "“单轨小火车”喂鸡 半小时干半天活",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8D%95%E8%BD%A8%E5%B0%8F%E7%81%AB%E8%BD%A6%E2%80%9D%E5%96%82%E9%B8%A1+%E5%8D%8A%E5%B0%8F%E6%97%B6%E5%B9%B2%E5%8D%8A%E5%A4%A9%E6%B4%BB",
+      "summary": "近日，浙江温州一90后新农人打造“单轨小火车”喂鸡的视频走红网络。因梯田落差大且养有上万只鸡，每日需投喂数千斤饲料。此前投喂耗时耗力，如今该小火车半小时即可完成多人半天的投喂工作。",
+      "hot": 4356461,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "bbb4e369081f8704"
+      "id": "84f5465403be62b8"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 38,
-      "title": "医保局主播辱骂咨询者 当地通报",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E4%BF%9D%E5%B1%80%E4%B8%BB%E6%92%AD%E8%BE%B1%E9%AA%82%E5%92%A8%E8%AF%A2%E8%80%85+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5",
-      "summary": "11月27日，济南市医疗保障局通报“主播直播间辱骂网友”事件。官方称已主动向当事网友道歉，按程序解除与该主播劳动关系，责令直播团队停播整顿。此前，11月23日晚，一网友在“济南医保”直播间咨询等待期问题时，被误以为直播结束的主播点名辱骂“脑子有病”。事后直播回放被隐藏，网友遂投诉。",
-      "hot": 4283032,
+      "title": "宋茜现身广州车展东风日产展台",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%8B%E8%8C%9C%E7%8E%B0%E8%BA%AB%E5%B9%BF%E5%B7%9E%E8%BD%A6%E5%B1%95%E4%B8%9C%E9%A3%8E%E6%97%A5%E4%BA%A7%E5%B1%95%E5%8F%B0",
+      "summary": "近日，宋茜以东风日产NX7品牌代言人的身份出席NX7上市发布会，自曝“第一台车就是日产，陪了我很多年”。现场还完成了新车交付，正式成为NX7车主。‌‌",
+      "hot": 4282636,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "cba78843f4d1d9a4"
+      "id": "fedc8781656acfbc"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 39,
-      "title": "券商喊话“最悲观时刻已经过去”",
-      "url": "https://www.baidu.com/s?wd=%E5%88%B8%E5%95%86%E5%96%8A%E8%AF%9D%E2%80%9C%E6%9C%80%E6%82%B2%E8%A7%82%E6%97%B6%E5%88%BB%E5%B7%B2%E7%BB%8F%E8%BF%87%E5%8E%BB%E2%80%9D",
-      "summary": "11月27日，国常会释放稳市信号后A股强劲反弹，上证指数涨3.73%，东方财富证券首席策略官陈果表示“国家队+充足流动性”意味着最悲观时刻已经过去。",
-      "hot": 4178793,
+      "title": "普京打包粤菜酒店方：可单点品尝",
+      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E6%89%93%E5%8C%85%E7%B2%A4%E8%8F%9C%E9%85%92%E5%BA%97%E6%96%B9%EF%BC%9A%E5%8F%AF%E5%8D%95%E7%82%B9%E5%93%81%E5%B0%9D",
+      "summary": "近日，针对普京在深圳吃粤菜并打包上飞机一事，康莱德酒店工作人员回应称，暂未推出普京同款套餐，顾客仅可点单品尝鲜沙姜橘饼、冬大黄鱼和膏蟹蒸肉饼等部分菜品，其余菜色尚未推出。",
+      "hot": 4161036,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "4d37b75637f24c38"
+      "id": "dbc6c0b2dfe59557"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 40,
-      "title": "成毅泥地挨打戏是真泥真打",
-      "url": "https://www.baidu.com/s?wd=%E6%88%90%E6%AF%85%E6%B3%A5%E5%9C%B0%E6%8C%A8%E6%89%93%E6%88%8F%E6%98%AF%E7%9C%9F%E6%B3%A5%E7%9C%9F%E6%89%93",
-      "summary": "近日，成毅在《两京十五日》泥地挨打戏中坚持真泥真打，主动要求对手实打实出手，全程未用替身。拍摄持续约两小时，期间泥水灌眼、左手受伤，他仍坚持完成反复翻滚、被按倒等动作。",
-      "hot": 4098815,
+      "title": "房主刚签完卖房合同得知房子要拆迁",
+      "url": "https://www.baidu.com/s?wd=%E6%88%BF%E4%B8%BB%E5%88%9A%E7%AD%BE%E5%AE%8C%E5%8D%96%E6%88%BF%E5%90%88%E5%90%8C%E5%BE%97%E7%9F%A5%E6%88%BF%E5%AD%90%E8%A6%81%E6%8B%86%E8%BF%81",
+      "summary": "2025年10月11日，小李与胡某签订178万元购房合同并支付5万元定金。次日，案涉房屋被划入拟征收红线范围。胡某因预期补偿更高要求解约遭拒，小李遂起诉。近日，法院一审判决解除合同，胡某返还5万元定金并赔偿25万元。",
+      "hot": 4099913,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "45171f7741e784db"
+      "id": "03b5c715f45bc4dc"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 41,
-      "title": "个人认购大额存单起点调整为10万元",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%B4%AD%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E8%B5%B7%E7%82%B9%E8%B0%83%E6%95%B4%E4%B8%BA10%E4%B8%87%E5%85%83",
-      "summary": "11月27日，中国人民银行发布《大额存单管理办法（征求意见稿）》反馈，采纳降低起点金额的建议，明确个人投资人认购大额存单起点金额不低于10万元人民币。",
-      "hot": 3977042,
+      "title": "三只松鼠不应拿“临时”当挡箭牌",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%8D%E5%BA%94%E6%8B%BF%E2%80%9C%E4%B8%B4%E6%97%B6%E2%80%9D%E5%BD%93%E6%8C%A1%E7%AE%AD%E7%89%8C",
+      "summary": "11月28日，中新网评论指出，三只松鼠不应拿“临时”当挡箭牌，旺季不该以员工体面为代价。此前，三只松鼠因员工住12人间引热议，11月26日致歉称系旺季临时周转宿舍并已妥善安置。评论认为，劳动者的体面没有过渡版本，致歉只是及格线。",
+      "hot": 3994430,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "c1a680cff851b3e5"
+      "id": "8205f9a5e97e428e"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 42,
-      "title": "长沙两人被马蜂蜇伤诱发急性肾损伤",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E6%B2%99%E4%B8%A4%E4%BA%BA%E8%A2%AB%E9%A9%AC%E8%9C%82%E8%9C%87%E4%BC%A4%E8%AF%B1%E5%8F%91%E6%80%A5%E6%80%A7%E8%82%BE%E6%8D%9F%E4%BC%A4",
-      "summary": "",
-      "hot": 3881477,
+      "title": "三星堆金面具正在变脆",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E6%98%9F%E5%A0%86%E9%87%91%E9%9D%A2%E5%85%B7%E6%AD%A3%E5%9C%A8%E5%8F%98%E8%84%86",
+      "summary": "近期，三星堆金面具缺损边缘“掉渣”、残片变脆。研究人员用超微探针绘出金面具“腐蚀地图”，发现金银合金中残存的含铅组织腐蚀活性高、是掉渣根源，并筛选出正癸酸钠作缓蚀剂方向。",
+      "hot": 3893607,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "c49ab58fb34f3391"
+      "id": "cb9c516fa1b2c42d"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 43,
-      "title": "外交部发言人笑着说祝大家周末愉快",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%8F%91%E8%A8%80%E4%BA%BA%E7%AC%91%E7%9D%80%E8%AF%B4%E7%A5%9D%E5%A4%A7%E5%AE%B6%E5%91%A8%E6%9C%AB%E6%84%89%E5%BF%AB",
-      "summary": "近日，外交部例行记者会结束时，发言人郭嘉昆面带微笑祝大家周末愉快，尽显亲和力。",
-      "hot": 3815527,
+      "title": "幼儿园硬核体能练习出圈",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%BC%E5%84%BF%E5%9B%AD%E7%A1%AC%E6%A0%B8%E4%BD%93%E8%83%BD%E7%BB%83%E4%B9%A0%E5%87%BA%E5%9C%88",
+      "summary": "硬核！近日，山东一幼儿园体能练习“出圈”：踩滚筒、摇呼啦圈、转手绢、单腿支撑运双球，场面堪比“杂技团”。",
+      "hot": 3786333,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "0b2daf9d574e55f4"
+      "id": "1898982da0326596"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 44,
-      "title": "稳股市 “国家队”和长钱怎么发力",
-      "url": "https://www.baidu.com/s?wd=%E7%A8%B3%E8%82%A1%E5%B8%82+%E2%80%9C%E5%9B%BD%E5%AE%B6%E9%98%9F%E2%80%9D%E5%92%8C%E9%95%BF%E9%92%B1%E6%80%8E%E4%B9%88%E5%8F%91%E5%8A%9B",
-      "summary": "11月27日，国务院常务会议研究资本市场投融资改革，提出加力发挥“国家队”稳市作用、优化中央汇金类平准基金功能，并完善保险、社保等中长期资金入市政策。",
-      "hot": 3690774,
+      "title": "399元羽绒服卖断货是消费降级吗",
+      "url": "https://www.baidu.com/s?wd=399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%8D%96%E6%96%AD%E8%B4%A7%E6%98%AF%E6%B6%88%E8%B4%B9%E9%99%8D%E7%BA%A7%E5%90%97",
+      "summary": "近期，北大文创店等多地平价羽绒服热销引发“消费降级”讨论。分析指出，这并非整体性消费收缩，而是消费者拒绝为虚高溢价和信息不透明买单，消费决策更趋务实理性。该现象印证了扩内需战略中“强化供需适配”的重要性。",
+      "hot": 3676697,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "6e61a68269d4780e"
+      "id": "efabb6546defa4a1"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 45,
-      "title": "证监会：抓紧研究出台相关增量政策",
-      "url": "https://www.baidu.com/s?wd=%E8%AF%81%E7%9B%91%E4%BC%9A%EF%BC%9A%E6%8A%93%E7%B4%A7%E7%A0%94%E7%A9%B6%E5%87%BA%E5%8F%B0%E7%9B%B8%E5%85%B3%E5%A2%9E%E9%87%8F%E6%94%BF%E7%AD%96",
-      "summary": "11月27日，中国证监会主席吴清主持召开党委会议传达国务院常务会议精神。会议强调，将落实落细存量政策，会同有关方面抓紧研究出台相关增量政策，通过完善稳市机制、壮大中长期投资力量、防范输入性风险等举措，促进资本市场平稳健康发展。",
-      "hot": 3624600,
+      "title": "魏建军董明珠谈车企亏本走量",
+      "url": "https://www.baidu.com/s?wd=%E9%AD%8F%E5%BB%BA%E5%86%9B%E8%91%A3%E6%98%8E%E7%8F%A0%E8%B0%88%E8%BD%A6%E4%BC%81%E4%BA%8F%E6%9C%AC%E8%B5%B0%E9%87%8F",
+      "summary": "近日，魏建军到访格力和董明珠交流。魏建军称不少车企亏本走量维持经营，长城不拿亏损换规模；董明珠认为汽车不是快消品、安全优先，建议长城打造个性化产品。",
+      "hot": 3600257,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "f7c39e41bc4f5ae1"
+      "id": "53b3b44426cfcc8d"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 46,
-      "title": "载一车便衣民警把自己送进派出所",
-      "url": "https://www.baidu.com/s?wd=%E8%BD%BD%E4%B8%80%E8%BD%A6%E4%BE%BF%E8%A1%A3%E6%B0%91%E8%AD%A6%E6%8A%8A%E8%87%AA%E5%B7%B1%E9%80%81%E8%BF%9B%E6%B4%BE%E5%87%BA%E6%89%80",
-      "summary": "11月24日，西安一名涉嫌盗窃的嫌疑人王某在转行做出租车司机后，浑然不知自己拉到的一车乘客全是便衣民警，直接把自己送进了派出所。",
-      "hot": 3491939,
+      "title": "专访巴基斯坦航天员中文老师",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%93%E8%AE%BF%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E8%88%AA%E5%A4%A9%E5%91%98%E4%B8%AD%E6%96%87%E8%80%81%E5%B8%88",
+      "summary": "",
+      "hot": 3511475,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "68dbc702589816c2"
+      "id": "7391a7a87b558e79"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 47,
-      "title": "杨毅：中国男篮战术选择全错了",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%A8%E6%AF%85%EF%BC%9A%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E6%88%98%E6%9C%AF%E9%80%89%E6%8B%A9%E5%85%A8%E9%94%99%E4%BA%86",
-      "summary": "11月26日，男篮世亚预阶段二，中国男篮80-82不敌沙特男篮。评论员杨毅批评中国男篮主帅郭士强在对阵沙特时的换人操作，质疑纯属画蛇添足。",
-      "hot": 3402107,
+      "title": "法院：轻微服务瑕疵非拒缴物业费理由",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%95%E9%99%A2%EF%BC%9A%E8%BD%BB%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%91%95%E7%96%B5%E9%9D%9E%E6%8B%92%E7%BC%B4%E7%89%A9%E4%B8%9A%E8%B4%B9%E7%90%86%E7%94%B1",
+      "summary": "",
+      "hot": 3431107,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "7a4f52d9306a305c"
+      "id": "096d918dd018dcfd"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 48,
-      "title": "大额存单发行利率以市场化方式确定",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E5%8F%91%E8%A1%8C%E5%88%A9%E7%8E%87%E4%BB%A5%E5%B8%82%E5%9C%BA%E5%8C%96%E6%96%B9%E5%BC%8F%E7%A1%AE%E5%AE%9A",
-      "summary": "11月27日，中国人民银行公布《大额存单管理办法》并明确发行利率以市场化方式确定，该办法自2027年3月21日起施行。规定指出，固定利率存单采用票面年化收益率计息，浮动利率存单以Shibor等利率为基准计息。",
-      "hot": 3307151,
+      "title": "陈奕迅找梁咏琪要签名",
+      "url": "https://www.baidu.com/s?wd=%E9%99%88%E5%A5%95%E8%BF%85%E6%89%BE%E6%A2%81%E5%92%8F%E7%90%AA%E8%A6%81%E7%AD%BE%E5%90%8D",
+      "summary": "11月27日晚，陈奕迅作为嘉宾现身梁咏琪演唱会，在台上直接找梁咏琪要签名。陈奕迅不仅自带了笔，还叮嘱梁咏琪不要写To要写Dear。此外，梁咏琪当天的裙摆造型被指像圆桌，十分方便在上面签字。",
+      "hot": 3336361,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "74b8cc054d701f98"
+      "id": "974b2c60bbd0de85"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 49,
-      "title": "贵州茅台拟分红超320亿元",
-      "url": "https://www.baidu.com/s?wd=%E8%B4%B5%E5%B7%9E%E8%8C%85%E5%8F%B0%E6%8B%9F%E5%88%86%E7%BA%A2%E8%B6%85320%E4%BA%BF%E5%85%83",
-      "summary": "11月27日盘后，贵州茅台发布2026年中期利润分配方案，拟每股派发现金红利25.60元，合计约320.02亿元，方案经董事会审议通过后即可直接实施。",
-      "hot": 3227520,
+      "title": "梁靖崑将赴俄超打球",
+      "url": "https://www.baidu.com/s?wd=%E6%A2%81%E9%9D%96%E5%B4%91%E5%B0%86%E8%B5%B4%E4%BF%84%E8%B6%85%E6%89%93%E7%90%83",
+      "summary": "",
+      "hot": 3240846,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "457703bc01bbb56c"
+      "id": "8af801c81ff69c12"
     },
     {
       "source": "baidu",
       "kind": "hot",
       "rank": 50,
-      "title": "手把手教你折歼20战斗机",
-      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8A%98%E6%AD%BC20%E6%88%98%E6%96%97%E6%9C%BA",
-      "summary": "11月26日，一段手工折纸教程在网上发布，创作者演示如何用纸折出歼-20战斗机造型，并称这不是普通纸飞机，而是祖国的骄傲。",
-      "hot": 3128319,
+      "title": "又一国产“智”造全球爆单",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%88%E4%B8%80%E5%9B%BD%E4%BA%A7%E2%80%9C%E6%99%BA%E2%80%9D%E9%80%A0%E5%85%A8%E7%90%83%E7%88%86%E5%8D%95",
+      "summary": "我国3D打印设备产量与出口量质齐升，10月产量同比增长85.9%，1月至10月累计出口681万台同比增长95.3%，出口额翻倍。这得益于生产、应用和出口相互促进，3D打印已由研发打样向批量生产延伸，在航空航天、医疗等领域拓展新应用。",
+      "hot": 3107165,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "6b4777c00b038b0c"
+      "id": "feb443ff99a8c67d"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 1,
-      "title": "后会友期第三次飞行嘉宾阵容",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%AC%AC%E4%B8%89%E6%AC%A1%E9%A3%9E%E8%A1%8C%E5%98%89%E5%AE%BE%E9%98%B5%E5%AE%B9%23",
+      "title": "178万卖房次日得知拆迁房主反悔",
+      "url": "https://s.weibo.com/weibo?q=%23178%E4%B8%87%E5%8D%96%E6%88%BF%E6%AC%A1%E6%97%A5%E5%BE%97%E7%9F%A5%E6%8B%86%E8%BF%81%E6%88%BF%E4%B8%BB%E5%8F%8D%E6%82%94%23",
       "summary": "",
-      "hot": 158463,
+      "hot": 1113668,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "385b92cb35d5ff75"
+      "id": "624d4dbbd6f0b207"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 2,
-      "title": "董明珠现场发火魏建军解围",
-      "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%81%AB%E9%AD%8F%E5%BB%BA%E5%86%9B%E8%A7%A3%E5%9B%B4",
+      "title": "女子身高153难买衣服怒而自己做",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%BA%AB%E9%AB%98153%E9%9A%BE%E4%B9%B0%E8%A1%A3%E6%9C%8D%E6%80%92%E8%80%8C%E8%87%AA%E5%B7%B1%E5%81%9A%23",
       "summary": "",
-      "hot": 157822,
+      "hot": 809510,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "899c5aa4b3309f1b"
+      "id": "4f0096ed4a892e9a"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 3,
-      "title": "180秒回顾神24发射任务",
-      "url": "https://s.weibo.com/weibo?q=%23180%E7%A7%92%E5%9B%9E%E9%A1%BE%E7%A5%9E24%E5%8F%91%E5%B0%84%E4%BB%BB%E5%8A%A1%23",
+      "title": "工业经济新动能澎湃",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%B7%A5%E4%B8%9A%E7%BB%8F%E6%B5%8E%E6%96%B0%E5%8A%A8%E8%83%BD%E6%BE%8E%E6%B9%83%23",
       "summary": "",
-      "hot": 111755,
+      "hot": 644120,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "b28e46cfae3a7d08"
+      "id": "e2a2d22fb01c7e5e"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 4,
-      "title": "夜间买药上淘宝闪购",
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%9C%E9%97%B4%E4%B9%B0%E8%8D%AF%E4%B8%8A%E6%B7%98%E5%AE%9D%E9%97%AA%E8%B4%AD",
+      "title": "马天宇说后会友期和某人起争执了",
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E8%AF%B4%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E5%92%8C%E6%9F%90%E4%BA%BA%E8%B5%B7%E4%BA%89%E6%89%A7%E4%BA%86",
       "summary": "",
-      "hot": 110944,
+      "hot": 618347,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "501452d91dc94065"
+      "id": "aec722e406305370"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 5,
-      "title": "三只松鼠一夜整改反而让人唏嘘",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E4%B8%80%E5%A4%9C%E6%95%B4%E6%94%B9%E5%8F%8D%E8%80%8C%E8%AE%A9%E4%BA%BA%E5%94%8F%E5%98%98%23",
+      "title": "梁靖崑加盟俄罗斯联赛",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%A2%81%E9%9D%96%E5%B4%91%E5%8A%A0%E7%9B%9F%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E8%B5%9B%23",
       "summary": "",
-      "hot": 71189,
+      "hot": 537038,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "7bd0e029a83ff34a"
+      "id": "df794a0f5ab2ff38"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 6,
-      "title": "多平台已下架纸质短剧",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%9A%E5%B9%B3%E5%8F%B0%E5%B7%B2%E4%B8%8B%E6%9E%B6%E7%BA%B8%E8%B4%A8%E7%9F%AD%E5%89%A7%23",
+      "title": "董明珠直播数次训斥员工",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E6%98%8E%E7%8F%A0%E7%9B%B4%E6%92%AD%E6%95%B0%E6%AC%A1%E8%AE%AD%E6%96%A5%E5%91%98%E5%B7%A5%23",
       "summary": "",
-      "hot": 67666,
+      "hot": 451766,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "0afee0e8bbf86438"
+      "id": "4246b579a951533d"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 7,
-      "title": "厉娜前经纪人张阿瞳发文",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%89%E5%A8%9C%E5%89%8D%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BC%A0%E9%98%BF%E7%9E%B3%E5%8F%91%E6%96%87%23",
+      "title": "900V超电领克900L预售30.98万起",
+      "url": "https://s.weibo.com/weibo?q=900V%E8%B6%85%E7%94%B5%E9%A2%86%E5%85%8B900L%E9%A2%84%E5%94%AE30.98%E4%B8%87%E8%B5%B7",
       "summary": "",
-      "hot": 64594,
+      "hot": 441594,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "3d4bb7f7863dc241"
+      "id": "a079d0fc83a8bbff"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 8,
-      "title": "江西南昌某地起火致3名消防员牺牲不实",
-      "url": "https://s.weibo.com/weibo?q=%E6%B1%9F%E8%A5%BF%E5%8D%97%E6%98%8C%E6%9F%90%E5%9C%B0%E8%B5%B7%E7%81%AB%E8%87%B43%E5%90%8D%E6%B6%88%E9%98%B2%E5%91%98%E7%89%BA%E7%89%B2%E4%B8%8D%E5%AE%9E",
+      "title": "董明珠让拿手机员工没动她急了",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%91%A3%E6%98%8E%E7%8F%A0%E8%AE%A9%E6%8B%BF%E6%89%8B%E6%9C%BA%E5%91%98%E5%B7%A5%E6%B2%A1%E5%8A%A8%E5%A5%B9%E6%80%A5%E4%BA%86%23",
       "summary": "",
-      "hot": 62952,
+      "hot": 433270,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "38042c3a79f4831a"
+      "id": "2ea40c440e662c2a"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 9,
-      "title": "马天宇 我都40了肯定有过亲密关系啊",
-      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%20%E6%88%91%E9%83%BD40%E4%BA%86%E8%82%AF%E5%AE%9A%E6%9C%89%E8%BF%87%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E5%95%8A",
+      "title": "曝苹果器重iPhone20Pro系列",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E8%8B%B9%E6%9E%9C%E5%99%A8%E9%87%8DiPhone20Pro%E7%B3%BB%E5%88%97",
       "summary": "",
-      "hot": 62847,
+      "hot": 357508,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "129eda166b7f68cb"
+      "id": "f45f9255129c9f35"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 10,
-      "title": "赵昭仪说剧组不吃槟榔的人很少见",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E8%AF%B4%E5%89%A7%E7%BB%84%E4%B8%8D%E5%90%83%E6%A7%9F%E6%A6%94%E7%9A%84%E4%BA%BA%E5%BE%88%E5%B0%91%E8%A7%81%23",
+      "title": "牧民遇4只雪豹五方都愣住了",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%89%A7%E6%B0%91%E9%81%874%E5%8F%AA%E9%9B%AA%E8%B1%B9%E4%BA%94%E6%96%B9%E9%83%BD%E6%84%A3%E4%BD%8F%E4%BA%86%23",
       "summary": "",
-      "hot": 61529,
+      "hot": 227775,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "23bf0f3939db66a7"
+      "id": "39e4d34989821f8a"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 11,
+      "title": "易烊千玺生日单曲MV",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E7%94%9F%E6%97%A5%E5%8D%95%E6%9B%B2MV%23",
+      "summary": "",
+      "hot": 201741,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "3b6e441fb8e8e52e"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 12,
+      "title": "网友扒出厉娜雪藏期间行程图",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%89%92%E5%87%BA%E5%8E%89%E5%A8%9C%E9%9B%AA%E8%97%8F%E6%9C%9F%E9%97%B4%E8%A1%8C%E7%A8%8B%E5%9B%BE%23",
+      "summary": "",
+      "hot": 200166,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "f0f5b0bc78894765"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 13,
+      "title": "印度人呼吁禁播议员女儿婚礼视频",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%BA%A6%E4%BA%BA%E5%91%BC%E5%90%81%E7%A6%81%E6%92%AD%E8%AE%AE%E5%91%98%E5%A5%B3%E5%84%BF%E5%A9%9A%E7%A4%BC%E8%A7%86%E9%A2%91",
+      "summary": "",
+      "hot": 198573,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "eb1e8becbf27d509"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 14,
+      "title": "天霸 体坛",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E9%9C%B8%20%E4%BD%93%E5%9D%9B",
+      "summary": "",
+      "hot": 196018,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "aeacc254825d9beb"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 15,
+      "title": "马天宇能不能让许飞摸一下小孩",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%A4%A9%E5%AE%87%E8%83%BD%E4%B8%8D%E8%83%BD%E8%AE%A9%E8%AE%B8%E9%A3%9E%E6%91%B8%E4%B8%80%E4%B8%8B%E5%B0%8F%E5%AD%A9%23",
+      "summary": "",
+      "hot": 194312,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "1269e501aa82aeff"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 16,
+      "title": "外网评价肖战研讨会背头造型",
+      "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E7%BD%91%E8%AF%84%E4%BB%B7%E8%82%96%E6%88%98%E7%A0%94%E8%AE%A8%E4%BC%9A%E8%83%8C%E5%A4%B4%E9%80%A0%E5%9E%8B",
+      "summary": "",
+      "hot": 191984,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "ca65b08a980d5e07"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 17,
+      "title": "厉娜 龙丹妮",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%20%E9%BE%99%E4%B8%B9%E5%A6%AE",
+      "summary": "",
+      "hot": 191836,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "20ae1285cb256ce6"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 18,
+      "title": "青稚白小纯说话信息密度很高",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%AF%B4%E8%AF%9D%E4%BF%A1%E6%81%AF%E5%AF%86%E5%BA%A6%E5%BE%88%E9%AB%98%23",
+      "summary": "",
+      "hot": 191042,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "9e6e0c84ed3bcf77"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 19,
       "title": "千万不要用纸巾包贵重物品",
       "url": "https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E7%94%A8%E7%BA%B8%E5%B7%BE%E5%8C%85%E8%B4%B5%E9%87%8D%E7%89%A9%E5%93%81",
       "summary": "",
-      "hot": 59478,
+      "hot": 189023,
       "channel": "热搜榜",
       "date": "2026-11-28",
       "id": "71cd18092d2c6c50"
@@ -779,143 +1334,59 @@
     {
       "source": "weibo",
       "kind": "hot",
-      "rank": 12,
-      "title": "中国母女阿根廷旅游被5名劫匪围攻",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%AF%8D%E5%A5%B3%E9%98%BF%E6%A0%B9%E5%BB%B7%E6%97%85%E6%B8%B8%E8%A2%AB5%E5%90%8D%E5%8A%AB%E5%8C%AA%E5%9B%B4%E6%94%BB%23",
-      "summary": "",
-      "hot": 57633,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "29579eec3065f783"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 13,
-      "title": "第一次听说吃雪蛤直接抵制",
-      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%90%AC%E8%AF%B4%E5%90%83%E9%9B%AA%E8%9B%A4%E7%9B%B4%E6%8E%A5%E6%8A%B5%E5%88%B6",
-      "summary": "",
-      "hot": 57543,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "003d62b413e14f91"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 14,
-      "title": "秦牛正威回应订婚再退婚",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%A7%A6%E7%89%9B%E6%AD%A3%E5%A8%81%E5%9B%9E%E5%BA%94%E8%AE%A2%E5%A9%9A%E5%86%8D%E9%80%80%E5%A9%9A%23",
-      "summary": "",
-      "hot": 57160,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "f33d26e322b59d45"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 15,
-      "title": "赖冠霖摄像不抽烟不喝酒不吃槟榔",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%96%E5%86%A0%E9%9C%96%E6%91%84%E5%83%8F%E4%B8%8D%E6%8A%BD%E7%83%9F%E4%B8%8D%E5%96%9D%E9%85%92%E4%B8%8D%E5%90%83%E6%A7%9F%E6%A6%94%23",
-      "summary": "",
-      "hot": 56153,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "90223f0d37fdfe52"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 16,
-      "title": "央行新规取消贷款罚息利率上下限",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A1%8C%E6%96%B0%E8%A7%84%E5%8F%96%E6%B6%88%E8%B4%B7%E6%AC%BE%E7%BD%9A%E6%81%AF%E5%88%A9%E7%8E%87%E4%B8%8A%E4%B8%8B%E9%99%90%23",
-      "summary": "",
-      "hot": 52066,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "5757bb13751ea61d"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 17,
-      "title": "伞兵看后会友期气到表情失控",
-      "url": "https://s.weibo.com/weibo?q=%E4%BC%9E%E5%85%B5%E7%9C%8B%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E6%B0%94%E5%88%B0%E8%A1%A8%E6%83%85%E5%A4%B1%E6%8E%A7",
-      "summary": "",
-      "hot": 50960,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "d9df125856cb9cee"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 18,
-      "title": "青稚投喂白小纯",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%9D%92%E7%A8%9A%E6%8A%95%E5%96%82%E7%99%BD%E5%B0%8F%E7%BA%AF%23",
-      "summary": "",
-      "hot": 48952,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "1551d4935d67ff84"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
-      "rank": 19,
-      "title": "厉娜安慰粉丝别担心我没事",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%8E%89%E5%A8%9C%E5%AE%89%E6%85%B0%E7%B2%89%E4%B8%9D%E5%88%AB%E6%8B%85%E5%BF%83%E6%88%91%E6%B2%A1%E4%BA%8B%23",
-      "summary": "",
-      "hot": 48521,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "b614761d03b3d8e3"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
       "rank": 20,
-      "title": "Knight力挺JackeyLove",
-      "url": "https://s.weibo.com/weibo?q=%23Knight%E5%8A%9B%E6%8C%BAJackeyLove%23",
+      "title": "董明珠现场发火魏建军解围",
+      "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%8E%B0%E5%9C%BA%E5%8F%91%E7%81%AB%E9%AD%8F%E5%BB%BA%E5%86%9B%E8%A7%A3%E5%9B%B4",
       "summary": "",
-      "hot": 48425,
+      "hot": 183003,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "28b08be5f28c4c42"
+      "id": "899c5aa4b3309f1b"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 21,
-      "title": "辛芷蕾花少又迎来宣发期",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%BE%9B%E8%8A%B7%E8%95%BE%E8%8A%B1%E5%B0%91%E5%8F%88%E8%BF%8E%E6%9D%A5%E5%AE%A3%E5%8F%91%E6%9C%9F%23",
+      "title": "冯骥长文谈AI时代人怎么办",
+      "url": "https://s.weibo.com/weibo?q=%E5%86%AF%E9%AA%A5%E9%95%BF%E6%96%87%E8%B0%88AI%E6%97%B6%E4%BB%A3%E4%BA%BA%E6%80%8E%E4%B9%88%E5%8A%9E",
       "summary": "",
-      "hot": 48245,
+      "hot": 181248,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "81844c40f9ef271a"
+      "id": "e89ebf098580bbb9"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 22,
-      "title": "A股迎史诗级暴涨",
-      "url": "https://s.weibo.com/weibo?q=%23A%E8%82%A1%E8%BF%8E%E5%8F%B2%E8%AF%97%E7%BA%A7%E6%9A%B4%E6%B6%A8%23",
+      "title": "全国统一殡葬服务热线12353",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E6%AE%A1%E8%91%AC%E6%9C%8D%E5%8A%A1%E7%83%AD%E7%BA%BF12353%23",
       "summary": "",
-      "hot": 48028,
+      "hot": 179719,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "d4fd3e6819742b38"
+      "id": "dbd4be5855fde956"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 23,
+      "title": "立陶宛催台当局更改代表处名称",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%AB%8B%E9%99%B6%E5%AE%9B%E5%82%AC%E5%8F%B0%E5%BD%93%E5%B1%80%E6%9B%B4%E6%94%B9%E4%BB%A3%E8%A1%A8%E5%A4%84%E5%90%8D%E7%A7%B0%23",
+      "summary": "",
+      "hot": 179152,
+      "channel": "热搜榜",
+      "date": "2026-11-28",
+      "id": "d9d7eceec6c2df54"
+    },
+    {
+      "source": "weibo",
+      "kind": "hot",
+      "rank": 24,
       "title": "金价真的大涨了",
       "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E7%9C%9F%E7%9A%84%E5%A4%A7%E6%B6%A8%E4%BA%86%23",
       "summary": "",
-      "hot": 47932,
+      "hot": 177385,
       "channel": "热搜榜",
       "date": "2026-11-28",
       "id": "403acb7f12a10f7a"
@@ -923,803 +1394,395 @@
     {
       "source": "weibo",
       "kind": "hot",
-      "rank": 24,
-      "title": "3c",
-      "url": "https://s.weibo.com/weibo?q=3c",
-      "summary": "",
-      "hot": 47794,
-      "channel": "热搜榜",
-      "date": "2026-11-28",
-      "id": "1c6bcb0bd0b757b1"
-    },
-    {
-      "source": "weibo",
-      "kind": "hot",
       "rank": 25,
-      "title": "妈妈用四十二岁回应二十一岁",
-      "url": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E7%94%A8%E5%9B%9B%E5%8D%81%E4%BA%8C%E5%B2%81%E5%9B%9E%E5%BA%94%E4%BA%8C%E5%8D%81%E4%B8%80%E5%B2%81",
+      "title": "陆翊称拒绝调解文吉儿王子璇",
+      "url": "https://s.weibo.com/weibo?q=%E9%99%86%E7%BF%8A%E7%A7%B0%E6%8B%92%E7%BB%9D%E8%B0%83%E8%A7%A3%E6%96%87%E5%90%89%E5%84%BF%E7%8E%8B%E5%AD%90%E7%92%87",
       "summary": "",
-      "hot": 47611,
+      "hot": 174488,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "f06a3e2f0303333a"
+      "id": "a5f4272399a16bef"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 26,
-      "title": "胡歌刘涛 吻戏",
-      "url": "https://s.weibo.com/weibo?q=%E8%83%A1%E6%AD%8C%E5%88%98%E6%B6%9B%20%E5%90%BB%E6%88%8F",
+      "title": "泄露身份证后四位有多危险",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%B3%84%E9%9C%B2%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%90%8E%E5%9B%9B%E4%BD%8D%E6%9C%89%E5%A4%9A%E5%8D%B1%E9%99%A9%23",
       "summary": "",
-      "hot": 47349,
+      "hot": 173765,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "83ae8b89d380c386"
+      "id": "b2951279941e2efb"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 27,
-      "title": "一方不服离婚称仍要追她",
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E6%96%B9%E4%B8%8D%E6%9C%8D%E7%A6%BB%E5%A9%9A%E7%A7%B0%E4%BB%8D%E8%A6%81%E8%BF%BD%E5%A5%B9",
+      "title": "现在就出发",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%91",
       "summary": "",
-      "hot": 47284,
+      "hot": 170394,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "6d895c40874987db"
+      "id": "b897cae2a47f3cec"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 28,
-      "title": "AG直晋世界赛总决赛",
-      "url": "https://s.weibo.com/weibo?q=%23AG%E7%9B%B4%E6%99%8B%E4%B8%96%E7%95%8C%E8%B5%9B%E6%80%BB%E5%86%B3%E8%B5%9B%23",
+      "title": "男子被自家猫咬了一口后截指",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E8%A2%AB%E8%87%AA%E5%AE%B6%E7%8C%AB%E5%92%AC%E4%BA%86%E4%B8%80%E5%8F%A3%E5%90%8E%E6%88%AA%E6%8C%87%23",
       "summary": "",
-      "hot": 45708,
+      "hot": 169758,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "8689c5e75922dd13"
+      "id": "4a9a946f4b6b1e94"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 29,
-      "title": "白小纯真的有人疼",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%9C%9F%E7%9A%84%E6%9C%89%E4%BA%BA%E7%96%BC%23",
+      "title": "女子查账单发现三年点近半吨奶茶",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%9F%A5%E8%B4%A6%E5%8D%95%E5%8F%91%E7%8E%B0%E4%B8%89%E5%B9%B4%E7%82%B9%E8%BF%91%E5%8D%8A%E5%90%A8%E5%A5%B6%E8%8C%B6%23",
       "summary": "",
-      "hot": 45688,
+      "hot": 162651,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "e31b858da0a5b833"
+      "id": "5670b76ea538dd5c"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 30,
-      "title": "王俊凯王源易烊千玺现状",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%8E%8B%E6%BA%90%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E7%8E%B0%E7%8A%B6%23",
+      "title": "湖人 马刺",
+      "url": "https://s.weibo.com/weibo?q=%E6%B9%96%E4%BA%BA%20%E9%A9%AC%E5%88%BA",
       "summary": "",
-      "hot": 40820,
+      "hot": 161757,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "19ba75d6820def0c"
+      "id": "144ee1fd3a2565cb"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 31,
-      "title": "妻子出轨生子丈夫选择抚养第三者急了",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%A6%BB%E5%AD%90%E5%87%BA%E8%BD%A8%E7%94%9F%E5%AD%90%E4%B8%88%E5%A4%AB%E9%80%89%E6%8B%A9%E6%8A%9A%E5%85%BB%E7%AC%AC%E4%B8%89%E8%80%85%E6%80%A5%E4%BA%86%23",
+      "title": "国考公共科目笔试",
+      "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E8%80%83%E5%85%AC%E5%85%B1%E7%A7%91%E7%9B%AE%E7%AC%94%E8%AF%95",
       "summary": "",
-      "hot": 39601,
+      "hot": 159548,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "35aa67804f74b838"
+      "id": "be8febb0567da0e1"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 32,
-      "title": "济南医保骂人主播被解除劳动关系",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%B5%8E%E5%8D%97%E5%8C%BB%E4%BF%9D%E9%AA%82%E4%BA%BA%E4%B8%BB%E6%92%AD%E8%A2%AB%E8%A7%A3%E9%99%A4%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB%23",
+      "title": "王源 易烊千玺",
+      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%BA%90%20%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA",
       "summary": "",
-      "hot": 39510,
+      "hot": 159519,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "107ebedfb5355fee"
+      "id": "3012ed34a859f27d"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 33,
-      "title": "花花精英赛MVP",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E8%8A%B1%E7%B2%BE%E8%8B%B1%E8%B5%9BMVP%23",
+      "title": "公司里真正好相处的就三种人",
+      "url": "https://s.weibo.com/weibo?q=%E5%85%AC%E5%8F%B8%E9%87%8C%E7%9C%9F%E6%AD%A3%E5%A5%BD%E7%9B%B8%E5%A4%84%E7%9A%84%E5%B0%B1%E4%B8%89%E7%A7%8D%E4%BA%BA",
       "summary": "",
-      "hot": 39506,
+      "hot": 159468,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "f10ccf0d8e49ab6c"
+      "id": "b0fea24ccbd15804"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 34,
-      "title": "第五人格赛事",
-      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC%E8%B5%9B%E4%BA%8B",
+      "title": "陆翊说文吉儿王子璇为人处事不太一样",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%99%86%E7%BF%8A%E8%AF%B4%E6%96%87%E5%90%89%E5%84%BF%E7%8E%8B%E5%AD%90%E7%92%87%E4%B8%BA%E4%BA%BA%E5%A4%84%E4%BA%8B%E4%B8%8D%E5%A4%AA%E4%B8%80%E6%A0%B7%23",
       "summary": "",
-      "hot": 39506,
+      "hot": 159417,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "3e906768f6d03030"
+      "id": "a5162bd005768813"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 35,
-      "title": "曾经大胃王如今吃一口都奢侈",
-      "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E7%BB%8F%E5%A4%A7%E8%83%83%E7%8E%8B%E5%A6%82%E4%BB%8A%E5%90%83%E4%B8%80%E5%8F%A3%E9%83%BD%E5%A5%A2%E4%BE%88",
+      "title": "教育系统内鬼出卖3.5万学生信息",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%95%99%E8%82%B2%E7%B3%BB%E7%BB%9F%E5%86%85%E9%AC%BC%E5%87%BA%E5%8D%963.5%E4%B8%87%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%23",
       "summary": "",
-      "hot": 39500,
+      "hot": 134450,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "2dc9831006a6de3d"
+      "id": "ffbdec28fd567962"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 36,
-      "title": "赖冠霖对赵昭仪说自己剧组随便坐",
-      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%96%E5%86%A0%E9%9C%96%E5%AF%B9%E8%B5%B5%E6%98%AD%E4%BB%AA%E8%AF%B4%E8%87%AA%E5%B7%B1%E5%89%A7%E7%BB%84%E9%9A%8F%E4%BE%BF%E5%9D%90%23",
+      "title": "长崎将南京大屠杀篡改为南京事件",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%95%BF%E5%B4%8E%E5%B0%86%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%9D%80%E7%AF%A1%E6%94%B9%E4%B8%BA%E5%8D%97%E4%BA%AC%E4%BA%8B%E4%BB%B6%23",
       "summary": "",
-      "hot": 38771,
+      "hot": 126648,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "a6ad6da489117f2b"
+      "id": "1f5a700bda6d4c04"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 37,
-      "title": "郭律毒舌谈生理性喜欢",
-      "url": "https://s.weibo.com/weibo?q=%E9%83%AD%E5%BE%8B%E6%AF%92%E8%88%8C%E8%B0%88%E7%94%9F%E7%90%86%E6%80%A7%E5%96%9C%E6%AC%A2",
+      "title": "金饰克价涨到1093元",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E6%B6%A8%E5%88%B01093%E5%85%83%23",
       "summary": "",
-      "hot": 38298,
+      "hot": 124129,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "b651bffb36c93adc"
+      "id": "53ad538fd054afb1"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 38,
-      "title": "小伊伊老公发离婚判决书",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E4%BC%8A%E4%BC%8A%E8%80%81%E5%85%AC%E5%8F%91%E7%A6%BB%E5%A9%9A%E5%88%A4%E5%86%B3%E4%B9%A6%23",
+      "title": "宋慧乔和孔刘的新剧来了",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AE%8B%E6%85%A7%E4%B9%94%E5%92%8C%E5%AD%94%E5%88%98%E7%9A%84%E6%96%B0%E5%89%A7%E6%9D%A5%E4%BA%86%23",
       "summary": "",
-      "hot": 36460,
+      "hot": 123667,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "8ac17a3021680a99"
+      "id": "9ff87118f6cf4088"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 39,
-      "title": "文吉儿说王子璇都是假意",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%96%87%E5%90%89%E5%84%BF%E8%AF%B4%E7%8E%8B%E5%AD%90%E7%92%87%E9%83%BD%E6%98%AF%E5%81%87%E6%84%8F%23",
+      "title": "方博称打不过樊振东但不服",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%96%B9%E5%8D%9A%E7%A7%B0%E6%89%93%E4%B8%8D%E8%BF%87%E6%A8%8A%E6%8C%AF%E4%B8%9C%E4%BD%86%E4%B8%8D%E6%9C%8D%23",
       "summary": "",
-      "hot": 35904,
+      "hot": 122784,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "c22ac43a2bcf0d3a"
+      "id": "c2cc396aa6374b15"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 40,
-      "title": "AG花花精英赛淘汰榜第一",
-      "url": "https://s.weibo.com/weibo?q=%23AG%E8%8A%B1%E8%8A%B1%E7%B2%BE%E8%8B%B1%E8%B5%9B%E6%B7%98%E6%B1%B0%E6%A6%9C%E7%AC%AC%E4%B8%80%23",
+      "title": "美国资助沈伯洋干预2026台湾选举",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E8%B5%84%E5%8A%A9%E6%B2%88%E4%BC%AF%E6%B4%8B%E5%B9%B2%E9%A2%842026%E5%8F%B0%E6%B9%BE%E9%80%89%E4%B8%BE%23",
       "summary": "",
-      "hot": 34604,
+      "hot": 119502,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "0ca7123abf0160b3"
+      "id": "413820bd101a76fb"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 41,
-      "title": "后会友期要录回门宴",
-      "url": "https://s.weibo.com/weibo?q=%23%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A6%81%E5%BD%95%E5%9B%9E%E9%97%A8%E5%AE%B4%23",
+      "title": "魏建军回应长城销量从第一跌至第九",
+      "url": "https://s.weibo.com/weibo?q=%23%E9%AD%8F%E5%BB%BA%E5%86%9B%E5%9B%9E%E5%BA%94%E9%95%BF%E5%9F%8E%E9%94%80%E9%87%8F%E4%BB%8E%E7%AC%AC%E4%B8%80%E8%B7%8C%E8%87%B3%E7%AC%AC%E4%B9%9D%23",
       "summary": "",
-      "hot": 34415,
+      "hot": 115861,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "16ddfd0433243741"
+      "id": "d93a00012ad16210"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 42,
-      "title": "发现了换手机的最佳时机",
-      "url": "https://s.weibo.com/weibo?q=%E5%8F%91%E7%8E%B0%E4%BA%86%E6%8D%A2%E6%89%8B%E6%9C%BA%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA",
+      "title": "微博国际文化交流之夜全阵容",
+      "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E5%9B%BD%E9%99%85%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81%E4%B9%8B%E5%A4%9C%E5%85%A8%E9%98%B5%E5%AE%B9",
       "summary": "",
-      "hot": 32466,
+      "hot": 113525,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "603f78256ff24395"
+      "id": "abece91f87295788"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 43,
-      "title": "曝369婉拒BLG",
-      "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D369%E5%A9%89%E6%8B%92BLG%23",
+      "title": "王一珩妈妈周深超话12级",
+      "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%B8%80%E7%8F%A9%E5%A6%88%E5%A6%88%E5%91%A8%E6%B7%B1%E8%B6%85%E8%AF%9D12%E7%BA%A7%23",
       "summary": "",
-      "hot": 31227,
+      "hot": 112566,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "95f839b07fedac45"
+      "id": "5ece17fef2b179f8"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 44,
-      "title": "男子去世前曾为已去世女友守灵3天",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%8E%BB%E4%B8%96%E5%89%8D%E6%9B%BE%E4%B8%BA%E5%B7%B2%E5%8E%BB%E4%B8%96%E5%A5%B3%E5%8F%8B%E5%AE%88%E7%81%B53%E5%A4%A9%23",
+      "title": "第一次听说吃雪蛤直接抵制",
+      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%90%AC%E8%AF%B4%E5%90%83%E9%9B%AA%E8%9B%A4%E7%9B%B4%E6%8E%A5%E6%8A%B5%E5%88%B6",
       "summary": "",
-      "hot": 30935,
+      "hot": 111531,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "e8e7ac4832de6386"
+      "id": "003d62b413e14f91"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 45,
-      "title": "KPL选手直播禁玩三角洲",
-      "url": "https://s.weibo.com/weibo?q=%23KPL%E9%80%89%E6%89%8B%E7%9B%B4%E6%92%AD%E7%A6%81%E7%8E%A9%E4%B8%89%E8%A7%92%E6%B4%B2%23",
+      "title": "贝儿参加爸爸去哪儿时期的家",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B4%9D%E5%84%BF%E5%8F%82%E5%8A%A0%E7%88%B8%E7%88%B8%E5%8E%BB%E5%93%AA%E5%84%BF%E6%97%B6%E6%9C%9F%E7%9A%84%E5%AE%B6%23",
       "summary": "",
-      "hot": 29931,
+      "hot": 107624,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "d0cdb4e910e1e3dc"
+      "id": "73a4864cedc3f837"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 46,
-      "title": "小米世界模型2.0实时渲染",
-      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B2.0%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93",
+      "title": "歼35A首次近距离展示",
+      "url": "https://s.weibo.com/weibo?q=%23%E6%AD%BC35A%E9%A6%96%E6%AC%A1%E8%BF%91%E8%B7%9D%E7%A6%BB%E5%B1%95%E7%A4%BA%23",
       "summary": "",
-      "hot": 29297,
+      "hot": 106117,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "ad1d656ff558be14"
+      "id": "10e6ef88463eeadc"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 47,
-      "title": "马天宇回应财务自由",
-      "url": "https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%A4%A9%E5%AE%87%E5%9B%9E%E5%BA%94%E8%B4%A2%E5%8A%A1%E8%87%AA%E7%94%B1%23",
+      "title": "伞兵去后会友期观察室了",
+      "url": "https://s.weibo.com/weibo?q=%E4%BC%9E%E5%85%B5%E5%8E%BB%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A7%82%E5%AF%9F%E5%AE%A4%E4%BA%86",
       "summary": "",
-      "hot": 29080,
+      "hot": 104051,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "9f522e13fdaf6201"
+      "id": "cfe530504e9c8544"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 48,
-      "title": "伞兵ob后会友期要气得维持不住人形了",
-      "url": "https://s.weibo.com/weibo?q=%23%E4%BC%9E%E5%85%B5ob%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A6%81%E6%B0%94%E5%BE%97%E7%BB%B4%E6%8C%81%E4%B8%8D%E4%BD%8F%E4%BA%BA%E5%BD%A2%E4%BA%86%23",
+      "title": "孙芮10月份还跟斯外戈唱跳",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E8%8A%AE10%E6%9C%88%E4%BB%BD%E8%BF%98%E8%B7%9F%E6%96%AF%E5%A4%96%E6%88%88%E5%94%B1%E8%B7%B3%23",
       "summary": "",
-      "hot": 28935,
+      "hot": 102689,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "6e0f0ae38f39d936"
+      "id": "325a0ec88f8986e9"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 49,
-      "title": "芒果综艺 吵了闹了观众结节了",
-      "url": "https://s.weibo.com/weibo?q=%E8%8A%92%E6%9E%9C%E7%BB%BC%E8%89%BA%20%E5%90%B5%E4%BA%86%E9%97%B9%E4%BA%86%E8%A7%82%E4%BC%97%E7%BB%93%E8%8A%82%E4%BA%86",
+      "title": "卢旺达参谋长连合掌都学到了",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%A2%E6%97%BA%E8%BE%BE%E5%8F%82%E8%B0%8B%E9%95%BF%E8%BF%9E%E5%90%88%E6%8E%8C%E9%83%BD%E5%AD%A6%E5%88%B0%E4%BA%86",
       "summary": "",
-      "hot": 28790,
+      "hot": 100700,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "fb06c2ed376a9c8b"
+      "id": "3f83644ae91c76ee"
     },
     {
       "source": "weibo",
       "kind": "hot",
       "rank": 50,
-      "title": "章梓馨何江官宣分手",
-      "url": "https://s.weibo.com/weibo?q=%23%E7%AB%A0%E6%A2%93%E9%A6%A8%E4%BD%95%E6%B1%9F%E5%AE%98%E5%AE%A3%E5%88%86%E6%89%8B%23",
+      "title": "詹姆斯第三进攻选择",
+      "url": "https://s.weibo.com/weibo?q=%E8%A9%B9%E5%A7%86%E6%96%AF%E7%AC%AC%E4%B8%89%E8%BF%9B%E6%94%BB%E9%80%89%E6%8B%A9",
       "summary": "",
-      "hot": 28780,
+      "hot": 100076,
       "channel": "热搜榜",
       "date": "2026-11-28",
-      "id": "873e1c722237beb6"
+      "id": "5826e8fc351ac4d9"
     },
     {
-      "title": "一见·外国政要访华,\"看创新\"成热潮",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c461001-40841943.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Jailed Brazil Beach Soccer Star Drawn Into Russia-US Spy Dispute",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/jailed-brazil-beach-soccer-star-drawn-into-russia-us-spy-dispute",
+      "summary": "A Brazilian beach soccer star has become an unlikely bargaining chip in a dispute over an alleged Russian spy who has been sought by both Moscow and Washington.",
       "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "3bc53f9b321d37d3"
+      "id": "f4965b46e55c9eac"
     },
     {
-      "title": "《习近平的文化情缘》在斯里兰卡主流媒体播出",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c461001-40841944.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Managing $300B for Ultra Wealthy Families: Masters in Business with Holly MacDonald",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-27/masters-in-business-with-holly-macdonald-video",
+      "summary": "Barry speaks with Holly MacDonald, CEO of Bessemer Trust. They discuss her time working in Brazil and how investing in emerging markets shapes her investment philosophy. They also discuss the enduring strength of the US ",
       "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "ef5d2cd830bee5fb"
+      "id": "1cba61abcc502455"
     },
     {
-      "title": "依规治党,永远在路上",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c461001-40841945.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Emerging-Market Stocks Snag Best Week Since June on Tech Rebound",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing",
+      "summary": "Emerging-market stocks posted their biggest weekly gain since June as investors piled back into technology shares following a recent selloff, capping a volatile week across global markets.",
       "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "08d43c43ae8cbbc8"
+      "id": "322f0ba6c9358424"
     },
     {
-      "title": "李强主持召开国务院常务会议",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c1024-40841678.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Hungary Credit Outlook Lifted by S&P on Budget and Euro Ambition",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/hungary-credit-outlook-lifted-by-s-p-on-budget-and-euro-ambition",
+      "summary": "S&P Global Ratings lifted the outlook on Hungary’s sovereign debt to stable from negative, citing planned steps by Prime Minister Peter Magyar’s cabinet to cut the budget deficit and eventually adopt the euro.",
       "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "41c10442f55626bb"
+      "id": "b475dfe8ee873ed2"
     },
     {
-      "title": "国常会关于资本市场部署释放五大鲜明信号",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c461001-40841816.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Brazil’s Real Caps Best Week Since 2020 as Trabuco Lifts Mood",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
+      "summary": "Brazilian markets rallied after President Luiz Inácio Lula da Silva picked one of the nation’s most prominent bankers to be his finance minister, easing the worries about his economic policies that triggered a deep sello",
       "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "8c27b5da1b3e9bf4"
+      "id": "d70ddef63a2543f9"
     },
     {
-      "title": "任平:从四座城看\"两个结合\"的新时代实践",
-      "url": "http://opinion.people.com.cn/n1/2026/1127/c461529-40841226.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Mexican Airport Operator GAP Raises $398 Million for Fibra Trust",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/mexican-airport-operator-gap-raises-398-million-for-fibra-trust",
+      "summary": "Mexican airport operator Grupo Aeroportuario del Pacifico SAB de CV raised 7.8 billion pesos ($398 million) for an energy and infrastructure trust, less than originally planned and following months of delays.",
       "date": "2026-11-27",
-      "channel": "评论",
-      "source": "xuexi",
-      "id": "f75ec0c4be18e5a8"
+      "id": "037f325159b7cbce"
     },
     {
-      "title": "坚持用党的优良传统和中华优秀传统文化涵养党性",
-      "url": "http://opinion.people.com.cn/n1/2026/1127/c461530-40841258.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "China Spurs Biggest Stock Gain Since 2024 on Rare Midday Vow",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
+      "summary": "Chinese authorities gave markets a boost with a rare midday statement pledging support, sending stocks to their best day in more than two years.",
       "date": "2026-11-27",
-      "channel": "评论",
-      "source": "xuexi",
-      "id": "50aa00c526329402"
+      "id": "a776bcb86127b2de"
     },
     {
-      "title": "壹时评:人工智能标准出海,让中国经验惠及全球",
-      "url": "http://opinion.people.com.cn/n1/2026/1127/c223228-40841771.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Colombia Peso Stumbles as Mounting Risks Test Rally",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/colombia-peso-stumbles-as-mounting-risks-test-carry-fueled-rally",
+      "summary": "The Colombian peso is headed for its worst month in more than four years as a toxic mix of trouble at home and abroad takes the shine off one of the year’s most resilient currencies.",
       "date": "2026-11-27",
-      "channel": "评论",
-      "source": "xuexi",
-      "id": "0a4ffc80e8edade1"
+      "id": "929d5294a8ed8129"
     },
     {
-      "title": "家校互信 共育花开",
-      "url": "http://opinion.people.com.cn/n1/2026/1127/c461529-40841247.html",
-      "summary": "",
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+      "summary": "Pedro Sánchez rallied voters to turn out in Sunday’s national election during his final campaign event, in a last-minute attempt to pull off an upset.",
       "date": "2026-11-27",
-      "channel": "评论",
-      "source": "xuexi",
-      "id": "70aa93306ce5dc7d"
-    },
-    {
-      "title": "深刻把握“坚持以上率下”的原则",
-      "url": "http://theory.people.com.cn/n1/2026/1127/c40531-40841451.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "理论",
-      "source": "xuexi",
-      "id": "6eb10c55250e04b2"
-    },
-    {
-      "title": "在提高干部考察质量上下功夫",
-      "url": "http://dangjian.people.com.cn/n1/2026/1127/c117092-40841435.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "党建",
-      "source": "xuexi",
-      "id": "e896186832a79d73"
-    },
-    {
-      "title": "陈文清访问奥地利",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c1001-40841958.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "a2ce555b65a90137"
-    },
-    {
-      "title": "国务院任免国家工作人员",
-      "url": "http://politics.people.com.cn/n1/2026/1127/c1001-40841691.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "时政",
-      "source": "xuexi",
-      "id": "ffd000eb2d294a55"
-    },
-    {
-      "title": "“外企用脚投票中国”的市场逻辑",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841227.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "8faad4a111556b32"
-    },
-    {
-      "title": "一纸混动配额,治不好欧洲车企的\"转型焦虑\"",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841840.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "778080acebd61674"
-    },
-    {
-      "title": "我国成功发射遥感五十号04星",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841962.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "bc4c9ef150aa1445"
-    },
-    {
-      "title": "当前全国小麦冬前田管有序开展",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841961.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "eed471dc3dc1e52e"
-    },
-    {
-      "title": "中国科技伦理学会成立",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841923.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "0ac76eae11dcafdc"
-    },
-    {
-      "title": "2027年APEC领导人会议周将在越南富国岛举行",
-      "url": "http://world.people.com.cn/n1/2026/1127/c1002-40841776.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "国际",
-      "source": "people",
-      "id": "93cd8a9113d7cb06"
-    },
-    {
-      "title": "高质量发展故事汇丨以开放、创新、合作书写亚太共同体新篇章",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841724.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "cb1f98c977e41051"
-    },
-    {
-      "title": "雄安卫星AIT中心正式投入运行",
-      "url": "http://www.rmxiongan.com/n2/2026/1127/c383557-41762317.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "fd13242316c3fc94"
-    },
-    {
-      "title": "安徽万佛湖：秋染湖岛 文旅添彩",
-      "url": "http://ah.people.com.cn/n2/2026/1127/c227131-41762545.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "7ed84051ee78d758"
-    },
-    {
-      "title": "Yeah！生活｜到了长沙，又到长沙",
-      "url": "http://hn.people.com.cn/n2/2026/1127/c336521-41762675.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "9570cad486ca1673"
-    },
-    {
-      "title": "14户中央企业28名领导人员职务任免",
-      "url": "http://renshi.people.com.cn/n1/2026/1127/c139617-40841514.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "431c9ae987823940"
-    },
-    {
-      "title": "广东深化医保基金管理突出问题整治",
-      "url": "http://fanfu.people.com.cn/n1/2026/1127/c64371-40841340.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "7353d118d5d3ffbe"
-    },
-    {
-      "title": "六届六中全会与党的干部路线的确立",
-      "url": "https://cpc.people.com.cn/n1/2026/1127/c443712-40841425.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "2831ff8db02f8b86"
-    },
-    {
-      "title": "严厉打击恶意欠薪行为 最高法发布典型案例",
-      "url": "http://society.people.com.cn/n1/2026/1127/c1008-40841886.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "社会",
-      "source": "people",
-      "id": "7a7ddb6a7613673c"
-    },
-    {
-      "title": "十一部门联合公布《分布式数字身份互通互认应用规定》",
-      "url": "http://society.people.com.cn/n1/2026/1127/c1008-40841936.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "社会",
-      "source": "people",
-      "id": "8c9c2610b2b43467"
-    },
-    {
-      "title": "中国工商界呼吁美方撤回拟议加税措施",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841933.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "ad13408f0bc8accd"
-    },
-    {
-      "title": "证监会严肃查处两起编造传播证券市场误导性信息案件",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841939.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "18f9c7bf1b578c7f"
-    },
-    {
-      "title": "从万物互联到万物智联，一字之变有深意",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841964.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "f6984240b1e1a465"
-    },
-    {
-      "title": "市场监管总局集中约谈15家电动自行车企业",
-      "url": "https://finance.people.com.cn/n1/2026/1127/c1004-40841930.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "21da6e756362baa1"
-    },
-    {
-      "title": "图解｜七个“更”，看福建这五年",
-      "url": "http://fj.people.com.cn/n2/2026/1127/c181466-41762900.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "fb62f73e3a5e26de"
-    },
-    {
-      "title": "江苏：让失能老人有“医”靠",
-      "url": "http://js.people.com.cn/n2/2026/1127/c358232-41763014.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "8f830925954b448e"
-    },
-    {
-      "title": "海拔4200米的扎拉山巅，有一座气象站",
-      "url": "http://sc.people.com.cn/n2/2026/1127/c345167-41762799.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "88fd36022d06c29f"
-    },
-    {
-      "title": "雪豹上千、藏羚七万 《三江源国家公园建设白皮书》晒生态家底",
-      "url": "http://qh.people.com.cn/n2/2026/1127/c378418-41762693.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "1d07eb40aebadf84"
-    },
-    {
-      "title": "东北地区规模最大智算集群在哈尔滨稳定运行",
-      "url": "http://hlj.people.com.cn/n2/2026/1127/c220005-41762445.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "5f9be461b1c7ba35"
-    },
-    {
-      "title": "山东通报一新基建项目底座缺陷问题调查结果",
-      "url": "http://society.people.com.cn/n1/2026/1127/c1008-40841960.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "社会",
-      "source": "people",
-      "id": "5a16c6d8e1a3db02"
-    },
-    {
-      "title": "蓝天立受贿案一审宣判",
-      "url": "http://society.people.com.cn/n1/2026/1127/c1008-40841915.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "社会",
-      "source": "people",
-      "id": "0489399d833599fa"
-    },
-    {
-      "title": "U17世界杯：中国队8比0大胜斐济队 时隔21年再进淘汰赛",
-      "url": "http://ent.people.com.cn/n1/2026/1127/c1012-40841610.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "7a4bd369be88a6e8"
-    },
-    {
-      "title": "超级月亮与泰山玉皇顶同框",
-      "url": "http://v.people.cn/n1/2026/1127/c431305-40841578.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "a4c1c6470c6f7d8f"
-    },
-    {
-      "title": "哈尔滨“网红大雪人”已正式开启造雪",
-      "url": "http://v.people.cn/n1/2026/1127/c431305-40841577.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "01415eec8569fbc4"
-    },
-    {
-      "title": "1分钟看三峡一年中最美的风景",
-      "url": "http://v.people.cn/n1/2026/1127/c431305-40841580.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "c02875b271277151"
-    },
-    {
-      "title": "自然资源部发文规范临时用地管理",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841416.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "4b3402fea7de4951"
-    },
-    {
-      "title": "《服务贸易发展“十五五”规划》发布",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841387.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "eaca7351a220ec01"
-    },
-    {
-      "title": "前三季度先进制造业新设企业21.8万户",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841413.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "acb0e36056c2523b"
-    },
-    {
-      "title": "前10月全国电力市场交易电量增长18.3%",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841414.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "dd1bc2b9441115f1"
-    },
-    {
-      "title": "5部门发布常态化帮扶资金绩效评价办法",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841415.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "532be1c771eafd49"
-    },
-    {
-      "title": "“读懂生活”才能找到消费“新增量”",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841400.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "09ed02a4b3b645ca"
-    },
-    {
-      "title": "智慧医疗有了示范样板点",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841257.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "743d79bf0d2e3e62"
-    },
-    {
-      "title": "京津冀首个卫星AIT中心投入运行",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841417.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "03b14c97cebf3fa7"
-    },
-    {
-      "title": "我国岩溶工程技术治理走向精准智控",
-      "url": "http://finance.people.com.cn/n1/2026/1127/c1004-40841375.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "财经",
-      "source": "people",
-      "id": "2430ca26e79f6086"
-    },
-    {
-      "title": "避开三大误区，饭后走对才养身",
-      "url": "http://kpzg.people.com.cn/n1/2026/1127/c404214-40841344.html",
-      "summary": "",
-      "date": "2026-11-27",
-      "channel": "要闻",
-      "source": "people",
-      "id": "ff04f2e4b320d3b1"
+      "id": "2cb7652cdf5033a7"
     },
     {
       "source": "bloomberg",
@@ -1768,111 +1831,21 @@
     },
     {
       "source": "bloomberg",
-      "channel": "市场",
-      "title": "Anthropic Shares Jump After Volatile First Week Since IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/anthropic-shares-jump-after-volatile-first-week-since-record-ipo",
-      "summary": "Anthropic PBC shares climbed above their $83 initial public offering price as the artificial intelligence lab finished its first calendar week on the Nasdaq after its record-setting debut on a positive note.",
+      "channel": "科技",
+      "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-27/openai-says-apple-pressured-suppliers-to-shun-its-devices",
+      "summary": "The trade-secrets fight between OpenAI and Apple Inc. is widening, with the artificial intelligence company accusing the iPhone maker of undermining its supplier relationships and using unfair employment agreements to pr",
       "date": "2026-11-27",
-      "id": "8060d3f4eb1f7d49"
+      "id": "b78eeeefb8024b30"
     },
     {
       "source": "bloomberg",
-      "channel": "市场",
-      "title": "Brazil Markets Rally as Trabuco Pick Soothes Fiscal Fears",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
-      "summary": "Brazilian markets rallied after President Luiz Inácio Lula da Silva picked one of the nation’s most prominent bankers to be his finance minister, easing the worries about his economic policies that triggered a deep sello",
+      "channel": "科技",
+      "title": "Bots de compras con IA amenazan el dominio de Amazon y Google",
+      "url": "https://www.bloomberg.com/news/features/2026-11-27/bots-de-compras-con-ia-amenazan-el-dominio-de-amazon-y-google",
+      "summary": "Google, Amazon, Meta y OpenAI compiten por ayudarte a elegir los regalos de Navidad. ¿A quién escucharán los compradores?",
       "date": "2026-11-27",
-      "id": "d70ddef63a2543f9"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Traders Buy the Dip as Stocks Rise on Black Friday",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-27/bloomberg-surveillance-11-27-2026-video",
-      "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day ",
-      "date": "2026-11-27",
-      "id": "f6d507a4d005626d"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Hong Kong Is Selling The City It Used To Be",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-27/hong-kong-is-selling-the-city-it-used-to-be-video",
-      "summary": "Hong Kong is turning nostalgia into a booming industry. From period crime dramas to film-set visitor attractions, locals are jumping at the chance to escape to the 1980s and 90s. (Source: Bloomberg)",
-      "date": "2026-11-27",
-      "id": "f81f851acbcbee3f"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Altria’s Interest in Imperial May Affect Its AB InBev Stake",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/altria-s-interest-in-imperial-may-also-affect-its-ab-inbev-stake",
-      "summary": "A possible three-way deal to reshape the global tobacco industry may spill over into another business whose products are sometimes consumed alongside cigarettes — beer.",
-      "date": "2026-11-27",
-      "id": "a339d376abda6e95"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Black Friday 2026: Shoppers Try to Cut Back, Hunt for Deals",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-27/black-friday-2026-shoppers-cut-back-hunt-for-deals-video",
-      "summary": "Black Friday spending is projected to rise in 2026 as wary shoppers stock up early on essentials and lean into deals. Bloomberg’s Annie Bang reports. (Source: Bloomberg)",
-      "date": "2026-11-27",
-      "id": "6e0a52614f05a20e"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Rains Ease El Niño Crop Fears in Brazil’s Top Soybean Region",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/rains-ease-el-nino-crop-fears-in-brazil-s-top-soybean-region",
-      "summary": "A sea of vigorous, leafy green plants deep inside Brazil’s top soybean region is easing fears that El Niño would bring crop losses to the world’s top producer.",
-      "date": "2026-11-27",
-      "id": "bdc33e1b906a0d68"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Emerging-Market Stocks Eye Best Week Since June on Tech Rebound",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/em-asia-stocks-set-for-weekly-gain-as-markets-regain-footing",
-      "summary": "Emerging-market stocks are heading for their biggest weekly gain since June as investors pile back into technology shares following a recent selloff, capping a volatile week across global markets.",
-      "date": "2026-11-27",
-      "id": "322f0ba6c9358424"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "UK Steel Sector Says UK-EU Agreement Gives Rivals Unfair Edge",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/uk-steel-sector-says-uk-eu-agreement-gives-rivals-unfair-edge",
-      "summary": "Britain’s steel sector wants the government to reverse part of its recent deal with the European Union, which it says gives the bloc’s steel exporters an unfair advantage over their UK peers.",
-      "date": "2026-11-27",
-      "id": "25fac4fe83b16b8e"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Colombia Peso Stumbles as Mounting Risks Test Carry-Fueled Rally",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/colombia-peso-stumbles-as-mounting-risks-test-carry-fueled-rally",
-      "summary": "The Colombian peso is headed for its worst month in more than four years as a toxic mix of trouble at home and abroad takes the shine off one of the year’s most resilient currencies.",
-      "date": "2026-11-27",
-      "id": "929d5294a8ed8129"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Lula escolhe Trabuco para acalmar mercado",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-27/lula-escolhe-trabuco-para-acalmar-mercado-video",
-      "summary": "Martha Beck fala da escolha de Lula por Trabuco para a Fazenda. Edição de Patricia Xavier. (Source: Bloomberg)",
-      "date": "2026-11-27",
-      "id": "08c052320fdcbd6e"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "市场",
-      "title": "Altice International, Creditors Discuss Debt Cut of About 40%",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/altice-international-creditors-discuss-debt-cut-of-about-40",
-      "summary": "Altice International and its creditors are making progress on a restructuring that would include a debt cut of about 40%, and possibly more, with lenders taking control from billionaire Patrick Drahi, according to people",
-      "date": "2026-11-27",
-      "id": "fb2906059885fea0"
+      "id": "feb16713facc5b2f"
     },
     {
       "source": "bloomberg",
@@ -1882,15 +1855,6 @@
       "summary": "A pair of Chinese firms installed Nvidia Corp.’s powerful Blackwell semiconductors in a Shanghai data center linked to Alice Huang, the woman at the heart of a controversy surrounding the US chipmaker.",
       "date": "2026-11-27",
       "id": "a1fb2d2d44be9b28"
-    },
-    {
-      "source": "bloomberg",
-      "channel": "科技",
-      "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/openai-says-apple-pressured-suppliers-to-shun-its-devices",
-      "summary": "The trade-secrets fight between OpenAI and Apple Inc. is widening, with the artificial intelligence company accusing the iPhone maker of undermining its supplier relationships and using unfair employment agreements to pr",
-      "date": "2026-11-27",
-      "id": "b78eeeefb8024b30"
     },
     {
       "source": "bloomberg",
@@ -2038,21 +2002,21 @@
     },
     {
       "source": "bloomberg",
-      "channel": "科技",
-      "title": "Top Africa Fund Manager Buys Grit’s Embassy, Data-Center Assets",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-27/top-africa-fund-manager-buys-grit-s-embassy-data-center-assets",
-      "summary": "Africa’s largest fund manager is buying Grit Real Estate Income Group Ltd.’s development unit, including its data-center and US embassy portfolio on the continent, with the property firm likely to delist from bourses in ",
-      "date": "2026-11-27",
-      "id": "75d487c7910304d7"
-    },
-    {
-      "source": "bloomberg",
       "channel": "市场",
       "title": "S&P 500 Has Best Week Since April 2025 on AI Rally: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
       "summary": "Wall Street wrapped up a chaotic week with stocks climbing as a rebound in the artificial-intelligence trade gathered pace, reducing demand for Treasuries and haven currencies.",
       "date": "2026-11-26",
       "id": "77e68ff0c604034b"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "Latest Oil Market News and Analysis for Nov. 27",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
+      "summary": "Oil swung in thin trading as increasing attacks on energy infrastructure and tankers in the Middle East heightened supply fears.",
+      "date": "2026-11-26",
+      "id": "735db272704c1f60"
     },
     {
       "source": "bloomberg",
@@ -2080,6 +2044,15 @@
       "summary": "SAP SE is preparing a plan to eliminate at least 10,000 positions to transform its software business for the artificial intelligence era, according to people familiar with the matter, following reductions at Oracle Corp.",
       "date": "2026-11-26",
       "id": "2557bc8ade2d498e"
+    },
+    {
+      "source": "bloomberg",
+      "channel": "市场",
+      "title": "How Saks Is Reclaiming Luxury as Exemplar Luxury Group",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-25/how-saks-is-reclaiming-luxury-as-exemplar-luxury-group-video",
+      "summary": "Bloomberg’s Romaine Bostick reports on how Exemplar Luxury Group, formerly known as Saks Global, is reinventing itself for a fresh start in luxury since emerging from bankruptcy earlier this year. Exemplar Luxury Group C",
+      "date": "2026-11-25",
+      "id": "be14496eecaa6fdc"
     }
   ]
 }
